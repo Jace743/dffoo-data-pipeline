@@ -1,0 +1,8 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc
+auron,HP Attack+,1,1,0
+auron,Banishing Blade,3,1,20
+auron,Purgatory,2,2,20
+auron,Weak Damage Up Crush,1,0,0
+auron,Dragon Fang,4,4,10
+auron,Tornado,4,4,15
+auron,Counter,3,3,10
