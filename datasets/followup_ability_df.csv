@@ -25,11 +25,11 @@ mog,El Niño+,during,damaging,T,T,T
 mog,Plasma+,during,damaging,T,T,T
 ceodore,Ceodore Awaken Release Self-harm,after,effect,T,T,F
 kurasame,Ice Pillar,during,damaging,T,T,F
-strago,Dualcast Follow Up,during,Dualcast,T,T,F
-strago,Quasar Follow Up,during,Quasar,T,T,F
-strago,BRV 2 Death Follow Up,during,BRV 2 Death,T,T,F
-strago,Sabre Soul Follow Up,during,Sabre Soul,T,T,F
-strago,Grand Delta Follow Up,during,Grand Delta,T,T,F
+strago,Dualcast Follow Up,during,Dualcast,T,T,T
+strago,Quasar Follow Up,during,Quasar,T,T,T
+strago,BRV 2 Death Follow Up,during,BRV 2 Death,T,T,T
+strago,Sabre Soul Follow Up,during,Sabre Soul,T,T,T
+strago,Grand Delta Follow Up,during,Grand Delta,T,T,T
 edward,Woke from sleep.,after,effect,T,T,F
 ardyn,Additional attack from Spectral Charge,during,"HP Attack, HP Attack+, HP Attack++, S1, S2, EX, LD",T,T,F
 trey,Arrow Shower,after,field_action,T,T,F
