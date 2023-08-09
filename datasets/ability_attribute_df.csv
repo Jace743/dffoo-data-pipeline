@@ -1,0 +1,2238 @@
+char_name,ability,attributes
+astos,BRV Attack++,['Magic']
+astos,BRV Attack+,['Magic']
+astos,HP Attack++,['Magic']
+astos,Cremation,"['Group', 'Magic', 'Instant']"
+astos,HP Attack+,['Magic']
+astos,Dark Thrust,['Magic']
+astos,Dark Slash,"['Group', 'Magic']"
+astos,Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+astos,Dark Warhammer,['Magic']
+astos,Dark Glory,"['Group', 'Magic', 'NoFree']"
+astos,Flare Star,"['Group', 'Magic']"
+astos,Conflict Ultima,"['Group', 'Magic', 'NoFree']"
+iris,BRV Attack+,['Melee']
+iris,BRV Attack++,['Melee']
+iris,HP Attack+,['Melee']
+iris,HP Attack++,['Melee']
+iris,Potion Pass,"['Heals', 'Instant']"
+iris,Moonbow,['Melee']
+iris,BRV Heal All,"['Instant', 'NoSummon', 'NoEX']"
+iris,Moogle Throw,"['Group', 'Melee']"
+iris,Revolution,"['Melee', 'NoFree']"
+iris,Eclipse,"['Group', 'Melee']"
+iris,Slapstick Moogle,"['Group', 'Melee', 'NoFree']"
+reks,BRV Attack+,['Melee']
+reks,BRV Attack++,['Melee']
+reks,HP Attack+,['Melee']
+reks,HP Attack++,['Melee']
+reks,Blade Combo,"['Group', 'Melee']"
+reks,Shield Rush,['Melee']
+reks,HP Heal Attack All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+reks,Yellow Storm,"['Melee', 'Thunder']"
+reks,Wide Ruin,"['Group', 'Melee', 'Thunder', 'NoFree']"
+reks,Remove Obstacle,"['Group', 'Melee', 'Instant', 'FollowUp']"
+reks,Remove Obstacle+,"['Group', 'Melee', 'Instant', 'FollowUp']"
+reks,Shining Nova,['Melee']
+reks,Mutual Improvement,"['Group', 'Melee', 'Thunder', 'NoFree']"
+quina,BRV Attack+,['Magic']
+quina,BRV Attack++,['Magic']
+quina,HP Attack+,['Magic']
+quina,HP Attack++,['Magic']
+quina,Eat,['Magic']
+quina,Cook,"['Magic', 'Free']"
+quina,Frog Drop,"['Group', 'Magic']"
+quina,Frog Drop+,"['Group', 'Magic']"
+quina,Boost All,"['Instant', 'NoSummon', 'NoEX']"
+quina,Limit Glove,"['Group', 'Magic']"
+quina,Mustard Bomb,"['Group', 'Magic', 'NoFree']"
+quina,Heat,"['Magic', 'IgnoreDEF', 'Instant', 'Traps', 'NoFree']"
+quina,Ultimate Cook,"['Group', 'Magic']"
+quina,Way of Gourmand,"['Group', 'Magic', 'NoFree']"
+rubicante,BRV Attack+,"['Magic', 'Fire']"
+rubicante,BRV Attack++,"['Magic', 'Fire']"
+rubicante,HP Attack+,"['Magic', 'Fire']"
+rubicante,HP Attack++,"['Magic', 'Fire']"
+rubicante,Firaga,"['Group', 'Magic', 'Fire']"
+rubicante,Absorb Blizzara,"['Heals', 'Instant']"
+rubicante,Protect All,"['Instant', 'NoSummon', 'NoEX']"
+rubicante,Inferno,"['Group', 'Magic', 'Fire']"
+rubicante,Soulscald,"['Group', 'Magic', 'Fire', 'NoFree']"
+rubicante,Counter Fira,"['Group', 'Magic', 'Fire', 'Counters']"
+rubicante,Geryon Be Its Name,"['Group', 'Magic', 'Fire']"
+rubicante,Counter Firaga,"['Group', 'Magic', 'Fire', 'Counters']"
+rubicante,Warrior's Pride,"['Group', 'Magic', 'Fire', 'NoFree']"
+neon,BRV Attack+,['Magic']
+neon,BRV Attack++,['Magic']
+neon,HP Attack+,['Magic']
+neon,HP Attack++,['Magic']
+neon,Asura,"['Magic', 'Fire', 'Instant']"
+neon,Inferno,"['Group', 'Magic', 'Fire']"
+neon,Fire Enchant All,"['Instant', 'NoSummon', 'NoEX']"
+neon,Sword of Fury,"['Group', 'Magic', 'Fire', 'Instant']"
+neon,Fiend of Fire,"['Magic', 'Fire', 'NoFree']"
+neon,Firebringer,"['Group', 'Magic', 'Fire']"
+neon,Double Runic,"['Group', 'Magic', 'Fire', 'NoFree']"
+jessie,BRV Attack+,['Ranged']
+jessie,BRV Attack++,['Ranged']
+jessie,HP Attack+,['Ranged']
+jessie,HP Attack++,['Ranged']
+jessie,Spinning Back Kick,['Ranged']
+jessie,Uprising,"['Group', 'Ranged']"
+jessie,Attack All,"['Instant', 'NoSummon', 'NoEX']"
+jessie,The Show Must Go On,"['Group', 'Ranged', 'Instant']"
+jessie,The Show Must Go On+,"['Group', 'Ranged', 'Instant']"
+jessie,Surefire Drop,"['Group', 'Ranged', 'NoFree']"
+jessie,"My Life, My Road","['Group', 'Ranged', 'NoFree']"
+fusoya,BRV Attack+,['Magic']
+fusoya,BRV Attack++,['Magic']
+fusoya,HP Attack+,['Magic']
+fusoya,HP Attack++,['Magic']
+fusoya,Spirit Blast,"['Group', 'Magic']"
+fusoya,Hold,['Magic']
+fusoya,Base Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+fusoya,Twin Meteor,"['Group', 'Magic']"
+fusoya,Lunar Quake,"['Group', 'Magic', 'NoFree']"
+fusoya,Omniblast,"['Group', 'Magic', 'NoFree']"
+jackgarland,BRV Attack+,['Melee']
+jackgarland,BRV Attack++,['Melee']
+jackgarland,HP Attack+,['Melee']
+jackgarland,HP Attack++,['Melee']
+jackgarland,Spinning Slash,"['Group', 'Melee']"
+jackgarland,Soul Burst,"['Melee', 'FollowUp']"
+jackgarland,Highbringer,['Melee']
+jackgarland,Attack Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+jackgarland,Lightbringer,"['Group', 'Melee']"
+jackgarland,Zantetsuken,"['Group', 'Melee', 'NoFree']"
+jackgarland,Soul Burst+,"['Melee', 'FollowUp']"
+jackgarland,Soul of Chaos,"['Group', 'Melee']"
+jackgarland,Thirst for Chaos,"['Group', 'Melee', 'NoFree']"
+dorgann,BRV Attack+,['Melee']
+dorgann,BRV Attack++,['Melee']
+dorgann,HP Attack+,['Melee']
+dorgann,HP Attack++,['Melee']
+dorgann,Spellblade Break,"['Group', 'Melee', 'Wind']"
+dorgann,Starlit Abandon,"['Melee', 'Wind']"
+dorgann,Image Slash,"['Group', 'Melee', 'Wind', 'FollowUp']"
+dorgann,Weak Damage Up,"['Instant', 'NoSummon', 'NoEX']"
+dorgann,Final Skill – Felling Timber,"['Group', 'Melee']"
+dorgann,Linear Transmission – Third-Eye Strike,"['Group', 'Melee', 'NoFree']"
+dorgann,Image Slash+,"['Group', 'Melee', 'Wind', 'FollowUp']"
+dorgann,Dawnlight Swordplay,"['Group', 'Melee']"
+dorgann,Steel Weaving the Future,"['Group', 'Melee', 'NoFree']"
+minwu,BRV Attack+,['Magic']
+minwu,BRV Attack++,['Magic']
+minwu,HP Attack+,['Magic']
+minwu,HP Attack++,['Magic']
+minwu,Teleport XVI,"['Group', 'Magic']"
+minwu,Teleport XVI+,"['Group', 'Magic']"
+minwu,Holy XVI,"['Group', 'Magic', 'Holy', 'Heals']"
+minwu,Trap: Holy XVI,"['Group', 'Magic', 'Holy', 'Heals', 'Instant', 'Traps']"
+minwu,HP Heal Attack All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+minwu,Soul Convergence,"['Group', 'Magic']"
+minwu,Soul of Rebirth,"['Group', 'Magic', 'NoFree']"
+minwu,Additional attack from Sublime Soul,"['Group', 'Magic', 'FollowUp']"
+minwu,Mightiest of Spells,"['Group', 'Magic']"
+minwu,Life Connect,"['Heals', 'Instant', 'NoFree']"
+lunafreya,BRV Attack+,['Magic']
+lunafreya,BRV Attack++,['Magic']
+lunafreya,Quick Prayer,['Instant']
+lunafreya,HP Attack+,['Magic']
+lunafreya,HP Attack++,['Magic']
+lunafreya,Heavy Prayer,['Instant']
+lunafreya,Energy Heal,"['Heals', 'Instant']"
+lunafreya,Frigid Fubuki,"['Group', 'Magic', 'Ice']"
+lunafreya,Weak Damage Up All,"['Instant', 'NoSummon', 'NoEX']"
+lunafreya,Diamond Dust,"['Group', 'Magic', 'Ice']"
+lunafreya,Awakening,"['Instant', 'NoFree']"
+lunafreya,Awakening Follow Up,"['Group', 'Magic', 'Instant', 'FollowUp']"
+lunafreya,Coronal Spark of Life,"['Group', 'Magic']"
+lunafreya,Furious Spray,"['Group', 'Magic', 'NoFree']"
+braska,BRV Attack+,['Magic']
+braska,BRV Attack++,['Magic']
+braska,HP Attack+,['Magic']
+braska,HP Attack++,['Magic']
+braska,Curaga,"['Heals', 'Instant']"
+braska,Ultima,"['Group', 'Magic']"
+braska,Attack All,"['Instant', 'NoSummon', 'NoEX']"
+braska,Ultimate Jecht Shot,"['Group', 'Magic', 'Fire']"
+braska,Ultimate Jecht Shot+,"['Group', 'Magic', 'Fire']"
+braska,Jecht Bomber,"['Magic', 'Fire', 'NoFree']"
+braska,Jecht Bomber+,"['Magic', 'Fire', 'NoFree']"
+braska,Final Jecht Shot,"['Group', 'Magic']"
+braska,Jecht Beam,"['Group', 'Magic', 'Fire', 'FollowUp']"
+braska,Mixture Power,"['Group', 'Magic', 'Fire', 'Heals', 'NoFree']"
+sice,BRV Attack+,['Melee']
+sice,BRV Attack++,['Melee']
+sice,HP Attack+,['Melee']
+sice,HP Attack++,['Melee']
+sice,Phantom Scythe,"['Group', 'Melee', 'Dark']"
+sice,Dark Nebula,"['Melee', 'Dark']"
+sice,Dark Nebula+,"['Melee', 'Dark']"
+sice,Dark Nebula++,"['Melee', 'Dark']"
+sice,Set Malice Slash,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+sice,Negative Aura,"['Group', 'Melee', 'Dark', 'Heals']"
+sice,Negative Aura+,"['Group', 'Melee', 'Dark', 'Heals']"
+sice,Negative Aura++,"['Group', 'Melee', 'Dark', 'Heals']"
+sice,Death Maelstrom,"['Group', 'Melee', 'Dark', 'NoFree']"
+sice,Death Maelstrom+,"['Group', 'Melee', 'Dark', 'NoFree']"
+sice,Death Maelstrom++,"['Group', 'Melee', 'Dark', 'NoFree']"
+sice,Additional attack from Tenacious Vortex,"['Melee', 'Dark', 'Instant', 'Traps']"
+sice,Dual Darkness Aura,"['Group', 'Melee', 'Dark', 'NoFree']"
+cissnei,BRV Attack+,['Ranged']
+cissnei,BRV Attack++,['Ranged']
+cissnei,HP Attack+,['Ranged']
+cissnei,HP Attack++,['Ranged']
+cissnei,Bladeglint,['Ranged']
+cissnei,Threatening Ember,['Ranged']
+cissnei,Set Wild Rekka Attack All,"['Instant', 'NoSummon', 'NoEX']"
+cissnei,Fortune Star,"['Group', 'Ranged']"
+cissnei,Shooting Star,"['Group', 'Ranged', 'NoFree']"
+cissnei,Besiege,"['Group', 'Ranged', 'FollowUp']"
+cissnei,Besiege+,"['Group', 'Ranged', 'FollowUp']"
+cissnei,Besiege++,"['Group', 'Ranged', 'FollowUp']"
+ennakros,BRV Attack+,['Magic']
+ennakros,BRV Attack++,['Magic']
+ennakros,HP Attack+,['Magic']
+ennakros,HP Attack++,['Magic']
+ennakros,Kinda Sorta Holy,"['Group', 'Magic', 'Holy']"
+ennakros,Bold Maneuver,"['Group', 'Melee']"
+ennakros,Base Boost Up,['Instant']
+ennakros,Atomic Impact,"['Group', 'Melee', 'Dark']"
+ennakros,Astral Annihilation,"['Melee', 'NoFree']"
+ennakros,Pretty-Close Solution,"['Group', 'Melee', 'NoFree']"
+leila,BRV Attack+,['Magic']
+leila,BRV Attack++,['Magic']
+leila,HP Attack+,['Magic']
+leila,HP Attack++,['Magic']
+leila,Thunder XVI,"['Group', 'Magic', 'Thunder']"
+leila,Provocator's Edge,"['Group', 'Magic', 'Thunder']"
+leila,Protect All,"['Instant', 'NoSummon', 'NoEX']"
+leila,Lightning Turn,"['Magic', 'Thunder']"
+leila,Detonator,"['Group', 'Magic', 'Thunder', 'NoFree']"
+leila,Counterattack Order,"['Heals', 'Instant', 'Counters']"
+llyud,BRV Attack+,['Ranged']
+llyud,BRV Attack++,['Ranged']
+llyud,HP Attack+,['Ranged']
+llyud,HP Attack++,['Ranged']
+llyud,Aura Spear,['Ranged']
+llyud,Crimson Wings,"['Group', 'Ranged', 'Heals']"
+llyud,HP Heal Attack All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+llyud,Fanfare,"['Group', 'Ranged', 'Heals']"
+llyud,Enfuse Spirit,"['Group', 'Ranged', 'Heals', 'NoFree']"
+llyud,Technical Spear,"['Group', 'Ranged', 'Heals', 'NoFree']"
+ursula,BRV Attack+,['Melee']
+ursula,BRV Attack++,['Melee']
+ursula,HP Attack+,['Melee']
+ursula,HP Attack++,['Melee']
+ursula,Tenshōha,"['Group', 'Melee']"
+ursula,Tenketsu,"['Group', 'Melee']"
+ursula,Chakra,"['Melee', 'Instant']"
+ursula,Set Tenketsu Boost All,"['Instant', 'NoSummon', 'NoEX']"
+ursula,Five Star Crimson Palm,"['Group', 'Melee', 'IgnoreDEF', 'Instant']"
+ursula,Scarlet Legs of Fury,"['Group', 'Melee', 'IgnoreDEF', 'NoFree']"
+ursula,Petal Whirlwind,"['Group', 'Melee']"
+ursula,Dual Turning Palm Strike,"['Group', 'Melee', 'Instant', 'NoFree']"
+jegran,BRV Attack+,['Melee']
+jegran,BRV Attack++,['Melee']
+jegran,HP Attack+,['Melee']
+jegran,HP Attack++,['Melee']
+jegran,Vacuum Slash,['Melee']
+jegran,Blade Boomerang,"['Group', 'Melee']"
+jegran,Set Crystallization Slash,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+jegran,Crystallized End,"['Group', 'Melee']"
+jegran,Punish,"['Melee', 'IgnoreDEF', 'NoFree']"
+jegran,Crimson Crystal Release,"['Group', 'Melee']"
+jegran,Crystal Fist,"['Group', 'Melee', 'Instant', 'Traps']"
+shelke,BRV Attack+,['Melee']
+shelke,BRV Attack++,['Melee']
+shelke,HP Attack+,['Melee']
+shelke,HP Attack++,['Melee']
+shelke,Optic Spindle,['Melee']
+shelke,Optic Spindle+,['Melee']
+shelke,Delta Arts,"['Group', 'Melee']"
+shelke,Delta Arts+,"['Group', 'Melee']"
+shelke,Buff Longer Thrust,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+shelke,Transparent,['Melee']
+shelke,Countertek,['NoFree']
+cidraines,BRV Attack+,['Magic']
+cidraines,BRV Attack++,['Magic']
+cidraines,HP Attack+,['Magic']
+cidraines,HP Attack++,['Magic']
+cidraines,HP Attack (Heavenly Fist),"['Magic', 'Instant']"
+cidraines,Ruinga Storm,"['Group', 'Magic']"
+cidraines,Impact Strike,"['Magic', 'IgnoreDEF', 'FollowUp']"
+cidraines,Cavalry Rush,"['Magic', 'KnockBack']"
+cidraines,Boost All,"['Instant', 'NoSummon', 'NoEX']"
+cidraines,Seraphic Ray,"['Group', 'Magic', 'KnockBack']"
+cidraines,Heavenly Fist,"['Group', 'Magic', 'KnockBack', 'NoFree']"
+cidraines,Impact Strike+,"['Magic', 'IgnoreDEF', 'FollowUp']"
+cidraines,Opposing Destiny,"['Group', 'Magic']"
+cidraines,Seraphic Charge,"['Magic', 'IgnoreDEF', 'FollowUp']"
+cidraines,Raging Rebellion,"['Group', 'Magic', 'KnockBack', 'NoFree']"
+queen,BRV Attack+,['Melee']
+queen,BRV Attack++,['Melee']
+queen,Balestra Lunge,"['Melee', 'Instant']"
+queen,HP Attack+,['Melee']
+queen,HP Attack++,['Melee']
+queen,Devastate,['Melee']
+queen,Speedrush Thrust,['Melee']
+queen,Mana Sphere,"['Group', 'Melee']"
+queen,HP Heal Boost All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+queen,Rasetsu Arousal,"['Group', 'Melee']"
+queen,Rasetsu Arousal Release HP Heal,"['Heals', 'Instant', 'FollowUp']"
+queen,Divine Judgment,"['Group', 'Melee', 'Heals', 'NoFree']"
+cor,BRV Attack+,"['Group', 'Melee']"
+cor,BRV Attack++,"['Group', 'Melee']"
+cor,HP Attack+,['Melee']
+cor,HP Attack++,['Melee']
+cor,Reaper's Gale,"['Group', 'Melee', 'Instant']"
+cor,Moonlit Dawn,['Instant']
+cor,Moonlit Dawn Follow Up,"['Melee', 'Instant', 'FollowUp']"
+cor,Snowbreak,['Instant']
+cor,Snowbreak Follow Up,"['Group', 'Melee', 'Instant', 'FollowUp']"
+cor,Attack Boost All,"['Instant', 'NoSummon', 'NoEX']"
+cor,Lion's Roar,"['Group', 'Melee']"
+cor,Reflorescere,"['Group', 'Melee', 'Instant', 'NoFree']"
+cor,Additional attack from buff,"['Group', 'Melee', 'Instant', 'FollowUp']"
+cor,Koujishi Dance,"['Group', 'Melee']"
+cor,Welcome Coincidence,"['Group', 'Melee', 'NoFree']"
+iroha,BRV Attack+,['Magic']
+iroha,BRV Attack++,['Magic']
+iroha,HP Attack+,['Magic']
+iroha,HP Attack++,['Magic']
+iroha,Amatsu: Choun,"['Magic', 'Heals']"
+iroha,Amatsu: Fuga,"['Group', 'Magic']"
+iroha,Amatsu: Fuga: Fusion,"['Group', 'Magic']"
+iroha,Recast Half Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+iroha,Amatsu: Kyōkasuigetsu,"['Magic', 'Heals', 'Instant']"
+iroha,Amatsu: Kyōkasuigetsu+,"['Magic', 'Heals']"
+iroha,Rise From Ashes,"['Group', 'Magic', 'Heals', 'NoFree']"
+iroha,Eternal Rhapsodies,"['Group', 'Magic']"
+iroha,Kinen no Isshi,"['Group', 'Magic', 'Heals', 'NoFree']"
+kadaj,BRV Attack+,['Melee']
+kadaj,BRV Attack++,['Melee']
+kadaj,HP Attack+,['Melee']
+kadaj,HP Attack++,['Melee']
+kadaj,Volley,"['Group', 'Melee']"
+kadaj,Geophagy,"['Melee', 'FollowUp']"
+kadaj,Mayhem,['Melee']
+kadaj,Set Fixation Slash,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+kadaj,Divinity,"['Group', 'Melee']"
+kadaj,Burial Hour,"['Melee', 'NoFree']"
+mog,BRV Attack+,"['Ranged', 'Water']"
+mog,BRV Attack++,"['Ranged', 'Water']"
+mog,HP Attack+,"['Ranged', 'Water']"
+mog,HP Attack++,"['Ranged', 'Water']"
+mog,Jump,"['Ranged', 'Water', 'Instant', 'Free']"
+mog,Serial Jump,"['Ranged', 'Water']"
+mog,Water Harmony,"['Group', 'Ranged', 'Water']"
+mog,El Niño,"['Group', 'Ranged', 'Thunder', 'Water', 'Instant', 'FollowUp']"
+mog,Plasma,"['Group', 'Ranged', 'Thunder', 'Water', 'Instant', 'FollowUp']"
+mog,Boost All,"['Instant', 'NoSummon', 'NoEX']"
+mog,Moogle Rush,"['Group', 'Ranged', 'Water']"
+mog,Moogle March,"['Group', 'Ranged', 'Water', 'Heals', 'NoFree']"
+mog,El Niño+,"['Group', 'Ranged', 'Water', 'Instant', 'FollowUp']"
+mog,Plasma+,"['Group', 'Ranged', 'Thunder', 'Water', 'Instant', 'FollowUp']"
+mog,Cosmic Symphony,"['Group', 'Ranged']"
+mog,Don't get distracted!,"['Group', 'Ranged', 'NoFree']"
+ceodore,BRV Attack+,"['Group', 'Melee', 'Holy', 'Heals']"
+ceodore,BRV Attack++,"['Group', 'Melee', 'Holy', 'Heals']"
+ceodore,BRV Attack+ (Awaken),"['Group', 'Melee', 'Holy']"
+ceodore,BRV Attack++ (Awaken),"['Group', 'Melee', 'Holy']"
+ceodore,BRV Attack+++ (Awaken),"['Group', 'Melee', 'Holy']"
+ceodore,HP Attack+,"['Melee', 'Holy']"
+ceodore,HP Attack++,"['Melee', 'Holy']"
+ceodore,HP Attack+ (Awaken),"['Melee', 'Holy']"
+ceodore,HP Attack++ (Awaken),"['Melee', 'Holy']"
+ceodore,HP Attack+++ (Awaken),"['Melee', 'Holy']"
+ceodore,Saint's Blast,"['Group', 'Ranged', 'Holy']"
+ceodore,Saint's Blast (Awaken),"['Group', 'Ranged', 'Holy']"
+ceodore,Awaken,"['Heals', 'Instant']"
+ceodore,Ceodore Awaken Release Self-harm,"['Instant', 'FollowUp']"
+ceodore,HP Heal Advance All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+ceodore,Vibra Plus,"['Group', 'Melee', 'Holy']"
+ceodore,Vibra Plus+,"['Group', 'Melee', 'Holy']"
+ceodore,Divine Heal,"['Group', 'Ranged', 'Holy', 'Heals', 'NoFree']"
+ceodore,Cerulean Dive,"['Group', 'Ranged', 'Holy']"
+guy,BRV Attack+,"['Melee', 'Earth']"
+guy,BRV Attack++,"['Melee', 'Earth', 'Heals']"
+guy,HP Attack+,"['Melee', 'Earth']"
+guy,HP Attack++,"['Melee', 'Earth', 'Heals']"
+guy,Earth Smash,"['Group', 'Melee', 'Earth', 'Heals']"
+guy,War Cry,"['Group', 'Melee', 'Earth', 'Heals']"
+guy,Weak Damage Up All,"['Instant', 'NoSummon', 'NoEX']"
+guy,Gaia Rumble,"['Group', 'Melee', 'Earth']"
+guy,Gaia Swing,"['Group', 'Melee', 'Earth']"
+xande,BRV Attack+,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,BRV Attack++,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,HP Attack+,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,HP Attack++,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,Libra Combo,"['Group', 'Magic', 'Fire', 'Dark']"
+xande,Quake,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,Quaga,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,Weak Damage Up,"['Instant', 'NoSummon', 'NoEX']"
+xande,Meteor,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,Destruction – Quaga,"['Group', 'Magic', 'Earth', 'Dark', 'NoFree']"
+rude,BRV Attack++,['Melee']
+rude,BRV Attack+,['Melee']
+rude,HP Attack++,['Melee']
+rude,HP Attack+,['Melee']
+rude,Crush Hammer,"['Group', 'Melee', 'Heals']"
+rude,Materia Tactics,"['Melee', 'Heals']"
+rude,Resist Boost All,"['Instant', 'NoSummon', 'NoEX']"
+rude,Grand Spark,"['Group', 'Melee', 'Heals']"
+rude,Combination Arts,"['Group', 'Melee', 'Heals', 'NoFree']"
+reno,BRV Attack+,"['Melee', 'Thunder']"
+reno,BRV Attack++,"['Melee', 'Thunder']"
+reno,HP Attack+,"['Melee', 'Thunder']"
+reno,HP Attack++,"['Melee', 'Thunder']"
+reno,Electroprod,"['Group', 'Melee', 'Thunder']"
+reno,Electric Dance,"['Melee', 'Thunder']"
+reno,Debuff Act Longer Crush,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+reno,EM Triple Shot,"['Group', 'Melee', 'Thunder']"
+reno,Pyramid,"['Group', 'Melee', 'Thunder', 'NoFree']"
+reno,Galvanic Chain,"['Group', 'Melee', 'Thunder', 'NoFree']"
+gladio,BRV Attack+,['Melee']
+gladio,BRV Attack++,['Melee']
+gladio,HP Attack+,['Melee']
+gladio,HP Attack++,['Melee']
+gladio,Tempest,"['Group', 'Melee']"
+gladio,Dawnhammer,"['Group', 'Melee']"
+gladio,HP Heal & Boost All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+gladio,Maelstrom,['Melee']
+gladio,Impulse,"['Group', 'Melee', 'NoFree']"
+gladio,Counter,"['Melee', 'Counters']"
+kurasame,BRV Attack+,"['Melee', 'Ice']"
+kurasame,BRV Attack++,"['Melee', 'Ice']"
+kurasame,HP Attack+,"['Melee', 'Ice']"
+kurasame,HP Attack++,"['Melee', 'Ice']"
+kurasame,Ice Blade Renzan,"['Melee', 'Ice']"
+kurasame,Multi Blizzaga MIS-II,"['Group', 'Melee', 'Ice']"
+kurasame,BRV Up Blizzard Slash,"['Melee', 'Ice', 'Instant', 'NoSummon', 'NoEX']"
+kurasame,Ice Pillar,"['Melee', 'Ice', 'FollowUp']"
+kurasame,Absolute Zero,"['Group', 'Melee', 'Ice', 'NoFree']"
+kurasame,Biocessation Magic – Freeze,"['Group', 'Melee']"
+kurasame,Dead End,"['Group', 'Melee', 'Ice', 'NoFree']"
+strago,BRV Attack+,['Magic']
+strago,BRV Attack++,['Magic']
+strago,HP Attack+,['Magic']
+strago,HP Attack++,['Magic']
+strago,Dualcast,['Magic']
+strago,Dualcast Follow Up,"['Magic', 'FollowUp']"
+strago,Quasar,"['Group', 'Magic', 'IgnoreDEF']"
+strago,Quasar Follow Up,"['Group', 'Magic', 'IgnoreDEF', 'FollowUp']"
+strago,BRV 2 Death,"['Group', 'Magic']"
+strago,BRV 2 Death Follow Up,"['Group', 'Magic', 'FollowUp']"
+strago,Set Soul of Thamasa Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+strago,Sabre Soul,"['Group', 'Magic']"
+strago,Sabre Soul Follow Up,"['Group', 'Magic', 'FollowUp']"
+strago,Grand Delta,"['Group', 'Magic', 'NoFree']"
+strago,Grand Delta Follow Up,"['Group', 'Magic', 'FollowUp']"
+strago,"Burning 1,000 Needles","['Group', 'Magic', 'NoFree']"
+edward,BRV Attack++,['Magic']
+edward,BRV Attack+,['Magic']
+edward,HP Attack++,['Magic']
+edward,HP Attack+,['Magic']
+edward,HP Attack (Hide),['Magic']
+edward,Bardsong,"['Group', 'Magic']"
+edward,Hide,['Instant']
+edward,Return,"['Magic', 'Free']"
+edward,BRV Heal All Buff Longer,"['Instant', 'NoSummon', 'NoEX']"
+edward,Mystic Waltz,"['Group', 'Magic']"
+edward,Lullaby,"['Group', 'Magic', 'NoFree']"
+edward,Woke from sleep.,['FollowUp']
+ardyn,BRV Attack+,['Melee']
+ardyn,BRV Attack++,['Melee']
+ardyn,HP Attack+,['Melee']
+ardyn,HP Attack++,['Melee']
+ardyn,Warp-Strike,['Melee']
+ardyn,Additional attack from Spectral Charge,"['Melee', 'Instant', 'FollowUp']"
+ardyn,Aura of Darkness,"['Group', 'Melee']"
+ardyn,Break Reset Slash,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+ardyn,Rising Phantom++,"['Group', 'Melee']"
+ardyn,Rising Phantom+,"['Group', 'Melee']"
+ardyn,Rising Phantom,"['Group', 'Melee']"
+ardyn,Dark Tornado,"['Group', 'Melee', 'NoFree']"
+ardyn,Royal Retribution,"['Group', 'Melee']"
+ardyn,Revenant Roar,"['Group', 'Melee', 'NoFree']"
+nine,Jump,"['Group', 'Ranged']"
+nine,Jump+,"['Group', 'Ranged']"
+nine,High Jump,"['Group', 'Ranged']"
+nine,High Jump+,"['Group', 'Ranged']"
+nine,Primal Roar,"['Group', 'Ranged']"
+nine,Whirling Lance,"['Group', 'Ranged', 'Heals']"
+nine,Whirling Lance+,"['Group', 'Ranged', 'Heals']"
+nine,Boost Up Thrust,"['Group', 'Ranged', 'Instant', 'NoSummon', 'NoEX']"
+nine,Laser Lance,"['Group', 'Ranged', 'Heals']"
+nine,White Knight,"['Instant', 'NoFree']"
+gabranth,BRV Attack+,['Melee']
+gabranth,BRV Attack++,['Melee']
+gabranth,HP Attack+,['Melee']
+gabranth,HP Attack++,['Melee']
+gabranth,Circle of Judgment,"['Group', 'Melee']"
+gabranth,Enfeeblement from Judge Magister,"['Instant', 'Counters']"
+gabranth,Guilt,['Melee']
+gabranth,Protect All,"['Instant', 'NoSummon', 'NoEX']"
+gabranth,Quickening,"['Group', 'Melee']"
+gabranth,Innocence,"['Group', 'Melee', 'NoFree']"
+gabranth,Innocence+,"['Group', 'Melee', 'NoFree']"
+gabranth,Onslaught,['Melee']
+gabranth,Aspiration,"['Group', 'Melee', 'NoFree']"
+desch,BRV Attack+,"['Melee', 'Thunder']"
+desch,BRV Attack++,"['Melee', 'Thunder']"
+desch,HP Attack+,"['Melee', 'Thunder']"
+desch,HP Attack++,"['Melee', 'Thunder']"
+desch,Blitz Shear,"['Group', 'Magic', 'Thunder', 'Heals']"
+desch,Plasma Stroke,"['Group', 'Melee', 'Thunder', 'Heals']"
+desch,HP Heal Advance All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+desch,Ancient Thunderclap,"['Group', 'Melee', 'Thunder']"
+desch,Electric Floor,"['Group', 'Melee', 'Thunder', 'NoFree']"
+desch,Debuff from Electric Area,['Traps']
+desch,Electric Order,"['Group', 'Melee', 'Thunder', 'NoFree']"
+amidatelion,BRV Attack+,[]
+amidatelion,BRV Attack++,[]
+amidatelion,HP Attack+,['Magic']
+amidatelion,HP Attack++,['Magic']
+amidatelion,Comet,['Magic']
+amidatelion,Megaflare,"['Group', 'Magic']"
+amidatelion,Ability Recovery BRV Regen All,"['Instant', 'NoSummon', 'NoEX']"
+amidatelion,Yukish Ultima,"['Group', 'Magic']"
+amidatelion,Crystal Idol,"['Group', 'Magic', 'NoFree']"
+trey,BRV Attack+,['Ranged']
+trey,HP Attack (Charge 1),['Ranged']
+trey,HP Attack+,['Ranged']
+trey,HP Attack+ (Charge 1),['Ranged']
+trey,HP Attack+ (Charge 2),['Ranged']
+trey,Raining Arrows,"['Group', 'Ranged']"
+trey,Raining Arrows (Charge 1),"['Group', 'Ranged']"
+trey,Raining Arrows (Charge 2),"['Group', 'Ranged']"
+trey,Arrow Shower,"['Group', 'Ranged', 'FollowUp']"
+trey,Dynamite Arrow,['Ranged']
+trey,Dynamite Arrow (Charge 1),['Ranged']
+trey,Dynamite Arrow (Charge 2),['Ranged']
+trey,Dynamite,"['Ranged', 'Traps']"
+trey,Ability Recovery Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+trey,Grand Delta,"['Group', 'Ranged']"
+trey,Firewall,"['Ranged', 'Instant', 'Traps', 'NoFree']"
+ealdnarche,BRV Attack+,['Ranged']
+ealdnarche,BRV Attack++,['Ranged']
+ealdnarche,HP Attack+,['Ranged']
+ealdnarche,HP Attack++,['Ranged']
+ealdnarche,Phase Shift,"['Group', 'Ranged', 'Heals', 'Instant', 'Free']"
+ealdnarche,Stellar Burst,"['Group', 'Ranged']"
+ealdnarche,Cancel Exoplates,"['Heals', 'Instant', 'Counters']"
+ealdnarche,Uranos Cascade,['Ranged']
+ealdnarche,Omega Javelin,['Ranged']
+ealdnarche,Debuff Act Longer Throw,"['Group', 'Ranged', 'Instant', 'NoSummon', 'NoEX']"
+ealdnarche,Vortex,"['Group', 'Ranged']"
+ealdnarche,Vortex+,"['Group', 'Ranged']"
+ealdnarche,Exceed Lance+,"['Group', 'Ranged', 'NoFree']"
+ealdnarche,Exceed Lance,"['Group', 'Ranged', 'NoFree']"
+ealdnarche,Divine Might,"['Group', 'Ranged']"
+cloudofdarkness,Toying Appendages,['Magic']
+cloudofdarkness,Uncanny Beam,['Magic']
+cloudofdarkness,Insulating Appendages,"['Group', 'Magic']"
+cloudofdarkness,Counter,"['Magic', 'Instant', 'Counters']"
+cloudofdarkness,Wide-Angle Particle Beam,"['Group', 'Magic']"
+cloudofdarkness,Zero-Form Particle Beam,"['Magic', 'Free']"
+cloudofdarkness,Break Reset Burst,"['Magic', 'Instant', 'NoSummon', 'NoEX']"
+cloudofdarkness,Anti-Air Particle Beam,['Magic']
+cloudofdarkness,High-Speed Particle Beam,"['Group', 'Magic', 'NoFree']"
+cloudofdarkness,Ultra Particle Beam,"['Group', 'Magic']"
+cloudofdarkness,Additional attack from Ultra Particle Beam,"['Group', 'Magic', 'FollowUp']"
+cloudofdarkness,Void-Form Particle Beam,"['Group', 'Magic', 'NoFree']"
+keiss,BRV Attack+,['Ranged']
+keiss,Selkie Chase (BRV),[]
+keiss,BRV Attack++,['Ranged']
+keiss,Selkie Chase+ (BRV),[]
+keiss,Selkie Chase++ (BRV),[]
+keiss,HP Attack+,['Ranged']
+keiss,Selkie Chase (HP),['Ranged']
+keiss,HP Attack++,['Ranged']
+keiss,Selkie Chase+ (HP),['Ranged']
+keiss,HP Attack+ (Aerial Drive),['Ranged']
+keiss,Selkie Chase++ (HP),['Ranged']
+keiss,Selkie Throw,['Ranged']
+keiss,Hero Support,['Ranged']
+keiss,Hero Support Cast,"['Instant', 'FollowUp']"
+keiss,Hero Support Recovery Attack All,"['Instant', 'NoSummon', 'NoEX']"
+keiss,Sky High,"['Group', 'Ranged']"
+keiss,Aerial Drive,"['Ranged', 'NoFree']"
+arciela,BRV Attack+ (Ascension),['Magic']
+arciela,BRV Attack+ (Descension),"['Group', 'Magic']"
+arciela,Harmonic Displacement,['Magic']
+arciela,Darkest Hour,['Magic']
+arciela,Ascension & Expunge Magic,[]
+arciela,Expunge Magic,"['Group', 'Magic', 'Heals', 'FollowUp']"
+arciela,Descension & Sight Unseen,[]
+arciela,Sight Unseen,"['Group', 'Magic', 'FollowUp']"
+arciela,Ability Recovery Attack All,"['Instant', 'NoSummon', 'NoEX']"
+arciela,Naakual's Vengeance,"['Group', 'Magic', 'Heals']"
+arciela,Unceasing Dread,"['Group', 'Magic', 'NoFree']"
+jack,BRV Attack+,['Melee']
+jack,BRV Attack++,['Melee']
+jack,BRV Attack+++,['Melee']
+jack,HP Attack+,['Melee']
+jack,HP Attack++,['Melee']
+jack,HP Attack+++,['Melee']
+jack,Ninja Slice,['Melee']
+jack,Lightning Flash,"['Group', 'Melee']"
+jack,Critical Power Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+jack,Transience,"['Group', 'Melee']"
+jack,Deliverance,"['Melee', 'Instant', 'FollowUp']"
+jack,Piercing Gleam,"['Melee', 'NoFree']"
+caius,BRV Attack+,['Melee']
+caius,BRV Attack++,['Melee']
+caius,HP Attack+,['Melee']
+caius,HP Attack++,['Melee']
+caius,Pulsar Burst+,['Melee']
+caius,Pulsar Burst,['Melee']
+caius,HP Recovery from Heart of Chaos,"['Heals', 'Instant', 'Counters']"
+caius,Eye of Bahamut+,['Melee']
+caius,Eye of Bahamut,['Melee']
+caius,Set Doom Crush,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+caius,Inferno,"['Group', 'Melee', 'KnockBack']"
+caius,Inferno+,"['Group', 'Melee', 'KnockBack']"
+caius,Giga-Graviton,"['Group', 'Melee', 'NoFree']"
+caius,Incarnate Summoning,"['Group', 'Melee']"
+exdeath,BRV Attack+,['Magic']
+exdeath,BRV Attack++,['Magic']
+exdeath,HP Attack+,['Magic']
+exdeath,HP Attack++,['Magic']
+exdeath,Black Hole,['Magic']
+exdeath,Almagest,"['Group', 'Magic']"
+exdeath,Attack Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+exdeath,Grand Cross,"['Group', 'Magic']"
+exdeath,BRV damage from Power of the Void,"['Instant', 'Traps']"
+exdeath,Maelstrom,"['Group', 'Magic', 'NoFree']"
+exdeath,Absolute Power of the Void,"['Group', 'Magic']"
+leo,BRV Attack+,['Melee']
+leo,BRV Attack++,['Melee']
+leo,HP Attack+,['Melee']
+leo,HP Attack++,['Melee']
+leo,Call for Precision Strike,['Melee']
+leo,Master Blade,['Melee']
+leo,Set Precision Strike Boost All,"['Instant', 'NoSummon', 'NoEX']"
+leo,Shock,"['Group', 'Melee']"
+leo,Shock+,"['Group', 'Melee']"
+leo,Call for Ferocity,"['Melee', 'NoFree']"
+leo,Final Shock,['Melee']
+leo,Additional attack from Final Shock,"['Melee', 'FollowUp']"
+leo,Prominence Shock,"['Melee', 'NoFree']"
+ciaran,BRV Attack+,['Melee']
+ciaran,BRV Attack++,['Melee']
+ciaran,HP Attack+,['Melee']
+ciaran,HP Attack++,['Melee']
+ciaran,Soulshot,['Melee']
+ciaran,Soulshot+,['Melee']
+ciaran,Soulshot++,['Melee']
+ciaran,Bash,['Melee']
+ciaran,Holystrike,"['Melee', 'Holy']"
+ciaran,Holyrastrike,"['Melee', 'Holy']"
+ciaran,Set Drop of Myrrh,"['Instant', 'NoSummon', 'NoEX']"
+ciaran,Caravan Memories,"['Group', 'Melee']"
+ciaran,Shadowblade,"['Group', 'Melee', 'NoFree']"
+ciaran,Power of Memories,"['Group', 'Melee']"
+kamlanaut,BRV Attack+,"['Melee', 'Ice']"
+kamlanaut,BRV Attack++,"['Melee', 'Ice']"
+kamlanaut,BRV Attack+++,"['Melee', 'Ice']"
+kamlanaut,HP Attack+,"['Melee', 'Ice']"
+kamlanaut,HP Attack++,"['Melee', 'Ice']"
+kamlanaut,Frost Blade,"['Melee', 'Ice']"
+kamlanaut,Glacification,"['Melee', 'Ice']"
+kamlanaut,Glacification+,"['Melee', 'Ice']"
+kamlanaut,Enfeeblement from Esoteric Region,"['Instant', 'Counters']"
+kamlanaut,Enfeeblement from Desire of Provenance,"['Instant', 'Counters']"
+kamlanaut,Esoteric Region,[]
+kamlanaut,Esoteric Region+,[]
+kamlanaut,Esoteric Region Follow Up,"['Melee', 'Ice', 'FollowUp']"
+kamlanaut,Esoteric Region+ Follow Up,"['Melee', 'Ice', 'FollowUp']"
+kamlanaut,Set Desire of Provenance Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+kamlanaut,Great Wheel,"['Group', 'Melee']"
+kamlanaut,Great Wheel+,"['Group', 'Melee']"
+kamlanaut,Light Blade,"['Melee', 'NoFree']"
+kamlanaut,Transcandescent Blade,"['Group', 'Melee']"
+kamlanaut,Extra turn from Bondage from Antiquity,"['Instant', 'FollowUp']"
+kamlanaut,Enfeeblement from Transcandescent Blade,"['Instant', 'FollowUp']"
+kamlanaut,Djinn Blade,"['Group', 'Melee', 'NoFree']"
+gau,BRV Attack++,"['Magic', 'Earth']"
+gau,BRV Attack+ (Lifeshaver),"['Magic', 'Earth']"
+gau,BRV Attack+ (Cat Scratch),"['Group', 'Magic', 'Earth']"
+gau,BRV Attack+ (Landslide),"['Group', 'Magic', 'Earth']"
+gau,HP Attack++,"['Magic', 'Earth']"
+gau,HP Attack+ (Lifeshaver),"['Magic', 'Earth']"
+gau,HP Attack+ (Cat Scratch),"['Group', 'Magic', 'Earth']"
+gau,HP Attack+ (Landslide),"['Group', 'Magic', 'Earth']"
+gau,Lifeshaver,"['Magic', 'Earth', 'Heals']"
+gau,Counter (Lifeshaver),"['Magic', 'Earth', 'Heals', 'Instant', 'Counters']"
+gau,Cat Scratch,"['Group', 'Magic', 'Earth']"
+gau,Counter (Cat Scratch),"['Group', 'Magic', 'Earth', 'Instant', 'Counters']"
+gau,Stone Enchant,"['Instant', 'NoSummon', 'NoEX']"
+gau,Beast Raid,"['Group', 'Magic', 'Earth']"
+gau,Landslide,"['Group', 'Magic', 'Earth', 'Instant', 'NoFree']"
+gau,Counter (Landslide),"['Group', 'Magic', 'Earth', 'Heals', 'Instant', 'Counters']"
+aranea,BRV Attack+,['Ranged']
+aranea,Boost Lance,['Ranged']
+aranea,Boost Lance+,['Ranged']
+aranea,HP Attack+,['Ranged']
+aranea,High-Boost Lance,"['Group', 'Ranged']"
+aranea,High-Boost Lance+,"['Group', 'Ranged']"
+aranea,Dragoon Dive,"['Ranged', 'Free']"
+aranea,Highwind,"['Group', 'Ranged', 'Free']"
+aranea,Highwind+,"['Group', 'Ranged']"
+aranea,Set Overclock,"['Instant', 'NoSummon', 'NoEX']"
+aranea,Air Superiority,"['Group', 'Ranged']"
+aranea,Air Superiority+,"['Group', 'Ranged']"
+aranea,Vermilion Assault,"['Group', 'Ranged', 'NoFree']"
+aranea,Vermilion Assault+,"['Group', 'Ranged', 'NoFree']"
+aranea,Outstanding,"['Group', 'Ranged']"
+aranea,Air Drive,"['Ranged', 'FollowUp']"
+aranea,Speerstoßwelle,"['Group', 'Ranged', 'NoFree']"
+ignis,BRV Attack+ (Pastry),[]
+ignis,BRV Attack+ (P&B Bowl),['Melee']
+ignis,BRV Attack++ (Pastry),[]
+ignis,BRV Attack++ (P&B Bowl),['Melee']
+ignis,Dishes (Memory Lane Pastry),['Instant']
+ignis,HP Attack+ (Pastry),['Melee']
+ignis,HP Attack+ (P&B Bowl),['Melee']
+ignis,HP Attack++ (Pastry),['Melee']
+ignis,HP Attack++ (P&B Bowl),['Melee']
+ignis,Dishes (Papa Bird & Baby Bowl),['Instant']
+ignis,Regroup,"['Heals', 'Instant']"
+ignis,Quick Recipeh,['Instant']
+ignis,Boost All,"['Instant', 'NoSummon', 'NoEX']"
+ignis,Overwhelm,[]
+ignis,Overwhelm Party Move,"['Instant', 'FollowUp']"
+ignis,Overwhelm Follow Up,"['Melee', 'FollowUp']"
+ignis,Sagefire,"['Group', 'Melee', 'Fire', 'NoFree']"
+eight,BRV Attack+,['Melee']
+eight,BRV Attack++,['Melee']
+eight,Lightspeed Jab++,"['Melee', 'Instant']"
+eight,HP Attack++,['Melee']
+eight,Lightspeed Jab,['Melee']
+eight,HP Attack+,['Melee']
+eight,Quickbolt Stance,['Melee']
+eight,Last-Stand Rush,['Melee']
+eight,BRV Up Buff Longer,"['Instant', 'NoSummon', 'NoEX']"
+eight,Phantom Rush,['Melee']
+eight,Breaksight Blow,"['Melee', 'IgnoreDEF', 'Instant', 'Counters']"
+eight,Explosive Fist,"['Group', 'Melee', 'NoFree']"
+eight,Counter Rush,"['Melee', 'IgnoreDEF', 'Counters']"
+theemperor,BRV Attack+,['Magic']
+theemperor,BRV Attack++,['Magic']
+theemperor,BRV Attack+++,['Magic']
+theemperor,HP Attack+,['Magic']
+theemperor,HP Attack++,['Magic']
+theemperor,HP Attack+++,['Magic']
+theemperor,Beckoning Blast & Flare Combo,['Magic']
+theemperor,Trap: Beckoning Blast,"['Magic', 'Instant', 'Traps']"
+theemperor,Thunder Crest & Stygian Swell,"['Group', 'Magic']"
+theemperor,Trap: Thunder Crest,"['Group', 'Magic', 'Instant', 'Traps']"
+theemperor,Debuff Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+theemperor,Dreary Cell & Starfall,"['Group', 'Magic', 'Instant']"
+theemperor,Trap: Dreary Cell,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'Traps']"
+theemperor,Hellish Gale,"['Group', 'Magic', 'NoFree']"
+theemperor,Absolute Dominion,"['Group', 'Magic']"
+theemperor,Thorns of Repentance,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'Traps']"
+kimahri,BRV Attack+,['Ranged']
+kimahri,BRV Attack++,['Ranged']
+kimahri,Jump,['Ranged']
+kimahri,Jump+,['Ranged']
+kimahri,Jump++,"['Ranged', 'Instant']"
+kimahri,Lancet,"['Ranged', 'Heals']"
+kimahri,Lancet & Thrust Kick,"['Ranged', 'Heals']"
+kimahri,Mighty Guard,[]
+kimahri,Mighty Guard & Bad Breath,"['Group', 'Ranged']"
+kimahri,Attack Guard All,"['Instant', 'NoSummon', 'NoEX']"
+kimahri,Nova,"['Group', 'Ranged']"
+kimahri,White Wind,"['Heals', 'NoFree']"
+kimahri,White Wind Follow Up,"['Ranged', 'FollowUp']"
+basch,BRV Attack+,['Melee']
+basch,BRV Attack++,['Melee']
+basch,HP Attack+,"['Melee', 'Heals']"
+basch,HP Attack++,"['Melee', 'Heals']"
+basch,Fulminating Darkness,"['Group', 'Melee']"
+basch,Ruin Impendent,"['Melee', 'Heals']"
+basch,HP Heal Attack Up,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+basch,Flame Purge+,"['Melee', 'Heals']"
+basch,Indomitable Palisade,"['Group', 'Melee', 'Heals', 'NoFree']"
+lyse,BRV Attack+,['Melee']
+lyse,Purification,['Instant']
+lyse,HP Attack+,['Melee']
+lyse,Elixir Field,"['Group', 'Melee']"
+lyse,Riddle of Fire,"['Instant', 'Free']"
+lyse,Fire Tackle,['Melee']
+lyse,Fists of Fire Longer Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+lyse,Brotherhood & The Forbidden Chakra,[]
+lyse,Brotherhood & The Forbidden Chakra+,[]
+lyse,The Forbidden Chakra,"['Group', 'Melee', 'FollowUp']"
+lyse,The Forbidden Chakra+,"['Group', 'Melee', 'FollowUp']"
+lyse,Way of the Will & Triple Threat,['NoFree']
+lyse,Triple Threat,"['Group', 'Melee', 'FollowUp', 'NoFree']"
+machina,BRV Attack+,['Melee']
+machina,Furious Blades,['Melee']
+machina,Furious Blades+,['Melee']
+machina,Furious Blades (Burst),['Melee']
+machina,Awakening,"['Melee', 'Instant']"
+machina,Cyclone Drive,['Melee']
+machina,Awakening Longer,"['Instant', 'NoSummon', 'NoEX']"
+machina,Guardian Blades,"['Group', 'Melee']"
+machina,Counter,"['Melee', 'Instant', 'Counters']"
+machina,Stunning Slash,"['Group', 'Melee', 'Instant']"
+machina,Trap attack from Spiral's Lynchpin,"['Group', 'Melee', 'Instant', 'Traps']"
+machina,Additional attack from Spiral's Lynchpin,"['Group', 'Melee', 'Instant', 'Traps', 'FollowUp']"
+machina,Illuminating the Future,"['Group', 'Melee']"
+machina,Beyond the Atonement,"['Group', 'Melee', 'Instant', 'NoFree']"
+ultimecia,Maelstrom,"['Group', 'Magic']"
+ultimecia,HP Attack++,"['Group', 'Magic']"
+ultimecia,HP Attack+,"['Group', 'Magic']"
+ultimecia,Protean Swords,['Magic']
+ultimecia,Protean Swords+,['Magic']
+ultimecia,Hell's Judgment,['Magic']
+ultimecia,Hell's Judgment+,"['Group', 'Magic']"
+ultimecia,Set BRV Regen,"['Instant', 'NoSummon', 'NoEX']"
+ultimecia,Apocalypse,"['Group', 'Magic', 'Instant']"
+ultimecia,Shockwave Pulsar,"['Group', 'Magic', 'NoFree']"
+ultimecia,Sorceress Heart,"['Group', 'Magic']"
+garland,BRV Attack+,['Melee']
+garland,BRV Attack++,['Melee']
+garland,HP Attack+,['Melee']
+garland,HP Attack++,['Melee']
+garland,Round Edge,"['Group', 'Melee']"
+garland,Round Edge+,"['Group', 'Melee']"
+garland,Soul of Chaos,['Melee']
+garland,Soul of Chaos+,['Melee']
+garland,Set Soul of Conflict BRV Up,"['Instant', 'NoSummon', 'NoEX']"
+garland,Disaster of Chaos,"['Group', 'Melee']"
+garland,Bind of Chaos,"['Group', 'Melee']"
+garland,Bind of Chaos+,"['Group', 'Melee']"
+garland,Additional attack from Chains of Time,"['Melee', 'FollowUp', 'NoFree']"
+garland,Ultimate Conflict,"['Group', 'Melee']"
+sherlotta,Tranquil Light,[]
+sherlotta,Hurl Staff,['Magic']
+sherlotta,Hurl Staff+,['Magic']
+sherlotta,Chuck Staff,['Magic']
+sherlotta,Light of the Crystal,['Instant']
+sherlotta,Crystal Generation,"['Group', 'Magic']"
+sherlotta,BRV Heal All,"['Instant', 'NoSummon', 'NoEX']"
+sherlotta,Crystal Core Wave,['Instant']
+sherlotta,Crystal Ray,"['Group', 'Magic', 'NoFree']"
+sherlotta,Final Crystal Core,"['Group', 'Magic']"
+sherlotta,Crystal Dice,"['Group', 'Magic', 'NoFree']"
+aphmau,BRV Attack+ (Fine-Tuning),['Melee']
+aphmau,HP Attack+ (Mnejing),"['Melee', 'Instant']"
+aphmau,HP Attack++ (Mnejing),"['Melee', 'Heals', 'Instant']"
+aphmau,HP Attack+ (Optimization),['Magic']
+aphmau,HP Attack+ (Ovjang),"['Group', 'Magic', 'Instant']"
+aphmau,HP Attack++ (Ovjang),"['Group', 'Magic', 'Instant']"
+aphmau,Shield Subverter,['Melee']
+aphmau,Sixth Element,['Magic']
+aphmau,Puppeteer Buff Longer,"['Instant', 'NoSummon', 'NoEX']"
+aphmau,Activate & Imperial Authority,['Melee']
+aphmau,Victory Smite,['NoFree']
+aphmau,Tactical Switch Cast,['FollowUp']
+aphmau,Victory Smite Follow Up,"['Melee', 'FollowUp']"
+noel,Fearsiphon,['Melee']
+noel,Fearsiphon+,"['Melee', 'Instant']"
+noel,Fearsiphon++,"['Melee', 'Instant']"
+noel,Scourge,['Melee']
+noel,Scourge+,['Melee']
+noel,Tempeststrike,"['Group', 'Melee', 'Ice', 'Wind']"
+noel,Tempeststrike+,"['Group', 'Melee', 'Ice', 'Wind']"
+noel,Gale Fang,['Melee']
+noel,Gale Fang+,['Melee']
+noel,Shaving Slash,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+noel,Meteor Javelin,"['Melee', 'IgnoreDEF']"
+noel,Meteor Javelin+,"['Melee', 'IgnoreDEF']"
+noel,Big Bang,"['Group', 'Melee', 'NoFree']"
+noel,Additional attack from Hunter of Light,"['Melee', 'FollowUp']"
+noel,Prayers Surpassing Chaos,"['Group', 'Melee', 'IgnoreDEF']"
+alphinaud,Sic,['Magic']
+alphinaud,Sic (Obsidian),"['Group', 'Magic']"
+alphinaud,Sic (Obsidian)++,"['Group', 'Magic']"
+alphinaud,Sic (Obsidian)+,"['Group', 'Magic']"
+alphinaud,Shining Moonstone,['Magic']
+alphinaud,Shining Obsidian,['Magic']
+alphinaud,Shining Obsidian++,['Magic']
+alphinaud,Shining Obsidian+,['Magic']
+alphinaud,Summon Moonstone,"['Heals', 'Instant']"
+alphinaud,BRV granted from Moonstone,"['Instant', 'FollowUp']"
+alphinaud,HP recovery from Moonstone,"['Heals', 'Instant', 'FollowUp']"
+alphinaud,Party BRV granted from Moonstone,"['Instant', 'FollowUp']"
+alphinaud,Buff granted from Moonstone,"['Instant', 'FollowUp']"
+alphinaud,Energy Drain,"['Magic', 'Heals']"
+alphinaud,BRV Regen All,"['Instant', 'NoSummon', 'NoEX']"
+alphinaud,Obsidian Combination,"['Group', 'Magic', 'Instant']"
+alphinaud,BRV granted from Obsidian,"['Instant', 'FollowUp']"
+alphinaud,Buff granted from Obsidian,"['Instant', 'FollowUp']"
+alphinaud,Terminal Disaster,"['Group', 'Magic', 'NoFree']"
+prompto,BRV Attack++,['Ranged']
+prompto,BRV Attack+,['Ranged']
+prompto,Overkill,['Ranged']
+prompto,Overkill+,['Ranged']
+prompto,Overkill++,['Ranged']
+prompto,HP Attack++,['Ranged']
+prompto,HP Attack+,['Ranged']
+prompto,Crackshot,"['Ranged', 'IgnoreDEF']"
+prompto,Crackshot+,"['Ranged', 'IgnoreDEF']"
+prompto,Crackshot++,"['Ranged', 'IgnoreDEF']"
+prompto,Starshell,[]
+prompto,Starshell Follow Up,"['Ranged', 'FollowUp']"
+prompto,Piercer,['Ranged']
+prompto,Attack Speed Up,"['Instant', 'NoSummon', 'NoEX']"
+prompto,Trigger-Happy,"['Group', 'Ranged']"
+prompto,Reversible Shot,"['Group', 'Ranged', 'NoFree']"
+prompto,Link Attack,"['Ranged', 'FollowUp']"
+cinque,BRV Attack+,['Melee']
+cinque,BRV Attack++,"['Group', 'Melee']"
+cinque,HP Attack+,['Melee']
+cinque,HP Attack++,['Melee']
+cinque,Earthquake,"['Group', 'Melee']"
+cinque,Earthquake+,"['Group', 'Melee']"
+cinque,Homerun Swing,['Melee']
+cinque,Homerun Swing+,['Melee']
+cinque,Set Stun BRV Up,"['Instant', 'NoSummon', 'NoEX']"
+cinque,Whirling Mace,"['Group', 'Melee', 'KnockBack']"
+cinque,Gaia Pulse,"['Group', 'Melee', 'NoFree']"
+cinque,Additional attack from Braid Girl,"['Melee', 'FollowUp']"
+paine,BRV Attack+,['Melee']
+paine,Triple Cut,['Melee']
+paine,BRV Attack++,['Melee']
+paine,Triple Cut+,['Melee']
+paine,HP Attack+,['Melee']
+paine,HP Attack++,['Melee']
+paine,Break Attack,['Melee']
+paine,Black Sky,"['Group', 'Ranged']"
+paine,Debuff Attack Up Advance,"['Instant', 'NoSummon', 'NoEX']"
+paine,Sword Dance,"['Group', 'Melee']"
+paine,Sword Dance+,"['Group', 'Melee']"
+paine,Wild Throttle,"['Group', 'Melee', 'NoFree']"
+paine,Gullwing Rush,"['Group', 'Melee']"
+paine,Dark Shroud,"['Group', 'Melee', 'NoFree']"
+porom,BRV Attack+,['Magic']
+porom,BRV Attack++,['Magic']
+porom,HP Attack+,['Magic']
+porom,HP Attack++,['Magic']
+porom,Cry,[]
+porom,Cry+,[]
+porom,Mysidian Brilliance,['Heals']
+porom,Mysidian Brilliance+,['Heals']
+porom,HP Heal Attack All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+porom,White Wave,"['Group', 'Magic', 'Heals']"
+porom,Twincast Double Flare,"['Group', 'Magic', 'Heals', 'NoFree']"
+porom,Additional attack from Twin Conviction,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']"
+fran,BRV Attack+,['Ranged']
+fran,BRV Attack++,"['Group', 'Ranged']"
+fran,HP Attack+,"['Group', 'Ranged']"
+fran,HP Attack++,"['Group', 'Ranged']"
+fran,Feral Strike,['Ranged']
+fran,Feral Strike+,['Ranged']
+fran,Whip Kick,"['Group', 'Ranged']"
+fran,Whip Kick+,"['Group', 'Ranged']"
+fran,Whip Kick Recovery,"['Instant', 'NoSummon', 'NoEX']"
+fran,Shatterheart,"['Group', 'Ranged']"
+fran,Shatterheart+,"['Group', 'Ranged']"
+fran,Celestial Raid,"['Group', 'Ranged', 'NoFree']"
+vayne,Kick,['Melee']
+vayne,Kick+,"['Melee', 'Instant']"
+vayne,Pummel,['Melee']
+vayne,Pummel+,"['Melee', 'Instant']"
+vayne,Mach Wave,['Melee']
+vayne,Mach Wave+,"['Melee', 'Instant', 'Free']"
+vayne,Force of Will,['Melee']
+vayne,Force of Will+,"['Melee', 'Instant', 'Free']"
+vayne,Buff Keep Savate,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+vayne,Tree of Sephira,"['Group', 'Magic']"
+vayne,Tree of Sephira+,"['Group', 'Magic', 'Instant']"
+vayne,Contempt,"['Group', 'Melee', 'Instant', 'NoFree']"
+vayne,Contempt+,"['Group', 'Melee', 'Instant', 'NoFree']"
+vayne,Gigaflare Sword,"['Group', 'Melee']"
+vayne,Additional attack from Gigaflare Sword,"['Group', 'Melee', 'FollowUp']"
+vayne,Godslaughter,"['Group', 'Melee', 'Instant', 'NoFree']"
+freya,Jump,['Ranged']
+freya,Descending Dragon,[]
+freya,Descending Dragon (Return Attack),"['Group', 'Ranged', 'Instant', 'FollowUp']"
+freya,High Jump,['Ranged']
+freya,Reis's Wind,[]
+freya,Reis's Wind Follow Up,"['Ranged', 'Heals', 'FollowUp']"
+freya,Dragon Breath,"['Group', 'Ranged']"
+freya,HP Heal Advance All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+freya,Cherry Blossom,"['Group', 'Ranged']"
+freya,Six Dragons,"['Group', 'Ranged', 'Heals', 'Instant', 'NoFree']"
+freya,Spear,"['Group', 'Ranged', 'Heals', 'FollowUp']"
+lannreynn,BRV Attack+,['Melee']
+lannreynn,BRV Attack++,"['Group', 'Melee']"
+lannreynn,HP Attack+,['Melee']
+lannreynn,HP Attack++,"['Group', 'Melee']"
+lannreynn,Thunder & Geocrush,"['Group', 'Magic', 'Thunder', 'Earth']"
+lannreynn,Thunder & Geocrush+,"['Group', 'Magic', 'Thunder', 'Earth']"
+lannreynn,Blizzard & Water,"['Group', 'Magic', 'Ice', 'Water']"
+lannreynn,Blizzard & Water+,"['Group', 'Magic', 'Ice', 'Water']"
+lannreynn,Set Mirage SL,"['Instant', 'NoSummon', 'NoEX']"
+lannreynn,Sonic Fangs,"['Group', 'Melee', 'Fire']"
+lannreynn,Megaflare,"['Group', 'Magic', 'NoFree']"
+lannreynn,Megaflare (Follow Up),"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']"
+lannreynn,Blossom Storm+,"['Group', 'Magic']"
+lannreynn,Eternal Link,"['Group', 'Magic', 'Instant', 'NoFree']"
+lulu,BRV Attack+,['Magic']
+lulu,BRV Attack++,['Magic']
+lulu,HP Attack+,['Magic']
+lulu,HP Attack++,['Magic']
+lulu,Stinger Mog,"['Magic', 'IgnoreDEF']"
+lulu,Stinger Mog+,"['Group', 'Magic', 'IgnoreDEF']"
+lulu,Fire Moomba,"['Magic', 'Fire']"
+lulu,Fire Moomba+,"['Group', 'Magic', 'Fire']"
+lulu,Weak Damage Up All,"['Instant', 'NoSummon', 'NoEX']"
+lulu,Firaga Fury,"['Group', 'Magic', 'Fire']"
+lulu,Firaga Fury+,"['Group', 'Magic', 'Fire']"
+lulu,Double Flare Fury,"['Group', 'Magic', 'NoFree']"
+rinoa,BRV Attack+ (Angel Wing),['Magic']
+rinoa,BRV Attack+ (Angelo),['Magic']
+rinoa,BRV Attack++ (Angel Wing),['Magic']
+rinoa,HP Attack+ (Angel Wing),['Magic']
+rinoa,HP Attack+ (Angelo),['Magic']
+rinoa,HP Attack++ (Angel Wing),['Magic']
+rinoa,Ultima,"['Group', 'Magic']"
+rinoa,Ultima (Angel Wing),"['Group', 'Magic']"
+rinoa,Angelo Cannon,"['Magic', 'Heals']"
+rinoa,Angel Wing,['Instant']
+rinoa,Base Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+rinoa,Angel Wing Meteor,"['Group', 'Magic']"
+rinoa,Angel Wing Meteor (Angelo),"['Group', 'Magic']"
+rinoa,Wishing Star,"['Group', 'Magic', 'NoFree']"
+rinoa,Wings of the Heart,"['Group', 'Magic']"
+rinoa,Double Holy,"['Group', 'Magic', 'NoFree']"
+golbez,BRV Attack+,"['Melee', 'Magic', 'Dark']"
+golbez,BRV Attack++,"['Melee', 'Magic', 'Dark']"
+golbez,HP Attack+,"['Melee', 'Magic', 'Dark']"
+golbez,HP Attack++,"['Melee', 'Magic', 'Dark']"
+golbez,Rising Wave,"['Melee', 'Magic', 'Dark']"
+golbez,Rising Wave+,"['Melee', 'Magic', 'Dark']"
+golbez,Rising Wave++,"['Melee', 'Magic', 'Dark']"
+golbez,Glare Hand,"['Group', 'Melee', 'Magic', 'Dark']"
+golbez,Glare Hand+,"['Group', 'Melee', 'Magic', 'Dark']"
+golbez,Glare Hand++,"['Group', 'Melee', 'Magic', 'Dark']"
+golbez,Dark Enchant,"['Instant', 'NoSummon', 'NoEX']"
+golbez,Twin Meteor,"['Group', 'Magic', 'Dark']"
+golbez,Black Fang,"['Group', 'Magic', 'Dark', 'NoFree']"
+golbez,Twin Moon,"['Group', 'Magic', 'Dark', 'NoFree']"
+rosa,BRV Attack+,['Ranged']
+rosa,Aim,"['Group', 'Ranged']"
+rosa,HP Attack+,['Ranged']
+rosa,HP Attack++,['Ranged']
+rosa,Divine Blast,"['Magic', 'Heals']"
+rosa,Pray,"['Heals', 'Instant']"
+rosa,Attack All,"['Instant', 'NoSummon', 'NoEX']"
+rosa,Luminous Arrow,"['Group', 'Ranged', 'Heals']"
+rosa,Blessed Archery,"['Group', 'Ranged', 'NoFree']"
+rosa,Holy Cross,"['Group', 'Magic']"
+rosa,Holy Blade,"['Group', 'Magic', 'Heals', 'FollowUp']"
+rosa,Black-White Barrage,"['Group', 'Ranged', 'Heals', 'NoFree']"
+cecilpaladin,Light Slash,"['Melee', 'Holy']"
+cecilpaladin,Luminous Blast,"['Ranged', 'Holy']"
+cecilpaladin,Saint's Fall,"['Melee', 'Holy']"
+cecilpaladin,Holy Flame,"['Group', 'Ranged', 'Holy', 'Heals']"
+cecilpaladin,Light Enchant All,"['Instant', 'NoSummon', 'NoEX']"
+cecilpaladin,Paladin Force,"['Melee', 'Holy']"
+cecilpaladin,Luminous Shard,"['Group', 'Ranged', 'Holy', 'Heals', 'NoFree']"
+cecilpaladin,Soul Shift,"['Group', 'Ranged', 'Holy']"
+barret,BRV Attack+,['Ranged']
+barret,BRV Attack++,['Ranged']
+barret,HP Attack+,['Ranged']
+barret,HP Attack++,['Ranged']
+barret,Big Shot,['Ranged']
+barret,Grenade Bomb,"['Group', 'Ranged']"
+barret,All Physical Attack,"['Instant', 'NoSummon', 'NoEX']"
+barret,Satellite Beam,"['Group', 'Ranged']"
+barret,Beam,"['Ranged', 'FollowUp']"
+barret,Maximum Fury,"['Group', 'Ranged', 'NoFree']"
+locke,Mug,['Melee']
+locke,Mug (Thief's Bracer),"['Melee', 'Instant']"
+locke,HP Attack+ (Genji Glove),['Melee']
+locke,HP Attack+ (Master's Scroll),['Melee']
+locke,HP Attack+ (Miracle Shoes),"['Melee', 'Instant']"
+locke,Genji Glove × Master's Scroll,"['Melee', 'Instant']"
+locke,Sneak Slash,['Melee']
+locke,Sneak Slash+,['Melee']
+locke,Phoenix Ray,"['Group', 'Ranged', 'Heals']"
+locke,Steal Item,"['Instant', 'NoSummon', 'NoEX']"
+locke,Mirage Dive,['Melee']
+locke,Dagger Dance,"['Group', 'Melee', 'NoFree']"
+locke,Forever-Shining Magicite,"['Group', 'Melee', 'IgnoreDEF']"
+agrias,BRV Attack+,['Melee']
+agrias,BRV Attack (Faded Moly),['Melee']
+agrias,HP Attack+,['Melee']
+agrias,HP Attack++,['Melee']
+agrias,Knight's Pride,[]
+agrias,Knight's Pride Follow Up,"['Melee', 'Heals', 'FollowUp']"
+agrias,Judgment Blade,"['Group', 'Melee']"
+agrias,Judgment Blade+,"['Group', 'Melee']"
+agrias,Debuff Success Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+agrias,Hallowed Bolt,"['Group', 'Melee']"
+agrias,Divine Ruination,"['Group', 'Melee', 'NoFree']"
+deuce,BRV Attack++,['Magic']
+deuce,BRV Attack+,['Magic']
+deuce,HP Attack++,['Magic']
+deuce,HP Attack+,['Magic']
+deuce,Concerto,"['Heals', 'Instant']"
+deuce,Dissonant Sonata,"['Group', 'Magic']"
+deuce,All Magic Attack,"['Instant', 'NoSummon', 'NoEX']"
+deuce,Requiem of Ruin,"['Group', 'Magic']"
+deuce,Hymn of Healing,"['Group', 'Magic', 'Heals', 'NoFree']"
+seven,BRV Attack+,"['Melee', 'Fire', 'Ice', 'Thunder']"
+seven,HP Attack+,['Melee']
+seven,HP Attack++,['Melee']
+seven,HP Attack (Bondage Whip),['Melee']
+seven,"BRV, HP damage from Bondage Whip",['FollowUp']
+seven,Snakebite & Lash,['Melee']
+seven,Elementalash,"['Melee', 'Fire', 'Ice', 'Thunder', 'FollowUp']"
+seven,Debuff Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+seven,Sadistic Spikes,['Melee']
+seven,Diving Strike,"['Melee', 'Instant', 'NoFree']"
+seven,Exploit Weakness,"['Melee', 'NoFree']"
+fang,BRV Attack+ (Saboteur),['Melee']
+fang,BRV Attack+ (Commando),"['Group', 'Melee']"
+fang,HP Attack+ (Saboteur),['Melee']
+fang,HP Attack+ (Commando),"['Group', 'Melee']"
+fang,HP Attack++ (Saboteur),['Melee']
+fang,HP Attack++ (Commando),"['Group', 'Melee']"
+fang,Umbral Vise,['Melee']
+fang,Whirlwind,"['Group', 'Melee', 'KnockBack']"
+fang,HP Damage Up All,"['Instant', 'NoSummon', 'NoEX']"
+fang,Highwind,"['Group', 'Ranged', 'KnockBack']"
+fang,Highwind+,"['Group', 'Ranged', 'KnockBack']"
+fang,Aerial Loop,"['Group', 'Melee', 'NoFree']"
+leon,BRV Attack+,['Melee']
+leon,BRV Attack++,['Melee']
+leon,BRV Attack+++,['Melee']
+leon,HP Attack+,"['Melee', 'Heals']"
+leon,HP Attack++,"['Melee', 'Heals']"
+leon,HP Attack+++,"['Melee', 'Heals']"
+leon,Dark Slash,"['Melee', 'Dark']"
+leon,Dark Slash+,"['Melee', 'Dark']"
+leon,Dark Bind,"['Group', 'Magic', 'Dark', 'Heals']"
+leon,Dark Bind+,"['Group', 'Magic', 'Dark', 'Heals']"
+leon,Dark Enchant,"['Instant', 'NoSummon', 'NoEX']"
+leon,Dark Stream,"['Group', 'Melee', 'Dark']"
+leon,Dark Stream+,"['Group', 'Melee', 'Dark']"
+leon,Dark Erosion,"['Group', 'Melee', 'Dark', 'Heals', 'NoFree']"
+leon,Dark Drain,"['Magic', 'Dark', 'Heals', 'Instant', 'Traps']"
+beatrix,BRV Attack+,['Magic']
+beatrix,BRV Attack++,['Magic']
+beatrix,BRV Attack+++,['Magic']
+beatrix,HP Attack+,['Magic']
+beatrix,HP Attack+++,['Magic']
+beatrix,Holy Knight's Safeguard,"['Magic', 'Heals', 'Instant']"
+beatrix,Saint Cloth,[]
+beatrix,Saint Cloth Follow Up,"['Magic', 'Instant', 'FollowUp']"
+beatrix,Thunder Slash,"['Group', 'Magic', 'Thunder']"
+beatrix,Thunder Slash+,"['Group', 'Magic', 'Thunder']"
+beatrix,HP Heal Attack All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+beatrix,Climhazzard,"['Group', 'Magic']"
+beatrix,Climhazzard+,"['Group', 'Magic']"
+beatrix,Climhazzard++,"['Group', 'Magic']"
+beatrix,Shock,"['Group', 'Magic', 'IgnoreDEF', 'NoFree']"
+beatrix,Rose Petals Counterattack,"['Magic', 'Thunder', 'IgnoreDEF', 'Instant', 'Counters', 'NoFree']"
+beatrix,Roses of May,"['Group', 'Magic']"
+beatrix,Dedicated Knight's Pride,"['Group', 'Magic', 'Thunder', 'NoFree']"
+caitsith,BRV Attack+,['Melee']
+caitsith,BRV Attack++,['Melee']
+caitsith,HP Attack+,['Melee']
+caitsith,Toy Soldier,['Melee']
+caitsith,Toy Soldier+,"['Group', 'Melee']"
+caitsith,Toy Soldier++,"['Group', 'Melee']"
+caitsith,Mog Dance,['Heals']
+caitsith,Mog Dance+,"['Heals', 'Instant']"
+caitsith,Mog Dance++,"['Heals', 'Instant']"
+caitsith,BRV Heal Advance All,"['Instant', 'NoSummon', 'NoEX']"
+caitsith,Dice,"['Group', 'Melee']"
+caitsith,Lucky Girl,"['Group', 'Melee', 'NoFree']"
+relm,BRV Attack+,['Magic']
+relm,BRV Attack++,['Magic']
+relm,HP Attack+,['Magic']
+relm,HP Attack++,['Magic']
+relm,Tentacle,"['Group', 'Magic']"
+relm,Sketch Summon,[]
+relm,Hellfire (Sketch Summon),"['Group', 'Magic', 'Fire', 'FollowUp']"
+relm,Diamond Dust (Sketch Summon),"['Group', 'Magic', 'Ice', 'FollowUp']"
+relm,Judgment Bolt (Sketch Summon),"['Group', 'Magic', 'Thunder', 'FollowUp']"
+relm,Chocobo Kick (Sketch Summon),"['Group', 'Melee', 'FollowUp']"
+relm,Whispering Wind (Sketch Summon),"['Heals', 'FollowUp']"
+relm,Zantetsuken (Sketch Summon),"['Group', 'Magic', 'FollowUp']"
+relm,Tsunami (Sketch Summon),"['Group', 'Magic', 'Water', 'FollowUp']"
+relm,Divine Judgment (Sketch Summon),"['Group', 'Magic', 'Holy', 'FollowUp']"
+relm,Megaflare (Sketch Summon),"['Group', 'Magic', 'FollowUp']"
+relm,Brotherly Love (Sketch Summon),"['Group', 'Melee', 'Earth', 'FollowUp']"
+relm,Tornado Zone (Sketch Summon),"['Group', 'Magic', 'Wind', 'FollowUp']"
+relm,Dark Messenger (Sketch Summon),"['Group', 'Magic', 'Dark', 'FollowUp']"
+relm,"Watch the fluff, kupo～ (Sketch Summon)",['FollowUp']
+relm,Sketch Summon Follow Up,"['Group', 'Magic', 'FollowUp']"
+relm,Sketch,['Magic']
+relm,Sketch+,['Magic']
+relm,Sketch Longer,"['Instant', 'NoSummon', 'NoEX']"
+relm,Star Prism,"['Group', 'Magic']"
+relm,Ulty Sketch,"['Group', 'Magic', 'NoFree']"
+gilgamesh,Kotetsu,['Melee']
+gilgamesh,Genji Blade,['Melee']
+gilgamesh,Royal Sword？(III),"['Melee', 'Instant']"
+gilgamesh,Mythgraven Blade？(IV),"['Melee', 'Heals', 'Instant']"
+gilgamesh,Apocalypse？(VII),"['Melee', 'Instant']"
+gilgamesh,Icebrand？(T),"['Melee', 'Instant', 'KnockBack']"
+gilgamesh,Death Claw,['Melee']
+gilgamesh,Mad Dance,['Melee']
+gilgamesh,Wild Dance,['Melee']
+gilgamesh,Advance Up,"['Instant', 'NoSummon', 'NoEX']"
+gilgamesh,Hurricane,"['Group', 'Melee']"
+gilgamesh,I suppose I misjudged!,"['Group', 'Melee', 'NoFree']"
+gilgamesh,Ultimate Illusion,"['Group', 'Melee']"
+selphie,BRV Attack+,['Melee']
+selphie,BRV Attack++,['Melee']
+selphie,HP Attack+,['Melee']
+selphie,HP Attack++,['Melee']
+selphie,Drain,"['Group', 'Magic', 'Heals']"
+selphie,Wall,['Instant']
+selphie,Ability Recovery,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+selphie,Aura,"['Heals', 'Instant']"
+selphie,Rapture,"['Group', 'Magic', 'KnockBack', 'NoFree']"
+alisaie,BRV Attack+,['Magic']
+alisaie,BRV Attack++,['Magic']
+alisaie,HP Attack+,['Magic']
+alisaie,Enchanted Riposte,['Magic']
+alisaie,HP Attack++,['Magic']
+alisaie,Enchanted Redoublement,['Magic']
+alisaie,Veraero,"['Magic', 'Wind']"
+alisaie,Verstone,"['Magic', 'Earth']"
+alisaie,Verholy,['Magic']
+alisaie,Verthunder,"['Magic', 'Thunder']"
+alisaie,Verfire,"['Magic', 'Fire']"
+alisaie,Verflare,"['Magic', 'Fire']"
+alisaie,Attack Up Advance,"['Instant', 'NoSummon', 'NoEX']"
+alisaie,Jolt II Combo,"['Magic', 'Instant']"
+alisaie,Fleche & Contre Sixte,"['Ranged', 'NoFree']"
+alisaie,Fleche & Contre Sixte Follow Up,"['Group', 'Ranged', 'FollowUp', 'NoFree']"
+noctis,BRV Attack+,['Ranged']
+noctis,BRV Attack++,['Ranged']
+noctis,HP Attack+,['Ranged']
+noctis,HP Attack++,['Ranged']
+noctis,Shooting Star+,"['Group', 'Ranged', 'KnockBack']"
+noctis,Shooting Star,"['Group', 'Ranged']"
+noctis,Additional attack from Point-Blank Warp,"['Ranged', 'Instant', 'FollowUp']"
+noctis,Warp-Strike+,['Ranged']
+noctis,Warp-Strike,['Ranged']
+noctis,Death Drop+,['Ranged']
+noctis,Death Drop,['Ranged']
+noctis,Set Warp Advance,"['Instant', 'NoSummon', 'NoEX']"
+noctis,Conjure Armiger,"['Melee', 'Ranged']"
+noctis,Conjure Armiger+,"['Melee', 'Ranged']"
+noctis,Steel Pirouette,"['Group', 'Ranged', 'NoFree']"
+noctis,Legacy of the Lucii,['Ranged']
+noctis,Additional attack from Legacy of the Lucii,"['Ranged', 'FollowUp']"
+noctis,Inherited Heart,"['Group', 'Ranged', 'NoFree']"
+jecht,BRV Attack+,['Melee']
+jecht,BRV Attack++,"['Group', 'Melee', 'Fire']"
+jecht,HP Attack+,['Melee']
+jecht,HP Attack++,['Melee']
+jecht,Beast Rush,"['Melee', 'Fire']"
+jecht,Beast Rush+,"['Melee', 'Fire']"
+jecht,Beast Rush+ Follow Up,"['Melee', 'FollowUp']"
+jecht,Jecht Slash,"['Melee', 'Fire']"
+jecht,Jecht Slash+,"['Melee', 'Fire']"
+jecht,Jecht Slash+ Follow Up,"['Melee', 'Fire', 'Instant', 'FollowUp']"
+jecht,Jecht Slash Recovery,"['Instant', 'NoSummon', 'NoEX']"
+jecht,Meteor Shot,['Melee']
+jecht,Triumphant Grasp,"['Group', 'Melee', 'Fire', 'NoFree']"
+jecht,Blitz King,"['Group', 'Melee', 'Fire']"
+yuri,BRV Attack+,['Melee']
+yuri,Magic Blast – Holyga,['Instant']
+yuri,Magic Blast – Holyga (Triggered),"['Group', 'Magic', 'Holy', 'Instant', 'Traps', 'FollowUp']"
+yuri,Magic Blast – Holyga+ (Triggered),"['Group', 'Magic', 'Holy', 'Instant', 'Traps', 'FollowUp']"
+yuri,HP Attack+,['Melee']
+yuri,Crystal Power,"['Group', 'Ranged']"
+yuri,Rela Crystal,"['Magic', 'Holy']"
+yuri,Base Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+yuri,Clavatian Sword,"['Group', 'Ranged', 'Holy']"
+yuri,Magic Blast – Ultiga,"['Group', 'Magic', 'NoFree']"
+yuri,Great Rainbow Circle,"['Group', 'Magic']"
+yuri,Slowga Bomb,"['Group', 'Magic', 'Holy', 'NoFree']"
+lilisette,BRV Attack+,['Melee']
+lilisette,BRV Attack++,['Melee']
+lilisette,HP Attack+,"['Melee', 'Heals']"
+lilisette,HP Attack++,"['Melee', 'Heals']"
+lilisette,Whirling Edge,"['Group', 'Melee']"
+lilisette,Sensual Dance,[]
+lilisette,Boost All,"['Instant', 'NoSummon', 'NoEX']"
+lilisette,Rousing Samba & Dancer's Fury,[]
+lilisette,Dancer's Fury,"['Melee', 'FollowUp']"
+lilisette,Vivifying Waltz & Rudra's Storm,"['Group', 'Melee', 'Heals', 'NoFree']"
+lilisette,Butterfly Steps,"['Group', 'Melee', 'NoFree']"
+zack,BRV Attack+,['Melee']
+zack,BRV Attack++,['Melee']
+zack,HP Attack+,['Melee']
+zack,HP Attack++,['Melee']
+zack,Chain Slash,"['Melee', 'FollowUp']"
+zack,Rush Assault,"['Melee', 'IgnoreDEF']"
+zack,Base Up Advance,"['Instant', 'NoSummon', 'NoEX']"
+zack,Apocalypse,"['Group', 'Magic', 'Heals']"
+zack,Meteor Shots,"['Group', 'Magic', 'Heals', 'NoFree']"
+zack,The Price of Freedom,['Melee']
+zack,Scorcher Blaze,"['Group', 'Melee', 'NoFree']"
+kefka,Meteor,['Magic']
+kefka,Meteor+,"['Magic', 'Instant']"
+kefka,Meteor+ Follow Up,"['Magic', 'Instant', 'FollowUp']"
+kefka,HP Attack+,['Magic']
+kefka,Trine,"['Group', 'Magic']"
+kefka,Trine+,"['Group', 'Magic']"
+kefka,Light of Judgment,"['Group', 'Magic']"
+kefka,Light of Judgment+,"['Group', 'Magic']"
+kefka,Multi-Debuff Damage Up,"['Instant', 'NoSummon', 'NoEX']"
+kefka,Havoc Wing,"['Group', 'Magic']"
+kefka,Hyperdrive,"['Group', 'Magic', 'NoFree']"
+kefka,Forsaken,"['Group', 'Magic']"
+rydia,BRV Attack+,['Magic']
+rydia,BRV Attack++,"['Magic', 'Water']"
+rydia,HP Attack++,"['Magic', 'Water']"
+rydia,Flare (IV),['Magic']
+rydia,Summon Leviathan,"['Group', 'Magic', 'Water']"
+rydia,Weak Damage Up All,"['Instant', 'NoSummon', 'NoEX']"
+rydia,Summon Dragon,"['Group', 'Magic', 'IgnoreDEF']"
+rydia,Radiant Breath,"['Group', 'Magic', 'Water', 'IgnoreDEF', 'NoFree']"
+rydia,Contrast Burst,"['Group', 'Magic', 'NoFree']"
+cidhighwind,Boost Jump,"['Group', 'Ranged', 'Wind']"
+cidhighwind,Dragon,"['Ranged', 'Wind', 'Heals']"
+cidhighwind,Hyper Jump,"['Group', 'Ranged', 'Wind']"
+cidhighwind,Dragon Dive,"['Ranged', 'Wind']"
+cidhighwind,Aero Enchant Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+cidhighwind,Big Brawl,"['Group', 'Ranged']"
+cidhighwind,Highwind,"['Group', 'Ranged', 'Wind', 'NoFree']"
+cidhighwind,Bombs Away,"['Group', 'Ranged', 'Wind', 'FollowUp']"
+lenna,BRV Attack+,['Ranged']
+lenna,HP Attack+,['Ranged']
+lenna,Dragon Breath,"['Group', 'Ranged']"
+lenna,Rapid Fire,"['Group', 'Ranged']"
+lenna,Rapid Fire+,"['Group', 'Ranged']"
+lenna,Wind Drake Arrow,"['Ranged', 'Heals']"
+lenna,Wind Drake Arrow+,"['Ranged', 'Heals']"
+lenna,BRV Heal Boost All,"['Instant', 'NoSummon', 'NoEX']"
+lenna,Brave Phoenix,"['Group', 'Ranged', 'Heals']"
+lenna,Goliath Tonic & Dragon Breath,"['Group', 'Ranged', 'Heals', 'NoFree']"
+sephiroth,BRV Attack+,['Melee']
+sephiroth,BRV Attack++,['Melee']
+sephiroth,HP Attack+,['Melee']
+sephiroth,HP Attack++,['Melee']
+sephiroth,Fervent Blow,"['Group', 'Melee']"
+sephiroth,Octaslash,['Melee']
+sephiroth,Attack Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+sephiroth,Black Materia,"['Group', 'Magic']"
+sephiroth,Scintilla,"['Group', 'Melee', 'NoFree']"
+sephiroth,Heaven's Light,"['Group', 'Melee']"
+sephiroth,Black Conflict,"['Group', 'Melee', 'NoFree']"
+seifer,BRV Attack+,"['Group', 'Ranged']"
+seifer,BRV Attack++,"['Group', 'Ranged']"
+seifer,HP Attack+,"['Group', 'Ranged']"
+seifer,HP Attack++,"['Group', 'Ranged']"
+seifer,No Mercy,"['Group', 'Ranged', 'Wind']"
+seifer,Bloodfest,"['Group', 'Ranged']"
+seifer,Set Defense Down,"['Instant', 'NoSummon', 'NoEX']"
+seifer,Demon Slice X,"['Group', 'Ranged']"
+seifer,Purge,"['Group', 'Ranged', 'NoFree']"
+fujin,BRV Attack++,"['Group', 'Ranged', 'Wind']"
+fujin,BRV Attack+,"['Group', 'Ranged', 'Wind']"
+fujin,HP Attack+,"['Ranged', 'Wind']"
+fujin,Metsu,"['Group', 'Ranged']"
+fujin,Metsu+,"['Group', 'Ranged', 'Wind', 'KnockBack']"
+fujin,Sai,"['Melee', 'Wind']"
+fujin,Sai+,"['Melee', 'Wind', 'KnockBack']"
+fujin,Delay Attack All Throw,"['Group', 'Ranged', 'Wind', 'Instant', 'NoSummon', 'NoEX']"
+fujin,Tai,"['Group', 'Ranged', 'Wind', 'KnockBack']"
+fujin,Wind Slash,"['Ranged', 'Wind', 'KnockBack', 'Traps']"
+fujin,Satsu,"['Group', 'Ranged', 'Wind', 'NoFree']"
+fujin,Hyō,"['Group', 'Ranged', 'Wind', 'KnockBack', 'NoFree']"
+raijin,BRV Attack+,"['Melee', 'Thunder']"
+raijin,HP Attack+,"['Melee', 'Thunder']"
+raijin,Lightning Discharge,"['Group', 'Melee', 'Thunder']"
+raijin,Lightning Discharge+,"['Group', 'Melee', 'Thunder']"
+raijin,Lightning Discharge++,"['Group', 'Melee', 'Thunder', 'Instant']"
+raijin,Fist,['Melee']
+raijin,Fist+,"['Melee', 'Thunder']"
+raijin,Raijin Special,"['Melee', 'Thunder']"
+raijin,Raijin Special+,"['Group', 'Melee', 'Thunder']"
+raijin,Physical Attack All Thunder Crush,"['Melee', 'Thunder', 'Instant', 'NoSummon', 'NoEX']"
+raijin,Raijin Pulverizer,"['Melee', 'Thunder']"
+raijin,Raijin Prod,"['Group', 'Melee', 'Thunder', 'Heals', 'NoFree']"
+quistis,BRV Attack+,['Melee']
+quistis,BRV Attack++,['Melee']
+quistis,HP Attack+,['Melee']
+quistis,HP Attack++,['Melee']
+quistis,Laser Whip,['Melee']
+quistis,Degenerator Whip,"['Melee', 'Instant']"
+quistis,Ability Recovery,"['Instant', 'NoSummon', 'NoEX']"
+quistis,Homing Whip,['Melee']
+quistis,Ray Whip,"['Group', 'Melee', 'NoFree']"
+quistis,Shockwave Pulsar,"['Group', 'Melee']"
+quistis,Scatter Whip,"['Group', 'Melee', 'NoFree']"
+maria,BRV Attack+,['Ranged']
+maria,BRV Attack++,['Ranged']
+maria,HP Attack+,['Ranged']
+maria,HP Attack++,['Ranged']
+maria,Proper Shot,"['Ranged', 'Wind']"
+maria,Arrow Rain,"['Group', 'Ranged', 'Heals']"
+maria,HP Heal Attack All,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+maria,Explosive Bow,['Ranged']
+maria,Targeted Serial Fire,"['Group', 'Ranged', 'Heals', 'NoFree']"
+maria,Haya Otoya,"['Ranged', 'Heals', 'Instant', 'Traps']"
+maria,Twin Bowplay,"['Group', 'Ranged', 'Heals', 'NoFree']"
+palom,BRV Attack+,['Magic']
+palom,BRV Attack++,['Magic']
+palom,Dualcast,['Magic']
+palom,Dualcast++,['Magic']
+palom,Bluff,[]
+palom,Bluff+,[]
+palom,Bluff++,[]
+palom,Bluff/+/++ Follow Up,"['Magic', 'Ice', 'FollowUp']"
+palom,Mysidian Ice Crystal,"['Magic', 'Ice']"
+palom,Mysidian Ice Crystal+,"['Magic', 'Ice']"
+palom,Mysidian Ice Crystal++,"['Magic', 'Ice']"
+palom,Great Mysidian Ice Crystal,"['Magic', 'Ice']"
+palom,Blizzard Burst,"['Magic', 'Ice', 'Instant', 'NoSummon', 'NoEX']"
+palom,Stardust,"['Group', 'Magic']"
+palom,Twincast Double Blizzaga,"['Group', 'Magic', 'Ice', 'NoFree']"
+palom,Twincast Double Blizzaga+,"['Group', 'Magic', 'Ice', 'NoFree']"
+palom,Twincast Double Blizzaga++,"['Group', 'Magic', 'Ice', 'NoFree']"
+kuja,BRV Attack+,['Magic']
+kuja,BRV Attack++,['Magic']
+kuja,BRV Attack+++,"['Magic', 'Holy']"
+kuja,HP Attack+,['Magic']
+kuja,HP Attack++,['Magic']
+kuja,HP Attack+++,"['Magic', 'Holy']"
+kuja,Ring Holy+,"['Magic', 'Holy']"
+kuja,Ring Holy,"['Magic', 'Holy']"
+kuja,Ultima (IX)+,"['Group', 'Magic']"
+kuja,Ultima (IX),"['Group', 'Magic']"
+kuja,Ultima (IX)+ Follow Up,"['Group', 'Magic', 'FollowUp']"
+kuja,Ability Recovery Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+kuja,Symphonic Force,"['Group', 'Magic']"
+kuja,Seraphic Star,"['Group', 'Magic', 'Holy', 'NoFree']"
+kuja,Flare Star,"['Group', 'Magic', 'Holy']"
+kuja,Starlight Soiree,"['Group', 'Magic', 'Holy', 'NoFree']"
+kain,Jump,"['Group', 'Ranged']"
+kain,Double Jump,[]
+kain,Double Jump (Return),"['Group', 'Ranged', 'Instant', 'FollowUp']"
+kain,HP Attack+,['Ranged']
+kain,Jump III,"['Group', 'Ranged']"
+kain,Gungnir,['Ranged']
+kain,BRV Up Thrust,"['Ranged', 'Instant', 'NoSummon', 'NoEX']"
+kain,Fang and Claw,"['Ranged', 'KnockBack']"
+kain,Rising Drive,"['Ranged', 'Instant', 'NoFree']"
+kain,Lancet,"['Group', 'Ranged', 'Instant', 'FollowUp']"
+kain,Dragoon's Pride,"['Group', 'Ranged']"
+kain,Cross Jump,"['Group', 'Ranged', 'Instant', 'KnockBack', 'NoFree']"
+celes,BRV Attack+,"['Melee', 'Ice']"
+celes,HP Attack+,"['Magic', 'Ice']"
+celes,Shine Edge,"['Magic', 'Heals']"
+celes,Runic,['Instant']
+celes,Runic Follow Up,"['Magic', 'FollowUp']"
+celes,Set Lock All,"['Instant', 'NoSummon', 'NoEX']"
+celes,Spinning Edge,['Magic']
+celes,Freeze Dive,"['Group', 'Magic', 'Ice', 'Heals', 'NoFree']"
+celes,Magitek Ice Block,"['Magic', 'Ice', 'Heals', 'Instant', 'Traps']"
+celes,Searching for Friends,"['Group', 'Magic']"
+celes,Change The Air,"['Group', 'Magic', 'NoFree']"
+garnet,Deluge,"['Group', 'Magic', 'Water']"
+garnet,Superbolt,"['Group', 'Magic', 'Thunder']"
+garnet,Deluge+,"['Group', 'Magic', 'Water']"
+garnet,Superbolt+,"['Group', 'Magic', 'Thunder']"
+garnet,Dragon Wave,"['Magic', 'Water']"
+garnet,Hammer of Judgment,"['Magic', 'Thunder']"
+garnet,Dragon Wave+,"['Magic', 'Water']"
+garnet,Hammer of Judgment+,"['Magic', 'Thunder']"
+garnet,Aquamarine Waterglint,"['Group', 'Magic', 'Water']"
+garnet,Peridot Thunderflash,"['Group', 'Magic', 'Thunder']"
+garnet,BRV Regen Boost All,"['Instant', 'NoSummon', 'NoEX']"
+garnet,Holy Prayer,"['Heals', 'Instant']"
+garnet,Eternal Darkness,"['Group', 'Magic', 'Heals', 'NoFree']"
+garnet,Eidolon Eternal Darkness,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']"
+garnet,Divine Judgment,"['Group', 'Magic']"
+garnet,Immaculate Judgment,"['Group', 'Magic', 'Traps']"
+garnet,G-Force 199 & Hellfire,"['Group', 'Magic', 'Thunder', 'Water', 'NoFree']"
+edgar,BRV Attack+,['Melee']
+edgar,BRV Attack++,['Melee']
+edgar,HP Attack+,['Melee']
+edgar,HP Attack++,['Melee']
+edgar,Bioblaster+,"['Group', 'Magic', 'IgnoreDEF']"
+edgar,Bioblaster,"['Group', 'Magic']"
+edgar,Auto Crossbow,"['Group', 'Ranged']"
+edgar,Auto Crossbow+,"['Group', 'Ranged', 'IgnoreDEF']"
+edgar,Drill,['Melee']
+edgar,Drill+,"['Melee', 'IgnoreDEF']"
+edgar,Debuff Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+edgar,Chainsaw,['Melee']
+edgar,Chainsaw+,"['Melee', 'IgnoreDEF']"
+edgar,Royal Shock,"['Group', 'Magic', 'Instant', 'NoFree']"
+edgar,Royal Shock+,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'NoFree']"
+edgar,Air Anchor,"['Group', 'Ranged', 'IgnoreDEF']"
+edgar,Additional attack from Air Anchor,"['Ranged', 'IgnoreDEF', 'Traps']"
+edgar,Chance Maker,"['Group', 'Melee', 'Ranged', 'Magic', 'IgnoreDEF', 'NoFree']"
+serah,BRV Attack+,['Magic']
+serah,BRV Attack++,['Magic']
+serah,HP Attack+,['Ranged']
+serah,HP Attack++,['Ranged']
+serah,Wound,"['Group', 'Magic']"
+serah,Wound+,"['Group', 'Magic']"
+serah,Moonlight,['Magic']
+serah,Moonlight+,"['Group', 'Magic']"
+serah,Advance All,"['Instant', 'NoSummon', 'NoEX']"
+serah,Ultima Arrow,['Magic']
+serah,Paradigm Shift Combo,"['Group', 'Magic', 'NoFree']"
+serah,Feral Link Reunion,"['Group', 'Magic']"
+serah,Additional attack from Feral Link Reunion,"['Group', 'Magic', 'FollowUp']"
+serah,Wound Torrent,"['Group', 'Magic', 'NoFree']"
+irvine,BRV Attack+,['Ranged']
+irvine,Dark Ammo,"['Group', 'Ranged']"
+irvine,HP Attack+,['Ranged']
+irvine,HP Attack++,"['Ranged', 'Heals']"
+irvine,Pulse Ammo,['Ranged']
+irvine,Canister Shot,['Ranged']
+irvine,Scatter Shot,"['Group', 'Ranged']"
+irvine,Debuff Act Longer Shot,"['Ranged', 'Instant', 'NoSummon', 'NoEX']"
+irvine,Armor Shot,"['Ranged', 'Heals']"
+irvine,Alternative Shot,"['Instant', 'NoFree']"
+auron,BRV Attack+,['Melee']
+auron,BRV Attack++,['Melee']
+auron,HP Attack+,"['Group', 'Melee']"
+auron,Banishing Blade,['Melee']
+auron,Purgatory,"['Group', 'Melee']"
+auron,Weak Damage Up Crush,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+auron,Dragon Fang,"['Group', 'Melee']"
+auron,Tornado,"['Group', 'Melee', 'IgnoreDEF', 'NoFree']"
+auron,Counter,"['Group', 'Melee', 'Heals', 'IgnoreDEF', 'Counters']"
+lion,BRV Attack (Bully),[]
+lion,BRV Attack+,['Melee']
+lion,HP Attack+,['Melee']
+lion,Sneak Attack,['Melee']
+lion,Sneak Attack (Hide),['Melee']
+lion,Powder Keg,['Ranged']
+lion,Powder Keg (Hide),['Ranged']
+lion,Sneak Thrust,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+lion,Walk the Plank: Light,"['Group', 'Melee']"
+lion,Walk the Plank: Light Follow Up,"['Magic', 'Holy', 'Instant', 'FollowUp']"
+lion,Pirate Pummel,"['Melee', 'NoFree']"
+lion,Additional attack from Bully,"['Melee', 'Instant', 'FollowUp', 'NoFree']"
+aerith,BRV Attack+,['Magic']
+aerith,BRV Attack++,['Magic']
+aerith,BRV Attack+++,['Magic']
+aerith,HP Attack+,['Magic']
+aerith,HP Attack++,['Magic']
+aerith,HP Attack+++,['Magic']
+aerith,HP Attack (Seal Evil),['Magic']
+aerith,Healing Wind,['Heals']
+aerith,Prayer of the Cetra,['Heals']
+aerith,BRV Regen Attack All,"['Instant', 'NoSummon', 'NoEX']"
+aerith,Fury Brand,[]
+aerith,Fury Brand Follow Up,"['Magic', 'Heals', 'FollowUp']"
+aerith,Seal Evil,"['Group', 'Magic', 'NoFree']"
+aerith,Additional attack from Seal Evil,"['Group', 'Instant', 'FollowUp']"
+aerith,Holy,"['Group', 'Magic', 'Heals']"
+aerith,Additional attack from White Materia's Brilliance,"['Group', 'Magic', 'Instant', 'FollowUp']"
+aerith,HP recovery from Holy,"['Heals', 'Instant', 'Counters']"
+aerith,Flowers Floating in Another World,"['Heals', 'Instant', 'NoFree']"
+ashe,BRV Attack+,['Melee']
+ashe,BRV Attack++,['Melee']
+ashe,HP Attack (Queen's Order),"['Melee', 'Instant']"
+ashe,HP Attack+,['Melee']
+ashe,HP Attack++,['Melee']
+ashe,Nordswain's Glow,['Magic']
+ashe,Heaven's Wrath,"['Magic', 'Holy']"
+ashe,Attack All,"['Instant', 'NoSummon', 'NoEX']"
+ashe,Maelstrom's Bolt,"['Magic', 'Thunder']"
+ashe,Ark Blast,"['Magic', 'Thunder', 'FollowUp']"
+ashe,Nescience's Verdict,"['Group', 'Magic', 'Thunder', 'Holy', 'NoFree']"
+ashe,Empyrean's Edict,"['Group', 'Magic']"
+ashe,Additional attack from Empyrean's Edict,"['Group', 'Magic', 'Heals', 'FollowUp']"
+ashe,Mistbreak's Fulmination,"['Group', 'Magic', 'NoFree']"
+cater,BRV Attack+,['Ranged']
+cater,Charged Shot,['Ranged']
+cater,Charged Shot (Charge LV 1),"['Ranged', 'Ice']"
+cater,Charged Shot (Max Charge),"['Ranged', 'Ice']"
+cater,HP Attack+,['Ranged']
+cater,Wide Shot,"['Group', 'Ranged']"
+cater,Wide Shot (Charge LV 1),"['Group', 'Ranged']"
+cater,Wide Shot (Max Charge),"['Group', 'Ranged']"
+cater,Blizzard ROK,"['Group', 'Magic', 'Ice']"
+cater,Blizzara ROK,"['Group', 'Magic', 'Ice']"
+cater,Triple Slip,['Instant']
+cater,Counter,"['Magic', 'Ice', 'Instant', 'Counters']"
+cater,Blizzard Shot,"['Magic', 'Ice', 'Instant', 'NoSummon', 'NoEX']"
+cater,Consecutive Rounds,"['Group', 'Magic']"
+cater,Land Mine,"['Magic', 'Ice', 'Instant', 'Traps']"
+cater,Frost Stilling Shot,"['Group', 'Magic', 'Ice', 'NoFree']"
+snow,BRV Attack+,['Melee']
+snow,BRV Attack++,['Melee']
+snow,HP Attack+,['Melee']
+snow,HP Attack++,['Melee']
+snow,Steelguard,[]
+snow,Steelguard Follow Up,"['Melee', 'Ice', 'FollowUp']"
+snow,Froststrike,"['Melee', 'Ice', 'Heals']"
+snow,HP Regen Attack All,"['Instant', 'NoSummon', 'NoEX']"
+snow,Sovereign Fist,"['Group', 'Melee']"
+snow,Ice Ramp,"['Group', 'Melee', 'Ice', 'NoFree']"
+snow,Retribution,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']"
+snow,Retribution+,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']"
+snow,We'll never give up!,"['Group', 'Melee', 'Ice']"
+thancred,BRV Attack+ (Ninki),['Melee']
+thancred,BRV Attack++,['Melee']
+thancred,BRV Attack++ (Ninki),"['Melee', 'Instant']"
+thancred,Trick Attack,"['Melee', 'Instant']"
+thancred,HP Attack+,"['Group', 'Melee']"
+thancred,HP Attack++,['Melee']
+thancred,Jugulating Wasp,['Melee']
+thancred,Shadow Fang,['Melee']
+thancred,Slash Set Poison All,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+thancred,Bhavacakra,['Magic']
+thancred,Bhavacakra+,['Magic']
+thancred,Dream Within a Dream & Assassinate,"['Melee', 'NoFree']"
+lightning,BRV Attack+ (Ravager),['Melee']
+lightning,BRV Attack+ (Commando),['Melee']
+lightning,HP Attack+ (Ravager),['Melee']
+lightning,HP Attack+ (Commando),['Melee']
+lightning,HP Attack++ (Ravager),['Melee']
+lightning,HP Attack++ (Commando),['Melee']
+lightning,Sparkstrike,"['Melee', 'Thunder']"
+lightning,Sparkstrike+,"['Melee', 'Thunder', 'Free']"
+lightning,Flourish of Steel,"['Melee', 'IgnoreDEF']"
+lightning,Flourish of Steel+,"['Melee', 'IgnoreDEF', 'Free']"
+lightning,Break Reset Slash,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+lightning,Army of One,"['Melee', 'Heals']"
+lightning,Army of One+,"['Melee', 'Heals']"
+lightning,Crushing Blow,"['Group', 'Melee', 'Thunder', 'NoFree']"
+lightning,Gestalt Drive,"['Melee', 'Thunder']"
+lightning,Memorie Della Rosa,"['Group', 'Melee', 'Thunder', 'NoFree']"
+papalymo,BRV Attack+ (Fire),"['Magic', 'Fire']"
+papalymo,BRV Attack+ (Ice),"['Magic', 'Ice']"
+papalymo,BRV Attack++ (Fire),"['Magic', 'Fire']"
+papalymo,BRV Attack++ (Ice),"['Magic', 'Ice']"
+papalymo,Xenoglossy,"['Magic', 'Instant']"
+papalymo,HP Attack++ (Fire),"['Magic', 'Fire']"
+papalymo,HP Attack++ (Ice),['Magic']
+papalymo,Foul,"['Group', 'Magic', 'Instant', 'NoSummon', 'NoEX']"
+papalymo,Astral Fire,"['Magic', 'Fire']"
+papalymo,Umbral Ice,"['Magic', 'Ice']"
+papalymo,Umbral Ice+,"['Magic', 'Ice']"
+papalymo,Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+papalymo,Fire IV,"['Group', 'Magic', 'Fire', 'Instant']"
+papalymo,Blizzard IV,"['Magic', 'Ice', 'Instant']"
+papalymo,Despair,"['Magic', 'Fire', 'Instant', 'NoFree']"
+cyan,BRV Attack+,"['Melee', 'IgnoreDEF']"
+cyan,HP Attack+,"['Melee', 'IgnoreDEF']"
+cyan,Concentrate: Fang,['Free']
+cyan,Bushido Fang,"['Melee', 'IgnoreDEF']"
+cyan,Concentrate: Dragon,['Free']
+cyan,Bushido Dragon,"['Melee', 'Heals', 'IgnoreDEF']"
+cyan,Guard Penetration Crush Advance,"['Melee', 'IgnoreDEF', 'Instant', 'NoSummon', 'NoEX']"
+cyan,Tsubame Gaeshi,"['Melee', 'IgnoreDEF']"
+cyan,Tsubame Gaeshi+,"['Melee', 'IgnoreDEF']"
+cyan,Bushido Tempest,"['Melee', 'IgnoreDEF', 'NoFree']"
+krile,BRV Attack+,"['Magic', 'Thunder']"
+krile,BRV Attack++,"['Magic', 'Thunder']"
+krile,HP Attack+,"['Magic', 'Thunder']"
+krile,HP Attack++,"['Magic', 'Thunder']"
+krile,Ray of Hope+,[]
+krile,Ray of Hope,[]
+krile,Thunder (V),"['Magic', 'Thunder']"
+krile,Thunder (V)+,"['Magic', 'Thunder']"
+krile,Advance All,"['Instant', 'NoSummon', 'NoEX']"
+krile,Quick Dualcast,"['Group', 'Magic', 'Thunder']"
+krile,Cleansing,"['Group', 'Magic', 'Thunder', 'NoFree']"
+krile,Judgment,"['Magic', 'Thunder', 'Traps']"
+krile,Retribution on Three,"['Group', 'Magic', 'Thunder', 'NoFree']"
+sabin,BRV Attack+,['Magic']
+sabin,BRV Attack (Fighting Tiger),"['Magic', 'Wind', 'Holy']"
+sabin,HP Attack+,"['Magic', 'Wind', 'Holy']"
+sabin,HP Attack++,"['Magic', 'Wind', 'Holy']"
+sabin,HP Attack (Fighting Tiger),"['Magic', 'Wind', 'Holy']"
+sabin,Aura Cannon,"['Magic', 'Wind', 'Holy']"
+sabin,Aura Cannon+,"['Magic', 'Wind', 'Holy', 'IgnoreDEF']"
+sabin,Razor Gale,"['Group', 'Magic', 'Wind', 'Holy']"
+sabin,Razor Gale+,"['Group', 'Magic', 'Wind', 'Holy', 'IgnoreDEF']"
+sabin,Set Battle Spirit Unleashed,"['Instant', 'NoSummon', 'NoEX']"
+sabin,Phantom Rush,"['Magic', 'Wind', 'Holy']"
+sabin,Phantom Rush+,"['Magic', 'Wind', 'Holy', 'IgnoreDEF']"
+sabin,Tiger Break,"['Group', 'Magic', 'Wind', 'Holy', 'IgnoreDEF', 'NoFree']"
+sabin,Double Phantom Rush,"['Group', 'Magic', 'Wind', 'Holy', 'IgnoreDEF', 'NoFree']"
+seymour,BRV Attack+,['Magic']
+seymour,HP Attack+,['Magic']
+seymour,Chainspell,['Magic']
+seymour,Lance of Atrophy,['Magic']
+seymour,Set Sap Burst,"['Magic', 'Instant', 'NoSummon', 'NoEX']"
+seymour,Requiem,"['Group', 'Magic']"
+seymour,Requiem Follow Up (Chainspell),"['Magic', 'FollowUp']"
+seymour,Requiem Follow Up (Lance of Atrophy),"['Magic', 'FollowUp']"
+seymour,Cross Cleave,"['Group', 'Magic', 'NoFree']"
+seymour,Total Annihilation,"['Group', 'Magic', 'Instant']"
+seymour,Oblivion,['Magic']
+seymour,Dark Obsessions,"['Group', 'Magic', 'NoFree']"
+ace,BRV Attack+,['Magic']
+ace,BRV Attack++,['Magic']
+ace,HP Attack+,"['Group', 'Magic']"
+ace,HP Attack++,"['Group', 'Magic']"
+ace,HP Attack+ (Blind Stud Turn),"['Group', 'Magic', 'Instant', 'NoFree']"
+ace,Burst,['Magic']
+ace,Mega Burst,['Magic']
+ace,Mega Burst+,['Magic']
+ace,Spiral Combo,"['Group', 'Magic']"
+ace,Great Spiral Combo,"['Group', 'Magic']"
+ace,Great Spiral Combo+,"['Group', 'Magic']"
+ace,Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+ace,Jackpot Shot,['Magic']
+ace,Jackpot Triad,"['Group', 'Magic', 'NoFree']"
+ace,Blind Stud,"['Magic', 'FollowUp', 'NoFree']"
+ace,VB Type 100,"['Group', 'Magic']"
+ace,We Are Right Here,"['Group', 'Magic', 'Traps']"
+ace,Feather Brigade,"['Group', 'Magic', 'NoFree']"
+ramza,BRV Attack+,"['Melee', 'Heals']"
+ramza,BRV Attack++,"['Melee', 'Heals']"
+ramza,BRV Attack+++,"['Melee', 'Heals']"
+ramza,HP Attack+,['Melee']
+ramza,HP Attack++,['Melee']
+ramza,HP Attack+++,['Melee']
+ramza,Shout,[]
+ramza,Shout Follow Up,"['Melee', 'FollowUp']"
+ramza,Galvanize,['Heals']
+ramza,Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+ramza,Enervate+,['Melee']
+ramza,Enervate++,['Melee']
+ramza,Enervate+++,['Melee']
+ramza,Icebrand – Storming Winter,"['Group', 'Melee', 'KnockBack', 'NoFree']"
+ramza,Ultima,"['Group', 'Melee']"
+faris,BRV Attack++,"['Group', 'Melee']"
+faris,BRV Attack+,['Melee']
+faris,HP Attack+,['Melee']
+faris,HP Attack++,['Melee']
+faris,Waterwhirl,"['Melee', 'Water']"
+faris,Waterwhirl+,"['Melee', 'Water']"
+faris,Open Fire,"['Group', 'Ranged', 'Water']"
+faris,Open Fire+,"['Group', 'Ranged', 'Water']"
+faris,Debuff Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+faris,Thunderstorm,"['Group', 'Ranged', 'Thunder', 'Water', 'Wind']"
+faris,Whirlpool,"['Ranged', 'Water', 'Instant', 'Traps']"
+faris,Spellblade Sword Dance,"['Melee', 'Thunder', 'Water', 'Wind', 'NoFree']"
+faris,Whirlpool Shot,"['Group', 'Ranged', 'Water', 'NoFree']"
+prishe,BRV Attack+,['Melee']
+prishe,HP Attack+,['Melee']
+prishe,One-Ilm Punch,"['Melee', 'Instant', 'Free']"
+prishe,Howling Fist: Transfixion+,"['Melee', 'Magic', 'Holy', 'IgnoreDEF']"
+prishe,Howling Fist: Fusion,"['Melee', 'Magic', 'Fire', 'Holy']"
+prishe,Howling Fist: Fusion+,"['Melee', 'Magic', 'Fire', 'Holy']"
+prishe,Spinning Attack,"['Group', 'Melee', 'Instant', 'Free']"
+prishe,Backhand Blow: Detonation,"['Group', 'Melee', 'Magic', 'Wind']"
+prishe,Backhand Blow: Detonation+,"['Group', 'Melee', 'Magic', 'Wind']"
+prishe,Attack Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+prishe,Nullifying Dropkick,"['Melee', 'IgnoreDEF']"
+prishe,Auroral Uppercut,"['Melee', 'NoFree']"
+prishe,Dawn,['Melee']
+vincent,BRV Attack+,['Ranged']
+vincent,HP Attack+,['Ranged']
+vincent,HP Attack++,"['Group', 'Ranged']"
+vincent,Deadly Beast Flare,"['Group', 'Ranged', 'Fire']"
+vincent,Deadly Beast Flare+,"['Group', 'Ranged', 'Fire']"
+vincent,Livewire Shot,"['Group', 'Ranged', 'Thunder']"
+vincent,Livewire Shot+,"['Group', 'Ranged', 'Thunder']"
+vincent,Debuff Act Longer,"['Instant', 'NoSummon', 'NoEX']"
+vincent,Nightmare Shot,"['Group', 'Ranged']"
+vincent,Satan Slam Shot,"['Group', 'Ranged', 'NoFree']"
+vincent,Chaos Saber Shot,"['Ranged', 'Instant', 'FollowUp']"
+vincent,A Finale Chaotic,"['Group', 'Ranged']"
+zell,BRV Attack+,['Melee']
+zell,Burning Combo,['Melee']
+zell,Burning Combo Follow Up,"['Group', 'Ranged', 'FollowUp']"
+zell,HP Attack+,['Melee']
+zell,Meteor Combo,"['Melee', 'Thunder']"
+zell,Meteor Combo Follow Up,"['Melee', 'FollowUp']"
+zell,Punch Rush,"['Melee', 'Free']"
+zell,Burning Rave,"['Group', 'Ranged']"
+zell,Booya (Triggered),"['Melee', 'Thunder', 'FollowUp']"
+zell,Booya,"['Melee', 'Thunder', 'Free']"
+zell,Meteor Barrage,['Melee']
+zell,Punch Rush (Triggered),"['Melee', 'FollowUp']"
+zell,Set Duel Blow,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+zell,Different Beat,"['Melee', 'IgnoreDEF']"
+zell,Maximum Duel,"['Melee', 'Instant', 'NoFree']"
+zell,My Final Heaven,"['Group', 'Melee', 'NoFree']"
+layle,BRV Attack+,['Magic']
+layle,BRV Attack++,['Magic']
+layle,HP Attack+,['Magic']
+layle,HP Attack++,['Magic']
+layle,HP Attack (Geo Impact),"['Magic', 'KnockBack']"
+layle,Field Burst,"['Group', 'Magic', 'KnockBack']"
+layle,Energy Gain,['Magic']
+layle,BRV Heal All,"['Instant', 'NoSummon', 'NoEX']"
+layle,Gae Bolg,"['Group', 'Magic', 'KnockBack']"
+layle,Geo Impact,"['Instant', 'NoFree']"
+layle,Geo Impact Follow Up,"['Group', 'Magic', 'KnockBack', 'FollowUp', 'NoFree']"
+layle,The Big Finale,"['Group', 'Magic']"
+tidus,BRV Attack+,['Melee']
+tidus,HP Attack+,['Melee']
+tidus,HP Attack++,['Melee']
+tidus,Quick Hit,['Melee']
+tidus,Quick Hit+,"['Melee', 'Instant']"
+tidus,Slash Combo,['Melee']
+tidus,Slash Combo+,['Melee']
+tidus,Buff Longer Slash,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+tidus,Energy Rain,"['Group', 'Ranged']"
+tidus,Slice & Dice,"['Group', 'Melee', 'Instant', 'NoFree']"
+tidus,Shot,"['Ranged', 'Instant', 'FollowUp']"
+tidus,Jecht Shot,"['Group', 'Ranged', 'Instant', 'FollowUp']"
+tidus,Blitz Ace,['Melee']
+tidus,Saintly Shot,"['Ranged', 'Instant', 'NoFree']"
+eiko,BRV Attack+,"['Magic', 'Holy']"
+eiko,HP Attack+,"['Magic', 'Heals']"
+eiko,HP Attack++,"['Magic', 'Holy', 'Heals']"
+eiko,Double Holy,"['Magic', 'Holy']"
+eiko,Double Holy Follow Up,"['Magic', 'Holy', 'FollowUp']"
+eiko,HP Regen,[]
+eiko,HP Regen Follow Up,"['Magic', 'Heals', 'FollowUp']"
+eiko,Smite,"['Magic', 'Holy']"
+eiko,Ability Recovery Attack All,"['Instant', 'NoSummon', 'NoEX']"
+eiko,Terra Homing,"['Group', 'Magic', 'Holy', 'Heals']"
+eiko,Rebirth Flame,"['Group', 'Magic', 'Heals', 'NoFree']"
+eiko,Rebirth Flame (Triggered),"['Group', 'Magic', 'Heals', 'Instant', 'Counters']"
+balthier,BRV Attack+,['Ranged']
+balthier,BRV Attack++,['Ranged']
+balthier,HP Attack+,['Ranged']
+balthier,HP Attack++,['Ranged']
+balthier,Snatch Shot,"['Group', 'Ranged']"
+balthier,Snatch Shot+,"['Group', 'Ranged']"
+balthier,Great Aim,['Ranged']
+balthier,Great Aim+,['Ranged']
+balthier,Great Aim+ (Follow Up),"['Ranged', 'FollowUp']"
+balthier,Steal BRV Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+balthier,Fires of War,"['Group', 'Ranged']"
+balthier,Tides of Fate,"['Group', 'Ranged', 'NoFree']"
+balthier,Element of Treachery,['Ranged']
+balthier,Gorgon Shot,"['Group', 'Ranged', 'FollowUp']"
+balthier,Wake Damage,"['Group', 'Ranged', 'Instant', 'NoFree']"
+shantotto,BRV Attack+++,"['Magic', 'Wind']"
+shantotto,BRV Attack++,"['Magic', 'Wind']"
+shantotto,BRV Attack+,"['Magic', 'Wind']"
+shantotto,Rage HP Attack,"['Magic', 'Wind']"
+shantotto,HP Attack+++,"['Magic', 'Wind']"
+shantotto,HP Attack++,"['Magic', 'Wind']"
+shantotto,HP Attack+,['Magic']
+shantotto,Elemental Magic: Aero,"['Magic', 'Wind']"
+shantotto,Rage Aero,"['Magic', 'Wind']"
+shantotto,Rage Aero Follow Up,"['Magic', 'Wind', 'Instant', 'FollowUp']"
+shantotto,Dark Magic: Bio,"['Magic', 'Dark']"
+shantotto,Rage Bio,"['Magic', 'Dark']"
+shantotto,Rage Bio Follow Up,"['Magic', 'Dark', 'FollowUp']"
+shantotto,Weak Damage Up,"['Instant', 'NoSummon', 'NoEX']"
+shantotto,Divine Malison,"['Magic', 'Holy']"
+shantotto,Rage Divine Malison,"['Group', 'Magic', 'Holy']"
+shantotto,Rage Divine Malison Follow Up,"['Group', 'Magic', 'Holy', 'FollowUp']"
+shantotto,Salvation Scythe,"['Group', 'Magic', 'Dark', 'NoFree']"
+shantotto,Vidohunir,"['Group', 'Magic', 'Dark']"
+shantotto,Magia Duo,"['Group', 'Magic', 'Dark', 'NoFree']"
+galuf,BRV Attack+,['Melee']
+galuf,HP Attack+,['Melee']
+galuf,HP Attack++,['Melee']
+galuf,Cover,[]
+galuf,Cover+,[]
+galuf,Shirahadori,[]
+galuf,Shirahadori+,[]
+galuf,Shirahadori Follow Up,"['Melee', 'FollowUp']"
+galuf,Counter,"['Melee', 'Counters']"
+galuf,Ability Recovery Advance All,"['Instant', 'NoSummon', 'NoEX']"
+galuf,Dual-Wield Bladeblitz,"['Group', 'Melee']"
+galuf,Dawn Katana,"['Group', 'Melee', 'NoFree']"
+galuf,Battle to the Death Self-harm,"['Instant', 'Traps']"
+galuf,Final Strike,"['Melee', 'Instant', 'Counters']"
+wakka,BRV Attack+,['Ranged']
+wakka,HP Attack+,['Ranged']
+wakka,Dark Attack,['Ranged']
+wakka,Brave Reels,[]
+wakka,Brave Reels Follow Up,"['Ranged', 'FollowUp']"
+wakka,Counter,"['Ranged', 'Counters']"
+wakka,Attack All,"['Instant', 'NoSummon', 'NoEX']"
+wakka,Attack Reels,"['Group', 'Ranged']"
+wakka,Status Reels,"['Group', 'Ranged', 'NoFree']"
+setzer,BRV Attack+,['Ranged']
+setzer,BRV Attack++,['Ranged']
+setzer,HP Attack+,['Ranged']
+setzer,HP Attack++,['Ranged']
+setzer,Freeze Joker,"['Group', 'Magic']"
+setzer,Red Card,['Ranged']
+setzer,Boost All,"['Instant', 'NoSummon', 'NoEX']"
+setzer,Prismatic Flash,"['Group', 'Magic']"
+setzer,Dive-Bomb,"['Group', 'Magic', 'NoFree']"
+setzer,Joker's Death,"['Group', 'Magic']"
+setzer,Jackpot,"['Group', 'Magic', 'NoFree']"
+vanille,BRV Attack+,['Magic']
+vanille,BRV Attack++,['Magic']
+vanille,HP Attack+,['Magic']
+vanille,HP Attack++,['Magic']
+vanille,Deprotect (XIII),"['Group', 'Magic']"
+vanille,Dispel (XIII),"['Group', 'Magic']"
+vanille,Attack All,"['Instant', 'NoSummon', 'NoEX']"
+vanille,Death (XIII),"['Group', 'Magic']"
+vanille,Assassination,"['Group', 'Magic', 'Instant', 'Traps']"
+vanille,Force Blasters,"['Group', 'Magic', 'NoFree']"
+squall,BRV Attack+,"['Group', 'Melee']"
+squall,BRV Attack++,"['Group', 'Melee']"
+squall,HP Attack+,['Melee']
+squall,HP Attack++,['Melee']
+squall,Solid Barrel,"['Group', 'Melee']"
+squall,Solid Barrel+,"['Group', 'Melee']"
+squall,Solid Barrel Follow Up,"['Melee', 'FollowUp']"
+squall,Renzokuken,['Melee']
+squall,Renzokuken+,['Melee']
+squall,Ability Recovery Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+squall,Assault Trigger,['Melee']
+squall,Rough Divide,"['Group', 'Melee', 'NoFree']"
+squall,Additional attack from Roaring Hammer,"['Group', 'Melee', 'FollowUp']"
+squall,Blasting Zone,"['Group', 'Melee']"
+squall,Concealed Zeal,"['Group', 'Melee', 'NoFree']"
+shadow,Throw,"['Ranged', 'IgnoreDEF']"
+shadow,Throw+,"['Ranged', 'IgnoreDEF']"
+shadow,HP Attack+ (Throw),"['Ranged', 'IgnoreDEF']"
+shadow,Shadow Stealth,['Melee']
+shadow,Wild Throw,"['Ranged', 'IgnoreDEF']"
+shadow,Set Evasion Up,"['Instant', 'NoSummon', 'NoEX']"
+shadow,Shadow Fang,"['Ranged', 'IgnoreDEF']"
+shadow,Wild Fang,"['Ranged', 'IgnoreDEF', 'FollowUp']"
+shadow,Assassination,"['Group', 'Melee', 'IgnoreDEF', 'Instant', 'NoFree']"
+shadow,Wild Fang+,"['Ranged', 'IgnoreDEF', 'Instant', 'Counters', 'FollowUp']"
+steiner,BRV Attack+,['Melee']
+steiner,BRV Attack++,['Melee']
+steiner,HP Attack+,['Melee']
+steiner,HP Attack++,['Melee']
+steiner,Power Break (IX),['Melee']
+steiner,Spellblade,"['Melee', 'Fire']"
+steiner,Spellblade+,"['Melee', 'Fire']"
+steiner,Boost All,"['Instant', 'NoSummon', 'NoEX']"
+steiner,Stock Break,"['Group', 'Melee']"
+steiner,Flare Sword,"['Group', 'Melee', 'NoFree']"
+laguna,BRV Attack+,['Ranged']
+laguna,BRV Attack++,['Ranged']
+laguna,HP Attack+,['Ranged']
+laguna,HP Attack++,"['Group', 'Ranged']"
+laguna,Grenade,"['Group', 'Ranged']"
+laguna,Shotgun,"['Group', 'Ranged']"
+laguna,Shotgun+,"['Group', 'Ranged']"
+laguna,Debuff Damage Up,"['Instant', 'NoSummon', 'NoEX']"
+laguna,Ragnarok Buster,"['Group', 'Ranged']"
+laguna,Ragnarok Blade,"['Group', 'Ranged', 'NoFree']"
+laguna,"Additional attack from Look, the faeries are here!","['Group', 'Ranged', 'FollowUp']"
+laguna,Desperado,"['Group', 'Ranged']"
+laguna,HP damage from Desperado debuff,"['Group', 'Ranged', 'Traps']"
+firion,BRV Attack+,"['Melee', 'Heals']"
+firion,BRV Attack++,"['Melee', 'Heals']"
+firion,BRV Attack+++,"['Melee', 'Heals']"
+firion,HP Attack+,"['Melee', 'Heals']"
+firion,HP Attack++,"['Melee', 'Heals']"
+firion,HP Attack+++,"['Melee', 'Heals']"
+firion,Blood Weapon,"['Melee', 'Heals']"
+firion,Blood Weapon+,"['Melee', 'Heals']"
+firion,Seize Attack,['Ranged']
+firion,Seize Attack (Blood Weapon),"['Ranged', 'Heals']"
+firion,Seize Attack+,['Ranged']
+firion,Seize Attack+ (Blood Weapon),"['Ranged', 'Heals']"
+firion,HP Drain Advance Thrust,"['Melee', 'Heals', 'Instant', 'NoSummon', 'NoEX']"
+firion,Weaponsmaster,"['Group', 'Ranged', 'Heals']"
+firion,Weaponsmaster+,"['Group', 'Ranged', 'Heals']"
+firion,Vortex of Arms,"['Group', 'Ranged', 'Heals', 'NoFree']"
+firion,Drain Weapon,"['Ranged', 'Heals', 'Instant', 'Traps']"
+firion,Fervid Blazer,['Ranged']
+onionknight,Blizzard,"['Magic', 'Ice']"
+onionknight,Blizzard+,"['Magic', 'Ice']"
+onionknight,BRV Attack+,['Melee']
+onionknight,HP Attack+ (Ninja),['Melee']
+onionknight,HP Attack+ (Sage),"['Group', 'Magic', 'Ice']"
+onionknight,HP Attack++ (Ninja),['Melee']
+onionknight,HP Attack++ (Sage),"['Group', 'Magic', 'Ice']"
+onionknight,Blizzard Combo,"['Magic', 'Ice']"
+onionknight,Multi-Hit,['Melee']
+onionknight,Blizzard Enchant All,"['Instant', 'NoSummon', 'NoEX']"
+onionknight,Meteorite,"['Group', 'Magic']"
+onionknight,Blade Torrent,['Melee']
+onionknight,Blade Torrent Follow Up,"['Melee', 'FollowUp']"
+onionknight,Sword & Sorcery,"['Group', 'Melee', 'Magic', 'Ice', 'NoFree']"
+onionknight,Ninjutsu,"['Melee', 'Ice']"
+onionknight,Spellbook,"['Group', 'Magic', 'Ice']"
+onionknight,Harmonious Light to Clear Dark Clouds,"['Group', 'Melee', 'Instant', 'NoFree']"
+yang,Kick Attacks,"['Group', 'Melee']"
+yang,Kick Attacks+,"['Group', 'Melee']"
+yang,HP Attack+,['Melee']
+yang,HP Attack++,['Melee']
+yang,Kick,['Melee']
+yang,Kick+,['Melee']
+yang,Counter,"['Group', 'Melee', 'Counters']"
+yang,Focus,[]
+yang,Focus Follow Up,"['Group', 'Melee', 'FollowUp']"
+yang,Kick Recovery,"['Instant', 'NoSummon', 'NoEX']"
+yang,Twin Wing Frenzy,['Melee']
+yang,Oboro Strike,"['Group', 'Melee', 'NoFree']"
+yang,Additional attack from Monastic Secrets,"['Group', 'Melee', 'Counters', 'FollowUp']"
+terra,BRV Attack+,['Magic']
+terra,BRV Attack++,['Magic']
+terra,HP Attack+,['Magic']
+terra,HP Attack++,['Magic']
+terra,Dualcast,"['Magic', 'Instant']"
+terra,Meltdown (Chant),[]
+terra,Magic Meltdown (Chant),[]
+terra,Meltdown+,"['Magic', 'FollowUp']"
+terra,Magic Meltdown+,"['Magic', 'FollowUp']"
+terra,Meteor (Chant),[]
+terra,Magic Meteor (Chant),[]
+terra,Meteor+,"['Group', 'Magic', 'FollowUp']"
+terra,Magic Meteor+,"['Group', 'Magic', 'FollowUp']"
+terra,Set Magic Boost Up,"['Instant', 'NoSummon', 'NoEX']"
+terra,Riot Blade,['Magic']
+terra,Chaos Wave,"['Group', 'Magic', 'Instant', 'NoFree']"
+terra,Trance Ultima,['Magic']
+terra,Ring of Rose and Crimson,"['Group', 'Magic', 'Instant', 'NoFree']"
+penelo,BRV Attack+ (Rhumba),['Melee']
+penelo,BRV Attack+ (Waltz),['Melee']
+penelo,BRV Attack++ (Rhumba),['Melee']
+penelo,BRV Attack++ (Waltz),['Melee']
+penelo,Fatal Dance,"['Melee', 'Heals']"
+penelo,HP Attack+ (Rhumba),['Melee']
+penelo,HP Attack+ (Waltz),['Melee']
+penelo,HP Attack++ (Rhumba),['Melee']
+penelo,HP Attack++ (Waltz),"['Group', 'Melee']"
+penelo,Haste Rhumba,['Instant']
+penelo,Regen Waltz,[]
+penelo,Ability Recovery Boost All,"['Instant', 'NoSummon', 'NoEX']"
+penelo,Intercession,"['Melee', 'Heals', 'Instant']"
+penelo,Evanescence,"['Group', 'Magic', 'NoFree']"
+penelo,Resplendence,"['Group', 'Melee']"
+penelo,Liberty's Minnesang,"['Heals', 'Instant', 'NoFree']"
+bartz,BRV Attack+,['Melee']
+bartz,BRV Attack++,"['Melee', 'Wind']"
+bartz,HP Attack+,['Melee']
+bartz,HP Attack++,"['Melee', 'Wind']"
+bartz,Doublehand,['Melee']
+bartz,Doublehand+,['Melee']
+bartz,Missile,['Melee']
+bartz,Missile+,['Melee']
+bartz,Boost All,"['Instant', 'NoSummon', 'NoEX']"
+bartz,Iainuki,['Melee']
+bartz,Elemental Attack,"['Group', 'Melee', 'Wind', 'NoFree']"
+bartz,Quick Spellblade Dual-Wield Rapid Fire,"['Group', 'Melee', 'Wind', 'NoFree']"
+bartz,Travels & Courage & Partners,"['Group', 'Melee', 'NoFree']"
+king,BRV Attack+,['Ranged']
+king,Double Bullet,['Ranged']
+king,Double Bullet Follow Up,"['Ranged', 'FollowUp']"
+king,Rapid Bullets,['Ranged']
+king,Rapid Bullets+,['Ranged']
+king,Reload,[]
+king,Reload Follow Up,"['Ranged', 'Instant', 'FollowUp']"
+king,BRV Up Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+king,Endless Waltz,['Ranged']
+king,Endless Waltz Follow Up,"['Ranged', 'FollowUp']"
+king,Magazine Blast,"['Group', 'Ranged', 'NoFree']"
+edge,BRV Attack+,"['Magic', 'Thunder']"
+edge,BRV Attack++,"['Magic', 'Thunder']"
+edge,HP Attack+,"['Magic', 'Thunder']"
+edge,HP Attack++,"['Magic', 'Thunder']"
+edge,Shock,"['Magic', 'Thunder']"
+edge,Smoke,[]
+edge,Smoke Follow Up,"['Magic', 'Thunder', 'FollowUp']"
+edge,Thunderburst,"['Magic', 'Thunder', 'Instant', 'NoSummon', 'NoEX']"
+edge,Blitz Mirage,"['Group', 'Magic', 'Thunder']"
+edge,Inferno,"['Group', 'Magic', 'Fire', 'Thunder', 'NoFree']"
+edge,Ultimate Art: Advent of Phoenix,"['Group', 'Magic', 'Fire', 'Thunder', 'Instant', 'Counters']"
+edge,Additional attack from Fire Scarf,"['Group', 'Magic', 'Instant', 'Counters']"
+yuna,BRV Attack,"['Magic', 'Thunder']"
+yuna,Sonic Wings,['Magic']
+yuna,Sonic Wings+,['Magic']
+yuna,Sonic Wings++,['Magic']
+yuna,Energy Ray,"['Group', 'Magic']"
+yuna,Energy Ray+,"['Group', 'Magic']"
+yuna,Energy Ray++,"['Group', 'Magic']"
+yuna,Esuna,[]
+yuna,Cheer,['Heals']
+yuna,Base Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+yuna,Grand Summon,"['Group', 'Magic']"
+yuna,Energy Blast,"['Group', 'Magic']"
+yuna,Energy Nova,"['Group', 'Magic', 'NoFree']"
+yuna,The Sending,"['Group', 'Magic']"
+yuna,Banishing Stroke,"['Group', 'Magic', 'NoFree']"
+yuffie,BRV Attack+,['Ranged']
+yuffie,BRV Attack++,['Ranged']
+yuffie,BRV Attack+++,['Ranged']
+yuffie,HP Attack+,['Ranged']
+yuffie,HP Attack++,['Ranged']
+yuffie,HP Attack+++,['Ranged']
+yuffie,Mine Now!,['Ranged']
+yuffie,I don't need this～,"['Group', 'Ranged']"
+yuffie,BRV Copy All,"['Instant', 'NoSummon', 'NoEX']"
+yuffie,Gauntlet,"['Group', 'Ranged']"
+yuffie,Doom of the Living,"['Group', 'Ranged', 'NoFree']"
+yuffie,All Creation,"['Group', 'Ranged']"
+yuffie,Blitz Gale,"['Group', 'Ranged', 'NoFree']"
+vaan,BRV Attack+,['Melee']
+vaan,BRV Attack++,['Magic']
+vaan,HP Attack+,['Magic']
+vaan,HP Attack++,['Magic']
+vaan,Red Spiral,['Magic']
+vaan,Red Spiral+,['Magic']
+vaan,Whiteout,"['Magic', 'Ice', 'FollowUp']"
+vaan,Whiteout+,"['Magic', 'Ice', 'FollowUp']"
+vaan,White Whorl,"['Magic', 'Wind']"
+vaan,White Whorl+,"['Magic', 'Wind']"
+vaan,Luminescence,"['Magic', 'Holy', 'FollowUp']"
+vaan,Luminescence+,"['Magic', 'Holy', 'FollowUp']"
+vaan,BRV Up Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+vaan,Pyroclasm,"['Magic', 'Fire']"
+vaan,Pyroclasm+,"['Magic', 'Fire']"
+vaan,Pyroclasm++,"['Magic', 'Fire']"
+vaan,Pyroclasm++ Follow Up,"['Magic', 'Fire', 'FollowUp']"
+vaan,Earthen Eruption,"['Group', 'Magic', 'NoFree']"
+vaan,Calamitous Orb,['Magic']
+vaan,Rapid Chase,"['Magic', 'NoFree']"
+yda,BRV Attack+,['Melee']
+yda,BRV Attack++,['Melee']
+yda,HP Attack+,['Melee']
+yda,HP Attack++,['Melee']
+yda,HP Attack+++,['Melee']
+yda,Snap Punch,['Melee']
+yda,Snap Punch+,['Melee']
+yda,Touch of Death,['Melee']
+yda,Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+yda,Tornado Kick,"['Group', 'Melee']"
+yda,Tornado Kick+,"['Group', 'Melee']"
+yda,Six-Sided Star,"['Group', 'Melee', 'NoFree']"
+cecil,BRV Attack+,['Melee']
+cecil,BRV Attack++,"['Melee', 'Heals']"
+cecil,BRV Attack++ (Heal),"['Melee', 'Dark', 'Heals']"
+cecil,BRV Attack++ (Power),"['Melee', 'Dark']"
+cecil,HP Attack+,['Melee']
+cecil,HP Attack++,"['Melee', 'Heals']"
+cecil,HP Attack++ (Heal),"['Melee', 'Dark', 'Heals']"
+cecil,HP Attack++ (Power),"['Melee', 'Dark']"
+cecil,Darkness,"['Group', 'Ranged', 'Dark']"
+cecil,Darkness+,"['Group', 'Ranged', 'Dark']"
+cecil,Valiant Blow,"['Melee', 'Dark', 'KnockBack']"
+cecil,Valiant Blow+,"['Melee', 'Dark', 'KnockBack']"
+cecil,Danger Crush,"['Melee', 'Dark', 'Instant', 'NoSummon', 'NoEX']"
+cecil,Dark Cannon,"['Ranged', 'Dark']"
+cecil,Soul Eater,"['Ranged', 'Dark', 'Instant', 'NoFree']"
+cecil,Start of a Distant Journey,"['Group', 'Melee', 'Dark']"
+cecil,Dark Blast,"['Group', 'Melee', 'Dark', 'NoFree']"
+zidane,BRV Attack+,['Melee']
+zidane,BRV Attack++,['Melee']
+zidane,Mug,"['Melee', 'Instant']"
+zidane,HP Attack++,['Melee']
+zidane,HP Attack+ (Solution 9),['Melee']
+zidane,Stellar Circle 5,"['Group', 'Melee']"
+zidane,Stellar Circle 5+,"['Group', 'Melee']"
+zidane,Free Energy,['Melee']
+zidane,Free Energy+,['Melee']
+zidane,BRV Up Advance,"['Instant', 'NoSummon', 'NoEX']"
+zidane,Booster 8,"['Melee', 'KnockBack']"
+zidane,Booster 8+,"['Melee', 'KnockBack']"
+zidane,Solution 9,"['Group', 'Melee', 'NoFree']"
+zidane,Grand Lethal,"['Group', 'Melee']"
+yshtola,BRV Attack+,['Magic']
+yshtola,Scion's Aero II,"['Group', 'Magic']"
+yshtola,Afflatus Misery,"['Group', 'Magic']"
+yshtola,HP Attack+,['Magic']
+yshtola,HP Attack++,['Magic']
+yshtola,Stone,"['Magic', 'Earth']"
+yshtola,Stone+,"['Magic', 'Earth']"
+yshtola,Medica II,['Heals']
+yshtola,BRV Heal,"['Instant', 'NoSummon', 'NoEX']"
+yshtola,Pulse of Life,"['Heals', 'Instant']"
+yshtola,Scion's Holy,"['Group', 'Magic', 'Instant', 'NoFree']"
+yshtola,Spiritual Ray,"['Group', 'Magic']"
+hope,BRV Attack+,['Magic']
+hope,Brutal Sanction,"['Group', 'Magic', 'Heals']"
+hope,HP Attack+,['Magic']
+hope,Retributive Blast,['Magic']
+hope,Shell,[]
+hope,Protect,[]
+hope,Protect All,"['Instant', 'NoSummon', 'NoEX']"
+hope,Last Resort,"['Group', 'Magic', 'Heals']"
+hope,Purification,"['Group', 'Magic', 'Heals', 'NoEX', 'NoFree']"
+hope,Sacred Vessel,"['Group', 'Magic', 'Instant', 'NoFree']"
+cloud,BRV Attack+,['Melee']
+cloud,BRV Attack++,['Melee']
+cloud,HP Attack+,['Melee']
+cloud,HP Attack++,['Melee']
+cloud,Cross-Slash,['Melee']
+cloud,Cross-Slash+,['Melee']
+cloud,Finishing Touch,"['Ranged', 'KnockBack']"
+cloud,Critical Crush,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+cloud,Meteorain,"['Group', 'Ranged']"
+cloud,Blade Beam,"['Group', 'Ranged', 'Instant', 'NoFree']"
+cloud,Omnislash Version 5,['Ranged']
+cloud,Saintly Fervor,"['Group', 'Ranged', 'KnockBack', 'NoFree']"
+tifa,BRV Attack+,['Melee']
+tifa,BRV Attack++,['Melee']
+tifa,BRV Attack (Full Throttle),"['Melee', 'Instant']"
+tifa,HP Attack+,['Melee']
+tifa,HP Attack++,['Melee']
+tifa,HP Attack (Full Throttle),"['Melee', 'Instant']"
+tifa,Beat Rush,['Melee']
+tifa,Beat Rush+,['Melee']
+tifa,Battle Cry,['Instant']
+tifa,Battle Cry Follow Up,"['Melee', 'Instant', 'FollowUp']"
+tifa,Beat Rush Recovery Attack Up,"['Instant', 'NoSummon', 'NoEX']"
+tifa,Dolphin Blow Combo,['Melee']
+tifa,Dolphin Blow Combo Follow Up,"['Melee', 'KnockBack', 'FollowUp']"
+tifa,Meteor Crusher,"['Melee', 'NoFree']"
+tifa,Final Heaven,['Melee']
+tifa,Waterkick,"['Melee', 'Instant', 'FollowUp']"
+tifa,Somersault,"['Melee', 'Instant', 'FollowUp']"
+tifa,Glitter Strike,"['Melee', 'NoFree']"
+sazh,BRV Attack+,['Ranged']
+sazh,BRV Attack++,['Ranged']
+sazh,HP Attack+,['Ranged']
+sazh,HP Attack++,['Ranged']
+sazh,Aim,['Ranged']
+sazh,Aim+,['Ranged']
+sazh,Attack Boost,[]
+sazh,Attack Boost Follow Up,"['Ranged', 'Instant', 'FollowUp']"
+sazh,Advance All,"['Instant', 'NoSummon', 'NoEX']"
+sazh,Cold Blood,"['Group', 'Ranged']"
+sazh,Spark Shower,"['Group', 'Ranged', 'NoFree']"
+rem,BRV Attack,"['Magic', 'Ice']"
+rem,HP Attack+,['Ranged']
+rem,HP Attack++,['Magic']
+rem,Cure,['Heals']
+rem,Swap Turns,[]
+rem,Swap BRV All,"['Instant', 'NoSummon', 'NoEX']"
+rem,Siphon Delta,"['Group', 'Magic', 'Heals']"
+rem,Point-Blank Siphon Sphere,"['Group', 'Magic', 'NoFree']"
+rem,Siphon Sphere,"['Group', 'Magic', 'FollowUp']"
+rem,Will Carried on Twin Blades,"['Group', 'Magic']"
+rem,Resonance Holy,"['Group', 'Magic', 'NoFree']"
+vivi,BRV Attack+,"['Magic', 'Fire']"
+vivi,BRV Attack++,"['Magic', 'Fire']"
+vivi,HP Attack+,"['Magic', 'Fire']"
+vivi,HP Attack++,"['Magic', 'Fire']"
+vivi,Double Fire,"['Magic', 'Fire']"
+vivi,Double Fire+,"['Group', 'Magic', 'Fire']"
+vivi,Double Fire Follow Up,"['Magic', 'Fire', 'FollowUp']"
+vivi,Double Fire+ Follow Up,"['Group', 'Magic', 'Fire', 'FollowUp']"
+vivi,Fire,"['Magic', 'Fire']"
+vivi,Fire+,"['Group', 'Magic', 'Fire']"
+vivi,Focus,[]
+vivi,Focus Follow Up,"['Magic', 'Fire', 'FollowUp']"
+vivi,Fire Enchant,"['Instant', 'NoSummon', 'NoEX']"
+vivi,Meteor (IX),"['Group', 'Magic']"
+vivi,Doomsday,"['Group', 'Magic', 'Fire', 'Dark', 'IgnoreDEF', 'NoFree']"
+vivi,Embers of Darkness,"['Group', 'Magic', 'Fire', 'Dark', 'IgnoreDEF', 'FollowUp']"
+vivi,Double-Effect Reflect Double Flare,['Magic']
+vivi,Our Journey,"['Group', 'Magic', 'NoFree']"
+warrioroflight,BRV Attack+,['Melee']
+warrioroflight,BRV Attack++,['Melee']
+warrioroflight,HP Attack+,['Melee']
+warrioroflight,HP Attack++,['Melee']
+warrioroflight,Shining Shield,[]
+warrioroflight,Shining Shield Follow Up,"['Melee', 'FollowUp']"
+warrioroflight,Throw Buckler,['Ranged']
+warrioroflight,Resist All,"['Instant', 'NoSummon', 'NoEX']"
+warrioroflight,Shining Wave,"['Ranged', 'Heals']"
+warrioroflight,Bitter End,"['Ranged', 'NoFree']"
+warrioroflight,Ultimate Shield,"['Group', 'Ranged']"
+warrioroflight,Soul of Light,"['Group', 'Ranged', 'NoFree']"

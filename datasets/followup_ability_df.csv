@@ -1,0 +1,173 @@
+char_name,ability,timing,triggers
+reks,Remove Obstacle,before,all
+reks,Remove Obstacle+,before,all
+jackgarland,Soul Burst,during,damaging
+jackgarland,Soul Burst+,during,damaging
+dorgann,Image Slash,after,"damaging, ally_attack"
+dorgann,Image Slash+,after,"damaging, ally_attack"
+minwu,Additional attack from Sublime Soul,after,effect
+lunafreya,Awakening Follow Up,during,Awakening
+braska,Jecht Beam,after,all
+cissnei,Besiege,after,"damaging, ally_attack"
+cissnei,Besiege+,after,"damaging, ally_attack"
+cissnei,Besiege++,after,"damaging, ally_attack"
+cidraines,Impact Strike,during,damaging
+cidraines,Impact Strike+,during,damaging
+cidraines,Seraphic Charge,during,damaging
+queen,Rasetsu Arousal Release HP Heal,after,effect
+cor,Moonlit Dawn Follow Up,during,Moonlit Dawn
+cor,Snowbreak Follow Up,during,Snowbreak
+cor,Additional attack from buff,during,"damaging, ally_attack"
+kadaj,Geophagy,during,damaging
+mog,El Niño,during,damaging
+mog,Plasma,during,damaging
+mog,El Niño+,during,damaging
+mog,Plasma+,during,damaging
+ceodore,Ceodore Awaken Release Self-harm,after,effect
+kurasame,Ice Pillar,during,damaging
+strago,Dualcast Follow Up,during,Dualcast
+strago,Quasar Follow Up,during,Quasar
+strago,BRV 2 Death Follow Up,during,BRV 2 Death
+strago,Sabre Soul Follow Up,during,Sabre Soul
+strago,Grand Delta Follow Up,during,Grand Delta
+edward,Woke from sleep.,after,effect
+ardyn,Additional attack from Spectral Charge,during,"HP Attack, HP Attack+, HP Attack++, S1, S2, EX, LD"
+trey,Arrow Shower,after,field_action
+cloudofdarkness,Additional attack from Ultra Particle Beam,after,all
+keiss,Hero Support Cast,after,effect
+arciela,Expunge Magic,during,Ascension & Expunge Magic
+arciela,Sight Unseen,during,Descension & Sight Unseen
+jack,Deliverance,during,damaging
+leo,Additional attack from Final Shock,after,"damaging, ally_attack"
+kamlanaut,Esoteric Region Follow Up,during,Esoteric Region
+kamlanaut,Esoteric Region+ Follow Up,during,Esoteric Region+
+kamlanaut,Extra turn from Bondage from Antiquity,before,effect
+kamlanaut,Enfeeblement from Transcandescent Blade,after,effect
+aranea,Air Drive,during,damaging
+ignis,Overwhelm Party Move,before,effect
+ignis,Overwhelm Follow Up,during,Overwhelm
+kimahri,White Wind Follow Up,during,White Wind
+lyse,The Forbidden Chakra,during,Brotherhood & The Forbidden Chakra
+lyse,The Forbidden Chakra+,during,Brotherhood & The Forbidden Chakra+
+lyse,Triple Threat,during,Way of the Will & Triple Threat
+machina,Additional attack from Spiral's Lynchpin,during,damaging
+garland,Additional attack from Chains of Time,during,damaging
+aphmau,Tactical Switch Cast,before,effect
+aphmau,Victory Smite Follow Up,during,Victory Smite
+noel,Additional attack from Hunter of Light,during,damaging
+alphinaud,BRV granted from Moonstone,before,effect
+alphinaud,HP recovery from Moonstone,before,effect
+alphinaud,Party BRV granted from Moonstone,before,effect
+alphinaud,Buff granted from Moonstone,before,effect
+alphinaud,BRV granted from Obsidian,before,effect
+alphinaud,Buff granted from Obsidian,before,effect
+prompto,Starshell Follow Up,during,Starshell
+prompto,Link Attack,after,ally_attack
+cinque,Additional attack from Braid Girl,during,damaging
+porom,Additional attack from Twin Conviction,after,all
+vayne,Additional attack from Gigaflare Sword,after,ally_attack
+freya,Descending Dragon (Return Attack),before,effect
+freya,Reis's Wind Follow Up,during,Reis's Wind
+freya,Spear,before,airborne
+lannreynn,Megaflare (Follow Up),during,Megaflare
+rosa,Holy Blade,after,all
+barret,Beam,during,damaging
+agrias,Knight's Pride Follow Up,during,Knight's Pride
+seven,"BRV, HP damage from Bondage Whip",before,field_action
+seven,Elementalash,during,Elementalash
+beatrix,Saint Cloth Follow Up,during,Saint Cloth
+relm,Hellfire (Sketch Summon),before,effect
+relm,Diamond Dust (Sketch Summon),before,effect
+relm,Judgment Bolt (Sketch Summon),before,effect
+relm,Chocobo Kick (Sketch Summon),before,effect
+relm,Whispering Wind (Sketch Summon),before,effect
+relm,Zantetsuken (Sketch Summon),before,effect
+relm,Tsunami (Sketch Summon),before,effect
+relm,Divine Judgment (Sketch Summon),before,effect
+relm,Megaflare (Sketch Summon),before,effect
+relm,Brotherly Love (Sketch Summon),before,effect
+relm,Tornado Zone (Sketch Summon),before,effect
+relm,Dark Messenger (Sketch Summon),before,effect
+relm,"Watch the fluff, kupo～ (Sketch Summon)",before,effect
+relm,Sketch Summon Follow Up,during,Sketch Summon
+alisaie,Fleche & Contre Sixte Follow Up,during,Fleche & Contre Sixte
+noctis,Additional attack from Point-Blank Warp,during,"Shooting Star+, Warp-Strike+, Conjure Armiger+, Steel Pirouette"
+noctis,Additional attack from Legacy of the Lucii,after,"damaging, ally_attack"
+jecht,Beast Rush+ Follow Up,during,Beast Rush+
+jecht,Jecht Slash+ Follow Up,during,Jecht Slash+
+yuri,Magic Blast – Holyga (Triggered),after,Magic Blast � Holyga
+yuri,Magic Blast – Holyga+ (Triggered),after,Magic Blast � Holyga
+lilisette,Dancer's Fury,during,Dancer's Fury
+zack,Chain Slash,during,"Chain Slash, Rush Assault"
+kefka,Meteor+ Follow Up,during,Meteor+
+cidhighwind,Bombs Away,after,ally_attack
+palom,Bluff/+/++ Follow Up,during,"Bluff, Bluff+, Bluff++"
+kuja,Ultima (IX)+ Follow Up,during,Ultima (IX)+
+kain,Double Jump (Return),before,effect
+kain,Lancet,before,airborne
+celes,Runic Follow Up,during,Runic
+garnet,Eidolon Eternal Darkness,before,field_action
+serah,Additional attack from Feral Link Reunion,during,damaging
+lion,Walk the Plank: Light Follow Up,during,Walk the Plank: Light
+lion,Additional attack from Bully,during,damaging
+aerith,Fury Brand Follow Up,during,Fury Brand
+aerith,Additional attack from Seal Evil,during,damaging
+aerith,Additional attack from White Materia's Brilliance,before,field_action
+ashe,Ark Blast,during,Maelstrom's Bolt
+ashe,Additional attack from Empyrean's Edict,during,damaging
+snow,Steelguard Follow Up,during,Steelguard
+snow,Retribution,before,all
+snow,Retribution+,before,all
+seymour,Requiem Follow Up (Chainspell),during,damaging
+seymour,Requiem Follow Up (Lance of Atrophy),during,Requiem
+ace,Blind Stud,during,"Jackpot Triad, Feather Brigade, HP Attack+ (Blind Stud Turn)"
+ramza,Shout Follow Up,during,Shout
+vincent,Chaos Saber Shot,during,damaging
+zell,Burning Combo Follow Up,during,Burning Combo
+zell,Meteor Combo Follow Up,during,Meteor Combo
+zell,Booya (Triggered),during,Punch Rush
+zell,Punch Rush (Triggered),during,Booya
+layle,Geo Impact Follow Up,during,Geo Impact
+tidus,Shot,during,damaging
+tidus,Jecht Shot,during,damaging
+eiko,Double Holy Follow Up,during,Double Holy
+eiko,HP Regen Follow Up,during,HP Regen
+balthier,Great Aim+ (Follow Up),during,Great Aim+
+balthier,Gorgon Shot,during,damaging
+shantotto,Rage Aero Follow Up,during,Rage Aero
+shantotto,Rage Bio Follow Up,during,Rage Bio
+shantotto,Rage Divine Malison Follow Up,during,Rage Divine Malison
+galuf,Shirahadori Follow Up,during,Shirahadori
+wakka,Brave Reels Follow Up,during,Brave Reels
+squall,Solid Barrel Follow Up,during,Solid Barrel
+squall,Additional attack from Roaring Hammer,during,damaging
+shadow,Wild Fang,during,damaging
+shadow,Wild Fang+,during,damaging
+laguna,"Additional attack from Look, the faeries are here!",during,damaging
+onionknight,Blade Torrent Follow Up,during,Blade Torrent
+yang,Focus Follow Up,during,Focus
+yang,Additional attack from Monastic Secrets,after,"damaging, ally_attack"
+terra,Meltdown+,during,Meltdown (Chant)
+terra,Magic Meltdown+,during,Magic Meltdown (Chant)
+terra,Meteor+,during,Meteor (Chant)
+terra,Magic Meteor+,during,Magic Meteor (Chant)
+king,Double Bullet Follow Up,during,Double Bullet
+king,Reload Follow Up,during,Reload
+king,Endless Waltz Follow Up,during,Endless Waltz
+edge,Smoke Follow Up,during,Smoke
+vaan,Whiteout,during,Red Spiral
+vaan,Whiteout+,during,Red Spiral+
+vaan,Luminescence,during,White Whorl
+vaan,Luminescence+,during,White Whorl+
+vaan,Pyroclasm++ Follow Up,during,Pyroclasm++
+tifa,Battle Cry Follow Up,during,Battle Cry
+tifa,Dolphin Blow Combo Follow Up,during,Dolphin Blow Combo
+tifa,Waterkick,during,damaging
+tifa,Somersault,during,damaging
+sazh,Attack Boost Follow Up,during,Attack Boost
+rem,Siphon Sphere,after,all
+vivi,Double Fire Follow Up,during,Double Fire
+vivi,Double Fire+ Follow Up,during,Double Fire+
+vivi,Focus Follow Up,during,Focus
+vivi,Embers of Darkness,after,all
+warrioroflight,Shining Shield Follow Up,during,Shining Shield
