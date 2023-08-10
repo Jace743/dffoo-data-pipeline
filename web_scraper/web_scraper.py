@@ -3,12 +3,15 @@ import time
 import re
 import contextlib
 import io
+import requests
+import yaml
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+
 
 class CompendiumScraper:
     """
@@ -17,27 +20,59 @@ class CompendiumScraper:
 
     """
     
-    def __init__(self):
+    def __init__(self, config_yml_path):
         self.chars_with_reworks_pending = []
         self.chars_not_in_gl_yet = []
         self.character_list_url = 'https://dissidiacompendium.com/characters/?'
         
+        with open(config_yml_path, 'r') as yml:
+            self.config = yaml.safe_load(yml)
+
         # Dictionary used for processing abilities that have one HP attack uncapped, with all the others 
         # regularly capped.
-        self.ONE_HP_ATTACK_UNCAPPED = {
-            'Chuck Staff': 'Chuck Staff (Uncapped HP Attack)', 
-            'Crystal Ray': 'Crystal Ray (Uncapped HP Attack)', 
-            'Soul Burst': 'Soul Burst (Uncapped HP Attack)', 
-            'Soul Burst+': 'Soul Burst+ (Uncapped HP Attack)'
+        self.N_HP_ATTACKS_UNCAPPED = {
+            'Chuck Staff': {
+                'followup_name': 'Chuck Staff (Uncapped HP Attack)', 
+                'gl_hp_attack_count_main': 1,
+                'jp_hp_attack_count_main': 1,
+                'gl_hp_attack_count_non': 1,
+                'jp_hp_attack_count_non': 1
+            },
+
+            'Crystal Ray': {
+                'followup_name': 'Crystal Ray (Uncapped HP Attack)',  
+                'gl_hp_attack_count_main': 1,
+                'jp_hp_attack_count_main': 1,
+                'gl_hp_attack_count_non': 1,
+                'jp_hp_attack_count_non': 1
+            },
+            'Soul Burst': {
+                'followup_name': 'Soul Burst (Uncapped HP Attack)',  
+                'gl_hp_attack_count_main': 1,
+                'jp_hp_attack_count_main': 1,
+                'gl_hp_attack_count_non': 0,
+                'jp_hp_attack_count_non': 0
+            },
+            'Soul Burst+': {
+                'followup_name': 'Soul Burst+ (Uncapped HP Attack)', 
+                'gl_hp_attack_count_main': 1,
+                'jp_hp_attack_count_main': 2,
+                'gl_hp_attack_count_non': 0,
+                'jp_hp_attack_count_non': 0
+            },
         }
 
         self.driver = webdriver.Chrome()
 
         self.generate_character_links()
 
-        self.ability_dict_omnibus = {}
-        self.bt_effect_dict_omnibus = {}
-        self.ha_dict_omnibus = {}
+        self.ability_dict_omnibus_gl = {}
+        self.bt_effect_dict_omnibus_gl = {}
+        self.ha_dict_omnibus_gl = {}
+        
+        self.ability_dict_omnibus_jp = {}
+        self.bt_effect_dict_omnibus_jp = {}
+        self.ha_dict_omnibus_jp = {}
     
     def generate_character_links(self):
         """
@@ -77,6 +112,20 @@ class CompendiumScraper:
             
             self.character_dict_omnibus[char_name] = char_dict
 
+
+    def prettify_html_to_list(self, html_element):
+        """
+    
+        Retrieves the 'outerHTML' attribute of an HTML element, parses it, and  
+        returns a list to enable iteration over the HTML element.
+    
+        """
+        
+        soup = BeautifulSoup(html_element.get_attribute('outerHTML'), 'lxml')
+    
+        return [line for line in soup.prettify().split('\n')]
+
+
     def generate_ability_dict(
         self,
         char_name,  # Character name, as a string
@@ -112,7 +161,7 @@ class CompendiumScraper:
             try:
                 switch_to_jp_button = self.driver.find_element(By.XPATH, "//span[@class='glflage smalleventbutton']")
 
-                actions.click(switch_to_jp_button)
+                actions.click(switch_to_jp_button).perform()
 
                 time.sleep(5)
             except:
@@ -121,7 +170,7 @@ class CompendiumScraper:
             try:
                 switch_to_gl_button = self.driver.find_element(By.XPATH, "//span[@class='jpflage jpsmallinactive smalleventbutton']")
 
-                actions.click(switch_to_gl_button)
+                actions.click(switch_to_gl_button).perform()
 
                 time.sleep(5)
             except:
@@ -206,33 +255,24 @@ class CompendiumScraper:
         if verbose:
             print('Finished extracting inline attributes')
         
-        self.ability_dict_omnibus[char_name] = {}
+        if not JP:
+            
+            self.ability_dict_omnibus_gl[char_name] = {}
+            self.ability_dict_omnibus_gl[char_name] = ability_dict
 
-        # Replace if already made, otherwise make for first time
-        try:
-            self.ability_dict_omnibus[char_name] = ability_dict
-        except:
-            self.ability_dict_omnibus[char_name] = {}
-            self.ability_dict_omnibus[char_name] = ability_dict
+        elif JP:
+            
+            self.ability_dict_omnibus_jp[char_name] = {}
+            self.ability_dict_omnibus_jp[char_name] = ability_dict
         
         if return_output:
             return ability_dict
-    
-    def prettify_html_to_list(self, html_element):
-        """
-    
-        Retrieves the 'outerHTML' attribute of an HTML element, parses it, and  
-        returns a list to enable iteration over the HTML element.
-    
-        """
         
-        soup = BeautifulSoup(html_element.get_attribute('outerHTML'), 'lxml')
-    
-        return [line for line in soup.prettify().split('\n')]
 
     def parse_ability_dict_to_df(
         self,
-        char_name  # Character name, as a string
+        char_name,  # Character name, as a string
+        JP = False  # If True, will pull from the JP version of ability_dict_omnibus instead of the GL version
     ):
         """
     
@@ -247,10 +287,14 @@ class CompendiumScraper:
         """
     
         try:
-            ability_dictionary = self.ability_dict_omnibus[char_name]
+            if not JP:
+                ability_dictionary = self.ability_dict_omnibus_gl[char_name]
+            elif JP:
+                ability_dictionary = self.ability_dict_omnibus_jp[char_name]
         except:
             print(f"No ability_dict for {char_name}.")
             print(f"Run `generate_ability_dict('{char_name}')` first, then `parse_ability_dict_to_df()` should work for them.")
+            print("Also, make sure you've properly specified whether you want the GL or JP version for both functions.")
             return
 
         df_row_list = []
@@ -358,15 +402,29 @@ class CompendiumScraper:
             row_dict['attribute_list'] = ability_dictionary[ability_name]['attribute_list']
             
             # Handling for abilities with one uncapped HP attack
-            if ability_name in self.ONE_HP_ATTACK_UNCAPPED.keys():
+            if ability_name in self.N_HP_ATTACKS_UNCAPPED.keys() and not JP:
                 special_row_dict = {}
-                row_dict['main_target_hp_attacks'] = main_target_hp_attacks - 1
-                row_dict['non_target_hp_attacks'] = non_target_hp_attacks if non_target_hp_attacks > 0 else 0
+                row_dict['main_target_hp_attacks'] = main_target_hp_attacks - self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_main']
+                row_dict['non_target_hp_attacks'] = non_target_hp_attacks = self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_non']
 
-                special_row_dict['ability_name'] = f"{ability_name} Uncapped HP Attack"
-                special_row_dict['main_target_hp_attacks'] = 1
-                special_row_dict['non_target_hp_attacks'] = 1 if non_target_hp_attacks > 0 else 0
-                special_row_dict['attribute_list'] = ['FollowUp']
+                special_row_dict['ability_name'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['followup_name']
+                special_row_dict['main_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_main']
+                special_row_dict['non_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_non']
+                special_row_dict['hp_dmg_cap_up_perc'] = 900  # Takes a character from 99,999 dmg to 999,999 dmg
+                special_row_dict['attribute_list'] = ['FollowUp'] + ability_dictionary[ability_name]['attribute_list'] if 'FollowUp' not in ability_dictionary[ability_name]['attribute_list'] else ability_dictionary[ability_name]['attribute_list']
+
+                df_row_list.append(special_row_dict)
+            
+            elif ability_name in self.N_HP_ATTACKS_UNCAPPED.keys() and JP:
+                special_row_dict = {}
+                row_dict['main_target_hp_attacks'] = main_target_hp_attacks - self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_main']
+                row_dict['non_target_hp_attacks'] = non_target_hp_attacks = self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_non']
+
+                special_row_dict['ability_name'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['followup_name']
+                special_row_dict['main_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_main']
+                special_row_dict['non_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_non']
+                special_row_dict['hp_dmg_cap_up_perc'] = 900  # Takes a character from 99,999 dmg to 999,999 dmg
+                special_row_dict['attribute_list'] = ['FollowUp'] + ability_dictionary[ability_name]['attribute_list'] if 'FollowUp' not in ability_dictionary[ability_name]['attribute_list'] else ability_dictionary[ability_name]['attribute_list']
 
                 df_row_list.append(special_row_dict)
 
@@ -407,7 +465,7 @@ class CompendiumScraper:
             try:
                 switch_to_jp_button = self.driver.find_element(By.XPATH, "//span[@class='glflage smalleventbutton']")
 
-                actions.click(switch_to_jp_button)
+                actions.click(switch_to_jp_button).perform()
 
                 time.sleep(5)
             except:
@@ -416,7 +474,7 @@ class CompendiumScraper:
             try:
                 switch_to_gl_button = self.driver.find_element(By.XPATH, "//span[@class='jpflage jpsmallinactive smalleventbutton']")
 
-                actions.click(switch_to_gl_button)
+                actions.click(switch_to_gl_button).perform()
 
                 time.sleep(5)
             except:
@@ -514,7 +572,13 @@ class CompendiumScraper:
         bt_effect_dict['bt_personal_hp_dmg_cap_up'] = bt_personal_hp_dmg_cap_up
         bt_effect_dict['bt_party_hp_dmg_cap_up'] = bt_party_hp_dmg_cap_up
     
-        self.bt_effect_dict_omnibus[char_name] = bt_effect_dict
+        if not JP:
+            
+            self.bt_effect_dict_omnibus_gl[char_name] = bt_effect_dict
+
+        elif JP:
+            
+            self.bt_effect_dict_omnibus_jp[char_name] = bt_effect_dict
         
         if return_output:
             bt_effect_df = pd.DataFrame([bt_effect_dict])
@@ -540,7 +604,7 @@ class CompendiumScraper:
             try:
                 switch_to_jp_button = self.driver.find_element(By.XPATH, "//span[@class='glflage smalleventbutton']")
 
-                actions.click(switch_to_jp_button)
+                actions.click(switch_to_jp_button).perform()
 
                 time.sleep(5)
             except:
@@ -549,7 +613,7 @@ class CompendiumScraper:
             try:
                 switch_to_gl_button = self.driver.find_element(By.XPATH, "//span[@class='jpflage jpsmallinactive smalleventbutton']")
 
-                actions.click(switch_to_gl_button)
+                actions.click(switch_to_gl_button).perform()
 
                 time.sleep(5)
             except:
@@ -624,7 +688,13 @@ class CompendiumScraper:
         ha_hp_dmg_cap_up_dict['personal_hp_dmg_cap_up'] = personal_ha_hp_dmg_cap_up
         ha_hp_dmg_cap_up_dict['party_ha_hp_dmg_cap_up'] = party_ha_hp_dmg_cap_up
     
-        self.ha_dict_omnibus[char_name] = ha_hp_dmg_cap_up_dict
+        if not JP:
+            
+            self.ha_dict_omnibus_gl[char_name] = ha_hp_dmg_cap_up_dict
+
+        elif JP:
+            
+            self.ha_dict_omnibus_jp[char_name] = ha_hp_dmg_cap_up_dict
         
         if return_output:
             ha_hp_dmg_cap_up_df = pd.DataFrame([ha_hp_dmg_cap_up_dict])
@@ -644,3 +714,50 @@ class CompendiumScraper:
                 self.chars_with_reworks_pending.append(char_name)
         except:
             return
+        
+    def extract_character_main_image(self, 
+                                     char_name, 
+                                     output_dir = None):
+        """
+        
+        Downloads a character's main image from Dissidia Compendium and stores it locally. 
+        
+        """
+
+        try:
+            if output_dir is None:
+                output_dir = self.config['images_dir']
+        except:
+            ValueError("You need to provide an output_dir or use a config yml")
+            return
+
+        try:
+            self.driver.get(self.character_dict_omnibus[char_name]['profile_url'])
+        except:
+            print(f"Couldn't find profile link for {char_name.title()}.")
+
+        output_file_path = output_dir + f"{char_name}_main_image.jpg"
+        
+        time.sleep(5)
+        
+        image_element = self.driver.find_element(By.XPATH, "//img[@class='charmanimage']")
+
+        link = image_element.get_attribute('src')
+
+        response = requests.get(link)
+
+        if response.status_code == 200:
+            with open(output_file_path, 'wb') as f:
+                f.write(response.content)
+        
+        else:
+            print(f"Accessed profile url, but could not access image url for {char_name.title()}")
+    
+
+    def main(self):
+        """
+        
+        One function that will complete all standard web scraping operations.
+        
+        """
+
