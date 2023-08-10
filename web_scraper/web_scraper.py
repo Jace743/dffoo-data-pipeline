@@ -1,6 +1,8 @@
 import pandas as pd
 import time
 import re
+import contextlib
+import io
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -17,7 +19,11 @@ class CompendiumScraper:
     
     def __init__(self):
         self.chars_with_reworks_pending = []
+        self.chars_not_in_gl_yet = []
         self.character_list_url = 'https://dissidiacompendium.com/characters/?'
+        
+        # Dictionary used for processing abilities that have one HP attack uncapped, with all the others 
+        # regularly capped.
         self.ONE_HP_ATTACK_UNCAPPED = {
             'Chuck Staff': 'Chuck Staff (Uncapped HP Attack)', 
             'Crystal Ray': 'Crystal Ray (Uncapped HP Attack)', 
@@ -28,6 +34,10 @@ class CompendiumScraper:
         self.driver = webdriver.Chrome()
 
         self.generate_character_links()
+
+        self.ability_dict_omnibus = {}
+        self.bt_effect_dict_omnibus = {}
+        self.ha_dict_omnibus = {}
     
     def generate_character_links(self):
         """
@@ -71,7 +81,9 @@ class CompendiumScraper:
         self,
         char_name,  # Character name, as a string
         scroll_speed = 1000,  # Scrolling speed to move through the page for lazy loading
-        verbose = False  # If true, will return print statements on iterations
+        verbose = False,  # If true, will return print statements on iterations
+        JP = False,
+        return_output = False  # If true, will return output in addition to adding to class attribute
     ):
         """
     
@@ -93,63 +105,119 @@ class CompendiumScraper:
             return
     
         time.sleep(5)
+
+        actions = ActionChains(self.driver)
         
-        self.screen_for_rework(char_name)
+        if JP:
+            try:
+                switch_to_jp_button = self.driver.find_element(By.XPATH, "//span[@class='glflage smalleventbutton']")
+
+                actions.click(switch_to_jp_button)
+
+                time.sleep(5)
+            except:
+                pass
+        elif not JP:
+            try:
+                switch_to_gl_button = self.driver.find_element(By.XPATH, "//span[@class='jpflage jpsmallinactive smalleventbutton']")
+
+                actions.click(switch_to_gl_button)
+
+                time.sleep(5)
+            except:
+                pass
+        
+        if not JP:
+            self.screen_for_rework(char_name)
 
         try:
-            list_build_complete = False
-            
-            count = 0
-            
-            while list_build_complete == False:
-                
-                self.driver.execute_script(f"window.scrollBy(0, {scroll_speed});")
-                time.sleep(1)
-                ability_list = self.driver.find_elements(By.XPATH, "//div[@class='infotitle abilitydisplayfex ']")
-                
-                # The last two abilities are calls. So, the second to last ability should be a call when we're done.
-                match = re.search('\(C\)', ability_list[-2].text)
-                list_build_complete = True if match else False
-                
-                if verbose:
-                    print(f"This iteration caught {len(ability_list)} abilities.")
-                
-                    print('-----------')
-                count += 1
-                if count == 15:
-                    print("Too many iterations. Examine this function for:")
-                    print(char_name)
-                    break
-            
-            if verbose:
-                print(f"This took {count} iterations.\n")
-            
-                for ability in ability_list:
-                    print(ability.text)
-        
-            ability_info_list = self.driver.find_elements(By.XPATH, "//div[@class='bluebase abilityinfobase']")
-        
-            if verbose:
-                print(f"Collected ability info list")
-            
-            ability_dict = {}
-            
-            count = 0
-            
-            for ability in ability_list:
-                ability_name = str(ability_list[count].text.split(' - ')[0])
-                
-                ability_dict[ability_name] = ability_info_list[count]
-                count += 1
-        
-            if verbose:
-                print('Added char name to ability dict')
-            
-            return ability_dict
+            # Just want to test that this can run. Don't want an output.
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.driver.find_element(By.XPATH, "//div[@class='infotitle abilitydisplayfex ']")
         except:
-            print("Unable to access abilities for a character. Maybe not on GL yet.")
-            return None
+            print(f"Unable to access abilities for {char_name.title()}.")
+            if not JP:
+                print("They might not be released to GL yet.")
+                if char_name not in self.chars_not_in_gl_yet:
+                    self.chars_not_in_gl_yet.append(char_name)
+                return
+            else:
+                print(f"Something's wrong with ability_dict generation for {char_name.title()}, since we're already checking the JP version.")
+                return
+        
+        
+        
+        list_build_complete = False
+        
+        count = 0
+        
+        while list_build_complete == False:
+            
+            self.driver.execute_script(f"window.scrollBy(0, {scroll_speed});")
+            time.sleep(1)
+            ability_list = self.driver.find_elements(By.XPATH, "//div[@class='infotitle abilitydisplayfex ']")
+            
+            # The last two abilities are calls. So, the second to last ability should be a call when we're done.
+            match = re.search('\(C\)', ability_list[-2].text)
+            list_build_complete = True if match else False
+            
+            if verbose:
+                print(f"This iteration caught {len(ability_list)} abilities.")
+            
+                print('-----------')
+            count += 1
+            if count == 15:
+                print("Too many iterations. Examine this function for:")
+                print(char_name)
+                break
+        
+        if verbose:
+            print(f"This took {count} iterations.\n")
+        
+            for ability in ability_list:
+                print(ability.text)
+    
+        ability_second_div_list = self.driver.find_elements(By.XPATH, "//div[@class='bluebase abilityinfobase']")
+    
+        if verbose:
+            print(f"Collected ability info list")
+        
+        ability_dict = {}
+        
+        for index, ability_first_div in enumerate(ability_list):
+            
+            ability_name = str(ability_first_div.text.split(' - ')[0])
+            
+            ability_dict[ability_name] = {}
+            
+            ability_dict[ability_name]['ability_attack_info'] = ability_second_div_list[index]
 
+            inline_attribute_list  = []
+            
+            ability_first_div_html = self.prettify_html_to_list(ability_first_div)
+        
+            for line in ability_first_div_html:
+                if re.search(r"inline ", line):
+                    inline_attribute = re.search(r"(inline )(\w+)", line).group(2)
+                    inline_attribute_list.append(inline_attribute)
+        
+            ability_dict[ability_name]['attribute_list'] = inline_attribute_list
+    
+        if verbose:
+            print('Finished extracting inline attributes')
+        
+        self.ability_dict_omnibus[char_name] = {}
+
+        # Replace if already made, otherwise make for first time
+        try:
+            self.ability_dict_omnibus[char_name] = ability_dict
+        except:
+            self.ability_dict_omnibus[char_name] = {}
+            self.ability_dict_omnibus[char_name] = ability_dict
+        
+        if return_output:
+            return ability_dict
+    
     def prettify_html_to_list(self, html_element):
         """
     
@@ -162,37 +230,36 @@ class CompendiumScraper:
     
         return [line for line in soup.prettify().split('\n')]
 
-    def extract_ability_hp_attack_count(
+    def parse_ability_dict_to_df(
         self,
-        char_name,  # Character name, as a string
-        scroll_speed = 1000,  # Scrolling speed to move through the page for lazy loading
-        verbose = False  # If true, will return print statements on iterations
+        char_name  # Character name, as a string
     ):
         """
     
         Extracts the number of HP attacks dealt to an ability's main target and non-targets. The
-        function input should be a character name (char_name) in string format. Utilizes the 
-        `generate_ability_dict` function.
+        function input should be a character name (char_name) in string format. Pulls data from
+        self.ability_dict_omnibus, so `generate_ability_dict` should be run for the character
+        beforehand.
     
         Returns a pandas dataframe with the ability name, number of HP attacks into main targets, 
-        and number of HP attacks into non-targets.
+        number of HP attacks into non-targets, and ability attribute list.
     
         """
     
-        ability_dictionary = self.generate_ability_dict(
-            char_name = char_name, 
-            scroll_speed = scroll_speed, 
-            verbose = verbose
-        )
-        
+        try:
+            ability_dictionary = self.ability_dict_omnibus[char_name]
+        except:
+            print(f"No ability_dict for {char_name}.")
+            print(f"Run `generate_ability_dict('{char_name}')` first, then `parse_ability_dict_to_df()` should work for them.")
+            return
+
         df_row_list = []
         
-        for ability_name, ability_div in ability_dictionary.items():
+        for ability_name in ability_dictionary.keys():
         
-            if ability_name == 'char_name':
-                continue
-            
-            ability_html_lines = self.prettify_html_to_list(ability_div)
+            ability_html_lines = self.prettify_html_to_list(
+                ability_dictionary[ability_name]['ability_attack_info']
+                )
         
             row_dict = {}
     
@@ -286,6 +353,10 @@ class CompendiumScraper:
             row_dict['non_target_hp_attacks'] = non_target_hp_attacks
             row_dict['hp_dmg_cap_up_perc'] = hp_dmg_cap_up_perc
 
+            
+            # Add ability attribute column
+            row_dict['attribute_list'] = ability_dictionary[ability_name]['attribute_list']
+            
             # Handling for abilities with one uncapped HP attack
             if ability_name in self.ONE_HP_ATTACK_UNCAPPED.keys():
                 special_row_dict = {}
@@ -295,6 +366,7 @@ class CompendiumScraper:
                 special_row_dict['ability_name'] = f"{ability_name} Uncapped HP Attack"
                 special_row_dict['main_target_hp_attacks'] = 1
                 special_row_dict['non_target_hp_attacks'] = 1 if non_target_hp_attacks > 0 else 0
+                special_row_dict['attribute_list'] = ['FollowUp']
 
                 df_row_list.append(special_row_dict)
 
@@ -304,78 +376,20 @@ class CompendiumScraper:
 
         ability_df['char_name'] = char_name
         
-        filtered_df = ability_df[~ability_df['ability_name'].str.contains('(C)', regex = False)].query(
-            'main_target_hp_attacks > 0'
-        ).reset_index(drop = True)
-    
-        return filtered_df[['char_name', 'ability_name', 'main_target_hp_attacks', 'non_target_hp_attacks', 'hp_dmg_cap_up_perc']]
-
-    def generate_test_case_ability_dfs(self, list_of_character_names):
-        """
-    
-        Save out characters whose HP attack counts we're confident in. We can then use these
-        test cases to see whether we've broken a previous character's df when we make changes.
-    
-        """
-    
-        for t_case in list_of_character_names:
-            ability_dict = self.generate_ability_dict(self.character_dict_omnibus[t_case]['abilities_url'])
-        
-            df = self.extract_ability_hp_attack_count(ability_dict)
-    
-            print(t_case.upper(), "test case df")
-        
-            df.to_csv(
-                f"C:\\Users\\jasre\\Code\\dffoo-data-pipeline\\character_ability_test_cases\\{t_case}_ability_df.csv",
-                index = False
-            )
-
-    def test__recent_changes_have_not_altered_previous_ability_dfs(self, list_of_character_names):
-        """
-    
-        Compares a newly-generated ability df to one that was generated in the past to see if
-        recent changes have broken functionality for a previously-completed character.
-    
-        Accepted characters for now: 
-            ['auron', 'sherlotta', 'aerith', 'lenna', 'warrioroflight', 'astos', 'paine']
-    
-        """
-        
-        broken_characters_list = []
-        
-        for t_case in list_of_character_names:
-            new_ability_dict = self.generate_ability_dict(self.character_dict_omnibus[t_case]['abilities_url'])
-    
-            new_df = self.extract_ability_hp_attack_count(new_ability_dict)
-    
-            try:
-                old_df = pd.read_csv(
-                    f"C:\\Users\\jasre\\Code\\dffoo-data-pipeline\\character_ability_test_cases\\{t_case}_ability_df.csv"
-                )
-            except:
-                print(f"Could not load a previous ability_df for {t_case.title()}.")
-                print("Are you sure one was previously generated?")
-    
-                continue
-    
-            if len(old_df.compare(new_df)) > 0:
-                broken_characters_list.append(t_case)
-    
-        if len(broken_characters_list) > 0:
-            print("Broken ability_dfs were found.\n Returning list of characters to review.")
-            return broken_characters_list
-        else:
-            print("No broken ability_dfs!")
+        return ability_df[['char_name', 'ability_name', 'main_target_hp_attacks', 'non_target_hp_attacks', 'hp_dmg_cap_up_perc', 'attribute_list']]
 
     def retrieve_hp_caps_from_bt(
         self,
         char_name,  # Character's name as a string
-        verbose = False  # If true, will return print statements
+        verbose = False,  # If true, will return print statements
+        JP = False, # If true, will check the JP version of the website instead of GL
+        return_output = False # If true, will return a pandas dataframe row after running
     ):
     
         """
     
-        Takes a character's name as input and returns a dictionary with three key-value pairs:
+        Takes a character's name as input and adds a key-value pair to self.bt_effect_dict_omnibus. Key is char_name, and
+        the value is a dictionary with three key-value pairs:
     
         1) Character's name
         2) Personal HP Dmg Cap up from BT effect
@@ -388,6 +402,25 @@ class CompendiumScraper:
         self.driver.get(self.character_dict_omnibus[char_name]['buffs_url'])
         
         time.sleep(5)
+
+        if JP:
+            try:
+                switch_to_jp_button = self.driver.find_element(By.XPATH, "//span[@class='glflage smalleventbutton']")
+
+                actions.click(switch_to_jp_button)
+
+                time.sleep(5)
+            except:
+                pass
+        elif not JP:
+            try:
+                switch_to_gl_button = self.driver.find_element(By.XPATH, "//span[@class='jpflage jpsmallinactive smalleventbutton']")
+
+                actions.click(switch_to_gl_button)
+
+                time.sleep(5)
+            except:
+                pass
         
         bt_personal_hp_dmg_cap_up = 0
         bt_party_hp_dmg_cap_up = 0
@@ -396,7 +429,7 @@ class CompendiumScraper:
             # Find the BT button for the character's buff page
             bt_button_element = self.driver.find_element(By.XPATH, "//li[@class='filterinactive buffbutton wpbtbutton']")
         except:
-            print(f"Unable to find a BT for {char_name.title()}. Do they have one in this timeline (GL/JP)?")
+            print(f"Unable to find a BT for {char_name.title()}. Either the character isn't in GL yet, or they lack a BT in both GL and JP.")
             return
             
         # Click on it to make sure that the buff appears
@@ -444,7 +477,7 @@ class CompendiumScraper:
                     print("There's a new BT Effect slider for you to figure out.")
                     return
         
-            initial_x_offset = offset = 80
+            offset = 80
         
             while width_element.get_attribute('style') != 'width: 100%;':
                 offset += 10
@@ -481,23 +514,60 @@ class CompendiumScraper:
         bt_effect_dict['bt_personal_hp_dmg_cap_up'] = bt_personal_hp_dmg_cap_up
         bt_effect_dict['bt_party_hp_dmg_cap_up'] = bt_party_hp_dmg_cap_up
     
-        return bt_effect_dict
+        self.bt_effect_dict_omnibus[char_name] = bt_effect_dict
+        
+        if return_output:
+            bt_effect_df = pd.DataFrame([bt_effect_dict])
 
-    def retrieve_ha_hp_dmg_cap_up(self, char_name, verbose=False):
+            return bt_effect_df
+
+    def retrieve_ha_hp_dmg_cap_up(self, char_name, verbose=False, JP=False, return_output=False):
         """
     
         Retrieves HP Dmg Cap up values from a character's high armor pages, both personal and 
-        party-wide, and returns a dictionary with three keys: 1) character name, 2) personal 
-        cap up, and 3) party-wide cap up.
+        party-wide, and adds character key-value pair to self.ha_dict_omnibus, where the key is char_name and the
+        value is a dict with  three key-value pairs: 1) character name, 2) personal hp dmg cap up, 
+        and 3) party-wide hp dmg cap up.
     
         """
         self.driver.get(self.character_dict_omnibus[char_name]['high_armor_url'])
         
         time.sleep(5)
+
+        actions = ActionChains(self.driver)
         
-        high_armor_html = self.prettify_html_to_list(
-            self.driver.find_element(By.XPATH, "//div[@class='infonameholderenemybuff default_passive Buffbase']")
-        )
+        if JP:
+            try:
+                switch_to_jp_button = self.driver.find_element(By.XPATH, "//span[@class='glflage smalleventbutton']")
+
+                actions.click(switch_to_jp_button)
+
+                time.sleep(5)
+            except:
+                pass
+        elif not JP:
+            try:
+                switch_to_gl_button = self.driver.find_element(By.XPATH, "//span[@class='jpflage jpsmallinactive smalleventbutton']")
+
+                actions.click(switch_to_gl_button)
+
+                time.sleep(5)
+            except:
+                pass
+        try:
+            high_armor_html = self.prettify_html_to_list(
+                self.driver.find_element(By.XPATH, "//div[@class='infonameholderenemybuff default_passive Buffbase']")
+            )
+        except:
+            print(f"Unable to find High Armor info for {char_name.title()}.")
+            if not JP:
+                print("They might not be released to GL yet.")
+                if char_name not in self.chars_not_in_gl_yet:
+                    self.chars_not_in_gl_yet.append(char_name)
+                return
+            else:
+                print("Something's wrong with high armor parsing for {char_name.title()}, since we're already checking the JP version.")
+                return
         
         personal_ha_hp_dmg_cap_up = 0
         party_ha_hp_dmg_cap_up = 0
@@ -554,72 +624,12 @@ class CompendiumScraper:
         ha_hp_dmg_cap_up_dict['personal_hp_dmg_cap_up'] = personal_ha_hp_dmg_cap_up
         ha_hp_dmg_cap_up_dict['party_ha_hp_dmg_cap_up'] = party_ha_hp_dmg_cap_up
     
-        return ha_hp_dmg_cap_up_dict
+        self.ha_dict_omnibus[char_name] = ha_hp_dmg_cap_up_dict
+        
+        if return_output:
+            ha_hp_dmg_cap_up_df = pd.DataFrame([ha_hp_dmg_cap_up_dict])
 
-    def extract_inline_ability_attributes(
-        self,
-        char_name, 
-        scroll_speed = 1000, 
-        verbose = False
-    ):
-    
-        """
-    
-        Takes a character name and extracts all of the inline attributes of their abilities. Returns
-        this information in a dictionary with ability name as keys and a list of inline attributes as
-        values.
-    
-        """
-        
-        self.driver.get(self.character_dict_omnibus[char_name]['abilities_url'])
-        
-        time.sleep(5)
-        
-        list_build_complete = False
-        
-        count = 0
-        
-        while list_build_complete == False:
-            
-            self.driver.execute_script(f"window.scrollBy(0, {scroll_speed});")
-            time.sleep(1)
-            
-            try:
-                ability_list = self.driver.find_elements(By.XPATH, "//div[@class='infotitle abilitydisplayfex ']")
-                
-                # The last two abilities are calls. So, the second to last ability should be a call when we're done.
-                match = re.search('\(C\)', ability_list[-2].text)
-                list_build_complete = True if match else False
-            except:
-                print(f"Could not find abilities for {char_name.title()}.")
-                return
-            
-            if verbose:
-                print(f"This iteration caught {len(ability_list)} abilities.")
-            
-                print('-----------')
-            count += 1
-            if count == 15:
-                print(f"Too many iterations. Examine this function for: {char_name.title()}")
-                return
-        
-        ability_attribute_dict = {}
-        
-        for index, ability_div in enumerate(ability_list):
-            inline_attribute_list  = []
-            
-            ability_name = str(ability_list[index].text.split(' - ')[0])
-            
-            ability_div_html = self.prettify_html_to_list(ability_div)
-        
-            for line in ability_div_html:
-                if re.search(r"inline ", line):
-                    inline_attribute = re.search(r"(inline )(\w+)", line).group(2)
-                    inline_attribute_list.append(inline_attribute)
-        
-            ability_attribute_dict[ability_name] = inline_attribute_list
-    
-        return ability_attribute_dict
+            return ha_hp_dmg_cap_up_df
     
     def screen_for_rework(self, char_name):
         """
@@ -634,32 +644,3 @@ class CompendiumScraper:
                 self.chars_with_reworks_pending.append(char_name)
         except:
             return
-
-    def create_inline_ability_attribute_df(
-            self, 
-            list_of_character_names
-            ):
-        """
-        
-        Take a list of character names and produces one pandas dataframe consisting of all their abilities and those abilities' attributes.
-        
-        """
-
-        self.character_ability_attribute_omnibus = {}
-
-        for char_name in list_of_character_names:
-            self.character_ability_attribute_omnibus[char_name] = self.extract_inline_ability_attributes(char_name)
-    
-        df_rows = []
-
-        for char_name, ability_dict in self.character_ability_attribute_omnibus.items():
-            for ability, attribute_list in ability_dict.items():
-                df_rows.append({'char_name': char_name, 'ability': ability, 'attributes': attribute_list})
-
-                if ability in self.ONE_HP_ATTACK_UNCAPPED.keys():
-                    df_rows.append({'char_name': char_name, 'ability': self.ONE_HP_ATTACK_UNCAPPED['ability'], 'attributes': ['FollowUp']})
-
-        # Create a DataFrame from the list of dictionaries
-        df = pd.DataFrame(df_rows)
-
-        return df
