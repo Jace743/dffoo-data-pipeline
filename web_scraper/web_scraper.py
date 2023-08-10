@@ -1,10 +1,12 @@
 import pandas as pd
+import sys
 import time
 import re
 import contextlib
+import yaml
 import io
 import requests
-import yaml
+import logging
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -28,6 +30,17 @@ class CompendiumScraper:
         with open(config_yml_path, 'r') as yml:
             self.config = yaml.safe_load(yml)
 
+        # Start up logging
+        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(message)s')
+        file_handler = logging.FileHandler(self.config['logging_dir'])
+        file_handler.setLevel(logging.INFO)
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(message)s')
+        file_handler.setFormatter(formatter)
+        self.logger = logging.getLogger(__name__)
+        self.logger.addHandler(file_handler)
+        self.logger.removeHandler(logging.StreamHandler)  # Prevent logging in the console.
+        self.LOG_DIVIDER = "===================================================="
+        
         # Dictionary used for processing abilities that have one HP attack uncapped, with all the others 
         # regularly capped.
         self.N_HP_ATTACKS_UNCAPPED = {
@@ -66,6 +79,8 @@ class CompendiumScraper:
 
         self.generate_character_links()
 
+        self.logger.info("Character links successfully generated.")
+
         self.ability_dict_omnibus_gl = {}
         self.bt_effect_dict_omnibus_gl = {}
         self.ha_dict_omnibus_gl = {}
@@ -91,6 +106,10 @@ class CompendiumScraper:
         ).until(
             EC.presence_of_all_elements_located((By.CLASS_NAME, "characterlink"))
         )
+
+        self.logger.info(self.LOG_DIVIDER)
+        self.logger.info("Retrieved all main character links. Generating remaining links for each character.")
+        self.logger.info(self.LOG_DIVIDER)
     
         self.character_dict_omnibus = {}
         
@@ -111,6 +130,8 @@ class CompendiumScraper:
             }
             
             self.character_dict_omnibus[char_name] = char_dict
+
+            self.logger.info("self.character_dict_omnibus entry for %s was successful", char_name.upper())
 
 
     def prettify_html_to_list(self, html_element):
@@ -147,10 +168,15 @@ class CompendiumScraper:
     
         """
     
+        self.logger.info(self.LOG_DIVIDER)
+        self.logger.info("Generating ability dictionary for %s", char_name.upper())
+        self.logger.info(self.LOG_DIVIDER)
+
         try:
             self.driver.get(self.character_dict_omnibus[char_name]['abilities_url'])
         except:
             print("You need to generate the character_dict_omnibus first (run generate_character_links).")
+            self.logger.info("User didn't generate character_dict_omnibus first.")
             return
     
         time.sleep(5)
@@ -184,14 +210,14 @@ class CompendiumScraper:
             with contextlib.redirect_stdout(io.StringIO()):
                 self.driver.find_element(By.XPATH, "//div[@class='infotitle abilitydisplayfex ']")
         except:
-            print(f"Unable to access abilities for {char_name.title()}.")
+            self.logger.info("Unable to access abilities for %s.", char_name.upper())
             if not JP:
-                print("They might not be released to GL yet.")
+                self.logger.info("They might not be released to GL yet.")
                 if char_name not in self.chars_not_in_gl_yet:
                     self.chars_not_in_gl_yet.append(char_name)
                 return
             else:
-                print(f"Something's wrong with ability_dict generation for {char_name.title()}, since we're already checking the JP version.")
+                self.logger.info("Something's wrong with ability_dict generation for %s, since we're already checking the JP version.", char_name.upper())
                 return
         
         
@@ -206,30 +232,26 @@ class CompendiumScraper:
             time.sleep(1)
             ability_list = self.driver.find_elements(By.XPATH, "//div[@class='infotitle abilitydisplayfex ']")
             
-            # The last two abilities are calls. So, the second to last ability should be a call when we're done.
+            # The last two abilities are calls. So,h the second to last ability should be a call when we're done.
             match = re.search('\(C\)', ability_list[-2].text)
             list_build_complete = True if match else False
             
-            if verbose:
-                print(f"This iteration caught {len(ability_list)} abilities.")
-            
-                print('-----------')
+            self.logger.info("This iteration caught %s abilities.", len(ability_list))
+        
+            self.logger.info('-----------')
             count += 1
             if count == 15:
-                print("Too many iterations. Examine this function for:")
-                print(char_name)
+                self.logger.info("Too many iterations. Examine this function for: %s", char_name.upper())
                 break
         
-        if verbose:
-            print(f"This took {count} iterations.\n")
-        
-            for ability in ability_list:
-                print(ability.text)
+        self.logger.info("This took %s iterations.", count)
+    
+        for ability in ability_list:
+            self.logger.info("%s", ability.text)
     
         ability_second_div_list = self.driver.find_elements(By.XPATH, "//div[@class='bluebase abilityinfobase']")
     
-        if verbose:
-            print(f"Collected ability info list")
+        self.logger.info("Collected ability info list for %s", char_name)
         
         ability_dict = {}
         
@@ -252,8 +274,7 @@ class CompendiumScraper:
         
             ability_dict[ability_name]['attribute_list'] = inline_attribute_list
     
-        if verbose:
-            print('Finished extracting inline attributes')
+        self.logger.info('Finished extracting inline attributes for %s', char_name.upper())
         
         if not JP:
             
@@ -285,7 +306,11 @@ class CompendiumScraper:
         number of HP attacks into non-targets, and ability attribute list.
     
         """
-    
+
+        self.logger.info(self.LOG_DIVIDER)
+        self.logger.info("Parsing ability dict to df for %s.", char_name.upper())
+        self.logger.info(self.LOG_DIVIDER)
+
         try:
             if not JP:
                 ability_dictionary = self.ability_dict_omnibus_gl[char_name]
@@ -295,6 +320,7 @@ class CompendiumScraper:
             print(f"No ability_dict for {char_name}.")
             print(f"Run `generate_ability_dict('{char_name}')` first, then `parse_ability_dict_to_df()` should work for them.")
             print("Also, make sure you've properly specified whether you want the GL or JP version for both functions.")
+            self.logger.info("Couldn't find ability_dict for %s.", char_name.upper())
             return
 
         df_row_list = []
@@ -400,7 +426,8 @@ class CompendiumScraper:
             
             # Add ability attribute column
             row_dict['attribute_list'] = ability_dictionary[ability_name]['attribute_list']
-            
+            row_dict['game_version'] = 'GL' if not JP else 'JP'
+
             # Handling for abilities with one uncapped HP attack
             if ability_name in self.N_HP_ATTACKS_UNCAPPED.keys() and not JP:
                 special_row_dict = {}
@@ -412,6 +439,7 @@ class CompendiumScraper:
                 special_row_dict['non_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_non']
                 special_row_dict['hp_dmg_cap_up_perc'] = 900  # Takes a character from 99,999 dmg to 999,999 dmg
                 special_row_dict['attribute_list'] = ['FollowUp'] + ability_dictionary[ability_name]['attribute_list'] if 'FollowUp' not in ability_dictionary[ability_name]['attribute_list'] else ability_dictionary[ability_name]['attribute_list']
+                special_row_dict['game_version'] = 'GL'
 
                 df_row_list.append(special_row_dict)
             
@@ -425,6 +453,7 @@ class CompendiumScraper:
                 special_row_dict['non_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_non']
                 special_row_dict['hp_dmg_cap_up_perc'] = 900  # Takes a character from 99,999 dmg to 999,999 dmg
                 special_row_dict['attribute_list'] = ['FollowUp'] + ability_dictionary[ability_name]['attribute_list'] if 'FollowUp' not in ability_dictionary[ability_name]['attribute_list'] else ability_dictionary[ability_name]['attribute_list']
+                special_row_dict['game_version'] = 'JP'
 
                 df_row_list.append(special_row_dict)
 
@@ -433,6 +462,8 @@ class CompendiumScraper:
         ability_df = pd.DataFrame(df_row_list)
 
         ability_df['char_name'] = char_name
+
+        self.logger.info("Sucessfully converted ability df for %s", char_name.upper())
         
         return ability_df[['char_name', 'ability_name', 'main_target_hp_attacks', 'non_target_hp_attacks', 'hp_dmg_cap_up_perc', 'attribute_list']]
 
@@ -455,6 +486,10 @@ class CompendiumScraper:
         
         """
     
+        self.logger.info(self.LOG_DIVIDER)
+        self.logger.info("Retrieving BT info for %s.", char_name.upper())
+        self.logger.info(self.LOG_DIVIDER)
+
         actions = ActionChains(self.driver)
         
         self.driver.get(self.character_dict_omnibus[char_name]['buffs_url'])
@@ -488,6 +523,7 @@ class CompendiumScraper:
             bt_button_element = self.driver.find_element(By.XPATH, "//li[@class='filterinactive buffbutton wpbtbutton']")
         except:
             print(f"Unable to find a BT for {char_name.title()}. Either the character isn't in GL yet, or they lack a BT in both GL and JP.")
+            self.logger.info("Couldn't find BT button for %s", char_name.upper())
             return
             
         # Click on it to make sure that the buff appears
@@ -533,6 +569,7 @@ class CompendiumScraper:
                     
                 except:
                     print("There's a new BT Effect slider for you to figure out.")
+                    self.logger.info("Unable to account for BT Effect slider for %s.", char_name.upper())
                     return
         
             offset = 80
@@ -540,14 +577,11 @@ class CompendiumScraper:
             while width_element.get_attribute('style') != 'width: 100%;':
                 offset += 10
                 actions.drag_and_drop_by_offset(slider, offset, 0).release().perform()
-                if verbose:
-                    print(f"Offset of {offset} performed.")
+                self.logger.info("Offset of %s performed.", offset)
         
-            if verbose:
-                print("Reached max stacks!")
+            self.logger.info("Reached max stacks!")
         except:
-            if verbose:
-                print(f"No stack slider found. Assuming {char_name} has a BT without stacks.")
+            self.logger.info(f"No stack slider found. Assuming {char_name} has a BT without stacks.")
             pass
         
         bt_buff_description_div = self.driver.find_element(
@@ -563,10 +597,6 @@ class CompendiumScraper:
             if re.search(r"- Party MAX BRV Cap", line):  # Party HP Dmg Cap up has this string
                 bt_party_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
     
-        if verbose:
-            print(f"Personal HP Dmg Cap Up: {bt_personal_hp_dmg_cap_up}%")
-            print(f"Party HP Dmg Cap Up: {bt_party_hp_dmg_cap_up}%")
-    
         bt_effect_dict = {}
         bt_effect_dict['char_name'] = char_name
         bt_effect_dict['bt_personal_hp_dmg_cap_up'] = bt_personal_hp_dmg_cap_up
@@ -574,11 +604,15 @@ class CompendiumScraper:
     
         if not JP:
             
+            bt_effect_dict['game_version'] = 'GL'
             self.bt_effect_dict_omnibus_gl[char_name] = bt_effect_dict
 
         elif JP:
             
+            bt_effect_dict['game_version'] = 'JP'
             self.bt_effect_dict_omnibus_jp[char_name] = bt_effect_dict
+        
+        self.logger.info("Retrieved BT info for %s.", char_name.upper())
         
         if return_output:
             bt_effect_df = pd.DataFrame([bt_effect_dict])
@@ -594,6 +628,10 @@ class CompendiumScraper:
         and 3) party-wide hp dmg cap up.
     
         """
+        self.logger.info(self.LOG_DIVIDER)
+        self.logger.info("Retrieving High Armor info for %s.", char_name.upper())
+        self.logger.info(self.LOG_DIVIDER)
+        
         self.driver.get(self.character_dict_omnibus[char_name]['high_armor_url'])
         
         time.sleep(5)
@@ -623,6 +661,7 @@ class CompendiumScraper:
                 self.driver.find_element(By.XPATH, "//div[@class='infonameholderenemybuff default_passive Buffbase']")
             )
         except:
+            self.logger.info("Could not find High Armor for %s.", char_name.upper())
             print(f"Unable to find High Armor info for {char_name.title()}.")
             if not JP:
                 print("They might not be released to GL yet.")
@@ -630,7 +669,7 @@ class CompendiumScraper:
                     self.chars_not_in_gl_yet.append(char_name)
                 return
             else:
-                print("Something's wrong with high armor parsing for {char_name.title()}, since we're already checking the JP version.")
+                self.logger.info("Something's wrong with high armor parsing for %s, since we're already checking the JP version.", char_name.upper())
                 return
         
         personal_ha_hp_dmg_cap_up = 0
@@ -642,10 +681,6 @@ class CompendiumScraper:
                 personal_ha_hp_dmg_cap_up += int(re.search("\d+", high_armor_html[index + 6]).group())
             if re.search(r"- Party MAX BRV Cap", line):
                 party_ha_hp_dmg_cap_up += int(re.search("\d+", high_armor_html[index + 6]).group())
-        
-        if verbose:
-            print(f"Personal Cap Up: {personal_ha_hp_dmg_cap_up}")
-            print(f"Party Cap Up: {party_ha_hp_dmg_cap_up}")
         
         self.driver.get(self.character_dict_omnibus[char_name]['high_armor_plus_url'])
         
@@ -678,10 +713,6 @@ class CompendiumScraper:
                     party_ha_hp_dmg_cap_up += int(re.search(
                         "\d+", ha_plus_html[index + 6]
                     ).group())
-        
-        if verbose:
-            print(f"Personal Cap Up: {personal_ha_hp_dmg_cap_up}")
-            print(f"Party Cap Up: {party_ha_hp_dmg_cap_up}")
     
         ha_hp_dmg_cap_up_dict = {}
         ha_hp_dmg_cap_up_dict['char_name'] = char_name
@@ -690,11 +721,15 @@ class CompendiumScraper:
     
         if not JP:
             
+            ha_hp_dmg_cap_up_dict['game_version'] = 'GL'
             self.ha_dict_omnibus_gl[char_name] = ha_hp_dmg_cap_up_dict
 
         elif JP:
             
+            ha_hp_dmg_cap_up_dict['game_version'] = 'JP'
             self.ha_dict_omnibus_jp[char_name] = ha_hp_dmg_cap_up_dict
+        
+        self.logger.info("High armor info parsed for %s.", char_name.upper())
         
         if return_output:
             ha_hp_dmg_cap_up_df = pd.DataFrame([ha_hp_dmg_cap_up_dict])
@@ -712,6 +747,7 @@ class CompendiumScraper:
         try:
             if self.driver.find_element(By.XPATH, "//li[@class='filterinactive buffbutton reworktabred_direct']"):
                 self.chars_with_reworks_pending.append(char_name)
+                self.logger.info("Found an upcoming rework for %s.", char_name.upper())
         except:
             return
         
@@ -754,10 +790,87 @@ class CompendiumScraper:
             print(f"Accessed profile url, but could not access image url for {char_name.title()}")
     
 
-    def main(self):
-        """
-        
-        One function that will complete all standard web scraping operations.
-        
-        """
+def main():
+    """
+    
+    One function that will complete all standard web scraping operations.
+    
+    """
 
+    config_yml_path = sys.argv[1]
+
+    cs = CompendiumScraper(config_yml_path)
+
+    ability_df_list = []
+
+    bt_effect_df_list = []
+
+    ha_cap_df_list = []
+    
+    character_count = 1
+
+    for char_name in cs.character_dict_omnibus.keys():
+        
+        # Restart the driver every once in a while so program doesn't crash
+        if character_count in [30, 60, 90, 120, 150, 180]:
+            cs.driver.close()
+            cs.driver = webdriver.Chrome()
+            time.sleep(5)
+
+        cs.generate_ability_dict(char_name)
+    
+        parsed_ability_df = cs.parse_ability_dict_to_df(char_name)
+
+        ability_df_list.append(parsed_ability_df)
+    
+        bt_effect_df = cs.retrieve_hp_caps_from_bt(char_name, return_output=True)
+
+        bt_effect_df_list.append(bt_effect_df)
+    
+        high_armor_cap_df = cs.retrieve_ha_hp_dmg_cap_up(char_name, return_output=True)
+
+        ha_cap_df_list.append(high_armor_cap_df)
+
+        character_count += 1
+
+    cs.jp_scrape_set = set(cs.chars_with_reworks_pending + cs.chars_not_in_gl_yet)
+    
+    character_count = 1
+
+    for char_name in cs.jp_scrape_set:
+        # Restart the driver every once in a while so program doesn't crash
+        if character_count in [30, 60, 90, 120, 150, 180]:
+            cs.driver.close()
+            cs.driver = webdriver.Chrome()
+            time.sleep(5)
+        
+        cs.generate_ability_dict(char_name, JP=True)
+    
+        parsed_ability_df = cs.parse_ability_dict_to_df(char_name, JP=True)
+
+        ability_df_list.append(parsed_ability_df)
+    
+        bt_effect_df = cs.retrieve_hp_caps_from_bt(char_name, JP=True, return_output=True)
+
+        bt_effect_df_list.append(bt_effect_df)
+    
+        high_armor_cap_df = cs.retrieve_ha_hp_dmg_cap_up(char_name, JP=True, return_output=True)
+
+        ha_cap_df_list.append(high_armor_cap_df)
+
+        character_count += 1
+
+    final_raw_abilities_df = pd.concat(ability_df_list)
+
+    final_raw_abilities_df.to_csv(cs.config['datasets_dir'] + 'raw_abilities.csv', index=False)
+
+    final_raw_bt_effects_df = pd.concat(bt_effect_df_list)
+
+    final_raw_bt_effects_df.to_csv(cs.config['datasets_dir'] + 'raw_bt_effects.csv', index=False)
+
+    final_raw_ha_caps_df = pd.concat(ha_cap_df_list)
+
+    final_raw_ha_caps_df.to_csv(cs.config['datasets_dir'] + 'raw_high_armor_caps.csv', index=False)
+    
+if __name__ == '__main__':
+    main()
