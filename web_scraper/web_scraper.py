@@ -18,6 +18,12 @@ class CompendiumScraper:
     def __init__(self):
         self.chars_with_reworks_pending = []
         self.character_list_url = 'https://dissidiacompendium.com/characters/?'
+        self.ONE_HP_ATTACK_UNCAPPED = {
+            'Chuck Staff': 'Chuck Staff (Uncapped HP Attack)', 
+            'Crystal Ray': 'Crystal Ray (Uncapped HP Attack)', 
+            'Soul Burst': 'Soul Burst (Uncapped HP Attack)', 
+            'Soul Burst+': 'Soul Burst+ (Uncapped HP Attack)'
+        }
 
         self.driver = webdriver.Chrome()
 
@@ -279,7 +285,19 @@ class CompendiumScraper:
             row_dict['main_target_hp_attacks'] = main_target_hp_attacks
             row_dict['non_target_hp_attacks'] = non_target_hp_attacks
             row_dict['hp_dmg_cap_up_perc'] = hp_dmg_cap_up_perc
-    
+
+            # Handling for abilities with one uncapped HP attack
+            if ability_name in self.ONE_HP_ATTACK_UNCAPPED.keys():
+                special_row_dict = {}
+                row_dict['main_target_hp_attacks'] = main_target_hp_attacks - 1
+                row_dict['non_target_hp_attacks'] = non_target_hp_attacks if non_target_hp_attacks > 0 else 0
+
+                special_row_dict['ability_name'] = f"{ability_name} Uncapped HP Attack"
+                special_row_dict['main_target_hp_attacks'] = 1
+                special_row_dict['non_target_hp_attacks'] = 1 if non_target_hp_attacks > 0 else 0
+
+                df_row_list.append(special_row_dict)
+
             df_row_list.append(row_dict)
     
         ability_df = pd.DataFrame(df_row_list)
@@ -617,3 +635,31 @@ class CompendiumScraper:
         except:
             return
 
+    def create_inline_ability_attribute_df(
+            self, 
+            list_of_character_names
+            ):
+        """
+        
+        Take a list of character names and produces one pandas dataframe consisting of all their abilities and those abilities' attributes.
+        
+        """
+
+        self.character_ability_attribute_omnibus = {}
+
+        for char_name in list_of_character_names:
+            self.character_ability_attribute_omnibus[char_name] = self.extract_inline_ability_attributes(char_name)
+    
+        df_rows = []
+
+        for char_name, ability_dict in self.character_ability_attribute_omnibus.items():
+            for ability, attribute_list in ability_dict.items():
+                df_rows.append({'char_name': char_name, 'ability': ability, 'attributes': attribute_list})
+
+                if ability in self.ONE_HP_ATTACK_UNCAPPED.keys():
+                    df_rows.append({'char_name': char_name, 'ability': self.ONE_HP_ATTACK_UNCAPPED['ability'], 'attributes': ['FollowUp']})
+
+        # Create a DataFrame from the list of dictionaries
+        df = pd.DataFrame(df_rows)
+
+        return df
