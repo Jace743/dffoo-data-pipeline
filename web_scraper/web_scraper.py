@@ -831,11 +831,36 @@ def main():
 
         ha_cap_df_list.append(high_armor_cap_df)
 
+        try:
+            parsed_ability_df.to_csv(cs.config['temp_ability_df_dir'] + f"{char_name}_abiilty_df_gl.csv", index=False)
+            cs.logger.info("Successfully saved temporary ability_df for %s.", char_name.upper())
+        except:
+            cs.logger.info("No ability_df to save for %s.", char_name.upper())
+            pass
+        
+        try:
+            bt_effect_df.to_csv(cs.config['temp_bt_effect_df_dir'] + f"{char_name}_bt_effect_df_gl.csv", index=False)
+            cs.logger.info("Successfully saved temporary bt_effect_df for %s.", char_name.upper())
+        except:
+            cs.logger.info("No bt_effect_df to save for %s.", char_name.upper())
+            pass
+        
+        try:
+            high_armor_cap_df.to_csv(cs.config['temp_ha_cap_df_dir'] + f"{char_name}_ha_cap_df_gl.csv", index=False)
+            cs.logger.info("Successfully saved temporary ha_cap_df for %s.", char_name.upper())
+        except:
+            cs.logger.info("No high_armor_cap_df to save for %s.", char_name.upper())
+            pass
+
         character_count += 1
 
     cs.jp_scrape_set = set(cs.chars_with_reworks_pending + cs.chars_not_in_gl_yet)
     
     character_count = 1
+
+    cs.logger.info(cs.LOG_DIVIDER)
+    cs.logger.info("BEGIN PARSING JP VERSION")
+    cs.logger.info(cs.LOG_DIVIDER)
 
     for char_name in cs.jp_scrape_set:
         # Restart the driver every once in a while so program doesn't crash
@@ -857,7 +882,28 @@ def main():
         high_armor_cap_df = cs.retrieve_ha_hp_dmg_cap_up(char_name, JP=True, return_output=True)
 
         ha_cap_df_list.append(high_armor_cap_df)
-
+        
+        try:
+            parsed_ability_df.to_csv(cs.config['temp_ability_df_dir'] + f"{char_name}_abiilty_df_jp.csv", index=False)
+            cs.logger.info("Successfully saved temporary ability_df for %s.", char_name.upper())
+        except:
+            cs.logger.info("No ability_df to save for %s.", char_name.upper())
+            pass
+        
+        try:
+            bt_effect_df.to_csv(cs.config['temp_bt_effect_df_dir'] + f"{char_name}_bt_effect_df_jp.csv", index=False)
+            cs.logger.info("Successfully saved temporary bt_effect_df for %s.", char_name.upper())
+        except:
+            cs.logger.info("No bt_effect_df to save for %s.", char_name.upper())
+            pass
+        
+        try:
+            high_armor_cap_df.to_csv(cs.config['temp_ha_cap_df_dir'] + f"{char_name}_ha_cap_df_jp.csv", index=False)
+            cs.logger.info("Successfully saved temporary ha_cap_df for %s.", char_name.upper())
+        except:
+            cs.logger.info("No high_armor_cap_df to save for %s.", char_name.upper())
+            pass
+        
         character_count += 1
 
     final_raw_abilities_df = pd.concat(ability_df_list)
