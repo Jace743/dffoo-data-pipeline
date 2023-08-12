@@ -465,7 +465,7 @@ class CompendiumScraper:
 
         self.logger.info("Sucessfully converted ability df for %s", char_name.upper())
         
-        return ability_df[['char_name', 'ability_name', 'main_target_hp_attacks', 'non_target_hp_attacks', 'hp_dmg_cap_up_perc', 'attribute_list']]
+        return ability_df[['char_name', 'ability_name', 'main_target_hp_attacks', 'non_target_hp_attacks', 'hp_dmg_cap_up_perc', 'attribute_list', 'game_version']]
 
     def retrieve_hp_caps_from_bt(
         self,
