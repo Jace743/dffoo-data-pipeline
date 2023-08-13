@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import sys
 import time
 import re
@@ -421,14 +422,23 @@ class CompendiumScraper:
                 # Other abilities deal damage based on a characters stat or current value (e.g., Aerith's LD followup)
                 # For these abilities, the line we want appears six lines later
                 if (re.search(r" by", attack_info_line) or re.search(r" based on", attack_info_line)) and re.search(r"of ", extra_condition_line):
-                    attack_info_line = ability_html_lines[index + 6]
-                    self.logger.info("Attack info line is SIX lines after inline HP.")
+                    if re.search(r"to non-targets", ability_html_lines[index + 13]) and re.search(r"inline BREAK", ability_html_lines[index + 11]):
+                        attack_info_line = ability_html_lines[index + 13]
+                        self.logger.info("Attack info line is THIRTEEN lines after inline HP (Serah or Snow EX)")
+                    else:
+                        attack_info_line = ability_html_lines[index + 6]
+                        self.logger.info("Attack info line is SIX lines after inline HP.")
             
                 hp_attacks_to_add = 0
                 add_to_non_target = 0
                 copy_st_to_aoe = False
+                subtract_one = False
             
-                if re.search(r"Damage to non-targets after each HP Attack", attack_info_line):
+                if re.search(r"Damage to non-targets after each HP Attack, except last", attack_info_line):
+                    copy_st_to_aoe = True
+                    subtract_one = True
+                    self.logger.info("Copying ST to AOE, and subtracting one!")
+                elif re.search(r"Damage to non-targets after each HP Attack", attack_info_line):
                     copy_st_to_aoe = True
                     self.logger.info("Copying ST to AOE!")
                 elif re.search(r"Group \d+", attack_info_line):
@@ -460,7 +470,7 @@ class CompendiumScraper:
                     non_target_hp_attacks += hp_attacks_to_add
                     self.logger.info("%s HP attacks added to both main and non-target", hp_attacks_to_add)
                 elif copy_st_to_aoe:
-                    non_target_hp_attacks = main_target_hp_attacks
+                    non_target_hp_attacks = main_target_hp_attacks - 1 if subtract_one else main_target_hp_attacks
                     self.logger.info("%s main target HP attacks copied to non-target", main_target_hp_attacks)
                 else:
                     main_target_hp_attacks += hp_attacks_to_add
@@ -519,6 +529,22 @@ class CompendiumScraper:
                 df_row_list.append(special_row_dict)
 
             df_row_list.append(row_dict)
+        
+        # Add in a Chainspell follow up. The regular one isn't coded into the website, which is inconsistent
+        # with what was done for other characters and will interfere with how I plan to integrate follow up attacks
+        if char_name is 'seymour':
+            chainspell_followup = {
+                'char_name': 'seymour',
+                'ability_name': 'Chainspell - Follow Up',
+                'ability_id': np.nan,
+                'main_target_hp_attacks': 4,
+                'non_target_hp_attacks': 0,
+                'hp_dmg_cap_up_perc': 20,
+                'attribute_list': ['Magic', 'FollowUp'],
+                'game_version': 'JP' if JP else 'GL'
+            }
+
+            df_row_list.append(chainspell_followup)
     
         ability_df = pd.DataFrame(df_row_list)
 
@@ -968,7 +994,7 @@ def main():
 
     final_raw_abilities_df = pd.concat(ability_df_list)
 
-    final_raw_abilities_df.to_csv(cs.config['datasets_dir'] + 'raw_abilities.csv', index=False)
+    final_raw_abilities_df.to_csv(cs.config['datasets_dir'] + 'raw_abilities_2.csv', index=False)
 
     final_raw_bt_effects_df = pd.concat(bt_effect_df_list)
 
