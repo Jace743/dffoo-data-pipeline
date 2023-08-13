@@ -532,7 +532,7 @@ class CompendiumScraper:
         
         # Add in a Chainspell follow up. The regular one isn't coded into the website, which is inconsistent
         # with what was done for other characters and will interfere with how I plan to integrate follow up attacks
-        if char_name is 'seymour':
+        if char_name == 'seymour':
             chainspell_followup = {
                 'char_name': 'seymour',
                 'ability_name': 'Chainspell - Follow Up',
