@@ -75,6 +75,35 @@ class CompendiumScraper:
             },
         }
 
+        # There isn't a reliable way from Dissidia Compendium to determine what abilities are uncapped,
+        # so I have to make a dictionary and update it as I go along, unfortunately.
+        self.UNCAPPED_ABILITIES_DICT = {
+            'caitsith': ['Transform'],
+            'leonora': ['Flare', 'A Little Black Magic'],
+            'jessie': ['Shaped Charge'],
+            'aerith': ["Additional attack from White Materia's Brilliance"]
+        }
+
+        # Most of these are to fix errors. For Gilgamesh, it's a bit of a hacky work-around to allow his
+        # BT attributes to be parsed like everyone else's. 
+        self.FIX_HP_CAP_DICT = {
+            'barret': {
+                'Beam': 10
+            },
+            'yshtola': {
+                'Spiritual Ray': 400
+            },
+            'gilgamesh': {
+                'Ultimate Illusion': 100
+            },
+            'noel': {
+                'Additional attack from Hunter of Light': 15
+            },
+            'kadaj': {
+                'Geophagy': 20
+            }
+        }
+
         self.driver = webdriver.Chrome()
 
         self.generate_character_links()
@@ -151,7 +180,6 @@ class CompendiumScraper:
         self,
         char_name,  # Character name, as a string
         scroll_speed = 1000,  # Scrolling speed to move through the page for lazy loading
-        verbose = False,  # If true, will return print statements on iterations
         JP = False,
         return_output = False  # If true, will return output in addition to adding to class attribute
     ):
@@ -174,7 +202,7 @@ class CompendiumScraper:
 
         try:
             self.driver.get(self.character_dict_omnibus[char_name]['abilities_url'])
-        except:
+        except Exception:
             print("You need to generate the character_dict_omnibus first (run generate_character_links).")
             self.logger.info("User didn't generate character_dict_omnibus first.")
             return
@@ -190,7 +218,7 @@ class CompendiumScraper:
                 actions.click(switch_to_jp_button).perform()
 
                 time.sleep(5)
-            except:
+            except Exception:
                 pass
         elif not JP:
             try:
@@ -199,7 +227,7 @@ class CompendiumScraper:
                 actions.click(switch_to_gl_button).perform()
 
                 time.sleep(5)
-            except:
+            except Exception:
                 pass
         
         if not JP:
@@ -209,7 +237,7 @@ class CompendiumScraper:
             # Just want to test that this can run. Don't want an output.
             with contextlib.redirect_stdout(io.StringIO()):
                 self.driver.find_element(By.XPATH, "//div[@class='infotitle abilitydisplayfex ']")
-        except:
+        except Exception:
             self.logger.info("Unable to access abilities for %s.", char_name.upper())
             if not JP:
                 self.logger.info("They might not be released to GL yet.")
@@ -257,10 +285,11 @@ class CompendiumScraper:
         
         for index, ability_first_div in enumerate(ability_list):
             
-            ability_name = str(ability_first_div.text.split(' - ')[0])
+            ability_name = str(ability_first_div.text)
             
             ability_dict[ability_name] = {}
             
+            ability_dict[ability_name]['short_name'] = str(ability_first_div.text.split(' - ')[0])
             ability_dict[ability_name]['ability_attack_info'] = ability_second_div_list[index]
 
             inline_attribute_list  = []
@@ -316,7 +345,7 @@ class CompendiumScraper:
                 ability_dictionary = self.ability_dict_omnibus_gl[char_name]
             elif JP:
                 ability_dictionary = self.ability_dict_omnibus_jp[char_name]
-        except:
+        except Exception:
             print(f"No ability_dict for {char_name}.")
             print(f"Run `generate_ability_dict('{char_name}')` first, then `parse_ability_dict_to_df()` should work for them.")
             print("Also, make sure you've properly specified whether you want the GL or JP version for both functions.")
@@ -325,15 +354,18 @@ class CompendiumScraper:
 
         df_row_list = []
         
-        for ability_name in ability_dictionary.keys():
+        for ability_name in ability_dictionary:
         
+            self.logger.info("Begin parsing for %s.", ability_name.upper())
+            
             ability_html_lines = self.prettify_html_to_list(
                 ability_dictionary[ability_name]['ability_attack_info']
                 )
         
             row_dict = {}
     
-            row_dict['ability_name'] = ability_name
+            row_dict['ability_name'] = ability_dictionary[ability_name]['short_name']
+            row_dict['ability_id'] = ability_name.split(' - ')[1].replace('#', '')
             
             main_target_hp_attacks = 0
             non_target_hp_attacks = 0
@@ -353,12 +385,15 @@ class CompendiumScraper:
                 if "inline HP" not in line:
                     continue
                 
-                # Info on single-target vs group attack appears on preceding line and/or 3 lines before
+                # Info on single-target vs group attack appears on preceding line and/or 3 lines before, but also 2 lines after sometimes
                 
                 single_or_group_lines = ability_html_lines[index - 1] + ability_html_lines[index - 3] + ability_html_lines[index + 2]
                 
                 AOE = True if re.search(r"Group", single_or_group_lines) else False
     
+                if AOE:
+                    self.logger.info("%s is being considered AOE.", ability_name)
+
                 # Sometimes an inline appears after the inline(s) we care about to describe the source 
                 # of the HP damage. We want to skip these instances.
                 if re.search(r"Attack", ability_html_lines[index - 2]):
@@ -367,25 +402,27 @@ class CompendiumScraper:
                 # Info on HP attack count and type appears two lines later (e.g., Attack 3 times,
                 # Damage to non-targets after each HP attack, etc.), with a few exceptions.
     
-                # I hate hard coding an ability name like this, but we'll see if I can make it more
+                # I hate hard coding an ability name like this (Crystal Generation), but we'll see if I can make it more
                 # programmatic later, or make a list of abilities that operate with this format.
                 
-                if ability_name == 'Crystal Generation':
+                if re.search(r'Crystal Generation', ability_name):  # Special case
                     attack_info_line = ability_html_lines[index + 6]
                 else:
                     attack_info_line = ability_html_lines[index + 2]
-    
+
                 extra_condition_line = ability_html_lines[index + 6]
     
                 # Some abilities deal damage based on a stored value (e.g., Aerith BT effect, Astos)
                 # For these abilities, the line we want appears eleven lines later
-                if re.search(r"Damage by", attack_info_line) and re.search(r"of stored value from", extra_condition_line):
+                if (re.search(r"Damage by", attack_info_line) or re.search(r"Damage to", attack_info_line)) and re.search(r"of stored value from", extra_condition_line):
                     attack_info_line = ability_html_lines[index + 11]
+                    self.logger.info("Attack info line is ELEVEN lines after inline HP.")
                 
                 # Other abilities deal damage based on a characters stat or current value (e.g., Aerith's LD followup)
                 # For these abilities, the line we want appears six lines later
-                if re.search(r"Damage ", attack_info_line) and re.search(r"of ", extra_condition_line):
+                if (re.search(r" by", attack_info_line) or re.search(r" based on", attack_info_line)) and re.search(r"of ", extra_condition_line):
                     attack_info_line = ability_html_lines[index + 6]
+                    self.logger.info("Attack info line is SIX lines after inline HP.")
             
                 hp_attacks_to_add = 0
                 add_to_non_target = 0
@@ -393,31 +430,42 @@ class CompendiumScraper:
             
                 if re.search(r"Damage to non-targets after each HP Attack", attack_info_line):
                     copy_st_to_aoe = True
+                    self.logger.info("Copying ST to AOE!")
                 elif re.search(r"Group \d+", attack_info_line):
                     AOE = True
+                    self.logger.info("Ability will be considered AOE")
                     hp_attacks_to_add = int(re.search(r"Group \d+ times", attack_info_line).group().split(' ')[1])
                 elif re.search(r"Group", attack_info_line):
                     AOE = True
+                    self.logger.info("Ability will be considered AOE")
                     hp_attacks_to_add = 1
                 elif re.search(r"to non-targets × \d+", attack_info_line):
                     add_to_non_target = int(re.search(r"× \d+", attack_info_line).group().split(' ')[1])
-                elif re.search(r"to non-targets \d+ times", attack_info_line):
+                    self.logger.info("Line pertains to non-target damage")
+                elif re.search(r"to non-targets \d+ times", attack_info_line) or re.search(r"to non-trap triggered targets \d+ times", attack_info_line):
                     add_to_non_target = int(re.search(r"\d+ times", attack_info_line).group().split(' ')[0])
-                elif re.search(r"to non-targets", attack_info_line):
+                    self.logger.info("Line pertains to non-target damage")
+                elif re.search(r"to non-targets", attack_info_line) or re.search(r"to non-trap triggered targets", attack_info_line):
                     add_to_non_target = 1
+                    self.logger.info("Line pertains to non-target damage")
                 elif re.search(r"\d+ times", attack_info_line):
                     hp_attacks_to_add = int(re.search("\d+ times", attack_info_line).group().split(' ')[0])
+                    self.logger.info("Line pertains to main target damage")
                 else:
                     hp_attacks_to_add = 1
+                    self.logger.info("Line pertains to main target damage")
             
                 if AOE:
                     main_target_hp_attacks += hp_attacks_to_add
                     non_target_hp_attacks += hp_attacks_to_add
+                    self.logger.info("%s HP attacks added to both main and non-target", hp_attacks_to_add)
                 elif copy_st_to_aoe:
                     non_target_hp_attacks = main_target_hp_attacks
+                    self.logger.info("%s main target HP attacks copied to non-target", main_target_hp_attacks)
                 else:
                     main_target_hp_attacks += hp_attacks_to_add
                     non_target_hp_attacks += add_to_non_target
+                    self.logger.info("%s HP attacks for main, and %s HP attacks for non.", hp_attacks_to_add, add_to_non_target)
             
             row_dict['main_target_hp_attacks'] = main_target_hp_attacks
             row_dict['non_target_hp_attacks'] = non_target_hp_attacks
@@ -428,15 +476,28 @@ class CompendiumScraper:
             row_dict['attribute_list'] = ability_dictionary[ability_name]['attribute_list']
             row_dict['game_version'] = 'GL' if not JP else 'JP'
 
-            # Handling for abilities with one uncapped HP attack
-            if ability_name in self.N_HP_ATTACKS_UNCAPPED.keys() and not JP:
-                special_row_dict = {}
-                row_dict['main_target_hp_attacks'] = main_target_hp_attacks - self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_main']
-                row_dict['non_target_hp_attacks'] = non_target_hp_attacks = self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_non']
+            try:  # Set the corrected HP cap if the ability calls for it
+                row_dict['hp_dmg_cap_up_perc'] = self.FIX_HP_CAP_DICT[char_name][ability_dictionary[ability_name]['short_name']]
+            except Exception:
+                pass
 
-                special_row_dict['ability_name'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['followup_name']
-                special_row_dict['main_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_main']
-                special_row_dict['non_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['gl_hp_attack_count_non']
+            try:  # Set HP cap to max if it's in the uncapped abilities dictionary
+                if ability_dictionary[ability_name]['short_name'] in self.UNCAPPED_ABILITIES_DICT[char_name]:
+                    row_dict['hp_dmg_cap_up_perc'] = 900
+                    row_dict['attribute_list'] = ['Uncapped'] + row_dict['attribute_list']
+            except Exception:
+                pass
+
+            # Handling for abilities with one uncapped HP attack
+            if ability_dictionary[ability_name]['short_name'] in self.N_HP_ATTACKS_UNCAPPED.keys() and not JP:
+                ability_short_name = ability_dictionary[ability_name]['short_name']
+                special_row_dict = {}
+                row_dict['main_target_hp_attacks'] = main_target_hp_attacks - self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['gl_hp_attack_count_main']
+                row_dict['non_target_hp_attacks'] = non_target_hp_attacks - self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['gl_hp_attack_count_non']
+
+                special_row_dict['ability_name'] = self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['followup_name']
+                special_row_dict['main_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['gl_hp_attack_count_main']
+                special_row_dict['non_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['gl_hp_attack_count_non']
                 special_row_dict['hp_dmg_cap_up_perc'] = 900  # Takes a character from 99,999 dmg to 999,999 dmg
                 special_row_dict['attribute_list'] = ['FollowUp'] + ability_dictionary[ability_name]['attribute_list'] if 'FollowUp' not in ability_dictionary[ability_name]['attribute_list'] else ability_dictionary[ability_name]['attribute_list']
                 special_row_dict['game_version'] = 'GL'
@@ -445,12 +506,12 @@ class CompendiumScraper:
             
             elif ability_name in self.N_HP_ATTACKS_UNCAPPED.keys() and JP:
                 special_row_dict = {}
-                row_dict['main_target_hp_attacks'] = main_target_hp_attacks - self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_main']
-                row_dict['non_target_hp_attacks'] = non_target_hp_attacks = self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_non']
+                row_dict['main_target_hp_attacks'] = main_target_hp_attacks - self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['jp_hp_attack_count_main']
+                row_dict['non_target_hp_attacks'] = non_target_hp_attacks = self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['jp_hp_attack_count_non']
 
-                special_row_dict['ability_name'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['followup_name']
-                special_row_dict['main_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_main']
-                special_row_dict['non_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_name]['jp_hp_attack_count_non']
+                special_row_dict['ability_name'] = self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['followup_name']
+                special_row_dict['main_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['jp_hp_attack_count_main']
+                special_row_dict['non_target_hp_attacks'] = self.N_HP_ATTACKS_UNCAPPED[ability_short_name]['jp_hp_attack_count_non']
                 special_row_dict['hp_dmg_cap_up_perc'] = 900  # Takes a character from 99,999 dmg to 999,999 dmg
                 special_row_dict['attribute_list'] = ['FollowUp'] + ability_dictionary[ability_name]['attribute_list'] if 'FollowUp' not in ability_dictionary[ability_name]['attribute_list'] else ability_dictionary[ability_name]['attribute_list']
                 special_row_dict['game_version'] = 'JP'
@@ -465,12 +526,11 @@ class CompendiumScraper:
 
         self.logger.info("Sucessfully converted ability df for %s", char_name.upper())
         
-        return ability_df[['char_name', 'ability_name', 'main_target_hp_attacks', 'non_target_hp_attacks', 'hp_dmg_cap_up_perc', 'attribute_list', 'game_version']]
+        return ability_df[['char_name', 'ability_name', 'ability_id', 'main_target_hp_attacks', 'non_target_hp_attacks', 'hp_dmg_cap_up_perc', 'attribute_list', 'game_version']]
 
     def retrieve_hp_caps_from_bt(
         self,
         char_name,  # Character's name as a string
-        verbose = False,  # If true, will return print statements
         JP = False, # If true, will check the JP version of the website instead of GL
         return_output = False # If true, will return a pandas dataframe row after running
     ):
@@ -503,7 +563,7 @@ class CompendiumScraper:
                 actions.click(switch_to_jp_button).perform()
 
                 time.sleep(5)
-            except:
+            except Exception:
                 pass
         elif not JP:
             try:
@@ -512,7 +572,7 @@ class CompendiumScraper:
                 actions.click(switch_to_gl_button).perform()
 
                 time.sleep(5)
-            except:
+            except Exception:
                 pass
         
         bt_personal_hp_dmg_cap_up = 0
@@ -521,7 +581,7 @@ class CompendiumScraper:
         try:
             # Find the BT button for the character's buff page
             bt_button_element = self.driver.find_element(By.XPATH, "//li[@class='filterinactive buffbutton wpbtbutton']")
-        except:
+        except Exception:
             print(f"Unable to find a BT for {char_name.title()}. Either the character isn't in GL yet, or they lack a BT in both GL and JP.")
             self.logger.info("Couldn't find BT button for %s", char_name.upper())
             return
@@ -567,7 +627,7 @@ class CompendiumScraper:
                     slider = self.driver.find_element(By.XPATH, f"//div[@class='{slider_class}']")
                     width_element = self.driver.find_element(By.XPATH, f"//div[@class='{width_element_class}']")
                     
-                except:
+                except Exception:
                     print("There's a new BT Effect slider for you to figure out.")
                     self.logger.info("Unable to account for BT Effect slider for %s.", char_name.upper())
                     return
@@ -580,7 +640,7 @@ class CompendiumScraper:
                 self.logger.info("Offset of %s performed.", offset)
         
             self.logger.info("Reached max stacks!")
-        except:
+        except Exception:
             self.logger.info(f"No stack slider found. Assuming {char_name} has a BT without stacks.")
             pass
         
@@ -619,7 +679,7 @@ class CompendiumScraper:
 
             return bt_effect_df
 
-    def retrieve_ha_hp_dmg_cap_up(self, char_name, verbose=False, JP=False, return_output=False):
+    def retrieve_ha_hp_dmg_cap_up(self, char_name, JP=False, return_output=False):
         """
     
         Retrieves HP Dmg Cap up values from a character's high armor pages, both personal and 
@@ -645,7 +705,7 @@ class CompendiumScraper:
                 actions.click(switch_to_jp_button).perform()
 
                 time.sleep(5)
-            except:
+            except Exception:
                 pass
         elif not JP:
             try:
@@ -654,13 +714,13 @@ class CompendiumScraper:
                 actions.click(switch_to_gl_button).perform()
 
                 time.sleep(5)
-            except:
+            except Exception:
                 pass
         try:
             high_armor_html = self.prettify_html_to_list(
                 self.driver.find_element(By.XPATH, "//div[@class='infonameholderenemybuff default_passive Buffbase']")
             )
-        except:
+        except Exception:
             self.logger.info("Could not find High Armor for %s.", char_name.upper())
             print(f"Unable to find High Armor info for {char_name.title()}.")
             if not JP:
@@ -748,7 +808,7 @@ class CompendiumScraper:
             if self.driver.find_element(By.XPATH, "//li[@class='filterinactive buffbutton reworktabred_direct']"):
                 self.chars_with_reworks_pending.append(char_name)
                 self.logger.info("Found an upcoming rework for %s.", char_name.upper())
-        except:
+        except Exception:
             return
         
     def extract_character_main_image(self, 
@@ -763,13 +823,13 @@ class CompendiumScraper:
         try:
             if output_dir is None:
                 output_dir = self.config['images_dir']
-        except:
+        except Exception:
             ValueError("You need to provide an output_dir or use a config yml")
             return
 
         try:
             self.driver.get(self.character_dict_omnibus[char_name]['profile_url'])
-        except:
+        except Exception:
             print(f"Couldn't find profile link for {char_name.title()}.")
 
         output_file_path = output_dir + f"{char_name}_main_image.jpg"
@@ -809,7 +869,7 @@ def main():
     
     character_count = 1
 
-    for char_name in cs.character_dict_omnibus.keys():
+    for char_name in cs.character_dict_omnibus:
         
         # Restart the driver every once in a while so program doesn't crash
         if character_count in [30, 60, 90, 120, 150, 180]:
@@ -834,21 +894,21 @@ def main():
         try:
             parsed_ability_df.to_csv(cs.config['temp_ability_df_dir'] + f"{char_name}_abiilty_df_gl.csv", index=False)
             cs.logger.info("Successfully saved temporary ability_df for %s.", char_name.upper())
-        except:
+        except Exception:
             cs.logger.info("No ability_df to save for %s.", char_name.upper())
             pass
         
         try:
             bt_effect_df.to_csv(cs.config['temp_bt_effect_df_dir'] + f"{char_name}_bt_effect_df_gl.csv", index=False)
             cs.logger.info("Successfully saved temporary bt_effect_df for %s.", char_name.upper())
-        except:
+        except Exception:
             cs.logger.info("No bt_effect_df to save for %s.", char_name.upper())
             pass
         
         try:
             high_armor_cap_df.to_csv(cs.config['temp_ha_cap_df_dir'] + f"{char_name}_ha_cap_df_gl.csv", index=False)
             cs.logger.info("Successfully saved temporary ha_cap_df for %s.", char_name.upper())
-        except:
+        except Exception:
             cs.logger.info("No high_armor_cap_df to save for %s.", char_name.upper())
             pass
 
@@ -886,21 +946,21 @@ def main():
         try:
             parsed_ability_df.to_csv(cs.config['temp_ability_df_dir'] + f"{char_name}_abiilty_df_jp.csv", index=False)
             cs.logger.info("Successfully saved temporary ability_df for %s.", char_name.upper())
-        except:
+        except Exception:
             cs.logger.info("No ability_df to save for %s.", char_name.upper())
             pass
         
         try:
             bt_effect_df.to_csv(cs.config['temp_bt_effect_df_dir'] + f"{char_name}_bt_effect_df_jp.csv", index=False)
             cs.logger.info("Successfully saved temporary bt_effect_df for %s.", char_name.upper())
-        except:
+        except Exception:
             cs.logger.info("No bt_effect_df to save for %s.", char_name.upper())
             pass
         
         try:
             high_armor_cap_df.to_csv(cs.config['temp_ha_cap_df_dir'] + f"{char_name}_ha_cap_df_jp.csv", index=False)
             cs.logger.info("Successfully saved temporary ha_cap_df for %s.", char_name.upper())
-        except:
+        except Exception:
             cs.logger.info("No high_armor_cap_df to save for %s.", char_name.upper())
             pass
         
