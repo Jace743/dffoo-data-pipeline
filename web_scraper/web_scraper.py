@@ -221,15 +221,6 @@ class CompendiumScraper:
                 time.sleep(5)
             except Exception:
                 pass
-        elif not JP:
-            try:
-                switch_to_gl_button = self.driver.find_element(By.XPATH, "//span[@class='jpflage jpsmallinactive smalleventbutton']")
-
-                actions.click(switch_to_gl_button).perform()
-
-                time.sleep(5)
-            except Exception:
-                pass
         
         if not JP:
             self.screen_for_rework(char_name)
@@ -590,6 +581,9 @@ class CompendiumScraper:
 
                 time.sleep(5)
             except Exception:
+                
+                time.sleep(5)
+
                 pass
         elif not JP:
             try:
@@ -599,6 +593,9 @@ class CompendiumScraper:
 
                 time.sleep(5)
             except Exception:
+                
+                time.sleep(5)
+
                 pass
         
         bt_personal_hp_dmg_cap_up = 0
@@ -903,19 +900,26 @@ def main():
             cs.driver = webdriver.Chrome()
             time.sleep(5)
 
+        parsed_ability_df = None
+        bt_effect_df = None
+        high_armor_cap_df = None
+        
         cs.generate_ability_dict(char_name)
     
         parsed_ability_df = cs.parse_ability_dict_to_df(char_name)
 
-        ability_df_list.append(parsed_ability_df)
+        if parsed_ability_df is not None:
+            ability_df_list.append(parsed_ability_df)
     
         bt_effect_df = cs.retrieve_hp_caps_from_bt(char_name, return_output=True)
 
-        bt_effect_df_list.append(bt_effect_df)
+        if bt_effect_df is not None:
+            bt_effect_df_list.append(bt_effect_df)
     
         high_armor_cap_df = cs.retrieve_ha_hp_dmg_cap_up(char_name, return_output=True)
 
-        ha_cap_df_list.append(high_armor_cap_df)
+        if high_armor_cap_df is not None:
+            ha_cap_df_list.append(high_armor_cap_df)
 
         try:
             parsed_ability_df.to_csv(cs.config['temp_ability_df_dir'] + f"{char_name}_abiilty_df_gl.csv", index=False)
@@ -955,19 +959,26 @@ def main():
             cs.driver = webdriver.Chrome()
             time.sleep(5)
         
+        parsed_ability_df = None
+        bt_effect_df = None
+        high_armor_cap_df = None
+        
         cs.generate_ability_dict(char_name, JP=True)
     
         parsed_ability_df = cs.parse_ability_dict_to_df(char_name, JP=True)
 
-        ability_df_list.append(parsed_ability_df)
+        if parsed_ability_df is not None:
+            ability_df_list.append(parsed_ability_df)
     
         bt_effect_df = cs.retrieve_hp_caps_from_bt(char_name, JP=True, return_output=True)
 
-        bt_effect_df_list.append(bt_effect_df)
+        if bt_effect_df is not None:
+            bt_effect_df_list.append(bt_effect_df)
     
         high_armor_cap_df = cs.retrieve_ha_hp_dmg_cap_up(char_name, JP=True, return_output=True)
 
-        ha_cap_df_list.append(high_armor_cap_df)
+        if high_armor_cap_df is not None:
+            ha_cap_df_list.append(high_armor_cap_df)
         
         try:
             parsed_ability_df.to_csv(cs.config['temp_ability_df_dir'] + f"{char_name}_abiilty_df_jp.csv", index=False)
