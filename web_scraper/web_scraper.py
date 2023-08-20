@@ -1198,7 +1198,7 @@ def main():
 
     final_raw_abilities_df.to_csv(cs.config['datasets_dir'] + 'raw_abilities.csv', index=False)
 
-    cs.logger.info(" - ABILITIES saved to CSV")
+    cs.logger.info("ABILITIES saved to CSV")
 
     final_raw_bt_effects_df = pd.concat(bt_effect_df_list)
     final_raw_bt_effects_df['scrape_started_at_utc'] = cs.scrape_started_at_utc
@@ -1206,7 +1206,7 @@ def main():
 
     final_raw_bt_effects_df.to_csv(cs.config['datasets_dir'] + 'raw_bt_effects.csv', index=False)
 
-    cs.logger.info(" - BT EFFECTS saved to CSV")
+    cs.logger.info("BT EFFECTS saved to CSV")
 
     final_raw_ha_caps_df = pd.concat(ha_cap_df_list)
     final_raw_ha_caps_df['scrape_started_at_utc'] = cs.scrape_started_at_utc
@@ -1214,7 +1214,7 @@ def main():
 
     final_raw_ha_caps_df.to_csv(cs.config['datasets_dir'] + 'raw_high_armor_caps.csv', index=False)
 
-    cs.logger.info(" - HIGH ARMOR CAPS saved to CSV")
+    cs.logger.info("HIGH ARMOR CAPS saved to CSV")
 
     try:
         with engine.begin() as conn:
@@ -1223,7 +1223,8 @@ def main():
             final_raw_ha_caps_df.to_sql('raw_high_armor_caps', con=conn, if_exists='append', index=False)
             cs.logger.info("Data uploaded to SQL database.")
     except Exception as e:
-        print("Encountered an error during SQL database insert: " + e)
+        print("Encountered an error during SQL database insert:")
+        print(e)
         print("You'll need to manually upload this data to the SQL database.")
 
     
