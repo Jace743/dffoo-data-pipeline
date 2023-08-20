@@ -29,6 +29,9 @@ class CompendiumScraper:
         self.chars_not_in_gl_yet = []
         self.character_list_url = 'https://dissidiacompendium.com/characters/?'
         
+        self.scrape_started_at = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime())
+        self.scrape_ended_at = None
+        
         with open(config_yml_path, 'r') as yml:
             self.config = yaml.safe_load(yml)
 
@@ -618,90 +621,247 @@ class CompendiumScraper:
         
         time.sleep(1)
 
-        # Set leveled BT to max before extracting auras
-        try:
-            if self.driver.find_element(By.XPATH, "//div[@class='sliderbase infonameholder nobuffpadding']"):
+        if char_name != 'lannreynn':
+            # Set leveled BT to max before extracting auras
+            try:
+                if self.driver.find_element(By.XPATH, "//div[@class='sliderbase infonameholder nobuffpadding']"):
+                    
+                    pretty_div_block_list = self.prettify_html_to_list(
+                        self.driver.find_element(
+                            By.XPATH, "//div[@class='sliderbase infonameholder nobuffpadding']"
+                        )
+                    )
+            
+                    try:
+                        # find slider class
+                        for line in pretty_div_block_list:
+                            if re.search(r'css-(\w+)-Slider', line):
+                                slider_class = re.search(r'css-\w+-Slider', line).group()
+            
+                        # Find width element class
+                        for line in pretty_div_block_list:
+                            if re.search(r'(css-\w+)(" style)', line):
+                                width_element_class = re.search(r'(css-\w+)(" style)', line).group(1)
+                        
+                        slider = self.driver.find_element(By.XPATH, f"//div[@class='{slider_class}']")
+                        width_element = self.driver.find_element(By.XPATH, f"//div[@class='{width_element_class}']")
+                        
+                    except Exception:
+                        print("There's a new BT Effect slider for you to figure out.")
+                        self.logger.info("Unable to account for BT Effect slider for %s.", char_name.upper())
+                        return
+            except Exception:
+                self.logger.info("Standard BT stack slider div-class not found. Trying second possibility.")
+                pass
+            try:
+                if self.driver.find_element(By.XPATH, "//div[@class='sliderbase infonameholderenemybuff nobuffpadding']"):
+                    
+                    pretty_div_block_list = self.prettify_html_to_list(
+                        self.driver.find_element(
+                            By.XPATH, "//div[@class='sliderbase infonameholderenemybuff nobuffpadding']"
+                        )
+                    )
+            
+                    try:
+                        # find slider class
+                        for line in pretty_div_block_list:
+                            if re.search(r'css-(\w+)-Slider', line):
+                                slider_class = re.search(r'css-\w+-Slider', line).group()
+            
+                        # Find width element class
+                        for line in pretty_div_block_list:
+                            if re.search(r'(css-\w+)(" style)', line):
+                                width_element_class = re.search(r'(css-\w+)(" style)', line).group(1)
+                        
+                        slider = self.driver.find_element(By.XPATH, f"//div[@class='{slider_class}']")
+                        width_element = self.driver.find_element(By.XPATH, f"//div[@class='{width_element_class}']")
+                        
+                    except Exception:
+                        print("There's a new BT Effect slider for you to figure out.")
+                        self.logger.info("Unable to account for BT Effect slider for %s.", char_name.upper())
+                        return
                 
-                pretty_div_block_list = self.prettify_html_to_list(
-                    self.driver.find_element(
-                        By.XPATH, "//div[@class='sliderbase infonameholder nobuffpadding']"
+                offset = 80
+            
+                while width_element.get_attribute('style') != 'width: 100%;':
+                    offset += 10
+                    actions.drag_and_drop_by_offset(slider, offset, 0).release().perform()
+                    self.logger.info("Offset of %s performed.", offset)
+            
+                self.logger.info("Reached max stacks!")
+            except Exception:
+                self.logger.info(f"No stack slider found. Assuming {char_name} has a BT without stacks.")
+                pass
+            
+            bt_buff_description_div = self.driver.find_element(
+                By.XPATH, "//div[@class='Buffbase infobase nobuffpadding']"
+            )
+            
+            bt_buff_html_list = self.prettify_html_to_list(bt_buff_description_div)
+            
+            for index, line in enumerate(bt_buff_html_list):
+                
+                if re.search(r"- MAX BRV Cap", line) or re.search(r"└─ MAX BRV Cap", line):  # Personal HP Dmg Cap Up has this string
+                    bt_personal_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
+                if re.search(r"- Party MAX BRV Cap", line) or re.search(r"└─ Party MAX BRV Cap", line):  # Party HP Dmg Cap up has this string
+                    bt_party_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
+        
+            bt_effect_dict = {}
+            bt_effect_dict['char_name'] = char_name
+            bt_effect_dict['bt_personal_hp_dmg_cap_up'] = bt_personal_hp_dmg_cap_up
+            bt_effect_dict['bt_party_hp_dmg_cap_up'] = bt_party_hp_dmg_cap_up
+            bt_effect_dict['enemy_count_apply_list'] = [1, 2, 3]
+
+            if not JP:
+            
+                bt_effect_dict['game_version'] = 'GL'
+                self.bt_effect_dict_omnibus_gl[char_name] = bt_effect_dict
+
+            elif JP:
+                
+                bt_effect_dict['game_version'] = 'JP'
+                self.bt_effect_dict_omnibus_jp[char_name] = bt_effect_dict
+            
+            self.logger.info("Retrieved BT info for %s.", char_name.upper())
+            
+            if return_output:
+                bt_effect_df = pd.DataFrame([bt_effect_dict])
+
+                return bt_effect_df
+        else:
+            self.logger.info("Parsing BT Effect for Lann & Reynn")
+
+            bt_effect_dict_list = []
+            
+            pretty_div_block_list = self.prettify_html_to_list(
+                        self.driver.find_element(
+                            By.XPATH, "//div[@class='sliderbase infonameholderenemybuff nobuffpadding']"
+                        )
                     )
-                )
+            
+            # find slider class
+            for line in pretty_div_block_list:
+                if re.search(r'css-(\w+)-Slider', line):
+                    slider_class = re.search(r'css-\w+-Slider', line).group()
+
+            # Find width element class
+            for line in pretty_div_block_list:
+                if re.search(r'(css-\w+)(" style)', line):
+                    width_element_class = re.search(r'(css-\w+)(" style)', line).group(1)
+            
+            slider = self.driver.find_element(By.XPATH, f"//div[@class='{slider_class}']")
+            width_element = self.driver.find_element(By.XPATH, f"//div[@class='{width_element_class}']")
+
+            offset = 0
+            
+            # Set the slider to 1 enemy, then parse for data.
+            while width_element.get_attribute('style') != 'width: 0%;':
+                offset -= 10
+                actions.drag_and_drop_by_offset(slider, offset, 0).release().perform()
+                self.logger.info("Offset of %s performed.", offset)
         
-                # Note to self for later -- not relevant for actual code
-                if char_name in ['lannreynn', 'paine']:
-                    print(
-                        f"NOTE: {char_name.upper()} has something about them"
-                    )
-                    print(
-                        "that you need to consider before adding new features!"
-                    )
-                    
-                try:
-                    # find slider class
-                    for line in pretty_div_block_list:
-                        if re.search(r'css-(\w+)-Slider', line):
-                            slider_class = re.search(r'css-\w+-Slider', line).group()
+            self.logger.info("Slider set to enemy count of 1.")
+
+            bt_buff_description_div = self.driver.find_element(
+                By.XPATH, "//div[@class='Buffbase infobase nobuffpadding']"
+            )
+            
+            bt_buff_html_list = self.prettify_html_to_list(bt_buff_description_div)
+            
+            for index, line in enumerate(bt_buff_html_list):
+                
+                if re.search(r"- MAX BRV Cap", line) or re.search(r"└─ MAX BRV Cap", line):  # Personal HP Dmg Cap Up has this string
+                    bt_personal_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
+                if re.search(r"- Party MAX BRV Cap", line) or re.search(r"└─ Party MAX BRV Cap", line):  # Party HP Dmg Cap up has this string
+                    bt_party_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
         
-                    # Find width element class
-                    for line in pretty_div_block_list:
-                        if re.search(r'(css-\w+)(" style)', line):
-                            width_element_class = re.search(r'(css-\w+)(" style)', line).group(1)
-                    
-                    slider = self.driver.find_element(By.XPATH, f"//div[@class='{slider_class}']")
-                    width_element = self.driver.find_element(By.XPATH, f"//div[@class='{width_element_class}']")
-                    
-                except Exception:
-                    print("There's a new BT Effect slider for you to figure out.")
-                    self.logger.info("Unable to account for BT Effect slider for %s.", char_name.upper())
-                    return
+            bt_effect_dict = {}
+            bt_effect_dict['char_name'] = char_name
+            bt_effect_dict['bt_personal_hp_dmg_cap_up'] = bt_personal_hp_dmg_cap_up
+            bt_effect_dict['bt_party_hp_dmg_cap_up'] = bt_party_hp_dmg_cap_up
+            bt_effect_dict['game_version'] = 'GL' if not JP else 'JP'
+            bt_effect_dict['enemy_count_apply_list'] = [1]
+            
+            bt_effect_dict_list.append(bt_effect_dict)
+
+            bt_personal_hp_dmg_cap_up = 0
+            bt_party_hp_dmg_cap_up = 0
+            
+            while width_element.get_attribute('style') != 'width: 50%;':
+                offset += 10
+                actions.drag_and_drop_by_offset(slider, offset, 0).release().perform()
+                self.logger.info("Offset of %s performed.", offset)
         
-            offset = 80
+            self.logger.info("Slider set to enemy count of 2.")
+
+            bt_buff_description_div = self.driver.find_element(
+                By.XPATH, "//div[@class='Buffbase infobase nobuffpadding']"
+            )
+            
+            bt_buff_html_list = self.prettify_html_to_list(bt_buff_description_div)
+            
+            for index, line in enumerate(bt_buff_html_list):
+                
+                if re.search(r"- MAX BRV Cap", line) or re.search(r"└─ MAX BRV Cap", line):  # Personal HP Dmg Cap Up has this string
+                    bt_personal_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
+                if re.search(r"- Party MAX BRV Cap", line) or re.search(r"└─ Party MAX BRV Cap", line):  # Party HP Dmg Cap up has this string
+                    bt_party_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
         
+            bt_effect_dict = {}
+            bt_effect_dict['char_name'] = char_name
+            bt_effect_dict['bt_personal_hp_dmg_cap_up'] = bt_personal_hp_dmg_cap_up
+            bt_effect_dict['bt_party_hp_dmg_cap_up'] = bt_party_hp_dmg_cap_up
+            bt_effect_dict['game_version'] = 'GL' if not JP else 'JP'
+            bt_effect_dict['enemy_count_apply_list'] = [2]
+            
+            bt_effect_dict_list.append(bt_effect_dict)
+
+            bt_personal_hp_dmg_cap_up = 0
+            bt_party_hp_dmg_cap_up = 0
+
             while width_element.get_attribute('style') != 'width: 100%;':
                 offset += 10
                 actions.drag_and_drop_by_offset(slider, offset, 0).release().perform()
                 self.logger.info("Offset of %s performed.", offset)
         
-            self.logger.info("Reached max stacks!")
-        except Exception:
-            self.logger.info(f"No stack slider found. Assuming {char_name} has a BT without stacks.")
-            pass
-        
-        bt_buff_description_div = self.driver.find_element(
-            By.XPATH, "//div[@class='Buffbase infobase nobuffpadding']"
-        )
-        
-        bt_buff_html_list = self.prettify_html_to_list(bt_buff_description_div)
-        
-        for index, line in enumerate(bt_buff_html_list):
-            
-            if re.search(r"- MAX BRV Cap", line):  # Personal HP Dmg Cap Up has this string
-                bt_personal_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
-            if re.search(r"- Party MAX BRV Cap", line):  # Party HP Dmg Cap up has this string
-                bt_party_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
-    
-        bt_effect_dict = {}
-        bt_effect_dict['char_name'] = char_name
-        bt_effect_dict['bt_personal_hp_dmg_cap_up'] = bt_personal_hp_dmg_cap_up
-        bt_effect_dict['bt_party_hp_dmg_cap_up'] = bt_party_hp_dmg_cap_up
-    
-        if not JP:
-            
-            bt_effect_dict['game_version'] = 'GL'
-            self.bt_effect_dict_omnibus_gl[char_name] = bt_effect_dict
+            self.logger.info("Slider set to enemy count of 3.")
 
-        elif JP:
+            bt_buff_description_div = self.driver.find_element(
+                By.XPATH, "//div[@class='Buffbase infobase nobuffpadding']"
+            )
             
-            bt_effect_dict['game_version'] = 'JP'
-            self.bt_effect_dict_omnibus_jp[char_name] = bt_effect_dict
+            bt_buff_html_list = self.prettify_html_to_list(bt_buff_description_div)
+            
+            for index, line in enumerate(bt_buff_html_list):
+                
+                if re.search(r"- MAX BRV Cap", line) or re.search(r"└─ MAX BRV Cap", line):  # Personal HP Dmg Cap Up has this string
+                    bt_personal_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
+                if re.search(r"- Party MAX BRV Cap", line) or re.search(r"└─ Party MAX BRV Cap", line):  # Party HP Dmg Cap up has this string
+                    bt_party_hp_dmg_cap_up += int(re.search(r"\d+", bt_buff_html_list[index + 6]).group())
         
-        self.logger.info("Retrieved BT info for %s.", char_name.upper())
-        
-        if return_output:
-            bt_effect_df = pd.DataFrame([bt_effect_dict])
+            bt_effect_dict = {}
+            bt_effect_dict['char_name'] = char_name
+            bt_effect_dict['bt_personal_hp_dmg_cap_up'] = bt_personal_hp_dmg_cap_up
+            bt_effect_dict['bt_party_hp_dmg_cap_up'] = bt_party_hp_dmg_cap_up
+            bt_effect_dict['game_version'] = 'GL' if not JP else 'JP'
+            bt_effect_dict['enemy_count_apply_list'] = [3]
+            
+            bt_effect_dict_list.append(bt_effect_dict)
 
-            return bt_effect_df
+            if not JP:
+                
+                self.bt_effect_dict_omnibus_gl[char_name] = bt_effect_dict_list
+
+            elif JP:
+                
+                self.bt_effect_dict_omnibus_jp[char_name] = bt_effect_dict_list
+            
+            self.logger.info("Retrieved BT info for %s.", char_name.upper())
+                
+            if return_output:
+                bt_effect_df = pd.concat([pd.DataFrame(dict) for dict in bt_effect_dict_list])
+
+                return bt_effect_df
 
     def retrieve_ha_hp_dmg_cap_up(self, char_name, JP=False, return_output=False):
         """
@@ -715,6 +875,13 @@ class CompendiumScraper:
         self.logger.info(self.LOG_DIVIDER)
         self.logger.info("Retrieving High Armor info for %s.", char_name.upper())
         self.logger.info(self.LOG_DIVIDER)
+        
+        try:
+            if JP and self.ha_dict_omnibus_gl[char_name]:  # We shouldn't do this if we already collected it in GL -- it'll be the same
+                self.logger.info("High armor already parsed for %s. Skipping.", char_name.upper())
+                return
+        except Exception:
+            pass
         
         self.driver.get(self.character_dict_omnibus[char_name]['high_armor_url'])
         
@@ -1016,21 +1183,29 @@ def main():
     cs.logger.info("Saving out dataframes to CSV and SQL database.")
     cs.logger.info(cs.LOG_DIVIDER)
 
+    cs.scrape_ended_at = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime())
+    
     engine = sa.create_engine(engine_url)
     
     final_raw_abilities_df = pd.concat(ability_df_list)
+    final_raw_abilities_df['scrape_started_at'] = cs.scrape_started_at
+    final_raw_abilities_df['scrape_ended_at'] = cs.scrape_ended_at
 
     final_raw_abilities_df.to_csv(cs.config['datasets_dir'] + 'raw_abilities.csv', index=False)
 
     cs.logger.info(" - ABILITIES saved to CSV")
 
     final_raw_bt_effects_df = pd.concat(bt_effect_df_list)
+    final_raw_bt_effects_df['scrape_started_at'] = cs.scrape_started_at
+    final_raw_bt_effects_df['scrape_ended_at'] = cs.scrape_ended_at
 
     final_raw_bt_effects_df.to_csv(cs.config['datasets_dir'] + 'raw_bt_effects.csv', index=False)
 
     cs.logger.info(" - BT EFFECTS saved to CSV")
 
     final_raw_ha_caps_df = pd.concat(ha_cap_df_list)
+    final_raw_ha_caps_df['scrape_started_at'] = cs.scrape_started_at
+    final_raw_ha_caps_df['scrape_ended_at'] = cs.scrape_ended_at
 
     final_raw_ha_caps_df.to_csv(cs.config['datasets_dir'] + 'raw_high_armor_caps.csv', index=False)
 
