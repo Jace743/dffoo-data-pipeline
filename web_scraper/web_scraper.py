@@ -29,15 +29,20 @@ class CompendiumScraper:
         self.chars_not_in_gl_yet = []
         self.character_list_url = 'https://dissidiacompendium.com/characters/?'
         
-        self.scrape_started_at = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime())
-        self.scrape_ended_at = None
+        self.scrape_started_at_utc = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime())
+        self.scrape_ended_at_utc = None
         
         with open(config_yml_path, 'r') as yml:
             self.config = yaml.safe_load(yml)
 
         # Start up logging
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(message)s')
-        file_handler = logging.FileHandler(self.config['logging_dir'])
+        
+        date_string_for_log = time.strftime('%Y%m%d')
+
+        log_file_name = "web_scraper_" + date_string_for_log +".log"
+        
+        file_handler = logging.FileHandler(self.config['logging_dir'] + log_file_name)
         file_handler.setLevel(logging.INFO)
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(message)s')
         file_handler.setFormatter(formatter)
@@ -1173,39 +1178,39 @@ def main():
 
     engine_url = sa.URL.create(
         "postgresql",
-        username=cs.config['pgdb_user'],
-        password=cs.config['pgdb_pass'],
-        host=cs.config['pgdb_host'],
-        database=cs.config['pgdb_data']
+        username=cs.config['pg_user'],
+        password=cs.config['pg_pass'],
+        host=cs.config['pg_host'],
+        database=cs.config['pg_db']
     )
 
     cs.logger.info(cs.LOG_DIVIDER)
     cs.logger.info("Saving out dataframes to CSV and SQL database.")
     cs.logger.info(cs.LOG_DIVIDER)
 
-    cs.scrape_ended_at = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime())
+    cs.scrape_ended_at_utc = time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime())
     
     engine = sa.create_engine(engine_url)
     
     final_raw_abilities_df = pd.concat(ability_df_list)
-    final_raw_abilities_df['scrape_started_at'] = cs.scrape_started_at
-    final_raw_abilities_df['scrape_ended_at'] = cs.scrape_ended_at
+    final_raw_abilities_df['scrape_started_at_utc'] = cs.scrape_started_at_utc
+    final_raw_abilities_df['scrape_ended_at_utc'] = cs.scrape_ended_at_utc
 
     final_raw_abilities_df.to_csv(cs.config['datasets_dir'] + 'raw_abilities.csv', index=False)
 
     cs.logger.info(" - ABILITIES saved to CSV")
 
     final_raw_bt_effects_df = pd.concat(bt_effect_df_list)
-    final_raw_bt_effects_df['scrape_started_at'] = cs.scrape_started_at
-    final_raw_bt_effects_df['scrape_ended_at'] = cs.scrape_ended_at
+    final_raw_bt_effects_df['scrape_started_at_utc'] = cs.scrape_started_at_utc
+    final_raw_bt_effects_df['scrape_ended_at_utc'] = cs.scrape_ended_at_utc
 
     final_raw_bt_effects_df.to_csv(cs.config['datasets_dir'] + 'raw_bt_effects.csv', index=False)
 
     cs.logger.info(" - BT EFFECTS saved to CSV")
 
     final_raw_ha_caps_df = pd.concat(ha_cap_df_list)
-    final_raw_ha_caps_df['scrape_started_at'] = cs.scrape_started_at
-    final_raw_ha_caps_df['scrape_ended_at'] = cs.scrape_ended_at
+    final_raw_ha_caps_df['scrape_started_at_utc'] = cs.scrape_started_at_utc
+    final_raw_ha_caps_df['scrape_ended_at_utc'] = cs.scrape_ended_at_utc
 
     final_raw_ha_caps_df.to_csv(cs.config['datasets_dir'] + 'raw_high_armor_caps.csv', index=False)
 
@@ -1213,9 +1218,9 @@ def main():
 
     try:
         with engine.begin() as conn:
-            final_raw_abilities_df.to_sql('raw_abilities', con=conn, if_exists='replace', index=False)
-            final_raw_bt_effects_df.to_sql('raw_bt_effects', con=conn, if_exists='replace', index=False)
-            final_raw_ha_caps_df.to_sql('raw_high_armor_caps', con=conn, if_exists='replace', index=False)
+            final_raw_abilities_df.to_sql('raw_abilities', con=conn, if_exists='append', index=False)
+            final_raw_bt_effects_df.to_sql('raw_bt_effects', con=conn, if_exists='append', index=False)
+            final_raw_ha_caps_df.to_sql('raw_high_armor_caps', con=conn, if_exists='append', index=False)
             cs.logger.info("Data uploaded to SQL database.")
     except Exception as e:
         print("Encountered an error during SQL database insert: " + e)
