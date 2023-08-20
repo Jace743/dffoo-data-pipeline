@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+dorgann,BRV Attack+,0,0,0,['Melee']
+dorgann,BRV Attack++,0,0,0,['Melee']
+dorgann,HP Attack+,1,0,0,['Melee']
+dorgann,HP Attack++,1,0,0,['Melee']
+dorgann,Spellblade Break,3,3,20,"['Group', 'Melee', 'Wind']"
+dorgann,Starlit Abandon,4,1,20,"['Melee', 'Wind']"
+dorgann,Image Slash,1,1,0,"['Group', 'Melee', 'Wind', 'FollowUp']"
+dorgann,Weak Damage Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+dorgann,Final Skill – Felling Timber,4,4,10,"['Group', 'Melee']"
+dorgann,Linear Transmission – Third-Eye Strike,5,5,15,"['Group', 'Melee', 'NoFree']"
+dorgann,Image Slash+,3,3,10,"['Group', 'Melee', 'Wind', 'FollowUp']"
+dorgann,Dawnlight Swordplay,2,2,400,"['Group', 'Melee']"
+dorgann,Steel Weaving the Future,4,4,260,"['Group', 'Melee', 'NoFree']"
+dorgann,Enhanced Spellblade Break (C),3,3,0,"['Group', 'Melee', 'Wind', 'Instant', 'NoEX', 'NoFree']"
+dorgann,Enhanced Linear Transmission – Third-Eye Strike (C),5,5,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

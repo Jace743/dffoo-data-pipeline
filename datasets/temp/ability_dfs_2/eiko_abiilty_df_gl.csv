@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+eiko,BRV Attack+,6187,0,0,0,"['Magic', 'Holy']",GL
+eiko,HP Attack+,3150,1,0,0,"['Magic', 'Heals']",GL
+eiko,HP Attack++,6517,1,0,0,"['Magic', 'Holy', 'Heals']",GL
+eiko,Double Holy,15458,2,1,10,"['Magic', 'Holy']",GL
+eiko,Double Holy Follow Up,15459,2,1,0,"['Magic', 'Holy', 'FollowUp']",GL
+eiko,HP Regen,15454,0,0,20,[],GL
+eiko,HP Regen Follow Up,15509,1,0,20,"['Magic', 'Heals', 'FollowUp']",GL
+eiko,Smite,15456,2,1,20,"['Magic', 'Holy']",GL
+eiko,Ability Recovery Attack All,15466,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+eiko,Terra Homing,15457,4,4,10,"['Group', 'Magic', 'Holy', 'Heals']",GL
+eiko,Rebirth Flame,15464,3,3,15,"['Group', 'Magic', 'Heals', 'NoFree']",GL
+eiko,Rebirth Flame (Triggered),15465,3,3,15,"['Group', 'Magic', 'Heals', 'Instant', 'Counters']",GL
+eiko,Enhanced HP Regen (C),11608,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+eiko,Enhanced HP Regen (C) Follow Up,11830,1,0,0,"['Magic', 'Heals', 'Instant', 'FollowUp']",GL
+eiko,Enhanced Rebirth Flame (C),15468,3,3,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL

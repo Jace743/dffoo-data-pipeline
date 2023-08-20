@@ -1,0 +1,12 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+wakka,BRV Attack+,0,0,0,['Ranged']
+wakka,HP Attack+,1,0,0,['Ranged']
+wakka,Dark Attack,3,1,20,['Ranged']
+wakka,Brave Reels,0,0,20,[]
+wakka,Brave Reels Follow Up,3,0,20,"['Ranged', 'FollowUp']"
+wakka,Counter,0,0,0,"['Ranged', 'Counters']"
+wakka,Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+wakka,Attack Reels,4,4,10,"['Group', 'Ranged']"
+wakka,Status Reels,4,4,15,"['Group', 'Ranged', 'NoFree']"
+wakka,Enhanced Brave Reels (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+wakka,Enhanced Status Reels (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

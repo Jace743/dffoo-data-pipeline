@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+yuffie,BRV Attack+,0,0,0,['Ranged']
+yuffie,BRV Attack++,0,0,0,['Ranged']
+yuffie,BRV Attack+++,1,0,0,['Ranged']
+yuffie,HP Attack+,1,0,0,['Ranged']
+yuffie,HP Attack++,1,0,0,['Ranged']
+yuffie,HP Attack+++,1,1,0,['Ranged']
+yuffie,Mine Now!,6,1,20,['Ranged']
+yuffie,I don't need this～,4,4,20,"['Group', 'Ranged']"
+yuffie,BRV Copy All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+yuffie,Gauntlet,7,1,5,"['Group', 'Ranged']"
+yuffie,Doom of the Living,7,7,7,"['Group', 'Ranged', 'NoFree']"
+yuffie,All Creation,2,2,400,"['Group', 'Ranged']"
+yuffie,Blitz Gale,4,4,260,"['Group', 'Ranged', 'NoFree']"
+yuffie,Enhanced Mine now! (C),1,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"
+yuffie,Enhanced Doom of the Living (C),7,7,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

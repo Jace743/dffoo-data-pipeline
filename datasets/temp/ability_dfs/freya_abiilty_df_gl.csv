@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+freya,Jump,0,0,0,['Ranged']
+freya,Descending Dragon,0,0,10,[]
+freya,Descending Dragon (Return Attack),3,3,10,"['Group', 'Ranged', 'Instant', 'FollowUp']"
+freya,High Jump,1,0,0,['Ranged']
+freya,Reis's Wind,0,0,20,[]
+freya,Reis's Wind Follow Up,3,0,20,"['Ranged', 'Heals', 'FollowUp']"
+freya,Dragon Breath,4,1,20,"['Group', 'Ranged']"
+freya,HP Heal Advance All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+freya,Cherry Blossom,4,4,10,"['Group', 'Ranged']"
+freya,Six Dragons,3,3,15,"['Group', 'Ranged', 'Heals', 'Instant', 'NoFree']"
+freya,Spear,1,1,10,"['Group', 'Ranged', 'Heals', 'FollowUp']"
+freya,Enhanced Reis's Wind (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+freya,Enhanced Reis's Wind (C) Follow Up,1,0,0,"['Ranged', 'FollowUp', 'NoEX']"
+freya,Enhanced Six Dragons (C),3,3,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']"

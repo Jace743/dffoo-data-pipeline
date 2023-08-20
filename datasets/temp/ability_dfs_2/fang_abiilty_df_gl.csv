@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+fang,BRV Attack+ (Saboteur),5096,0,0,0,['Melee'],GL
+fang,BRV Attack+ (Commando),5099,0,0,0,"['Group', 'Melee']",GL
+fang,HP Attack+ (Saboteur),5102,1,0,0,['Melee'],GL
+fang,HP Attack+ (Commando),5103,1,0,0,"['Group', 'Melee']",GL
+fang,HP Attack++ (Saboteur),15952,1,0,0,['Melee'],GL
+fang,HP Attack++ (Commando),15953,1,0,0,"['Group', 'Melee']",GL
+fang,Umbral Vise,18703,3,1,20,['Melee'],GL
+fang,Whirlwind,18705,5,0,20,"['Group', 'Melee', 'KnockBack']",GL
+fang,HP Damage Up All,15959,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+fang,Highwind,18706,4,4,10,"['Group', 'Ranged', 'KnockBack']",GL
+fang,Highwind+,18707,5,5,10,"['Group', 'Ranged', 'KnockBack']",GL
+fang,Aerial Loop,18708,5,5,15,"['Group', 'Melee', 'NoFree']",GL
+fang,Enhanced Whirlwind (C),14621,1,0,0,"['Group', 'Melee', 'Instant', 'KnockBack', 'NoEX', 'NoFree']",GL
+fang,Enhanced Aerial Loop (C),15966,4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

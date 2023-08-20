@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+kimahri,BRV Attack+,5892,0,0,0,['Ranged'],GL
+kimahri,BRV Attack++,9714,0,0,0,['Ranged'],GL
+kimahri,Jump,5891,1,0,0,['Ranged'],GL
+kimahri,Jump+,9715,1,0,0,['Ranged'],GL
+kimahri,Jump++,17285,4,0,10,"['Ranged', 'Instant']",GL
+kimahri,Lancet,17275,2,0,20,"['Ranged', 'Heals']",GL
+kimahri,Lancet & Thrust Kick,17276,4,0,20,"['Ranged', 'Heals']",GL
+kimahri,Mighty Guard,17279,0,0,20,[],GL
+kimahri,Mighty Guard & Bad Breath,17280,2,2,20,"['Group', 'Ranged']",GL
+kimahri,Attack Guard All,17282,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+kimahri,Nova,17281,3,3,10,"['Group', 'Ranged']",GL
+kimahri,White Wind,17283,0,0,10,"['Heals', 'NoFree']",GL
+kimahri,White Wind Follow Up,17284,3,3,10,"['Ranged', 'FollowUp']",GL
+kimahri,Enhanced Mighty Guard & Bad Breath (C),14037,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+kimahri,Enhanced White Wind (C),14039,0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']",GL
+kimahri,Enhanced White Wind (C) Follow Up,14159,1,1,0,"['Ranged', 'Instant', 'FollowUp']",GL

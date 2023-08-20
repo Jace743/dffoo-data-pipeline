@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+kadaj,BRV Attack+,0,0,0,['Melee']
+kadaj,BRV Attack++,0,0,0,['Melee']
+kadaj,HP Attack+,1,0,0,['Melee']
+kadaj,HP Attack++,1,0,0,['Melee']
+kadaj,Volley,3,3,20,"['Group', 'Melee']"
+kadaj,Geophagy,2,0,65,"['Melee', 'FollowUp']"
+kadaj,Mayhem,3,1,20,['Melee']
+kadaj,Set Fixation Slash,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+kadaj,Divinity,4,4,10,"['Group', 'Melee']"
+kadaj,Burial Hour,6,0,15,"['Melee', 'NoFree']"
+kadaj,Enhanced Mayhem (C),2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+kadaj,Enhanced Burial Hour (C),3,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"

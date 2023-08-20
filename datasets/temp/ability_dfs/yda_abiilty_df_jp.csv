@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+yda,BRV Attack+,0,0,0,['Melee']
+yda,BRV Attack++,0,0,0,['Melee']
+yda,HP Attack+,1,0,0,['Melee']
+yda,HP Attack++,1,0,0,['Melee']
+yda,HP Attack+++,1,1,0,['Melee']
+yda,Snap Punch,8,0,20,['Melee']
+yda,Snap Punch+,12,0,20,['Melee']
+yda,Touch of Death,9,1,20,['Melee']
+yda,Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+yda,Tornado Kick,7,7,10,"['Group', 'Melee']"
+yda,Tornado Kick+,8,8,10,"['Group', 'Melee']"
+yda,Six-Sided Star,12,12,10,"['Group', 'Melee', 'NoFree']"
+yda,Our Final Heaven,2,2,400,"['Group', 'Melee']"
+yda,Arrival of the Phoenix,5,5,260,"['Group', 'Melee', 'NoFree']"
+yda,Enhanced Snap Punch (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+yda,Enhanced Six-Sided Star (C),6,6,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

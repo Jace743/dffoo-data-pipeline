@@ -1,0 +1,18 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+papalymo,BRV Attack+ (Fire),0,0,0,"['Magic', 'Fire']"
+papalymo,BRV Attack+ (Ice),0,0,0,"['Magic', 'Ice']"
+papalymo,BRV Attack++ (Fire),0,0,0,"['Magic', 'Fire']"
+papalymo,BRV Attack++ (Ice),0,0,0,"['Magic', 'Ice']"
+papalymo,Xenoglossy,4,0,10,"['Magic', 'Instant']"
+papalymo,HP Attack++ (Fire),1,0,0,"['Magic', 'Fire']"
+papalymo,HP Attack++ (Ice),1,0,0,['Magic']
+papalymo,Foul,1,1,10,"['Group', 'Magic', 'Instant', 'NoSummon', 'NoEX']"
+papalymo,Astral Fire,2,1,20,"['Magic', 'Fire']"
+papalymo,Umbral Ice,2,0,20,"['Magic', 'Ice']"
+papalymo,Umbral Ice+,3,0,20,"['Magic', 'Ice']"
+papalymo,Boost Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+papalymo,Fire IV,4,4,10,"['Group', 'Magic', 'Fire', 'Instant']"
+papalymo,Blizzard IV,4,0,10,"['Magic', 'Ice', 'Instant']"
+papalymo,Despair,4,0,15,"['Magic', 'Fire', 'Instant', 'NoFree']"
+papalymo,Enhanced Astral Fire (C),1,1,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']"
+papalymo,Enhanced Despair (C),4,0,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,19 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+zell,BRV Attack+,0,0,0,['Melee']
+zell,Burning Combo,1,0,10,['Melee']
+zell,Burning Combo Follow Up,1,1,10,"['Group', 'Ranged', 'FollowUp']"
+zell,HP Attack+,1,0,0,['Melee']
+zell,Meteor Combo,1,0,10,"['Melee', 'Thunder']"
+zell,Meteor Combo Follow Up,3,0,10,"['Melee', 'FollowUp']"
+zell,Punch Rush,1,0,20,"['Melee', 'Free']"
+zell,Burning Rave,1,1,20,"['Group', 'Ranged']"
+zell,Booya (Triggered),1,0,20,"['Melee', 'Thunder', 'FollowUp']"
+zell,Booya,1,0,20,"['Melee', 'Thunder', 'Free']"
+zell,Meteor Barrage,3,0,20,['Melee']
+zell,Punch Rush (Triggered),1,0,20,"['Melee', 'FollowUp']"
+zell,Set Duel Blow,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+zell,Different Beat,4,1,10,"['Melee', 'IgnoreDEF']"
+zell,Maximum Duel,3,1,15,"['Melee', 'Instant', 'NoFree']"
+zell,My Final Heaven,3,3,15,"['Group', 'Melee', 'NoFree']"
+zell,Enhanced Punch Rush (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+zell,Enhanced My Final Heaven (C),3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

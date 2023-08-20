@@ -1,0 +1,34 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,intended_main,intended_non,intended_cap
+ursula,TenshÅha,3,3,10,"['Group', 'Melee']",4,4,
+exdeath,Black Hole,2,1,20,['Magic'],3,1,
+exdeath,Grand Cross,2,1,10,"['Group', 'Magic']",3,3,
+exdeath,Maelstrom,2,1,15,"['Group', 'Magic', 'NoFree']",4,4,
+ignis,Overwhelm Follow Up,2,0,10,"['Melee', 'FollowUp']",3,0,
+sherlotta,Chuck Staff,3,1,0,['Magic'],2,2,
+sherlotta,Crystal Ray,3,1,15,"['Group', 'Magic', 'NoFree']",3,3,
+barret,Beam,3,0,65,"['Ranged', 'FollowUp']",3,0,10
+seven,Elementalash,4,0,10,"['Melee', 'Fire', 'Ice', 'Thunder', 'FollowUp']",8,0,
+leon,Dark Drain,4,0,10,"['Magic', 'Dark', 'Heals', 'Instant', 'Traps']",3,1,
+gilgamesh,Ultimate Illusion,5,5,500,"['Group', 'Melee']",5,5,100
+serah,Ultima Arrow,7,0,10,['Magic'],6,3,
+serah,Additional attack from Feral Link Reunion,1,0,0,"['Group', 'Magic', 'FollowUp']",3,3,
+cater,Land Mine,2,0,10,"['Magic', 'Ice', 'Instant', 'Traps']",1,1,10
+snow,Sovereign Fist,5,0,10,"['Group', 'Melee']",4,1,10
+cyan,Bushido Tempest,2,2,7,"['Melee', 'IgnoreDEF', 'NoFree']",8,8,7
+penelo,Intercession,1,1,10,"['Melee', 'Heals', 'Instant']",5,5,10
+yshtola,Spiritual Ray,2,2,800,"['Group', 'Magic']",2,2,400
+noel,Tempeststrike,4,5,20,"['Group', 'Melee', 'Ice', 'Wind']",4,4,20
+noel,Tempeststrike+,4,5,20,"['Group', 'Melee', 'Ice', 'Wind']",4,4,20
+noel,Additional attack from Hunter of Light,4,0,75,"['Melee', 'FollowUp']",4,0,15
+ignis,Overwhelm,2,0,10,['Melee'],15,0,10
+kadaj,Geophagy,6,0,75,"['Melee', 'FollowUp']",6,0,20
+kain,Rising Drive,9,4,15,"['Ranged', 'Instant', 'NoFree']",9,3,15
+caitsith,Transform,5,5,0,"['Group', 'Melee']",5,5,900
+lenna,Additional attack from Megaflare Shot,1,0,0,"['Group', 'Ranged', 'Heals', 'Instant', 'FollowUp']",4,4,0
+locke,Genji Glove Ã Master's Scroll,2,0,10,"['Melee', 'Instant']",16,0,10
+queen,Rasetsu Arousal,10,0,10,"['Group', 'Melee']",9,1,10
+jessie,Shaped Charge,1,1,0,"['Group', 'Ranged']",3,3,900
+cater,Land Mine,4,0,10,"['Magic', 'Ice', 'Instant', 'Traps']",3,1,10
+snow,Sovereign Fist,9,0,10,"['Group', 'Melee']",8,1,10
+leonora,Flare,1,1,0,"['Group', 'Magic', 'FollowUp']",1,1,900
+leonora,A Little Black Magic,1,1,0,"['Group', 'Magic', 'NoFree']",3,3,900

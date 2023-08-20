@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+queen,BRV Attack+,13124,0,0,0,['Melee'],JP
+queen,BRV Attack++,13138,0,0,0,['Melee'],JP
+queen,Balestra Lunge,20395,5,0,10,"['Melee', 'Instant']",JP
+queen,HP Attack+,13125,1,0,0,['Melee'],JP
+queen,HP Attack++,13139,1,0,0,['Melee'],JP
+queen,Devastate,20396,8,8,10,['Melee'],JP
+queen,Speedrush Thrust,20391,8,0,20,['Melee'],JP
+queen,Mana Sphere,20393,5,5,20,"['Group', 'Melee']",JP
+queen,HP Heal Boost All,14831,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",JP
+queen,Rasetsu Arousal,20394,9,1,10,"['Group', 'Melee']",JP
+queen,Rasetsu Arousal Release HP Heal,13321,0,0,0,"['Heals', 'Instant', 'FollowUp']",JP
+queen,Divine Judgment,20397,6,6,15,"['Group', 'Melee', 'Heals', 'NoFree']",JP
+queen,Infringement,20400,2,2,400,"['Group', 'Melee']",JP
+queen,Put in Order,20405,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+queen,Enhanced Mana Sphere (C),13145,1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",JP
+queen,Enhanced Divine Judgment (C),13147,1,1,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']",JP

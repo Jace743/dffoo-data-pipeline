@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+arciela,BRV Attack+ (Ascension),0,0,0,['Magic']
+arciela,BRV Attack+ (Descension),0,0,0,"['Group', 'Magic']"
+arciela,Harmonic Displacement,3,0,0,['Magic']
+arciela,Darkest Hour,9,1,0,['Magic']
+arciela,Ascension & Expunge Magic,0,0,20,[]
+arciela,Expunge Magic,6,6,20,"['Group', 'Magic', 'Heals', 'FollowUp']"
+arciela,Descension & Sight Unseen,0,0,20,[]
+arciela,Sight Unseen,6,6,20,"['Group', 'Magic', 'FollowUp']"
+arciela,Ability Recovery Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+arciela,Naakual's Vengeance,8,8,10,"['Group', 'Magic', 'Heals']"
+arciela,Unceasing Dread,7,7,15,"['Group', 'Magic']"
+arciela,Dignified Awe,2,2,400,"['Group', 'Magic']"
+arciela,Happy ☆ Cooking,0,0,0,"['Heals', 'Instant', 'NoFree']"
+arciela,Enhanced Descension & Sight Unseen (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+arciela,Enhanced Sight Unseen (C),1,1,0,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoEX', 'NoFree']"
+arciela,Enhanced Unceasing Dread (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

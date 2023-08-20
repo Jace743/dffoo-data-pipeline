@@ -1,0 +1,20 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+alisaie,BRV Attack+,0,0,0,['Magic']
+alisaie,BRV Attack++,0,0,0,['Magic']
+alisaie,HP Attack+,1,0,0,['Magic']
+alisaie,Enchanted Riposte,1,0,20,['Magic']
+alisaie,HP Attack++,1,0,0,['Magic']
+alisaie,Enchanted Redoublement,5,0,20,['Magic']
+alisaie,Veraero,2,0,20,"['Magic', 'Wind']"
+alisaie,Verstone,2,0,20,"['Magic', 'Earth']"
+alisaie,Verholy,3,0,20,['Magic']
+alisaie,Verthunder,2,1,20,"['Magic', 'Thunder']"
+alisaie,Verfire,2,1,20,"['Magic', 'Fire']"
+alisaie,Verflare,3,1,20,"['Magic', 'Fire']"
+alisaie,Attack Up Advance,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+alisaie,Jolt II Combo,4,0,10,"['Magic', 'Instant']"
+alisaie,Fleche & Contre Sixte,3,0,10,"['Ranged', 'NoFree']"
+alisaie,Fleche & Contre Sixte Follow Up,3,3,10,"['Group', 'Ranged', 'FollowUp', 'NoFree']"
+alisaie,Enhanced Enchanted Redoublement (C),1,0,0,"['Magic', 'Instant', 'NoEX', 'NoFree']"
+alisaie,Enhanced Fleche & Contre Sixte (C),3,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"
+alisaie,Enhanced Fleche & Contre Sixte (C) Follow Up,3,3,0,"['Group', 'Ranged', 'Instant', 'FollowUp', 'NoEX', 'NoFree']"

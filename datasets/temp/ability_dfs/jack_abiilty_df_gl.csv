@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+jack,BRV Attack+,0,0,0,['Melee']
+jack,BRV Attack++,0,0,0,['Melee']
+jack,BRV Attack+++,0,0,0,['Melee']
+jack,HP Attack+,1,0,0,['Melee']
+jack,HP Attack++,1,0,0,['Melee']
+jack,HP Attack+++,1,0,0,['Melee']
+jack,Ninja Slice,3,0,20,['Melee']
+jack,Lightning Flash,2,2,20,"['Group', 'Melee']"
+jack,Critical Power Boost Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+jack,Transience,5,5,10,"['Group', 'Melee']"
+jack,Deliverance,2,1,40,"['Melee', 'Instant', 'FollowUp']"
+jack,Piercing Gleam,4,4,15,"['Melee', 'NoFree']"
+jack,Enhanced Ninja Slice (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+jack,Enhanced Piercing Gleam (C),2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"

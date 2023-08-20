@@ -1,0 +1,14 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+agrias,BRV Attack+,0,0,0,['Melee']
+agrias,BRV Attack (Faded Moly),3,1,10,['Melee']
+agrias,HP Attack+,1,0,0,['Melee']
+agrias,HP Attack++,1,0,0,['Melee']
+agrias,Knight's Pride,0,0,20,[]
+agrias,Knight's Pride Follow Up,4,1,20,"['Melee', 'Heals', 'FollowUp']"
+agrias,Judgment Blade,0,0,20,"['Group', 'Melee']"
+agrias,Judgment Blade+,3,3,20,"['Group', 'Melee']"
+agrias,Debuff Success Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+agrias,Hallowed Bolt,4,4,10,"['Group', 'Melee']"
+agrias,Divine Ruination,5,5,15,"['Group', 'Melee', 'NoFree']"
+agrias,Enhanced Knight's Pride (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+agrias,Enhanced Knight's Pride (C) Follow Up,1,0,0,"['Melee', 'Heals', 'FollowUp']"

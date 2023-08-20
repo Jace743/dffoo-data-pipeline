@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+layle,BRV Attack+,0,0,0,['Magic']
+layle,BRV Attack++,0,0,0,['Magic']
+layle,HP Attack+,1,0,0,['Magic']
+layle,HP Attack++,1,0,0,['Magic']
+layle,HP Attack (Geo Impact),3,0,10,"['Magic', 'KnockBack']"
+layle,Field Burst,3,1,20,"['Group', 'Magic', 'KnockBack']"
+layle,Energy Gain,4,0,20,['Magic']
+layle,BRV Heal All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+layle,Gae Bolg,5,1,10,"['Group', 'Magic', 'KnockBack']"
+layle,Geo Impact,0,0,15,"['Instant', 'NoFree']"
+layle,Geo Impact Follow Up,4,4,15,"['Group', 'Magic', 'KnockBack', 'FollowUp', 'NoFree']"
+layle,The Big Finale,2,2,400,"['Group', 'Magic']"
+layle,Enhanced Energy Gain (C),1,0,0,"['Magic', 'Instant', 'NoEX', 'NoFree']"
+layle,Enhanced Geo Impact (C),2,2,0,"['Group', 'Magic', 'Instant', 'KnockBack', 'NoEX', 'NoFree']"

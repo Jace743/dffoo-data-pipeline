@@ -1,0 +1,22 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+firion,BRV Attack+,0,0,0,"['Melee', 'Heals']"
+firion,BRV Attack++,0,0,0,"['Melee', 'Heals']"
+firion,BRV Attack+++,0,0,0,"['Melee', 'Heals']"
+firion,HP Attack+,1,0,0,"['Melee', 'Heals']"
+firion,HP Attack++,1,0,0,"['Melee', 'Heals']"
+firion,HP Attack+++,1,0,0,"['Melee', 'Heals']"
+firion,Blood Weapon,2,0,20,"['Melee', 'Heals']"
+firion,Blood Weapon+,3,1,20,"['Melee', 'Heals']"
+firion,Seize Attack,2,0,20,['Ranged']
+firion,Seize Attack (Blood Weapon),2,0,20,"['Ranged', 'Heals']"
+firion,Seize Attack+,3,1,20,['Ranged']
+firion,Seize Attack+ (Blood Weapon),3,1,20,"['Ranged', 'Heals']"
+firion,HP Drain Advance Thrust,1,0,0,"['Melee', 'Heals', 'Instant', 'NoSummon', 'NoEX']"
+firion,Weaponsmaster,5,5,10,"['Group', 'Ranged', 'Heals']"
+firion,Weaponsmaster+,5,5,10,"['Group', 'Ranged', 'Heals']"
+firion,Vortex of Arms,5,5,15,"['Group', 'Ranged', 'Heals', 'NoFree']"
+firion,Drain Weapon,3,0,10,"['Ranged', 'Heals', 'Instant', 'Traps']"
+firion,Fervid Blazer,2,0,600,['Ranged']
+firion,Enhanced Blood Weapon+ (C),2,1,0,"['Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+firion,Enhanced Vortex of Arms (C),4,4,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+firion,Drain Weapon (C),1,0,0,"['Ranged', 'Heals', 'Instant', 'Traps']"

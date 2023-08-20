@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+iroha,BRV Attack+,4860,0,0,0,['Magic'],GL
+iroha,BRV Attack++,12869,0,0,0,['Magic'],GL
+iroha,HP Attack+,4861,1,0,0,['Magic'],GL
+iroha,HP Attack++,12870,1,0,0,['Magic'],GL
+iroha,Amatsu: Choun,18914,5,1,20,"['Magic', 'Heals']",GL
+iroha,Amatsu: Fuga,17739,2,2,20,"['Group', 'Magic']",GL
+iroha,Amatsu: Fuga: Fusion,17740,4,4,20,"['Group', 'Magic']",GL
+iroha,Recast Half Attack Up,17748,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+iroha,Amatsu: Kyōkasuigetsu,18888,5,5,10,"['Magic', 'Heals', 'Instant']",GL
+iroha,Amatsu: Kyōkasuigetsu+,18889,5,5,10,"['Magic', 'Heals']",GL
+iroha,Rise From Ashes,17743,5,5,15,"['Group', 'Magic', 'Heals', 'NoFree']",GL
+iroha,Eternal Rhapsodies,18892,2,2,400,"['Group', 'Magic']",GL
+iroha,Kinen no Isshi,17747,3,3,250,"['Group', 'Magic', 'Heals', 'NoFree']",GL
+iroha,Enhanced Amatsu: Choun (C),12875,1,1,0,"['Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+iroha,Enhanced Rise from Ashes (C),12877,2,2,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL

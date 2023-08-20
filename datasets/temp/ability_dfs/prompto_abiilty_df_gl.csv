@@ -1,0 +1,20 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+prompto,BRV Attack++,0,0,0,['Ranged']
+prompto,BRV Attack+,0,0,0,['Ranged']
+prompto,Overkill,0,0,0,['Ranged']
+prompto,Overkill+,0,0,0,['Ranged']
+prompto,Overkill++,2,0,0,['Ranged']
+prompto,HP Attack++,1,0,0,['Ranged']
+prompto,HP Attack+,1,0,0,['Ranged']
+prompto,Crackshot,1,1,0,"['Ranged', 'IgnoreDEF']"
+prompto,Crackshot+,1,1,0,"['Ranged', 'IgnoreDEF']"
+prompto,Crackshot++,2,1,0,"['Ranged', 'IgnoreDEF']"
+prompto,Starshell,0,0,20,[]
+prompto,Starshell Follow Up,1,0,20,"['Ranged', 'FollowUp']"
+prompto,Piercer,1,1,20,['Ranged']
+prompto,Attack Speed Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+prompto,Trigger-Happy,10,10,5,"['Group', 'Ranged']"
+prompto,Reversible Shot,3,3,15,"['Group', 'Ranged', 'NoFree']"
+prompto,Link Attack,2,1,10,"['Ranged', 'FollowUp']"
+prompto,Enhanced Starshell (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+prompto,Enhanced Starshell (C) Follow Up,1,0,0,"['Ranged', 'Instant', 'FollowUp']"

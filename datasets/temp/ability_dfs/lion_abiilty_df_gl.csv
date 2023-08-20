@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+lion,BRV Attack (Bully),0,0,0,[]
+lion,BRV Attack+,0,0,0,['Melee']
+lion,HP Attack+,1,0,0,['Melee']
+lion,Sneak Attack,3,0,20,['Melee']
+lion,Sneak Attack (Hide),3,0,20,['Melee']
+lion,Powder Keg,2,1,20,['Ranged']
+lion,Powder Keg (Hide),2,1,20,['Ranged']
+lion,Sneak Thrust,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+lion,Walk the Plank: Light,3,3,10,"['Group', 'Melee']"
+lion,Walk the Plank: Light Follow Up,2,0,10,"['Magic', 'Holy', 'Instant', 'FollowUp']"
+lion,Pirate Pummel,6,1,15,"['Melee', 'NoFree']"
+lion,Additional attack from Bully,2,1,50,"['Melee', 'Instant', 'FollowUp', 'NoFree']"
+lion,Enhanced Sneak Attack (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+lion,Enhanced Pirate Pummel (C),2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"

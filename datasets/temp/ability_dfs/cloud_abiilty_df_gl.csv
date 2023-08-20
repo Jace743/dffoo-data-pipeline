@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+cloud,BRV Attack+,0,0,0,['Melee']
+cloud,BRV Attack++,0,0,0,['Melee']
+cloud,HP Attack+,1,0,0,['Melee']
+cloud,HP Attack++,1,0,0,['Melee']
+cloud,Cross-Slash,5,0,20,['Melee']
+cloud,Cross-Slash+,5,5,20,['Melee']
+cloud,Finishing Touch,9,1,20,"['Ranged', 'KnockBack']"
+cloud,Critical Crush,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+cloud,Meteorain,8,8,10,"['Group', 'Ranged']"
+cloud,Blade Beam,6,3,15,"['Group', 'Ranged', 'Instant', 'NoFree']"
+cloud,Omnislash Version 5,12,1,400,['Ranged']
+cloud,Saintly Fervor,4,4,260,"['Group', 'Ranged', 'KnockBack', 'NoFree']"
+cloud,Enhanced Finishing Touch (C),5,1,0,"['Ranged', 'Instant', 'KnockBack', 'NoEX', 'NoFree']"
+cloud,Enhanced Blade Beam (C),2,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

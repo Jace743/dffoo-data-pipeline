@@ -1,0 +1,19 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+cater,BRV Attack+,0,0,0,['Ranged']
+cater,Charged Shot,1,0,0,['Ranged']
+cater,Charged Shot (Charge LV 1),2,0,10,"['Ranged', 'Ice']"
+cater,Charged Shot (Max Charge),4,0,10,"['Ranged', 'Ice']"
+cater,HP Attack+,1,0,0,['Ranged']
+cater,Wide Shot,1,1,0,"['Group', 'Ranged']"
+cater,Wide Shot (Charge LV 1),1,1,10,"['Group', 'Ranged']"
+cater,Wide Shot (Max Charge),2,1,10,"['Group', 'Ranged']"
+cater,Blizzard ROK,1,0,20,"['Group', 'Magic', 'Ice']"
+cater,Blizzara ROK,1,0,20,"['Group', 'Magic', 'Ice']"
+cater,Triple Slip,0,0,0,['Instant']
+cater,Counter,1,0,0,"['Magic', 'Ice', 'Instant', 'Counters']"
+cater,Blizzard Shot,1,0,0,"['Magic', 'Ice', 'Instant', 'NoSummon', 'NoEX']"
+cater,Consecutive Rounds,4,4,10,"['Group', 'Magic']"
+cater,Land Mine,2,0,10,"['Magic', 'Ice', 'Instant', 'Traps']"
+cater,Frost Stilling Shot,4,4,15,"['Group', 'Magic', 'Ice', 'NoFree']"
+cater,Enhanced Triple Slip (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+cater,Enhanced Frost Stilling Shot (C),4,4,0,"['Group', 'Magic', 'Ice', 'Instant', 'NoEX', 'NoFree']"

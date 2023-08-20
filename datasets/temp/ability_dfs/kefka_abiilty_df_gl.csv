@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+kefka,Meteor,0,0,0,['Magic']
+kefka,Meteor+,6,0,10,"['Magic', 'Instant']"
+kefka,Meteor+ Follow Up,1,1,0,"['Magic', 'Instant', 'FollowUp']"
+kefka,HP Attack+,1,0,0,['Magic']
+kefka,Trine,1,1,20,"['Group', 'Magic']"
+kefka,Trine+,3,3,20,"['Group', 'Magic']"
+kefka,Light of Judgment,1,1,20,"['Group', 'Magic']"
+kefka,Light of Judgment+,4,4,20,"['Group', 'Magic']"
+kefka,Multi-Debuff Damage Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+kefka,Havoc Wing,5,1,10,"['Group', 'Magic']"
+kefka,Hyperdrive,5,5,15,"['Group', 'Magic', 'NoFree']"
+kefka,Forsaken,2,2,350,"['Group', 'Magic']"
+kefka,Enhanced Light of Judgment (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+kefka,Enhanced Hyperdrive (C),2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

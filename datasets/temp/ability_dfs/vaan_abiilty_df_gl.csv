@@ -1,0 +1,23 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+vaan,BRV Attack+,0,0,0,['Melee']
+vaan,BRV Attack++,0,0,0,['Magic']
+vaan,HP Attack+,1,0,0,['Magic']
+vaan,HP Attack++,1,0,0,['Magic']
+vaan,Red Spiral,3,0,20,['Magic']
+vaan,Red Spiral+,4,0,20,['Magic']
+vaan,Whiteout,3,0,20,"['Magic', 'Ice', 'FollowUp']"
+vaan,Whiteout+,4,0,20,"['Magic', 'Ice', 'FollowUp']"
+vaan,White Whorl,3,0,20,"['Magic', 'Wind']"
+vaan,White Whorl+,3,1,20,"['Magic', 'Wind']"
+vaan,Luminescence,3,1,20,"['Magic', 'Holy', 'FollowUp']"
+vaan,Luminescence+,4,1,20,"['Magic', 'Holy', 'FollowUp']"
+vaan,BRV Up Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+vaan,Pyroclasm,4,1,10,"['Magic', 'Fire']"
+vaan,Pyroclasm+,4,1,10,"['Magic', 'Fire']"
+vaan,Pyroclasm++,4,1,10,"['Magic', 'Fire']"
+vaan,Pyroclasm++ Follow Up,4,1,10,"['Magic', 'Fire', 'FollowUp']"
+vaan,Earthen Eruption,6,6,15,"['Group', 'Magic', 'NoFree']"
+vaan,Calamitous Orb,2,0,600,['Magic']
+vaan,Rapid Chase,5,0,510,"['Magic', 'NoFree']"
+vaan,Enhanced White Whorl (C),1,0,0,"['Magic', 'Wind', 'Instant', 'NoEX', 'NoFree']"
+vaan,Enhanced Luminescence (C),1,0,0,"['Magic', 'Holy', 'Instant', 'FollowUp', 'NoEX', 'NoFree']"

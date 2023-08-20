@@ -1,0 +1,21 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+vivi,BRV Attack+,3918,0,0,0,"['Magic', 'Fire']",GL
+vivi,BRV Attack++,9277,0,0,0,"['Magic', 'Fire']",GL
+vivi,HP Attack+,3933,1,0,0,"['Magic', 'Fire']",GL
+vivi,HP Attack++,9278,1,0,0,"['Magic', 'Fire']",GL
+vivi,Double Fire,3879,1,1,0,"['Magic', 'Fire']",GL
+vivi,Double Fire+,19333,4,1,10,"['Group', 'Magic', 'Fire']",GL
+vivi,Double Fire Follow Up,3932,1,1,0,"['Magic', 'Fire', 'FollowUp']",GL
+vivi,Double Fire+ Follow Up,19334,4,1,10,"['Group', 'Magic', 'Fire', 'FollowUp']",GL
+vivi,Fire,19326,1,1,20,"['Magic', 'Fire']",GL
+vivi,Fire+,19327,4,1,20,"['Group', 'Magic', 'Fire']",GL
+vivi,Focus,19329,0,0,20,[],GL
+vivi,Focus Follow Up,19331,3,1,20,"['Magic', 'Fire', 'FollowUp']",GL
+vivi,Fire Enchant,15484,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+vivi,Meteor (IX),19332,5,5,10,"['Group', 'Magic']",GL
+vivi,Doomsday,19335,5,5,15,"['Group', 'Magic', 'Fire', 'Dark', 'IgnoreDEF', 'NoFree']",GL
+vivi,Embers of Darkness,19336,3,3,0,"['Group', 'Magic', 'Fire', 'Dark', 'IgnoreDEF', 'FollowUp']",GL
+vivi,Double-Effect Reflect Double Flare,19339,2,0,600,['Magic'],GL
+vivi,Our Journey,19344,4,4,250,"['Group', 'Magic', 'NoFree']",GL
+vivi,Enhanced Fire+ (C),12291,1,0,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL
+vivi,Enhanced Doomsday (C),13630,2,2,0,"['Group', 'Magic', 'Fire', 'Dark', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']",GL

@@ -1,0 +1,20 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+trey,BRV Attack+,8738,0,0,0,['Ranged'],GL
+trey,HP Attack (Charge 1),8059,1,0,0,['Ranged'],GL
+trey,HP Attack+,8739,1,0,0,['Ranged'],GL
+trey,HP Attack+ (Charge 1),8740,1,0,0,['Ranged'],GL
+trey,HP Attack+ (Charge 2),16115,1,0,0,['Ranged'],GL
+trey,Raining Arrows,16136,1,1,20,"['Group', 'Ranged']",GL
+trey,Raining Arrows (Charge 1),16137,1,1,20,"['Group', 'Ranged']",GL
+trey,Raining Arrows (Charge 2),16107,2,2,20,"['Group', 'Ranged']",GL
+trey,Arrow Shower,16111,1,1,20,"['Group', 'Ranged', 'FollowUp']",GL
+trey,Dynamite Arrow,16140,1,0,20,['Ranged'],GL
+trey,Dynamite Arrow (Charge 1),16141,1,0,20,['Ranged'],GL
+trey,Dynamite Arrow (Charge 2),16109,2,1,20,['Ranged'],GL
+trey,Dynamite,16113,1,0,20,"['Ranged', 'Traps']",GL
+trey,Ability Recovery Attack Up,16118,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+trey,Grand Delta,16114,3,3,10,"['Group', 'Ranged']",GL
+trey,Firewall,16116,4,1,15,"['Ranged', 'NoFree']",GL
+trey,Firewall,16117,2,0,10,"['Ranged', 'Instant', 'Traps', 'NoFree']",GL
+trey,Enhanced Dynamite Arrow (C),11851,1,1,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+trey,Enhanced Firewall (C),11854,3,1,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']",GL

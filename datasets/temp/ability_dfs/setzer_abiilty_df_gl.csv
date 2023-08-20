@@ -1,0 +1,14 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+setzer,BRV Attack+,0,0,0,['Ranged']
+setzer,BRV Attack++,0,0,0,['Ranged']
+setzer,HP Attack+,1,0,0,['Ranged']
+setzer,HP Attack++,1,0,0,['Ranged']
+setzer,Freeze Joker,5,5,20,"['Group', 'Magic']"
+setzer,Red Card,6,1,20,['Ranged']
+setzer,Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+setzer,Prismatic Flash,5,5,10,"['Group', 'Magic']"
+setzer,Dive-Bomb,7,7,15,"['Group', 'Magic', 'NoFree']"
+setzer,Joker's Death,2,2,350,"['Group', 'Magic']"
+setzer,Jackpot,4,4,260,"['Group', 'Magic', 'NoFree']"
+setzer,Enhanced Freeze Joker (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+setzer,Enhanced Dive-Bomb (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

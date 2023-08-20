@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+gabranth,BRV Attack+,8523,0,0,0,['Melee'],GL
+gabranth,BRV Attack++,9118,0,0,0,['Melee'],GL
+gabranth,HP Attack+,8524,1,0,0,['Melee'],GL
+gabranth,HP Attack++,9119,1,0,0,['Melee'],GL
+gabranth,Circle of Judgment,17360,4,0,20,"['Group', 'Melee']",GL
+gabranth,Enfeeblement from Judge Magister,10379,0,0,0,"['Instant', 'Counters']",GL
+gabranth,Guilt,17363,3,3,20,['Melee'],GL
+gabranth,Protect All,17375,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+gabranth,Quickening,17365,4,1,10,"['Group', 'Melee']",GL
+gabranth,Innocence,17366,4,4,15,"['Group', 'Melee', 'NoFree']",GL
+gabranth,Innocence+,17367,5,5,15,"['Group', 'Melee', 'NoFree']",GL
+gabranth,Onslaught,17370,2,0,600,['Melee'],GL
+gabranth,Aspiration,17374,3,3,250,"['Group', 'Melee', 'NoFree']",GL
+gabranth,Enhanced Circle of Judgment (C),11509,1,0,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL
+gabranth,Enhanced Innocence (C),11511,2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

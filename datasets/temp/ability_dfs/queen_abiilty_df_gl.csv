@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+queen,BRV Attack+,0,0,0,['Melee']
+queen,BRV Attack++,0,0,0,['Melee']
+queen,Balestra Lunge,1,0,10,"['Melee', 'Instant']"
+queen,HP Attack+,1,0,0,['Melee']
+queen,HP Attack++,1,0,0,['Melee']
+queen,Devastate,4,1,10,['Melee']
+queen,Speedrush Thrust,1,0,20,['Melee']
+queen,Mana Sphere,1,1,20,"['Group', 'Melee']"
+queen,HP Heal Boost All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+queen,Rasetsu Arousal,4,0,10,"['Group', 'Melee']"
+queen,Rasetsu Arousal Release HP Heal,0,0,0,"['Heals', 'Instant', 'FollowUp']"
+queen,Divine Judgment,2,2,15,"['Group', 'Melee', 'Heals', 'NoFree']"
+queen,Enhanced Mana Sphere (C),1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+queen,Enhanced Divine Judgment (C),1,1,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']"

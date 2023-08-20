@@ -1,0 +1,18 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+cidraines,BRV Attack+,0,0,0,['Magic']
+cidraines,BRV Attack++,0,0,0,['Magic']
+cidraines,HP Attack+,1,1,0,['Magic']
+cidraines,HP Attack++,1,1,0,['Magic']
+cidraines,HP Attack (Heavenly Fist),1,1,0,"['Magic', 'Instant']"
+cidraines,Ruinga Storm,2,2,20,"['Group', 'Magic']"
+cidraines,Impact Strike,2,0,0,"['Magic', 'IgnoreDEF', 'FollowUp']"
+cidraines,Cavalry Rush,2,0,20,"['Magic', 'KnockBack']"
+cidraines,Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+cidraines,Seraphic Ray,4,1,10,"['Group', 'Magic', 'KnockBack']"
+cidraines,Heavenly Fist,5,0,15,"['Group', 'Magic', 'KnockBack', 'NoFree']"
+cidraines,Impact Strike+,3,0,0,"['Magic', 'IgnoreDEF', 'FollowUp']"
+cidraines,Opposing Destiny,2,2,400,"['Group', 'Magic']"
+cidraines,Seraphic Charge,7,0,0,"['Magic', 'IgnoreDEF', 'FollowUp']"
+cidraines,Raging Rebellion,4,4,260,"['Group', 'Magic', 'KnockBack', 'NoFree']"
+cidraines,Call: Cavalry Rush (C),0,0,0,"['Instant', 'FollowUp', 'NoEX', 'NoFree']"
+cidraines,Enhanced Cavalry Rush (C),1,0,0,"['Magic', 'Instant', 'KnockBack', 'FollowUp', 'NoEX', 'NoFree']"

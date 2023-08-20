@@ -1,0 +1,14 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+celes,BRV Attack+,0,0,0,"['Melee', 'Ice']"
+celes,HP Attack+,1,0,0,"['Magic', 'Ice']"
+celes,Shine Edge,3,1,20,"['Magic', 'Heals']"
+celes,Runic,0,0,20,['Instant']
+celes,Runic Follow Up,4,0,20,"['Magic', 'FollowUp']"
+celes,Set Lock All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+celes,Spinning Edge,7,0,10,['Magic']
+celes,Freeze Dive,4,4,15,"['Group', 'Magic', 'Ice', 'Heals', 'NoFree']"
+celes,Magitek Ice Block,3,1,10,"['Magic', 'Ice', 'Heals', 'Instant', 'Traps']"
+celes,Searching for Friends,2,2,400,"['Group', 'Magic']"
+celes,Change The Air,3,3,250,"['Group', 'Magic', 'NoFree']"
+celes,Enhanced Runic (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+celes,Enhanced Runic (C) Follow Up,1,0,0,"['Magic', 'FollowUp', 'NoEX']"

@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+lilisette,BRV Attack+,3264,0,0,0,['Melee'],GL
+lilisette,BRV Attack++,5504,0,0,0,['Melee'],GL
+lilisette,HP Attack+,3267,1,0,0,"['Melee', 'Heals']",GL
+lilisette,HP Attack++,5505,1,0,0,"['Melee', 'Heals']",GL
+lilisette,Whirling Edge,18611,3,3,20,"['Group', 'Melee']",GL
+lilisette,Sensual Dance,15836,0,0,0,[],GL
+lilisette,Boost All,15845,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+lilisette,Rousing Samba & Dancer's Fury,18612,0,0,10,[],GL
+lilisette,Dancer's Fury,18613,7,0,10,"['Melee', 'FollowUp']",GL
+lilisette,Vivifying Waltz & Rudra's Storm,18614,4,4,15,"['Group', 'Melee', 'Heals', 'NoFree']",GL
+lilisette,Butterfly Steps,18618,3,3,250,"['Group', 'Melee', 'NoFree']",GL
+lilisette,Enhanced Sensual Dance (C),14542,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+lilisette,Enhanced Vivifying Waltz & Rudra's Storm (C),15903,4,1,0,"['Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL

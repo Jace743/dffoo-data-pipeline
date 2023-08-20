@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+leonora,BRV Attack +,0,0,0,['Magic']
+leonora,BRV Attack ++,0,0,0,['Magic']
+leonora,HP Attack+,1,0,0,['Magic']
+leonora,HP Attack++,1,0,0,['Magic']
+leonora,Under Training,0,0,0,"['Heals', 'Instant']"
+leonora,Flare,1,1,0,"['Group', 'Magic', 'FollowUp']"
+leonora,Holy,5,5,20,"['Group', 'Magic', 'Heals']"
+leonora,Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+leonora,Particle Bomb,7,7,10,"['Group', 'Magic', 'Heals']"
+leonora,A Little Black Magic,1,1,0,"['Group', 'Magic', 'NoFree']"
+leonora,Infinity,2,2,400,"['Group', 'Magic', 'Heals']"
+leonora,Mergecast,4,4,260,"['Group', 'Magic', 'Heals', 'NoFree']"
+leonora,Enchanced Holy (C),5,5,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+leonora,Enchanced A Little Black Magic (C),1,1,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"

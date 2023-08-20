@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+laguna,BRV Attack+,0,0,0,['Ranged']
+laguna,BRV Attack++,0,0,0,['Ranged']
+laguna,HP Attack+,1,0,0,['Ranged']
+laguna,HP Attack++,1,0,0,"['Group', 'Ranged']"
+laguna,Grenade,3,3,20,"['Group', 'Ranged']"
+laguna,Shotgun,2,1,20,"['Group', 'Ranged']"
+laguna,Shotgun+,3,1,20,"['Group', 'Ranged']"
+laguna,Debuff Damage Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+laguna,Ragnarok Buster,4,1,10,"['Group', 'Ranged']"
+laguna,Ragnarok Blade,4,4,15,"['Group', 'Ranged', 'NoFree']"
+laguna,"Additional attack from Look, the faeries are here!",2,2,15,"['Group', 'Ranged', 'FollowUp']"
+laguna,Desperado,2,2,400,"['Group', 'Ranged']"
+laguna,HP damage from Desperado debuff,1,1,0,"['Group', 'Ranged', 'Traps']"
+laguna,Enhanced Grenade (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+laguna,Enhanced Ragnarok Blade (C),4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,18 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+ramza,BRV Attack+,0,0,0,"['Melee', 'Heals']"
+ramza,BRV Attack++,0,0,0,"['Melee', 'Heals']"
+ramza,BRV Attack+++,0,0,0,"['Melee', 'Heals']"
+ramza,HP Attack+,2,0,0,['Melee']
+ramza,HP Attack++,3,0,0,['Melee']
+ramza,HP Attack+++,4,0,10,['Melee']
+ramza,Shout,0,0,20,[]
+ramza,Shout Follow Up,3,0,20,"['Melee', 'FollowUp']"
+ramza,Galvanize,0,0,0,['Heals']
+ramza,Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+ramza,Enervate+,6,1,10,['Melee']
+ramza,Enervate++,6,1,10,['Melee']
+ramza,Enervate+++,6,1,10,['Melee']
+ramza,Icebrand – Storming Winter,5,5,15,"['Group', 'Melee', 'KnockBack', 'NoFree']"
+ramza,Ultima,2,2,350,"['Group', 'Melee']"
+ramza,Enhanced Galvanize (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
+ramza,Enhanced Icebrand – Storming Winter (C),2,2,0,"['Group', 'Melee', 'Instant', 'KnockBack', 'NoEX', 'NoFree']"

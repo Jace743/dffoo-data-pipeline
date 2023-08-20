@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+warrioroflight,BRV Attack+,0,0,0,['Melee']
+warrioroflight,BRV Attack++,0,0,0,['Melee']
+warrioroflight,HP Attack+,1,0,0,['Melee']
+warrioroflight,HP Attack++,1,0,0,['Melee']
+warrioroflight,Shining Shield,0,0,20,[]
+warrioroflight,Shining Shield Follow Up,6,0,20,"['Melee', 'FollowUp']"
+warrioroflight,Throw Buckler,4,4,20,['Ranged']
+warrioroflight,Resist All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+warrioroflight,Shining Wave,4,4,10,"['Ranged', 'Heals']"
+warrioroflight,Bitter End,6,1,7,"['Ranged', 'NoFree']"
+warrioroflight,Ultimate Shield,2,2,400,"['Group', 'Ranged']"
+warrioroflight,Soul of Light,4,4,260,"['Group', 'Ranged', 'NoFree']"
+warrioroflight,Enhanced Shining Shield (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+warrioroflight,Enhanced Bitter End (C),1,1,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"

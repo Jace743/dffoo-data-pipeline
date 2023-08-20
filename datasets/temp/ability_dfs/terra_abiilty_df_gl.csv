@@ -1,0 +1,22 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+terra,BRV Attack+,0,0,0,['Magic']
+terra,BRV Attack++,0,0,0,['Magic']
+terra,HP Attack+,1,0,0,['Magic']
+terra,HP Attack++,1,0,0,['Magic']
+terra,Dualcast,2,1,10,"['Magic', 'Instant']"
+terra,Meltdown (Chant),0,0,20,[]
+terra,Magic Meltdown (Chant),0,0,20,[]
+terra,Meltdown+,1,0,20,"['Magic', 'FollowUp']"
+terra,Magic Meltdown+,3,3,20,"['Magic', 'FollowUp']"
+terra,Meteor (Chant),0,0,20,[]
+terra,Magic Meteor (Chant),0,0,20,[]
+terra,Meteor+,1,0,20,"['Group', 'Magic', 'FollowUp']"
+terra,Magic Meteor+,4,1,20,"['Group', 'Magic', 'FollowUp']"
+terra,Set Magic Boost Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+terra,Riot Blade,4,2,10,['Magic']
+terra,Chaos Wave,4,4,15,"['Group', 'Magic', 'Instant', 'NoFree']"
+terra,Trance Ultima,2,0,600,['Magic']
+terra,Ring of Rose and Crimson,5,5,260,"['Group', 'Magic', 'Instant', 'NoFree']"
+terra,Enhanced Magic Meteor (Chant) (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+terra,Enhanced Magic Meteor+ (C),2,0,0,"['Group', 'Magic']"
+terra,Enhanced Chaos Wave (C),2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

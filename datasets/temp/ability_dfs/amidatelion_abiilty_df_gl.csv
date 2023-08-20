@@ -1,0 +1,12 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+amidatelion,BRV Attack+,0,0,0,[]
+amidatelion,BRV Attack++,0,0,0,[]
+amidatelion,HP Attack+,1,0,0,['Magic']
+amidatelion,HP Attack++,1,0,0,['Magic']
+amidatelion,Comet,3,1,20,['Magic']
+amidatelion,Megaflare,3,3,20,"['Group', 'Magic']"
+amidatelion,Ability Recovery BRV Regen All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+amidatelion,Yukish Ultima,4,4,10,"['Group', 'Magic']"
+amidatelion,Crystal Idol,5,5,15,"['Group', 'Magic', 'NoFree']"
+amidatelion,Enhanced Comet (C),1,1,0,"['Magic', 'Instant', 'NoEX', 'NoFree']"
+amidatelion,Enhanced Crystal Idol (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+fran,BRV Attack+,0,0,0,['Ranged']
+fran,BRV Attack++,0,0,0,"['Group', 'Ranged']"
+fran,HP Attack+,1,0,0,"['Group', 'Ranged']"
+fran,HP Attack++,1,0,0,"['Group', 'Ranged']"
+fran,Feral Strike,2,1,20,['Ranged']
+fran,Feral Strike+,4,1,20,['Ranged']
+fran,Whip Kick,2,2,20,"['Group', 'Ranged']"
+fran,Whip Kick+,4,4,20,"['Group', 'Ranged']"
+fran,Whip Kick Recovery,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+fran,Shatterheart,2,2,10,"['Group', 'Ranged']"
+fran,Shatterheart+,4,4,10,"['Group', 'Ranged']"
+fran,Celestial Raid,4,4,15,"['Group', 'Ranged', 'NoFree']"
+fran,Enhanced Whip Kick (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+fran,Enhanced Celestial Raid (C),3,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

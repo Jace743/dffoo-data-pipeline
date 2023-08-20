@@ -1,0 +1,23 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+amarant,BRV Attack++,21189,0,0,0,['Ranged'],GL
+amarant,HP Attack++,21190,1,0,0,['Ranged'],GL
+amarant,HP Attack++,21191,1,1,0,"['Group', 'Ranged']",GL
+amarant,HP Attack+,21173,1,0,0,['Ranged'],GL
+amarant,HP Attack+,21174,1,1,0,"['Group', 'Ranged']",GL
+amarant,No Mercy,21169,6,0,20,['Ranged'],GL
+amarant,No Mercy,21170,6,6,20,"['Group', 'Ranged']",GL
+amarant,Throw,21171,2,2,20,"['Group', 'Ranged', 'FollowUp']",GL
+amarant,Chakra,21178,0,0,0,"['Heals', 'Instant']",GL
+amarant,Attack Up,21220,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+amarant,Demi Shock,21187,9,0,10,['Ranged'],GL
+amarant,Demi Shock,21188,9,9,10,"['Group', 'Ranged']",GL
+amarant,Countdown,21196,8,0,10,"['Group', 'Ranged', 'NoFree']",GL
+amarant,Countdown,21197,8,8,10,"['Group', 'Ranged', 'NoFree']",GL
+amarant,Power Throw,21202,2,0,400,['Ranged'],GL
+amarant,Power Throw,21203,2,2,400,"['Group', 'Ranged']",GL
+amarant,Throw+,21204,5,5,0,"['Group', 'Ranged', 'FollowUp']",GL
+amarant,Counter Attack Throw+,21205,5,5,0,"['Group', 'Ranged', 'Counters']",GL
+amarant,Maverick,21210,4,0,500,"['Ranged', 'NoFree']",GL
+amarant,Maverick,21215,4,4,500,"['Group', 'Ranged', 'NoFree']",GL
+amarant,Enhanced No Mercy (C),21222,6,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+amarant,Enhanced Touch of Death (C),21224,8,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

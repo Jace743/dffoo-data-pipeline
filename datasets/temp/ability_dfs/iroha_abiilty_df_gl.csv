@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+iroha,BRV Attack+,0,0,0,['Magic']
+iroha,BRV Attack++,0,0,0,['Magic']
+iroha,HP Attack+,1,0,0,['Magic']
+iroha,HP Attack++,1,0,0,['Magic']
+iroha,Amatsu: Choun,5,1,20,"['Magic', 'Heals']"
+iroha,Amatsu: Fuga,2,2,20,"['Group', 'Magic']"
+iroha,Amatsu: Fuga: Fusion,4,4,20,"['Group', 'Magic']"
+iroha,Recast Half Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+iroha,Amatsu: Kyōkasuigetsu,5,5,10,"['Magic', 'Heals', 'Instant']"
+iroha,Amatsu: Kyōkasuigetsu+,5,5,10,"['Magic', 'Heals']"
+iroha,Rise From Ashes,5,5,15,"['Group', 'Magic', 'Heals', 'NoFree']"
+iroha,Eternal Rhapsodies,2,2,400,"['Group', 'Magic']"
+iroha,Kinen no Isshi,3,3,250,"['Group', 'Magic', 'Heals', 'NoFree']"
+iroha,Enhanced Amatsu: Choun (C),1,1,0,"['Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+iroha,Enhanced Rise from Ashes (C),2,2,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"

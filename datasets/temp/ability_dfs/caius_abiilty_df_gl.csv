@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+caius,BRV Attack+,0,0,0,['Melee']
+caius,BRV Attack++,0,0,0,['Melee']
+caius,HP Attack+,1,0,0,['Melee']
+caius,HP Attack++,1,0,0,['Melee']
+caius,Pulsar Burst+,3,1,20,['Melee']
+caius,Pulsar Burst,3,0,20,['Melee']
+caius,HP Recovery from Heart of Chaos,0,0,0,"['Heals', 'Instant', 'Counters']"
+caius,Eye of Bahamut+,2,2,20,['Melee']
+caius,Eye of Bahamut,2,2,20,['Melee']
+caius,Set Doom Crush,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+caius,Inferno,5,5,10,"['Group', 'Melee', 'KnockBack']"
+caius,Inferno+,5,5,10,"['Group', 'Melee', 'KnockBack']"
+caius,Giga-Graviton,7,7,7,"['Group', 'Melee', 'NoFree']"
+caius,Incarnate Summoning,2,2,350,"['Group', 'Melee']"
+caius,Enhanced Eye of Bahamut (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+caius,Enhanced Giga-Graviton (C),3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

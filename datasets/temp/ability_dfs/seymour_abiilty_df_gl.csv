@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+seymour,BRV Attack+,0,0,0,['Magic']
+seymour,HP Attack+,1,0,0,['Magic']
+seymour,Chainspell,4,0,55,['Magic']
+seymour,Lance of Atrophy,2,2,20,['Magic']
+seymour,Set Sap Burst,1,0,0,"['Magic', 'Instant', 'NoSummon', 'NoEX']"
+seymour,Requiem,3,3,10,"['Group', 'Magic']"
+seymour,Requiem Follow Up (Chainspell),3,1,10,"['Magic', 'FollowUp']"
+seymour,Requiem Follow Up (Lance of Atrophy),3,0,10,"['Magic', 'FollowUp']"
+seymour,Cross Cleave,4,4,15,"['Group', 'Magic', 'NoFree']"
+seymour,Total Annihilation,3,3,0,"['Group', 'Magic', 'Instant']"
+seymour,Oblivion,2,0,800,['Magic']
+seymour,Dark Obsessions,3,3,250,"['Group', 'Magic', 'NoFree']"
+seymour,Enhanced Lance of Atrophy (C),1,1,0,"['Magic', 'Instant', 'NoEX', 'NoFree']"
+seymour,Enhanced Cross Cleave (C),4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

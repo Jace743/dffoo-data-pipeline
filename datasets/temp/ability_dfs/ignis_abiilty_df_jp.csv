@@ -1,0 +1,21 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+ignis,BRV Attack+ (Pastry),0,0,0,[]
+ignis,BRV Attack+ (P&B Bowl),0,0,0,['Melee']
+ignis,BRV Attack++ (Pastry),0,0,0,[]
+ignis,BRV Attack++ (P&B Bowl),0,0,0,['Melee']
+ignis,Dishes (Memory Lane Pastry),0,0,0,['Instant']
+ignis,HP Attack+ (Pastry),1,0,0,['Melee']
+ignis,HP Attack+ (P&B Bowl),1,0,0,['Melee']
+ignis,HP Attack++ (Pastry),8,0,10,['Melee']
+ignis,HP Attack++ (P&B Bowl),9,1,10,['Melee']
+ignis,Dishes (Papa Bird & Baby Bowl),0,0,0,['Instant']
+ignis,Regroup,0,0,0,"['Heals', 'Instant']"
+ignis,Quick Recipeh,0,0,0,['Instant']
+ignis,Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+ignis,Overwhelm,2,0,10,['Melee']
+ignis,Sagefire,7,7,15,"['Group', 'Melee', 'Fire', 'NoFree']"
+ignis,Resolution to Sever Destiny,2,2,400,"['Group', 'Melee']"
+ignis,Total Clarity,6,6,0,"['Group', 'Melee', 'Instant', 'FollowUp']"
+ignis,Pale Fire,4,4,260,"['Group', 'Melee', 'Heals', 'NoFree']"
+ignis,Enhanced Regroup (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
+ignis,Enhanced Sagefire (C),1,1,0,"['Group', 'Melee', 'Fire', 'Instant', 'NoEX', 'NoFree']"

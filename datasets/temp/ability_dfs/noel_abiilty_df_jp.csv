@@ -1,0 +1,19 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+noel,Fearsiphon,0,0,0,['Melee']
+noel,Fearsiphon+,0,0,0,"['Melee', 'Instant']"
+noel,Fearsiphon++,0,0,0,"['Melee', 'Instant']"
+noel,Scourge,1,0,0,['Melee']
+noel,Scourge+,1,0,0,['Melee']
+noel,Tempeststrike,4,5,20,"['Group', 'Melee', 'Ice', 'Wind']"
+noel,Tempeststrike+,4,5,20,"['Group', 'Melee', 'Ice', 'Wind']"
+noel,Gale Fang,8,0,20,['Melee']
+noel,Gale Fang+,8,0,20,['Melee']
+noel,Shaving Slash,0,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+noel,Meteor Javelin,9,1,10,"['Melee', 'IgnoreDEF']"
+noel,Meteor Javelin+,9,1,10,"['Melee', 'IgnoreDEF']"
+noel,Big Bang,5,5,15,"['Group', 'Melee', 'NoFree']"
+noel,Additional attack from Hunter of Light,4,0,75,"['Melee', 'FollowUp']"
+noel,Prayers Surpassing Chaos,2,1,400,"['Group', 'Melee', 'IgnoreDEF']"
+noel,Guardians' Pride,4,4,260,"['Group', 'Melee', 'NoFree']"
+noel,Enhanced Tempeststrike (C),1,1,0,"['Group', 'Melee', 'Ice', 'Wind', 'Instant', 'NoEX', 'NoFree']"
+noel,Enhanced Big Bang (C),1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

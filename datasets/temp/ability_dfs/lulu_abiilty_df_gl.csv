@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+lulu,BRV Attack+,0,0,0,['Magic']
+lulu,BRV Attack++,0,0,0,['Magic']
+lulu,HP Attack+,1,0,0,['Magic']
+lulu,HP Attack++,1,0,0,['Magic']
+lulu,Stinger Mog,3,0,20,"['Magic', 'IgnoreDEF']"
+lulu,Stinger Mog+,3,3,20,"['Group', 'Magic', 'IgnoreDEF']"
+lulu,Fire Moomba,3,0,20,"['Magic', 'Fire']"
+lulu,Fire Moomba+,3,3,20,"['Group', 'Magic', 'Fire']"
+lulu,Weak Damage Up All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+lulu,Firaga Fury,3,3,10,"['Group', 'Magic', 'Fire']"
+lulu,Firaga Fury+,5,5,10,"['Group', 'Magic', 'Fire']"
+lulu,Double Flare Fury,7,7,15,"['Group', 'Magic', 'NoFree']"
+lulu,Enhanced Fire Moomba+ (C),1,1,0,"['Group', 'Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']"
+lulu,Enhanced Double Flare Fury (C),7,7,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

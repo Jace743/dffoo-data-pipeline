@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+yshtola,BRV Attack+,0,0,0,['Magic']
+yshtola,Scion's Aero II,3,3,10,"['Group', 'Magic']"
+yshtola,Afflatus Misery,6,6,10,"['Group', 'Magic']"
+yshtola,HP Attack+,1,0,0,['Magic']
+yshtola,HP Attack++,1,0,0,['Magic']
+yshtola,Stone,1,0,20,"['Magic', 'Earth']"
+yshtola,Stone+,4,0,20,"['Magic', 'Earth']"
+yshtola,Medica II,0,0,0,['Heals']
+yshtola,BRV Heal,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+yshtola,Pulse of Life,0,0,0,"['Heals', 'Instant']"
+yshtola,Scion's Holy,3,3,15,"['Group', 'Magic', 'Instant', 'NoFree']"
+yshtola,Spiritual Ray,2,2,800,"['Group', 'Magic']"
+yshtola,Enhanced Stone (C),1,0,0,"['Magic', 'Earth', 'Instant', 'NoEX', 'NoFree']"
+yshtola,Enhanced Scion's Holy (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+krile,BRV Attack+,0,0,0,"['Magic', 'Thunder']"
+krile,BRV Attack++,0,0,0,"['Magic', 'Thunder']"
+krile,HP Attack+,1,0,0,"['Magic', 'Thunder']"
+krile,HP Attack++,1,0,0,"['Magic', 'Thunder']"
+krile,Ray of Hope+,0,0,0,[]
+krile,Ray of Hope,0,0,0,[]
+krile,Thunder (V),3,1,20,"['Magic', 'Thunder']"
+krile,Thunder (V)+,3,1,20,"['Magic', 'Thunder']"
+krile,Advance All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+krile,Quick Dualcast,5,5,10,"['Group', 'Magic', 'Thunder']"
+krile,Cleansing,4,4,15,"['Group', 'Magic', 'Thunder', 'NoFree']"
+krile,Judgment,4,0,10,"['Magic', 'Thunder', 'Traps']"
+krile,Retribution on Three,3,3,250,"['Group', 'Magic', 'Thunder', 'NoFree']"
+krile,Enhanced Ray of Hope (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+krile,Enhanced Cleansing (C),3,3,0,"['Group', 'Magic', 'Thunder', 'Instant', 'NoEX', 'NoFree']"

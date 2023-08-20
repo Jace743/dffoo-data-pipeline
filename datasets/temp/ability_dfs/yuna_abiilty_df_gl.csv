@@ -1,0 +1,18 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+yuna,BRV Attack,0,0,0,"['Magic', 'Thunder']"
+yuna,Sonic Wings,1,0,0,['Magic']
+yuna,Sonic Wings+,1,0,0,['Magic']
+yuna,Sonic Wings++,5,0,10,['Magic']
+yuna,Energy Ray,1,1,0,"['Group', 'Magic']"
+yuna,Energy Ray+,1,1,0,"['Group', 'Magic']"
+yuna,Energy Ray++,5,5,10,"['Group', 'Magic']"
+yuna,Esuna,0,0,0,[]
+yuna,Cheer,0,0,0,['Heals']
+yuna,Base Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+yuna,Grand Summon,5,2,10,"['Group', 'Magic']"
+yuna,Energy Blast,5,2,10,"['Group', 'Magic']"
+yuna,Energy Nova,4,4,15,"['Group', 'Magic', 'NoFree']"
+yuna,The Sending,7,7,400,"['Group', 'Magic']"
+yuna,Banishing Stroke,3,3,250,"['Group', 'Magic', 'NoFree']"
+yuna,Enhanced Esuna (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+yuna,Enhanced Energy Nova (C),3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

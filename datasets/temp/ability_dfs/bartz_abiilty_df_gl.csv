@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+bartz,BRV Attack+,0,0,0,['Melee']
+bartz,BRV Attack++,1,0,0,"['Melee', 'Wind']"
+bartz,HP Attack+,1,0,0,['Melee']
+bartz,HP Attack++,1,0,0,"['Melee', 'Wind']"
+bartz,Doublehand,6,2,20,['Melee']
+bartz,Doublehand+,6,2,20,['Melee']
+bartz,Missile,6,1,20,['Melee']
+bartz,Missile+,6,1,20,['Melee']
+bartz,Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+bartz,Iainuki,5,5,10,['Melee']
+bartz,Elemental Attack,5,5,15,"['Group', 'Melee', 'Wind', 'NoFree']"
+bartz,Quick Spellblade Dual-Wield Rapid Fire,2,2,400,"['Group', 'Melee', 'Wind', 'NoFree']"
+bartz,Travels & Courage & Partners,4,4,260,"['Group', 'Melee', 'NoFree']"
+bartz,Enhanced Missile (C),2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+bartz,Enhanced Elemental Attack (C),2,2,0,"['Group', 'Melee', 'Wind', 'Instant', 'NoEX', 'NoFree']"

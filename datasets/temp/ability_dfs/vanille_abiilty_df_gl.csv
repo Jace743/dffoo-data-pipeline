@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+vanille,BRV Attack+,0,0,0,['Magic']
+vanille,BRV Attack++,0,0,0,['Magic']
+vanille,HP Attack+,1,0,0,['Magic']
+vanille,HP Attack++,1,0,0,['Magic']
+vanille,Deprotect (XIII),3,1,20,"['Group', 'Magic']"
+vanille,Dispel (XIII),2,2,20,"['Group', 'Magic']"
+vanille,Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+vanille,Death (XIII),4,4,10,"['Group', 'Magic']"
+vanille,Assassination,2,2,10,"['Group', 'Magic', 'Instant', 'Traps']"
+vanille,Force Blasters,4,4,15,"['Group', 'Magic', 'NoFree']"
+vanille,Enhanced Dispel (XIII) (C),1,0,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+vanille,Enhanced Force Blasters (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

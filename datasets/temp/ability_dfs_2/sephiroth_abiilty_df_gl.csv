@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+sephiroth,BRV Attack+,1799,0,0,0,['Melee'],GL
+sephiroth,BRV Attack++,10204,0,0,0,['Melee'],GL
+sephiroth,HP Attack+,6194,1,0,0,['Melee'],GL
+sephiroth,HP Attack++,10205,1,0,0,['Melee'],GL
+sephiroth,Fervent Blow,20407,7,4,20,"['Group', 'Melee']",GL
+sephiroth,Octaslash,20413,11,1,10,['Melee'],GL
+sephiroth,Attack Boost Up,16720,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+sephiroth,Black Materia,20414,9,9,10,"['Group', 'Magic']",GL
+sephiroth,Scintilla,20415,9,9,15,"['Group', 'Melee', 'NoFree']",GL
+sephiroth,Heaven's Light,16719,2,2,350,"['Group', 'Melee']",GL
+sephiroth,Black Conflict,20420,4,4,250,"['Group', 'Melee', 'NoFree']",GL
+sephiroth,Enhanced Octaslash (C),10344,1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+sephiroth,Enhanced Scintilla (C),13003,3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

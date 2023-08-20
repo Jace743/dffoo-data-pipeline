@@ -1,0 +1,21 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+aerith,BRV Attack+,0,0,0,['Magic']
+aerith,BRV Attack++,0,0,0,['Magic']
+aerith,BRV Attack+++,0,0,0,['Magic']
+aerith,HP Attack+,1,0,0,['Magic']
+aerith,HP Attack++,1,0,0,['Magic']
+aerith,HP Attack+++,1,0,0,['Magic']
+aerith,HP Attack (Seal Evil),3,3,0,['Magic']
+aerith,Healing Wind,0,0,0,['Heals']
+aerith,Prayer of the Cetra,0,0,0,['Heals']
+aerith,BRV Regen Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+aerith,Fury Brand,0,0,10,[]
+aerith,Fury Brand Follow Up,7,0,10,"['Magic', 'Heals', 'FollowUp']"
+aerith,Seal Evil,5,5,15,"['Group', 'Magic', 'NoFree']"
+aerith,Additional attack from Seal Evil,2,2,15,"['Group', 'Instant', 'FollowUp']"
+aerith,Holy,7,7,400,"['Group', 'Magic', 'Heals']"
+aerith,Additional attack from White Materia's Brilliance,1,1,0,"['Group', 'Magic', 'Instant', 'FollowUp']"
+aerith,HP recovery from Holy,0,0,0,"['Heals', 'Instant', 'Counters']"
+aerith,Flowers Floating in Another World,0,0,0,"['Heals', 'Instant', 'NoFree']"
+aerith,Enhanced Prayer of the Cetra (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
+aerith,Enhanced Seal Evil (C),2,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

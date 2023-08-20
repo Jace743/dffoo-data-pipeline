@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+ursula,BRV Attack+,0,0,0,['Melee']
+ursula,BRV Attack++,0,0,0,['Melee']
+ursula,HP Attack+,1,0,0,['Melee']
+ursula,HP Attack++,1,0,0,['Melee']
+ursula,Tenshōha,3,3,10,"['Group', 'Melee']"
+ursula,Tenketsu,6,1,20,"['Group', 'Melee']"
+ursula,Chakra,6,0,20,"['Melee', 'Instant']"
+ursula,Set Tenketsu Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+ursula,Five Star Crimson Palm,5,5,10,"['Group', 'Melee', 'IgnoreDEF', 'Instant']"
+ursula,Scarlet Legs of Fury,5,5,15,"['Group', 'Melee', 'IgnoreDEF', 'NoFree']"
+ursula,Petal Whirlwind,2,2,400,"['Group', 'Melee']"
+ursula,Dual Turning Palm Strike,4,4,260,"['Group', 'Melee', 'Instant', 'NoFree']"
+ursula,Enhanced Chakra (C),1,0,0,"['Instant', 'NoEX', 'NoFree']"
+ursula,Enhanced Scarlet Legs of Fury (C),3,3,0,"['Group', 'Melee', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"

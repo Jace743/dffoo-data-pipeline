@@ -1,0 +1,20 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+onionknight,Blizzard,0,0,0,"['Magic', 'Ice']"
+onionknight,Blizzard+,0,0,0,"['Magic', 'Ice']"
+onionknight,BRV Attack+,0,0,0,['Melee']
+onionknight,HP Attack+ (Ninja),1,0,0,['Melee']
+onionknight,HP Attack+ (Sage),1,1,0,"['Group', 'Magic', 'Ice']"
+onionknight,HP Attack++ (Ninja),1,0,0,['Melee']
+onionknight,HP Attack++ (Sage),1,1,0,"['Group', 'Magic', 'Ice']"
+onionknight,Blizzard Combo,4,1,20,"['Magic', 'Ice']"
+onionknight,Multi-Hit,6,0,20,['Melee']
+onionknight,Blizzard Enchant All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+onionknight,Meteorite,4,4,10,"['Group', 'Magic']"
+onionknight,Blade Torrent,4,0,10,['Melee']
+onionknight,Blade Torrent Follow Up,4,0,0,"['Melee', 'FollowUp']"
+onionknight,Sword & Sorcery,5,4,15,"['Group', 'Melee', 'Magic', 'Ice', 'NoFree']"
+onionknight,Ninjutsu,2,0,600,"['Melee', 'Ice']"
+onionknight,Spellbook,2,2,500,"['Group', 'Magic', 'Ice']"
+onionknight,Harmonious Light to Clear Dark Clouds,3,3,250,"['Group', 'Melee', 'Instant', 'NoFree']"
+onionknight,Enhanced Blizzard Combo (C),1,1,0,"['Magic', 'Ice', 'Instant', 'NoEX', 'NoFree']"
+onionknight,Enhanced Sword & Sorcery (C),2,1,0,"['Group', 'Melee', 'Magic', 'Ice', 'Instant', 'NoFree']"

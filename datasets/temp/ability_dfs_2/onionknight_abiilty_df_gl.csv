@@ -1,0 +1,21 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+onionknight,Blizzard,2149,0,0,0,"['Magic', 'Ice']",GL
+onionknight,Blizzard+,3530,0,0,0,"['Magic', 'Ice']",GL
+onionknight,BRV Attack+,3532,0,0,0,['Melee'],GL
+onionknight,HP Attack+ (Ninja),6636,1,0,0,['Melee'],GL
+onionknight,HP Attack+ (Sage),6637,1,1,0,"['Group', 'Magic', 'Ice']",GL
+onionknight,HP Attack++ (Ninja),15451,1,0,0,['Melee'],GL
+onionknight,HP Attack++ (Sage),15452,1,1,0,"['Group', 'Magic', 'Ice']",GL
+onionknight,Blizzard Combo,18816,4,1,20,"['Magic', 'Ice']",GL
+onionknight,Multi-Hit,18820,6,0,20,['Melee'],GL
+onionknight,Blizzard Enchant All,15342,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+onionknight,Meteorite,18823,4,4,10,"['Group', 'Magic']",GL
+onionknight,Blade Torrent,18821,4,0,10,['Melee'],GL
+onionknight,Blade Torrent Follow Up,18822,4,0,0,"['Melee', 'FollowUp']",GL
+onionknight,Sword & Sorcery,11412,0,0,15,['NoFree'],GL
+onionknight,Sword & Sorcery,18826,5,4,15,"['Group', 'Melee', 'Magic', 'Ice', 'NoFree']",GL
+onionknight,Ninjutsu,18917,2,0,600,"['Melee', 'Ice']",GL
+onionknight,Spellbook,18918,2,2,500,"['Group', 'Magic', 'Ice']",GL
+onionknight,Harmonious Light to Clear Dark Clouds,18830,3,3,250,"['Group', 'Melee', 'Instant', 'NoFree']",GL
+onionknight,Enhanced Blizzard Combo (C),11236,1,1,0,"['Magic', 'Ice', 'Instant', 'NoEX', 'NoFree']",GL
+onionknight,Enhanced Sword & Sorcery (C),11240,2,1,0,"['Group', 'Melee', 'Magic', 'Ice', 'Instant', 'NoFree']",GL

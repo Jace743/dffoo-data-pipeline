@@ -1,0 +1,14 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+quistis,BRV Attack+,0,0,0,['Melee']
+quistis,BRV Attack++,0,0,0,['Melee']
+quistis,HP Attack+,1,0,0,['Melee']
+quistis,HP Attack++,1,0,0,['Melee']
+quistis,Laser Whip,6,2,20,['Melee']
+quistis,Degenerator Whip,8,0,20,"['Melee', 'Instant']"
+quistis,Ability Recovery,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+quistis,Homing Whip,7,4,10,['Melee']
+quistis,Ray Whip,5,5,15,"['Group', 'Melee', 'NoFree']"
+quistis,Shockwave Pulsar,2,2,350,"['Group', 'Melee']"
+quistis,Scatter Whip,4,4,260,"['Group', 'Melee', 'NoFree']"
+quistis,Enhanced Degenerator Whip (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+quistis,Enhanced Ray Whip (C),1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

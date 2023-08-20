@@ -1,0 +1,20 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+palom,BRV Attack+,0,0,0,['Magic']
+palom,BRV Attack++,1,0,0,['Magic']
+palom,Dualcast,1,1,20,['Magic']
+palom,Dualcast++,3,1,10,['Magic']
+palom,Bluff,0,0,20,[]
+palom,Bluff+,0,0,20,[]
+palom,Bluff++,0,0,20,[]
+palom,Bluff/+/++ Follow Up,4,0,20,"['Magic', 'Ice', 'FollowUp']"
+palom,Mysidian Ice Crystal,2,1,20,"['Magic', 'Ice']"
+palom,Mysidian Ice Crystal+,2,1,20,"['Magic', 'Ice']"
+palom,Mysidian Ice Crystal++,4,1,20,"['Magic', 'Ice']"
+palom,Great Mysidian Ice Crystal,4,1,20,"['Magic', 'Ice']"
+palom,Blizzard Burst,1,0,0,"['Magic', 'Ice', 'Instant', 'NoSummon', 'NoEX']"
+palom,Stardust,4,4,10,"['Group', 'Magic']"
+palom,Twincast Double Blizzaga,2,2,15,"['Group', 'Magic', 'Ice', 'NoFree']"
+palom,Twincast Double Blizzaga+,3,3,15,"['Group', 'Magic', 'Ice', 'NoFree']"
+palom,Twincast Double Blizzaga++,4,4,15,"['Group', 'Magic', 'Ice', 'NoFree']"
+palom,Enhanced Mysidian Ice Crystal (C),1,1,0,"['Magic', 'Ice', 'Instant', 'NoEX', 'NoFree']"
+palom,Enhanced Twincast Double Blizzaga++ (C),4,4,0,"['Group', 'Magic', 'Ice', 'Instant', 'NoEX', 'NoFree']"

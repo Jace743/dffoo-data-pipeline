@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+galuf,BRV Attack+,0,0,0,['Melee']
+galuf,HP Attack+,1,0,0,['Melee']
+galuf,HP Attack++,1,0,0,['Melee']
+galuf,Cover,0,0,0,[]
+galuf,Cover+,0,0,0,[]
+galuf,Shirahadori,0,0,20,[]
+galuf,Shirahadori+,0,0,20,[]
+galuf,Shirahadori Follow Up,3,0,20,"['Melee', 'FollowUp']"
+galuf,Counter,1,0,20,"['Melee', 'Counters']"
+galuf,Ability Recovery Advance All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+galuf,Dual-Wield Bladeblitz,4,4,10,"['Group', 'Melee']"
+galuf,Dawn Katana,4,4,15,"['Group', 'Melee', 'NoFree']"
+galuf,Battle to the Death Self-harm,0,0,0,"['Instant', 'Traps']"
+galuf,Final Strike,4,0,10,"['Melee', 'Instant', 'Counters']"
+galuf,Enhanced Shirahadori (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+galuf,Enhanced Shirahadori (C) Follow Up,1,0,0,"['Melee', 'Instant', 'FollowUp']"

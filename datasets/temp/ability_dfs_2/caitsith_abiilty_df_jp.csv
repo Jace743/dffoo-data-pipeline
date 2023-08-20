@@ -1,0 +1,18 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+caitsith,BRV Attack+,5709,0,0,0,['Melee'],JP
+caitsith,BRV Attack++,14218,1,0,0,['Melee'],JP
+caitsith,HP Attack+,5711,1,0,0,['Melee'],JP
+caitsith,Transform,21144,5,5,900,"['Uncapped', 'Group', 'Melee']",JP
+caitsith,Toy Soldier,14219,0,0,20,['Melee'],JP
+caitsith,Toy Soldier+,21137,5,5,20,"['Group', 'Melee']",JP
+caitsith,Toy Soldier++,21138,6,6,20,"['Group', 'Melee']",JP
+caitsith,Mog Dance,14224,0,0,0,['Heals'],JP
+caitsith,Mog Dance+,14227,0,0,0,"['Heals', 'Instant']",JP
+caitsith,Mog Dance++,14228,0,0,0,"['Heals', 'Instant']",JP
+caitsith,BRV Heal Advance All,16951,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+caitsith,Dice,21139,7,7,10,"['Group', 'Melee']",JP
+caitsith,Lucky Girl,21140,7,7,15,"['Group', 'Melee', 'NoFree']",JP
+caitsith,Game Over,21143,2,2,400,"['Group', 'Melee']",JP
+caitsith,Grand Moogle Convergence,21149,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+caitsith,Enhanced Toy Soldier (C),12821,0,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",JP
+caitsith,Enhanced Lucky Girl (C),14230,2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",JP

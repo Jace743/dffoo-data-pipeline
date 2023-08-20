@@ -1,0 +1,12 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+basch,BRV Attack+,0,0,0,['Melee']
+basch,BRV Attack++,0,0,0,['Melee']
+basch,HP Attack+,1,0,0,"['Melee', 'Heals']"
+basch,HP Attack++,1,0,0,"['Melee', 'Heals']"
+basch,Fulminating Darkness,3,3,20,"['Group', 'Melee']"
+basch,Ruin Impendent,3,0,20,"['Melee', 'Heals']"
+basch,HP Heal Attack Up,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+basch,Flame Purge+,3,3,10,"['Melee', 'Heals']"
+basch,Indomitable Palisade,4,4,15,"['Group', 'Melee', 'Heals', 'NoFree']"
+basch,Enhanced Fulminating Darkness (C),1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+basch,Enhanced Indomitable Palisade (C),2,2,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']"

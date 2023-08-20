@@ -1,0 +1,21 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+tifa,BRV Attack+,3353,0,0,0,['Melee'],GL
+tifa,BRV Attack++,6003,0,0,0,['Melee'],GL
+tifa,BRV Attack (Full Throttle),12677,0,0,0,"['Melee', 'Instant']",GL
+tifa,HP Attack+,5789,1,0,0,['Melee'],GL
+tifa,HP Attack++,6004,1,0,0,['Melee'],GL
+tifa,HP Attack (Full Throttle),18128,6,0,0,"['Melee', 'Instant']",GL
+tifa,Beat Rush,17992,4,0,20,['Melee'],GL
+tifa,Beat Rush+,17993,6,0,20,['Melee'],GL
+tifa,Battle Cry,17996,0,0,20,['Instant'],GL
+tifa,Battle Cry Follow Up,17997,4,0,20,"['Melee', 'Instant', 'FollowUp']",GL
+tifa,Beat Rush Recovery Attack Up,15427,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+tifa,Dolphin Blow Combo,18043,4,0,10,['Melee'],GL
+tifa,Dolphin Blow Combo Follow Up,18044,3,0,10,"['Melee', 'KnockBack', 'FollowUp']",GL
+tifa,Meteor Crusher,17998,6,0,15,"['Melee', 'NoFree']",GL
+tifa,Final Heaven,17950,12,0,30,['Melee'],GL
+tifa,Waterkick,17951,3,0,0,"['Melee', 'Instant', 'FollowUp']",GL
+tifa,Somersault,17952,3,0,0,"['Melee', 'Instant', 'FollowUp']",GL
+tifa,Glitter Strike,19345,5,0,500,"['Melee', 'NoFree']",GL
+tifa,Enhanced Beat Rush (C),12680,3,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+tifa,Enhanced Meteor Crusher (C),12682,6,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL

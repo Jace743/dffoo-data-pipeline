@@ -1,0 +1,18 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ashe,BRV Attack+,4105,0,0,0,['Melee'],GL
+ashe,BRV Attack++,7367,0,0,0,['Melee'],GL
+ashe,HP Attack (Queen's Order),12879,0,0,0,"['Instant', 'NoEX']",GL
+ashe,HP Attack+,7365,1,0,0,['Melee'],GL
+ashe,HP Attack++,7366,1,0,0,['Melee'],GL
+ashe,HP Attack (Queen's Order),18951,3,1,10,"['Melee', 'Instant']",GL
+ashe,Nordswain's Glow,18944,4,1,20,['Magic'],GL
+ashe,Heaven's Wrath,18946,4,1,20,"['Magic', 'Holy']",GL
+ashe,Attack All,17580,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+ashe,Maelstrom's Bolt,18947,3,1,10,"['Magic', 'Thunder']",GL
+ashe,Ark Blast,18948,4,1,10,"['Magic', 'Thunder', 'FollowUp']",GL
+ashe,Nescience's Verdict,18949,4,4,15,"['Group', 'Magic', 'Thunder', 'Holy', 'NoFree']",GL
+ashe,Empyrean's Edict,18954,2,2,400,"['Group', 'Magic']",GL
+ashe,Additional attack from Empyrean's Edict,18955,3,3,0,"['Group', 'Magic', 'Heals', 'FollowUp']",GL
+ashe,Mistbreak's Fulmination,18959,3,3,250,"['Group', 'Magic', 'NoFree']",GL
+ashe,Enhanced Heaven's Wrath (C),12803,1,1,0,"['Magic', 'Holy', 'Instant', 'NoEX', 'NoFree']",GL
+ashe,Enhanced Nescience's Verdict (C),12805,1,1,0,"['Group', 'Magic', 'Thunder', 'Holy', 'Instant', 'NoEX', 'NoFree']",GL

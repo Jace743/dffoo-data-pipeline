@@ -1,0 +1,23 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+keiss,BRV Attack+,0,0,0,['Ranged']
+keiss,Selkie Chase (BRV),0,0,0,[]
+keiss,BRV Attack++,0,0,0,['Ranged']
+keiss,Selkie Chase+ (BRV),0,0,0,[]
+keiss,Selkie Chase++ (BRV),0,0,0,[]
+keiss,HP Attack+,1,0,0,['Ranged']
+keiss,Selkie Chase (HP),1,0,0,['Ranged']
+keiss,HP Attack++,1,0,0,['Ranged']
+keiss,Selkie Chase+ (HP),1,0,0,['Ranged']
+keiss,HP Attack+ (Aerial Drive),1,0,0,['Ranged']
+keiss,Selkie Chase++ (HP),1,0,0,['Ranged']
+keiss,Selkie Throw,8,2,20,['Ranged']
+keiss,Hero Support,8,0,20,['Ranged']
+keiss,Hero Support Cast,0,0,20,"['Instant', 'FollowUp']"
+keiss,Hero Support Recovery Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+keiss,Sky High,8,8,10,"['Group', 'Ranged', 'KnockBack']"
+keiss,Aerial Drive,9,2,15,"['Ranged', 'KnockBack', 'NoFree']"
+keiss,Zero Gravity Action,2,2,350,"['Group', 'Ranged']"
+keiss,Reserved Secret Plan,4,0,0,"['Ranged', 'Instant', 'KnockBack', 'FollowUp']"
+keiss,Trident Bolt,4,4,260,"['Group', 'Ranged', 'KnockBack', 'NoFree']"
+keiss,Enhanced Hero Support (C),1,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"
+keiss,Enhanced Smash Support Cast (C),0,0,0,"['Instant', 'FollowUp', 'NoEX', 'NoFree']"

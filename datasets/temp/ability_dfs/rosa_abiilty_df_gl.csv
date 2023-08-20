@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+rosa,BRV Attack+,0,0,0,['Ranged']
+rosa,Aim,8,1,10,"['Group', 'Ranged']"
+rosa,HP Attack+,1,0,0,['Ranged']
+rosa,HP Attack++,1,0,0,['Ranged']
+rosa,Divine Blast,6,2,20,"['Magic', 'Heals']"
+rosa,Pray,0,0,0,"['Heals', 'Instant']"
+rosa,Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+rosa,Luminous Arrow,6,6,10,"['Group', 'Ranged', 'Heals']"
+rosa,Blessed Archery,6,6,15,"['Group', 'Ranged', 'NoFree']"
+rosa,Holy Cross,2,2,400,"['Group', 'Magic']"
+rosa,Holy Blade,3,3,0,"['Group', 'Magic', 'Heals', 'FollowUp']"
+rosa,Black-White Barrage,4,4,260,"['Group', 'Ranged', 'Heals', 'NoFree']"
+rosa,Enhanced Pray (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
+rosa,Enhanced Blessed Archery (C),2,2,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

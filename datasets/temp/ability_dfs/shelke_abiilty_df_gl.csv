@@ -1,0 +1,14 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+shelke,BRV Attack+,0,0,0,['Melee']
+shelke,BRV Attack++,0,0,0,['Melee']
+shelke,HP Attack+,1,0,0,['Melee']
+shelke,HP Attack++,1,0,0,['Melee']
+shelke,Optic Spindle,2,1,20,['Melee']
+shelke,Optic Spindle+,2,1,20,['Melee']
+shelke,Delta Arts,2,2,20,"['Group', 'Melee']"
+shelke,Delta Arts+,2,2,20,"['Group', 'Melee']"
+shelke,Buff Longer Thrust,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+shelke,Transparent,6,0,10,['Melee']
+shelke,Countertek,0,0,0,['NoFree']
+shelke,Enhanced Delta Arts (C),1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+shelke,Enhanced Countertek (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"

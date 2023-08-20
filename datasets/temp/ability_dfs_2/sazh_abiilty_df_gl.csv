@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+sazh,BRV Attack+,8637,0,0,0,['Ranged'],GL
+sazh,BRV Attack++,14997,0,0,0,['Ranged'],GL
+sazh,HP Attack+,8638,1,0,0,['Ranged'],GL
+sazh,HP Attack++,14998,1,0,0,['Ranged'],GL
+sazh,Aim,14989,1,0,20,['Ranged'],GL
+sazh,Aim+,14990,2,0,20,['Ranged'],GL
+sazh,Attack Boost,14992,0,0,20,[],GL
+sazh,Attack Boost Follow Up,14993,1,0,20,"['Ranged', 'Instant', 'FollowUp']",GL
+sazh,Advance All,16193,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+sazh,Cold Blood,16192,5,5,10,"['Group', 'Ranged']",GL
+sazh,Spark Shower,14996,7,0,7,"['Group', 'Ranged', 'NoFree']",GL
+sazh,Enhanced Attack Boost (C),11268,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+sazh,Enhanced Attack Boost (C) Follow Up,11397,1,0,0,"['Ranged', 'FollowUp']",GL
+sazh,Enhanced Spark Shower (C),15000,7,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

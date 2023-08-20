@@ -1,0 +1,12 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+seifer,BRV Attack+,7886,0,0,0,"['Group', 'Ranged']",GL
+seifer,BRV Attack++,7888,0,0,0,"['Group', 'Ranged']",GL
+seifer,HP Attack+,7887,1,1,0,"['Group', 'Ranged']",GL
+seifer,HP Attack++,7889,1,1,0,"['Group', 'Ranged']",GL
+seifer,No Mercy,15942,3,1,20,"['Group', 'Ranged', 'Wind']",GL
+seifer,Bloodfest,15944,4,4,20,"['Group', 'Ranged']",GL
+seifer,Set Defense Down,15901,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+seifer,Demon Slice X,15900,5,1,10,"['Group', 'Ranged']",GL
+seifer,Purge,15940,6,6,15,"['Group', 'Ranged', 'NoFree']",GL
+seifer,Enhanced Bloodfest (C),12974,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+seifer,Enhanced Purge (C),12976,2,2,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

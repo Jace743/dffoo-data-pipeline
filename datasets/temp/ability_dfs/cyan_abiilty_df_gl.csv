@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+cyan,BRV Attack+,0,0,0,"['Melee', 'IgnoreDEF']"
+cyan,HP Attack+,1,0,0,"['Melee', 'IgnoreDEF']"
+cyan,Concentrate: Fang,0,0,0,['Free']
+cyan,Bushido Fang,2,1,20,"['Melee', 'IgnoreDEF']"
+cyan,Concentrate: Dragon,0,0,0,['Free']
+cyan,Bushido Dragon,3,0,20,"['Melee', 'Heals', 'IgnoreDEF']"
+cyan,Guard Penetration Crush Advance,1,0,0,"['Melee', 'IgnoreDEF', 'Instant', 'NoSummon', 'NoEX']"
+cyan,Tsubame Gaeshi,5,1,10,"['Melee', 'IgnoreDEF']"
+cyan,Tsubame Gaeshi+,5,1,10,"['Melee', 'IgnoreDEF']"
+cyan,Bushido Tempest,2,2,7,"['Melee', 'IgnoreDEF', 'NoFree']"
+cyan,Enhanced Bushido Fang (C),1,1,0,"['Melee', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"
+cyan,Enhanced Bushido Tempest (C),2,2,0,"['Melee', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"

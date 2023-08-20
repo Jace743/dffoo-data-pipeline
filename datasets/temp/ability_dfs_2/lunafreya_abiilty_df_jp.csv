@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+lunafreya,BRV Attack+,17607,0,0,0,['Magic'],JP
+lunafreya,BRV Attack++,17617,0,0,0,['Magic'],JP
+lunafreya,Quick Prayer,17700,0,0,0,['Instant'],JP
+lunafreya,HP Attack+,17608,1,0,0,['Magic'],JP
+lunafreya,HP Attack++,17618,1,0,0,['Magic'],JP
+lunafreya,Heavy Prayer,21122,0,0,0,['Instant'],JP
+lunafreya,Energy Heal,17606,0,0,0,"['Heals', 'Instant']",JP
+lunafreya,Frigid Fubuki,21118,6,6,20,"['Group', 'Magic', 'Ice']",JP
+lunafreya,Weak Damage Up All,17636,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+lunafreya,Diamond Dust,21119,7,7,10,"['Group', 'Magic', 'Ice']",JP
+lunafreya,Awakening,21120,0,0,15,"['Instant', 'NoFree']",JP
+lunafreya,Awakening Follow Up,21121,7,7,15,"['Group', 'Magic', 'Instant', 'FollowUp']",JP
+lunafreya,Coronal Spark of Life,17627,5,5,100,"['Group', 'Magic']",JP
+lunafreya,Furious Spray,21123,4,4,250,"['Group', 'Magic', 'NoFree']",JP
+lunafreya,Enhanced Energy Heal (C),17638,0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']",JP
+lunafreya,Enhanced Awakening (C),17640,0,0,0,"['Instant', 'NoEX', 'NoFree']",JP

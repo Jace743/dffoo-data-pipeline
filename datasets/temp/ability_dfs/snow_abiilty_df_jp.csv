@@ -1,0 +1,18 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+snow,BRV Attack+,0,0,0,['Melee']
+snow,BRV Attack++,0,0,0,['Melee']
+snow,HP Attack+,1,0,0,['Melee']
+snow,HP Attack++,1,0,0,['Melee']
+snow,Steelguard,0,0,20,[]
+snow,Steelguard Follow Up,6,0,20,"['Melee', 'Ice', 'FollowUp']"
+snow,Froststrike,8,0,20,"['Melee', 'Ice', 'Heals']"
+snow,HP Regen Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+snow,Sovereign Fist,9,0,10,"['Group', 'Melee']"
+snow,Ice Ramp,6,6,15,"['Group', 'Melee', 'Ice', 'NoFree']"
+snow,Retribution,2,2,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']"
+snow,Retribution+,9,9,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']"
+snow,We'll never give up!,2,2,350,"['Group', 'Melee', 'Ice']"
+snow,Pyroglacier,4,4,260,"['Group', 'Melee', 'NoFree']"
+snow,Enhanced Steelguard (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+snow,Enhanced Steelguard (C) Follow Up,1,0,0,"['Melee', 'FollowUp']"
+snow,Enhanced Ice Ramp (C),2,2,0,"['Group', 'Melee', 'Ice', 'Instant', 'NoEX', 'NoFree']"

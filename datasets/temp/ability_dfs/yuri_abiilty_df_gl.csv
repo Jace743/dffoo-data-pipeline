@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+yuri,BRV Attack+,0,0,0,['Melee']
+yuri,Magic Blast – Holyga,0,0,10,['Instant']
+yuri,Magic Blast – Holyga (Triggered),3,3,10,"['Group', 'Magic', 'Holy', 'Instant', 'Traps', 'FollowUp']"
+yuri,Magic Blast – Holyga+ (Triggered),8,8,10,"['Group', 'Magic', 'Holy', 'Instant', 'Traps', 'FollowUp']"
+yuri,HP Attack+,1,0,0,['Melee']
+yuri,Crystal Power,5,5,20,"['Group', 'Ranged']"
+yuri,Rela Crystal,6,0,20,"['Magic', 'Holy']"
+yuri,Base Boost Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+yuri,Clavatian Sword,7,7,10,"['Group', 'Ranged', 'Holy']"
+yuri,Magic Blast – Ultiga,6,6,15,"['Group', 'Magic', 'NoFree']"
+yuri,Great Rainbow Circle,2,2,400,"['Group', 'Magic']"
+yuri,Slowga Bomb,4,4,260,"['Group', 'Magic', 'Holy', 'NoFree']"
+yuri,Enhanced Crystal Power (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+yuri,Enhanced Magic Blast – Ultiga (C),4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

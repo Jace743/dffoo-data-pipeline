@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+lunafreya,BRV Attack+,0,0,0,['Magic']
+lunafreya,BRV Attack++,0,0,0,['Magic']
+lunafreya,Quick Prayer,0,0,0,['Instant']
+lunafreya,HP Attack+,1,0,0,['Magic']
+lunafreya,HP Attack++,1,0,0,['Magic']
+lunafreya,Heavy Prayer,0,0,0,['Instant']
+lunafreya,Energy Heal,0,0,0,"['Heals', 'Instant']"
+lunafreya,Frigid Fubuki,6,6,20,"['Group', 'Magic', 'Ice']"
+lunafreya,Weak Damage Up All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+lunafreya,Diamond Dust,7,7,10,"['Group', 'Magic', 'Ice']"
+lunafreya,Awakening,0,0,15,"['Instant', 'NoFree']"
+lunafreya,Awakening Follow Up,7,7,15,"['Group', 'Magic', 'Instant', 'FollowUp']"
+lunafreya,Coronal Spark of Life,5,5,100,"['Group', 'Magic']"
+lunafreya,Furious Spray,4,4,260,"['Group', 'Magic', 'NoFree']"
+lunafreya,Enhanced Energy Heal (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
+lunafreya,Enhanced Awakening (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"

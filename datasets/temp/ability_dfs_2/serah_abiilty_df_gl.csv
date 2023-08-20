@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+serah,BRV Attack+,3434,0,0,0,['Magic'],GL
+serah,BRV Attack++,6256,0,0,0,['Magic'],GL
+serah,HP Attack+,6102,1,0,0,['Ranged'],GL
+serah,HP Attack++,6257,1,0,0,['Ranged'],GL
+serah,Wound,15327,1,0,20,"['Group', 'Magic']",GL
+serah,Wound+,19383,5,1,20,"['Group', 'Magic']",GL
+serah,Moonlight,15331,1,0,20,['Magic'],GL
+serah,Moonlight+,19385,5,5,20,"['Group', 'Magic']",GL
+serah,Advance All,15343,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+serah,Ultima Arrow,19386,6,3,10,['Magic'],GL
+serah,Paradigm Shift Combo,19387,4,4,15,"['Group', 'Magic', 'NoFree']",GL
+serah,Feral Link Reunion,19396,2,2,400,"['Group', 'Magic']",GL
+serah,Additional attack from Feral Link Reunion,19394,3,3,0,"['Group', 'Magic', 'FollowUp']",GL
+serah,Wound Torrent,19392,4,4,250,"['Group', 'Magic', 'NoFree']",GL
+serah,Enhanced Wound (C),11767,1,0,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL
+serah,Enhanced Paradigm Shift Combo (C),11769,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

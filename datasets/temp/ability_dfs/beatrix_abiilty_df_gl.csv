@@ -1,0 +1,22 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+beatrix,BRV Attack+,0,0,0,['Magic']
+beatrix,BRV Attack++,0,0,0,['Magic']
+beatrix,BRV Attack+++,0,0,0,['Magic']
+beatrix,HP Attack+,1,0,0,['Magic']
+beatrix,HP Attack+++,1,0,0,['Magic']
+beatrix,Holy Knight's Safeguard,4,0,10,"['Magic', 'Heals', 'Instant']"
+beatrix,Saint Cloth,0,0,20,[]
+beatrix,Saint Cloth Follow Up,6,0,20,"['Magic', 'Instant', 'FollowUp']"
+beatrix,Thunder Slash,2,1,20,"['Group', 'Magic', 'Thunder']"
+beatrix,Thunder Slash+,5,1,20,"['Group', 'Magic', 'Thunder']"
+beatrix,HP Heal Attack All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+beatrix,Climhazzard,3,3,10,"['Group', 'Magic']"
+beatrix,Climhazzard+,4,4,10,"['Group', 'Magic']"
+beatrix,Climhazzard++,5,5,10,"['Group', 'Magic']"
+beatrix,Shock,5,5,15,"['Group', 'Magic', 'IgnoreDEF', 'NoFree']"
+beatrix,Rose Petals Counterattack,4,1,0,"['Magic', 'Thunder', 'IgnoreDEF', 'Instant', 'Counters', 'NoFree']"
+beatrix,Roses of May,2,2,400,"['Group', 'Magic']"
+beatrix,Dedicated Knight's Pride,4,4,260,"['Group', 'Magic', 'Thunder', 'NoFree']"
+beatrix,Enhanced Saint Cloth (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+beatrix,Enhanced Saint Cloth (C) Follow Up,1,0,0,"['Magic', 'Instant', 'FollowUp', 'NoEX']"
+beatrix,Enhanced Shock (C),2,2,0,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"

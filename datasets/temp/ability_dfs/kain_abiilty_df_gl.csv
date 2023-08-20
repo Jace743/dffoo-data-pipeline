@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+kain,Jump,0,0,0,"['Group', 'Ranged']"
+kain,Double Jump,0,0,0,[]
+kain,Double Jump (Return),4,4,10,"['Group', 'Ranged', 'Instant', 'FollowUp']"
+kain,HP Attack+,1,0,0,['Ranged']
+kain,Jump III,4,1,20,"['Group', 'Ranged']"
+kain,Gungnir,7,0,10,['Ranged']
+kain,BRV Up Thrust,1,0,0,"['Ranged', 'Instant', 'NoSummon', 'NoEX']"
+kain,Fang and Claw,4,4,10,"['Ranged', 'KnockBack']"
+kain,Rising Drive,4,1,15,"['Ranged', 'Instant', 'NoFree']"
+kain,Lancet,2,2,10,"['Group', 'Ranged', 'Instant', 'FollowUp']"
+kain,Dragoon's Pride,2,1,400,"['Group', 'Ranged']"
+kain,Cross Jump,3,3,250,"['Group', 'Ranged', 'Instant', 'KnockBack', 'NoFree']"
+kain,Enhanced Jump III (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+kain,Enhanced Rising Drive (C),4,1,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"

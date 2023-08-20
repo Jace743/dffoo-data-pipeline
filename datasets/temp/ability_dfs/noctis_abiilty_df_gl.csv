@@ -1,0 +1,21 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+noctis,BRV Attack+,0,0,0,['Ranged']
+noctis,BRV Attack++,0,0,0,['Ranged']
+noctis,HP Attack+,1,0,0,['Ranged']
+noctis,HP Attack++,1,0,0,['Ranged']
+noctis,Shooting Star+,3,3,20,"['Group', 'Ranged', 'KnockBack']"
+noctis,Shooting Star,3,3,20,"['Group', 'Ranged']"
+noctis,Additional attack from Point-Blank Warp,4,0,0,"['Ranged', 'Instant', 'FollowUp']"
+noctis,Warp-Strike+,5,0,20,['Ranged']
+noctis,Warp-Strike,5,0,20,['Ranged']
+noctis,Death Drop+,2,0,20,['Ranged']
+noctis,Death Drop,2,0,20,['Ranged']
+noctis,Set Warp Advance,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+noctis,Conjure Armiger,5,1,10,"['Melee', 'Ranged']"
+noctis,Conjure Armiger+,5,1,10,"['Melee', 'Ranged']"
+noctis,Steel Pirouette,4,4,15,"['Group', 'Ranged', 'NoFree']"
+noctis,Legacy of the Lucii,2,0,600,['Ranged']
+noctis,Additional attack from Legacy of the Lucii,4,0,0,"['Ranged', 'FollowUp']"
+noctis,Inherited Heart,4,4,260,"['Group', 'Ranged', 'NoFree']"
+noctis,Enhanced Shooting Star (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+noctis,Enhanced Steel Pirouette (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ultimecia,Maelstrom,5420,0,0,0,"['Group', 'Magic']",GL
+ultimecia,HP Attack++,5326,1,0,0,"['Group', 'Magic']",GL
+ultimecia,HP Attack+,4851,1,0,0,"['Group', 'Magic']",GL
+ultimecia,Protean Swords,17704,4,0,20,['Magic'],GL
+ultimecia,Protean Swords+,17705,4,1,20,['Magic'],GL
+ultimecia,Hell's Judgment,17708,3,0,20,['Magic'],GL
+ultimecia,Hell's Judgment+,17709,3,3,20,"['Group', 'Magic']",GL
+ultimecia,Set BRV Regen,17711,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+ultimecia,Apocalypse,17710,4,4,10,"['Group', 'Magic', 'Instant']",GL
+ultimecia,Shockwave Pulsar,17712,5,5,15,"['Group', 'Magic', 'NoFree']",GL
+ultimecia,Sorceress Heart,17714,2,2,350,"['Group', 'Magic']",GL
+ultimecia,Enhanced Hell's Judgment (C),11039,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL
+ultimecia,Enhanced Shockwave Pulsar (C),11061,2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

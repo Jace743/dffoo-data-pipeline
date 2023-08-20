@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+vincent,BRV Attack+,5070,0,0,0,['Ranged'],GL
+vincent,HP Attack+,5125,1,0,0,['Ranged'],GL
+vincent,HP Attack++,5126,1,0,0,"['Group', 'Ranged']",GL
+vincent,Deadly Beast Flare,16793,3,0,0,"['Group', 'Ranged', 'Fire']",GL
+vincent,Deadly Beast Flare+,16794,3,1,0,"['Group', 'Ranged', 'Fire']",GL
+vincent,Livewire Shot,16797,3,0,0,"['Group', 'Ranged', 'Thunder']",GL
+vincent,Livewire Shot+,16798,3,1,0,"['Group', 'Ranged', 'Thunder']",GL
+vincent,Debuff Act Longer,16805,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+vincent,Nightmare Shot,16799,4,4,0,"['Group', 'Ranged']",GL
+vincent,Satan Slam Shot,16800,4,4,0,"['Group', 'Ranged', 'NoFree']",GL
+vincent,Chaos Saber Shot,16801,3,0,0,"['Ranged', 'Instant', 'FollowUp']",GL
+vincent,A Finale Chaotic,16804,2,2,400,"['Group', 'Ranged']",GL
+vincent,Enhanced Deadly Beast Flare (C),10129,1,0,0,"['Group', 'Ranged', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL
+vincent,Enhanced Satan Slam Shot (C),16807,4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

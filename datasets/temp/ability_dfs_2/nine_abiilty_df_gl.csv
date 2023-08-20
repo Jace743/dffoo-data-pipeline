@@ -1,0 +1,13 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+nine,Jump,7628,0,0,0,"['Group', 'Ranged']",GL
+nine,Jump+,9375,0,0,0,"['Group', 'Ranged']",GL
+nine,High Jump,7629,1,1,0,"['Group', 'Ranged']",GL
+nine,High Jump+,9376,1,1,0,"['Group', 'Ranged']",GL
+nine,Primal Roar,16561,3,3,20,"['Group', 'Ranged']",GL
+nine,Whirling Lance,16564,2,1,20,"['Group', 'Ranged', 'Heals']",GL
+nine,Whirling Lance+,16565,3,1,20,"['Group', 'Ranged', 'Heals']",GL
+nine,Boost Up Thrust,16567,1,1,0,"['Group', 'Ranged', 'Instant', 'NoSummon', 'NoEX']",GL
+nine,Laser Lance,16566,4,4,10,"['Group', 'Ranged', 'Heals']",GL
+nine,White Knight,16568,0,0,0,"['Instant', 'NoFree']",GL
+nine,Enhanced Primal Roar (C),12566,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+nine,Enhanced White Knight (C),12568,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL

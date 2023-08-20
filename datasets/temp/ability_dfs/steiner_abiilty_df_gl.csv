@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+steiner,BRV Attack+,0,0,0,['Melee']
+steiner,BRV Attack++,0,0,0,['Melee']
+steiner,HP Attack+,1,0,0,['Melee']
+steiner,HP Attack++,1,0,0,['Melee']
+steiner,Power Break (IX),3,0,20,['Melee']
+steiner,Spellblade,2,1,20,"['Melee', 'Fire']"
+steiner,Spellblade+,3,1,20,"['Melee', 'Fire']"
+steiner,Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+steiner,Stock Break,3,3,10,"['Group', 'Melee']"
+steiner,Flare Sword,4,3,15,"['Group', 'Melee', 'NoFree']"
+steiner,Enhanced Power Break (IX) (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+steiner,Enhanced Flare Sword (C),4,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

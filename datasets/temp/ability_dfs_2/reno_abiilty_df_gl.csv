@@ -1,0 +1,13 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+reno,BRV Attack+,10272,0,0,0,"['Melee', 'Thunder']",GL
+reno,BRV Attack++,10274,0,0,0,"['Melee', 'Thunder']",GL
+reno,HP Attack+,10273,1,0,0,"['Melee', 'Thunder']",GL
+reno,HP Attack++,10275,1,0,0,"['Melee', 'Thunder']",GL
+reno,Electroprod,17525,3,1,20,"['Group', 'Melee', 'Thunder']",GL
+reno,Electric Dance,17527,4,0,20,"['Melee', 'Thunder']",GL
+reno,Debuff Act Longer Crush,16148,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+reno,EM Triple Shot,17662,3,3,10,"['Group', 'Melee', 'Thunder']",GL
+reno,Pyramid,16147,4,4,15,"['Group', 'Melee', 'Thunder', 'NoFree']",GL
+reno,Galvanic Chain,17531,3,3,250,"['Group', 'Melee', 'Thunder', 'NoFree']",GL
+reno,Enhanced Electroprod (C),10271,1,1,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL
+reno,Enhanced Pyramid (C),13166,1,1,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL

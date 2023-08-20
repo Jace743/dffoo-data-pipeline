@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+aphmau,BRV Attack+ (Fine-Tuning),0,0,0,['Melee']
+aphmau,HP Attack+ (Mnejing),1,0,0,"['Melee', 'Instant']"
+aphmau,HP Attack++ (Mnejing),2,0,10,"['Melee', 'Heals', 'Instant']"
+aphmau,HP Attack+ (Optimization),1,0,0,['Magic']
+aphmau,HP Attack+ (Ovjang),1,1,0,"['Group', 'Magic', 'Instant']"
+aphmau,HP Attack++ (Ovjang),2,2,10,"['Group', 'Magic', 'Instant']"
+aphmau,Shield Subverter,4,0,20,['Melee']
+aphmau,Sixth Element,3,1,20,['Magic']
+aphmau,Puppeteer Buff Longer,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+aphmau,Activate & Imperial Authority,6,1,5,['Melee']
+aphmau,Victory Smite,0,0,15,['NoFree']
+aphmau,Tactical Switch Cast,0,0,15,['FollowUp']
+aphmau,Victory Smite Follow Up,5,5,15,"['Melee', 'FollowUp']"
+aphmau,Enhanced Shield Subverter (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+aphmau,Enhanced Victory Smite (C),3,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"

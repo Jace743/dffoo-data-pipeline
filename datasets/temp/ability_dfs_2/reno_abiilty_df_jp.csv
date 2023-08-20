@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+reno,BRV Attack+,10272,0,0,0,"['Melee', 'Thunder']",JP
+reno,BRV Attack++,10274,0,0,0,"['Melee', 'Thunder']",JP
+reno,HP Attack+,10273,1,0,0,"['Melee', 'Thunder']",JP
+reno,HP Attack++,10275,1,0,0,"['Melee', 'Thunder']",JP
+reno,Turks Combo,20525,11,11,0,"['Group', 'Melee']",JP
+reno,Electroprod,20516,6,2,20,"['Group', 'Melee', 'Thunder']",JP
+reno,Electric Dance,20518,8,1,20,"['Melee', 'Thunder']",JP
+reno,Debuff Act Longer Crush,16148,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",JP
+reno,EM Triple Shot,20519,6,6,10,"['Group', 'Melee', 'Thunder']",JP
+reno,Pyramid,20520,5,5,15,"['Group', 'Melee', 'Thunder', 'NoFree']",JP
+reno,Neo Pyramid,20524,2,2,350,"['Group', 'Melee']",JP
+reno,Galvanic Chain,20521,4,4,250,"['Group', 'Melee', 'Thunder', 'NoFree']",JP
+reno,Enhanced Electroprod (C),10271,1,1,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",JP
+reno,Enhanced Pyramid (C),13166,1,1,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",JP

@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+xande,BRV Attack+,0,0,0,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,BRV Attack++,0,0,0,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,HP Attack+,1,0,0,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,HP Attack++,1,0,0,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,Libra Combo,3,2,20,"['Group', 'Magic', 'Fire', 'Dark']"
+xande,Quake,2,1,20,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,Quaga,4,2,20,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,Weak Damage Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+xande,Meteor,5,5,10,"['Group', 'Magic', 'Earth', 'Dark']"
+xande,Destruction – Quaga,5,3,15,"['Group', 'Magic', 'Earth', 'Dark', 'NoFree']"
+xande,Enhanced Libra Combo (C),1,1,0,"['Group', 'Magic', 'Fire', 'Dark', 'Instant', 'NoEX', 'NoFree']"
+xande,Enhanced Destruction – Quaga (C),3,1,0,"['Group', 'Magic', 'Earth', 'Dark', 'Instant', 'NoEX', 'NoFree']"

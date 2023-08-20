@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+paine,BRV Attack+,4000,0,0,0,['Melee'],GL
+paine,Triple Cut,4266,0,0,0,['Melee'],GL
+paine,BRV Attack++,8803,0,0,0,['Melee'],GL
+paine,Triple Cut+,8804,0,0,0,['Melee'],GL
+paine,HP Attack+,4267,1,0,0,['Melee'],GL
+paine,HP Attack++,8805,1,0,0,['Melee'],GL
+paine,Break Attack,19580,6,2,20,['Melee'],GL
+paine,Black Sky,19582,5,5,20,"['Group', 'Ranged']",GL
+paine,Debuff Attack Up Advance,17428,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+paine,Sword Dance,19583,3,3,10,"['Group', 'Melee']",GL
+paine,Sword Dance+,19584,6,6,10,"['Group', 'Melee']",GL
+paine,Wild Throttle,19585,8,2,15,"['Group', 'Melee', 'NoFree']",GL
+paine,Gullwing Rush,19593,2,2,400,"['Group', 'Melee']",GL
+paine,Dark Shroud,19590,4,4,250,"['Group', 'Melee', 'NoFree']",GL
+paine,Enhanced Break Attack (C),10883,1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+paine,Enhanced Wild Throttle (C),14825,3,2,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL

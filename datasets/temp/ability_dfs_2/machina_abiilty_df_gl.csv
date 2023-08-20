@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+machina,BRV Attack+,5523,0,0,0,['Melee'],GL
+machina,Furious Blades,15048,2,0,20,['Melee'],GL
+machina,Furious Blades+,15049,2,0,20,['Melee'],GL
+machina,Furious Blades (Burst),15056,7,0,0,['Melee'],GL
+machina,Awakening,15045,1,0,20,"['Melee', 'Instant']",GL
+machina,Cyclone Drive,15051,2,1,20,['Melee'],GL
+machina,Awakening Longer,17308,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+machina,Guardian Blades,17309,4,4,10,"['Group', 'Melee']",GL
+machina,Counter,17356,1,0,10,"['Melee', 'Instant', 'Counters']",GL
+machina,Stunning Slash,17329,4,4,15,"['Group', 'Melee', 'Instant']",GL
+machina,Trap attack from Spiral's Lynchpin,19111,2,2,10,"['Group', 'Melee', 'Instant', 'Traps']",GL
+machina,Additional attack from Spiral's Lynchpin,17328,2,2,25,"['Group', 'Melee', 'Instant', 'Traps', 'FollowUp']",GL
+machina,Illuminating the Future,15059,2,2,400,"['Group', 'Melee']",GL
+machina,Beyond the Atonement,18887,3,3,250,"['Group', 'Melee', 'Instant', 'NoFree']",GL
+machina,Enhanced Cyclone Drive (C),10881,1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+machina,Enhanced Stunning Slash (C),10992,2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

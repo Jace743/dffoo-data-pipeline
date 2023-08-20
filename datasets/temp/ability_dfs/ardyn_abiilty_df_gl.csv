@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+ardyn,BRV Attack+,0,0,0,['Melee']
+ardyn,BRV Attack++,0,0,0,['Melee']
+ardyn,HP Attack+,1,0,0,['Melee']
+ardyn,HP Attack++,1,0,0,['Melee']
+ardyn,Warp-Strike,3,0,20,['Melee']
+ardyn,Additional attack from Spectral Charge,2,0,65,"['Melee', 'Instant', 'FollowUp']"
+ardyn,Aura of Darkness,2,2,20,"['Group', 'Melee']"
+ardyn,Break Reset Slash,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+ardyn,Rising Phantom++,4,4,10,"['Group', 'Melee']"
+ardyn,Rising Phantom+,3,3,10,"['Group', 'Melee']"
+ardyn,Rising Phantom,2,2,10,"['Group', 'Melee']"
+ardyn,Dark Tornado,4,4,15,"['Group', 'Melee', 'NoFree']"
+ardyn,Royal Retribution,2,2,350,"['Group', 'Melee']"
+ardyn,Revenant Roar,3,3,250,"['Group', 'Melee', 'NoFree']"
+ardyn,Enhanced Warp-Strike (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+ardyn,Enhanced Dark Tornado (C),2,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

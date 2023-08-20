@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+edge,BRV Attack+,0,0,0,"['Magic', 'Thunder']"
+edge,BRV Attack++,0,0,0,"['Magic', 'Thunder']"
+edge,HP Attack+,1,0,0,"['Magic', 'Thunder']"
+edge,HP Attack++,1,0,0,"['Magic', 'Thunder']"
+edge,Shock,3,1,20,"['Magic', 'Thunder']"
+edge,Smoke,0,0,20,[]
+edge,Smoke Follow Up,3,0,20,"['Magic', 'Thunder', 'FollowUp']"
+edge,Thunderburst,1,0,0,"['Magic', 'Thunder', 'Instant', 'NoSummon', 'NoEX']"
+edge,Blitz Mirage,4,4,10,"['Group', 'Magic', 'Thunder']"
+edge,Inferno,4,4,15,"['Group', 'Magic', 'Fire', 'Thunder', 'NoFree']"
+edge,Ultimate Art: Advent of Phoenix,4,4,10,"['Group', 'Magic', 'Fire', 'Thunder', 'Instant', 'Counters']"
+edge,Additional attack from Fire Scarf,2,2,10,"['Group', 'Magic', 'Instant', 'Counters']"
+edge,Enhanced Smoke (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+edge,Enhanced Smoke (C) Follow Up,1,0,0,"['Magic', 'Thunder', 'Instant', 'FollowUp', 'NoEX']"

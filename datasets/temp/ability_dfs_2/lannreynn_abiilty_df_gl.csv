@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+lannreynn,BRV Attack+,6840,0,0,0,['Melee'],GL
+lannreynn,BRV Attack++,14327,0,0,0,"['Group', 'Melee']",GL
+lannreynn,HP Attack+,6844,1,1,0,['Melee'],GL
+lannreynn,HP Attack++,14328,1,1,0,"['Group', 'Melee']",GL
+lannreynn,Thunder & Geocrush,19054,4,4,20,"['Group', 'Magic', 'Thunder', 'Earth']",GL
+lannreynn,Thunder & Geocrush+,19055,4,4,20,"['Group', 'Magic', 'Thunder', 'Earth']",GL
+lannreynn,Blizzard & Water,19058,4,4,20,"['Group', 'Magic', 'Ice', 'Water']",GL
+lannreynn,Blizzard & Water+,19059,4,4,20,"['Group', 'Magic', 'Ice', 'Water']",GL
+lannreynn,Set Mirage SL,16788,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+lannreynn,Sonic Fangs,19662,6,6,10,"['Group', 'Melee', 'Fire']",GL
+lannreynn,Megaflare,19639,4,4,15,"['Group', 'Magic', 'NoFree']",GL
+lannreynn,Megaflare (Follow Up),19640,4,4,15,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']",GL
+lannreynn,Blossom Storm+,19642,2,2,350,"['Group', 'Magic']",GL
+lannreynn,Eternal Link,19647,4,4,250,"['Group', 'Magic', 'Instant', 'NoFree']",GL
+lannreynn,Enhanced Thunder & Geocrush+ (C),14333,1,1,0,"['Group', 'Magic', 'Thunder', 'Earth', 'Instant', 'NoEX', 'NoFree']",GL
+lannreynn,Enhanced Megaflare (C),14335,3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

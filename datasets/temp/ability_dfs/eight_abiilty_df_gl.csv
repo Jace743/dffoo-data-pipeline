@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+eight,BRV Attack+,0,0,0,['Melee']
+eight,BRV Attack++,0,0,0,['Melee']
+eight,Lightspeed Jab++,4,0,0,"['Melee', 'Instant']"
+eight,HP Attack++,1,0,0,['Melee']
+eight,Lightspeed Jab,1,0,0,['Melee']
+eight,HP Attack+,1,0,0,['Melee']
+eight,Quickbolt Stance,3,0,20,['Melee']
+eight,Last-Stand Rush,2,1,20,['Melee']
+eight,BRV Up Buff Longer,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+eight,Phantom Rush,6,0,10,['Melee']
+eight,Breaksight Blow,2,0,10,"['Melee', 'IgnoreDEF', 'Instant', 'Counters']"
+eight,Explosive Fist,5,5,15,"['Group', 'Melee', 'NoFree']"
+eight,Counter Rush,1,1,10,"['Melee', 'IgnoreDEF', 'Counters']"
+eight,Enhanced Last-Stand Rush (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+eight,Enhanced Explosive Fist (C),2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+vincent,BRV Attack+,0,0,0,['Ranged']
+vincent,HP Attack+,1,0,0,['Ranged']
+vincent,HP Attack++,1,0,0,"['Group', 'Ranged']"
+vincent,Deadly Beast Flare,4,0,20,"['Group', 'Ranged', 'Fire']"
+vincent,Deadly Beast Flare+,4,2,20,"['Group', 'Ranged', 'Fire']"
+vincent,Livewire Shot,4,0,20,"['Group', 'Ranged', 'Thunder']"
+vincent,Livewire Shot+,4,2,20,"['Group', 'Ranged', 'Thunder']"
+vincent,Debuff Act Longer,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+vincent,Nightmare Shot,5,5,10,"['Group', 'Ranged']"
+vincent,Satan Slam Shot,5,5,15,"['Group', 'Ranged', 'NoFree']"
+vincent,Chaos Saber Shot,4,0,10,"['Ranged', 'Instant', 'FollowUp']"
+vincent,A Finale Chaotic,2,2,400,"['Group', 'Ranged']"
+vincent,Daybreak,4,4,260,"['Group', 'Ranged', 'NoFree']"
+vincent,Enhanced Deadly Beast Flare (C),1,0,0,"['Group', 'Ranged', 'Fire', 'Instant', 'NoEX', 'NoFree']"
+vincent,Enhanced Satan Slam Shot (C),4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,11 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+cidhighwind,Boost Jump,1,0,0,"['Group', 'Ranged', 'Wind']"
+cidhighwind,Dragon,1,1,0,"['Ranged', 'Wind', 'Heals']"
+cidhighwind,Hyper Jump,1,1,20,"['Group', 'Ranged', 'Wind']"
+cidhighwind,Dragon Dive,2,1,20,"['Ranged', 'Wind']"
+cidhighwind,Aero Enchant Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+cidhighwind,Big Brawl,13,13,2,"['Group', 'Ranged']"
+cidhighwind,Highwind,9,9,5,"['Group', 'Ranged', 'Wind', 'NoFree']"
+cidhighwind,Bombs Away,6,6,5,"['Group', 'Ranged', 'Wind', 'FollowUp']"
+cidhighwind,Enhanced Dragon Dive (C),1,1,0,"['Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']"
+cidhighwind,Enhanced Highwind (C),9,9,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']"

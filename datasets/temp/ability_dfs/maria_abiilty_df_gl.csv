@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+maria,BRV Attack+,0,0,0,['Ranged']
+maria,BRV Attack++,0,0,0,['Ranged']
+maria,HP Attack+,1,0,0,['Ranged']
+maria,HP Attack++,1,0,0,['Ranged']
+maria,Proper Shot,3,1,20,"['Ranged', 'Wind']"
+maria,Arrow Rain,3,3,20,"['Group', 'Ranged', 'Heals']"
+maria,HP Heal Attack All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+maria,Explosive Bow,5,5,10,['Ranged']
+maria,Targeted Serial Fire,4,4,15,"['Group', 'Ranged', 'Heals', 'NoFree']"
+maria,Haya Otoya,2,0,10,"['Ranged', 'Heals', 'Instant', 'Traps']"
+maria,Twin Bowplay,3,3,250,"['Group', 'Ranged', 'Heals', 'NoFree']"
+maria,Enhanced Arrow Rain (C),1,1,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+maria,Enhanced Targeted Serial Fire (C),3,3,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+maria,Haya (C) Otoya (C),1,0,0,"['Ranged', 'Heals', 'Instant', 'Traps']"

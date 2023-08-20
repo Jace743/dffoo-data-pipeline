@@ -1,0 +1,12 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+deuce,BRV Attack++,0,0,0,['Magic']
+deuce,BRV Attack+,0,0,0,['Magic']
+deuce,HP Attack++,1,0,0,['Magic']
+deuce,HP Attack+,1,0,0,['Magic']
+deuce,Concerto,0,0,0,"['Heals', 'Instant']"
+deuce,Dissonant Sonata,4,1,20,"['Group', 'Magic']"
+deuce,All Magic Attack,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+deuce,Requiem of Ruin,5,5,10,"['Group', 'Magic']"
+deuce,Hymn of Healing,5,5,15,"['Group', 'Magic', 'Heals', 'NoFree']"
+deuce,Enhanced Dissonant Sonata (C),1,0,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+deuce,Enhanced Hymn of Healing (C),1,1,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"

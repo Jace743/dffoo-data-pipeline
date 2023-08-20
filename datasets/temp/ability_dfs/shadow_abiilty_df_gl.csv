@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+shadow,Throw,0,0,0,"['Ranged', 'IgnoreDEF']"
+shadow,Throw+,0,0,0,"['Ranged', 'IgnoreDEF']"
+shadow,HP Attack+ (Throw),1,0,0,"['Ranged', 'IgnoreDEF']"
+shadow,Shadow Stealth,1,1,20,['Melee']
+shadow,Wild Throw,2,0,20,"['Ranged', 'IgnoreDEF']"
+shadow,Set Evasion Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+shadow,Shadow Fang,3,1,10,"['Ranged', 'IgnoreDEF']"
+shadow,Wild Fang,1,0,50,"['Ranged', 'IgnoreDEF', 'FollowUp']"
+shadow,Assassination,2,0,15,"['Group', 'Melee', 'IgnoreDEF', 'Instant', 'NoFree']"
+shadow,Wild Fang+,2,0,65,"['Ranged', 'IgnoreDEF', 'Instant', 'Counters', 'FollowUp']"
+shadow,Enhanced Shadow Stealth (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+shadow,Enhanced Assassination (C),2,0,0,"['Group', 'Melee', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"

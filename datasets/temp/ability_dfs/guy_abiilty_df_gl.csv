@@ -1,0 +1,12 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+guy,BRV Attack+,0,0,0,"['Melee', 'Earth']"
+guy,BRV Attack++,0,0,0,"['Melee', 'Earth', 'Heals']"
+guy,HP Attack+,1,0,0,"['Melee', 'Earth']"
+guy,HP Attack++,1,0,0,"['Melee', 'Earth', 'Heals']"
+guy,Earth Smash,4,1,20,"['Group', 'Melee', 'Earth', 'Heals']"
+guy,War Cry,3,3,20,"['Group', 'Melee', 'Earth', 'Heals']"
+guy,Weak Damage Up All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+guy,Gaia Rumble,5,5,10,"['Group', 'Melee', 'Earth']"
+guy,Gaia Swing,5,5,15,"['Group', 'Melee', 'Earth']"
+guy,Enhanced Earth Smash (C),1,0,0,"['Group', 'Melee', 'Earth', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+guy,Enhanced Gaia Swing (C),3,3,0,"['Group', 'Melee', 'Earth', 'Instant', 'NoEX', 'NoFree']"

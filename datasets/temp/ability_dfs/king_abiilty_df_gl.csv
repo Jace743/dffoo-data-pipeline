@@ -1,0 +1,14 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+king,BRV Attack+,0,0,0,['Ranged']
+king,Double Bullet,3,1,10,['Ranged']
+king,Double Bullet Follow Up,3,1,10,"['Ranged', 'FollowUp']"
+king,Rapid Bullets,3,1,20,['Ranged']
+king,Rapid Bullets+,3,1,20,['Ranged']
+king,Reload,0,0,20,[]
+king,Reload Follow Up,3,1,20,"['Ranged', 'Instant', 'FollowUp']"
+king,BRV Up Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+king,Endless Waltz,4,1,10,['Ranged']
+king,Endless Waltz Follow Up,3,1,10,"['Ranged', 'FollowUp']"
+king,Magazine Blast,4,4,15,"['Group', 'Ranged', 'NoFree']"
+king,Enhanced Rapid Bullets+ (C),1,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"
+king,Enhanced Magazine Blast (C),4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

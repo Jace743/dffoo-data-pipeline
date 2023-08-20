@@ -1,0 +1,19 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+penelo,BRV Attack+ (Rhumba),0,0,0,['Melee']
+penelo,BRV Attack+ (Waltz),0,0,0,['Melee']
+penelo,BRV Attack++ (Rhumba),0,0,0,['Melee']
+penelo,BRV Attack++ (Waltz),0,0,0,['Melee']
+penelo,Fatal Dance,7,7,0,"['Melee', 'Heals']"
+penelo,HP Attack+ (Rhumba),2,1,0,['Melee']
+penelo,HP Attack+ (Waltz),2,0,0,['Melee']
+penelo,HP Attack++ (Rhumba),5,2,0,['Melee']
+penelo,HP Attack++ (Waltz),5,2,0,"['Group', 'Melee']"
+penelo,Haste Rhumba,0,0,0,['Instant']
+penelo,Regen Waltz,0,0,0,[]
+penelo,Ability Recovery Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+penelo,Intercession,1,1,10,"['Melee', 'Heals', 'Instant']"
+penelo,Evanescence,5,5,15,"['Group', 'Magic', 'NoFree']"
+penelo,Resplendence,5,5,100,"['Group', 'Melee']"
+penelo,Liberty's Minnesang,0,0,0,"['Heals', 'Instant', 'NoFree']"
+penelo,Enhanced Regen Waltz (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+penelo,Enhanced Evanescence (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

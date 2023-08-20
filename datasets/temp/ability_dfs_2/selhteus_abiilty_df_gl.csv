@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+selhteus,BRV Attack+,20777,0,0,0,['Magic'],GL
+selhteus,BRV Attack++,20784,0,0,0,['Magic'],GL
+selhteus,HP Attack+,20778,1,0,0,['Magic'],GL
+selhteus,HP Attack++,20785,1,0,0,['Magic'],GL
+selhteus,Crystal Diver,20792,11,11,0,"['Group', 'Magic', 'Heals']",GL
+selhteus,Blaze Thrust,20772,5,5,20,"['Group', 'Magic', 'Heals']",GL
+selhteus,Reversal Drive,20776,6,6,20,"['Group', 'Magic']",GL
+selhteus,Recast Half Attack Up,20802,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+selhteus,Redemption,20783,0,0,0,"['Heals', 'Instant']",GL
+selhteus,Revelation,20788,10,10,15,"['Group', 'Magic', 'NoFree']",GL
+selhteus,Luminous Lance,20791,2,2,400,"['Group', 'Magic']",GL
+selhteus,Eclipse Lance,20797,4,4,250,"['Group', 'Magic', 'Heals', 'NoFree']",GL
+selhteus,Enchanced Blaze Thrust (C),20804,5,5,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+selhteus,Enchanced Revelation (C),20806,10,10,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

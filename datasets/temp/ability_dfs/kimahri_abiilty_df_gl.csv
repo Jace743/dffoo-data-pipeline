@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+kimahri,BRV Attack+,0,0,0,['Ranged']
+kimahri,BRV Attack++,0,0,0,['Ranged']
+kimahri,Jump,1,0,0,['Ranged']
+kimahri,Jump+,1,0,0,['Ranged']
+kimahri,Jump++,4,0,10,"['Ranged', 'Instant']"
+kimahri,Lancet,2,0,20,"['Ranged', 'Heals']"
+kimahri,Lancet & Thrust Kick,4,0,20,"['Ranged', 'Heals']"
+kimahri,Mighty Guard,0,0,20,[]
+kimahri,Mighty Guard & Bad Breath,2,2,20,"['Group', 'Ranged']"
+kimahri,Attack Guard All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+kimahri,Nova,3,3,10,"['Group', 'Ranged']"
+kimahri,White Wind,0,0,10,"['Heals', 'NoFree']"
+kimahri,White Wind Follow Up,3,3,10,"['Ranged', 'FollowUp']"
+kimahri,Enhanced Mighty Guard & Bad Breath (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+kimahri,Enhanced White Wind (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
+kimahri,Enhanced White Wind (C) Follow Up,1,1,0,"['Ranged', 'Instant', 'FollowUp']"

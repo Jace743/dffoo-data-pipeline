@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+edward,BRV Attack++,0,0,0,['Magic']
+edward,BRV Attack+,0,0,0,['Magic']
+edward,HP Attack++,1,0,0,['Magic']
+edward,HP Attack+,1,0,0,['Magic']
+edward,HP Attack (Hide),3,1,20,['Magic']
+edward,Bardsong,3,3,20,"['Group', 'Magic']"
+edward,Hide,0,0,0,['Instant']
+edward,Return,3,3,20,"['Magic', 'Free']"
+edward,BRV Heal All Buff Longer,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+edward,Mystic Waltz,4,4,10,"['Group', 'Magic']"
+edward,Lullaby,5,5,15,"['Group', 'Magic', 'NoFree']"
+edward,Woke from sleep.,0,0,0,['FollowUp']
+edward,Enhanced Bardsong (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+edward,Enhanced Lullaby (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

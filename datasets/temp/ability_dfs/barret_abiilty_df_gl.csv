@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+barret,BRV Attack+,0,0,0,['Ranged']
+barret,BRV Attack++,0,0,0,['Ranged']
+barret,HP Attack+,1,0,0,['Ranged']
+barret,HP Attack++,1,1,0,['Ranged']
+barret,Big Shot,2,1,20,['Ranged']
+barret,Grenade Bomb,3,3,20,"['Group', 'Ranged']"
+barret,All Physical Attack,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+barret,Satellite Beam,4,4,10,"['Group', 'Ranged']"
+barret,Beam,3,0,65,"['Ranged', 'FollowUp']"
+barret,Maximum Fury,10,0,15,"['Group', 'Ranged', 'NoFree']"
+barret,Enhanced Grenade Bomb (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+barret,Enhanced Maximum Fury (C),10,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

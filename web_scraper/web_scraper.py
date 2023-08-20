@@ -8,6 +8,7 @@ import yaml
 import io
 import requests
 import logging
+import sqlalchemy as sa
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -1003,17 +1004,48 @@ def main():
         
         character_count += 1
 
+    engine_url = sa.URL.create(
+        "postgresql",
+        username=cs.config['pgdb_user'],
+        password=cs.config['pgdb_pass'],
+        host=cs.config['pgdb_host'],
+        database=cs.config['pgdb_data']
+    )
+
+    cs.logger.info(cs.LOG_DIVIDER)
+    cs.logger.info("Saving out dataframes to CSV and SQL database.")
+    cs.logger.info(cs.LOG_DIVIDER)
+
+    engine = sa.create_engine(engine_url)
+    
     final_raw_abilities_df = pd.concat(ability_df_list)
 
-    final_raw_abilities_df.to_csv(cs.config['datasets_dir'] + 'raw_abilities_2.csv', index=False)
+    final_raw_abilities_df.to_csv(cs.config['datasets_dir'] + 'raw_abilities.csv', index=False)
+
+    cs.logger.info(" - ABILITIES saved to CSV")
 
     final_raw_bt_effects_df = pd.concat(bt_effect_df_list)
 
     final_raw_bt_effects_df.to_csv(cs.config['datasets_dir'] + 'raw_bt_effects.csv', index=False)
 
+    cs.logger.info(" - BT EFFECTS saved to CSV")
+
     final_raw_ha_caps_df = pd.concat(ha_cap_df_list)
 
     final_raw_ha_caps_df.to_csv(cs.config['datasets_dir'] + 'raw_high_armor_caps.csv', index=False)
+
+    cs.logger.info(" - HIGH ARMOR CAPS saved to CSV")
+
+    try:
+        with engine.begin() as conn:
+            final_raw_abilities_df.to_sql('raw_abilities', con=conn, if_exists='replace', index=False)
+            final_raw_bt_effects_df.to_sql('raw_bt_effects', con=conn, if_exists='replace', index=False)
+            final_raw_ha_caps_df.to_sql('raw_high_armor_caps', con=conn, if_exists='replace', index=False)
+            cs.logger.info("Data uploaded to SQL database.")
+    except Exception as e:
+        print("Encountered an error during SQL database insert: " + e)
+        print("You'll need to manually upload this data to the SQL database.")
+
     
 if __name__ == '__main__':
     main()

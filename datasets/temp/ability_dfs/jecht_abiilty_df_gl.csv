@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+jecht,BRV Attack+,0,0,0,['Melee']
+jecht,BRV Attack++,0,0,0,"['Group', 'Melee', 'Fire']"
+jecht,HP Attack+,1,0,0,['Melee']
+jecht,HP Attack++,1,0,0,['Melee']
+jecht,Beast Rush,3,0,20,"['Melee', 'Fire']"
+jecht,Beast Rush+,3,0,20,"['Melee', 'Fire']"
+jecht,Beast Rush+ Follow Up,1,0,20,"['Melee', 'FollowUp']"
+jecht,Jecht Slash,2,1,20,"['Melee', 'Fire']"
+jecht,Jecht Slash+,2,1,20,"['Melee', 'Fire']"
+jecht,Jecht Slash+ Follow Up,2,1,20,"['Melee', 'Fire', 'Instant', 'FollowUp']"
+jecht,Jecht Slash Recovery,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+jecht,Meteor Shot,8,1,5,['Melee']
+jecht,Triumphant Grasp,4,4,10,"['Group', 'Melee', 'Fire', 'NoFree']"
+jecht,Blitz King,2,2,400,"['Group', 'Melee', 'Fire']"
+jecht,Enhanced Jecht Slash (C),2,1,0,"['Melee', 'Fire', 'Instant', 'NoEX', 'NoFree']"
+jecht,Enhanced Triumphant Grasp (C),4,4,0,"['Group', 'Melee', 'Fire', 'Instant', 'NoEX', 'NoFree']"

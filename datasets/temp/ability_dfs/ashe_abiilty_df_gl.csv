@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+ashe,BRV Attack+,0,0,0,['Melee']
+ashe,BRV Attack++,0,0,0,['Melee']
+ashe,HP Attack (Queen's Order),3,1,10,"['Melee', 'Instant']"
+ashe,HP Attack+,1,0,0,['Melee']
+ashe,HP Attack++,1,0,0,['Melee']
+ashe,Nordswain's Glow,4,1,20,['Magic']
+ashe,Heaven's Wrath,4,1,20,"['Magic', 'Holy']"
+ashe,Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+ashe,Maelstrom's Bolt,3,1,10,"['Magic', 'Thunder']"
+ashe,Ark Blast,4,1,10,"['Magic', 'Thunder', 'FollowUp']"
+ashe,Nescience's Verdict,4,4,15,"['Group', 'Magic', 'Thunder', 'Holy', 'NoFree']"
+ashe,Empyrean's Edict,2,2,400,"['Group', 'Magic']"
+ashe,Additional attack from Empyrean's Edict,3,3,0,"['Group', 'Magic', 'Heals', 'FollowUp']"
+ashe,Mistbreak's Fulmination,3,3,250,"['Group', 'Magic', 'NoFree']"
+ashe,Enhanced Heaven's Wrath (C),1,1,0,"['Magic', 'Holy', 'Instant', 'NoEX', 'NoFree']"
+ashe,Enhanced Nescience's Verdict (C),1,1,0,"['Group', 'Magic', 'Thunder', 'Holy', 'Instant', 'NoEX', 'NoFree']"

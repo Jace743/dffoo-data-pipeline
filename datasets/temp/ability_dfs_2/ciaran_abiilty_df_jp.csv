@@ -1,0 +1,18 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ciaran,BRV Attack+,6984,0,0,0,['Melee'],JP
+ciaran,BRV Attack++,10411,0,0,0,['Melee'],JP
+ciaran,HP Attack+,7208,1,0,0,['Melee'],JP
+ciaran,HP Attack++,10412,1,0,0,['Melee'],JP
+ciaran,Soulshot,10508,1,1,0,['Melee'],JP
+ciaran,Soulshot+,10509,1,1,0,['Melee'],JP
+ciaran,Soulshot++,13579,2,1,0,['Melee'],JP
+ciaran,Bash,19009,5,0,20,['Melee'],JP
+ciaran,Holystrike,16246,2,2,20,"['Melee', 'Holy']",JP
+ciaran,Holyrastrike,20730,7,7,20,"['Melee', 'Holy']",JP
+ciaran,Set Drop of Myrrh,16249,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+ciaran,Caravan Memories,20731,7,7,10,"['Group', 'Melee']",JP
+ciaran,Shadowblade,20732,8,8,15,"['Group', 'Melee', 'NoFree']",JP
+ciaran,Power of Memories,16253,2,2,400,"['Group', 'Melee']",JP
+ciaran,White Whorl Blade,20737,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+ciaran,Enhanced Holyrastrike (C),10346,1,1,0,"['Melee', 'Holy', 'Instant', 'NoEX', 'NoFree']",JP
+ciaran,Enhanced Shadowblade (C),13581,2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",JP

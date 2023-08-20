@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+sabin,BRV Attack+,0,0,0,['Magic']
+sabin,BRV Attack (Fighting Tiger),1,0,0,"['Magic', 'Wind', 'Holy']"
+sabin,HP Attack+,1,0,0,"['Magic', 'Wind', 'Holy']"
+sabin,HP Attack++,1,0,0,"['Magic', 'Wind', 'Holy']"
+sabin,HP Attack (Fighting Tiger),1,1,0,"['Magic', 'Wind', 'Holy']"
+sabin,Aura Cannon,3,1,20,"['Magic', 'Wind', 'Holy']"
+sabin,Aura Cannon+,4,1,20,"['Magic', 'Wind', 'Holy', 'IgnoreDEF']"
+sabin,Razor Gale,2,2,20,"['Group', 'Magic', 'Wind', 'Holy']"
+sabin,Razor Gale+,3,3,20,"['Group', 'Magic', 'Wind', 'Holy', 'IgnoreDEF']"
+sabin,Set Battle Spirit Unleashed,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+sabin,Phantom Rush,6,0,10,"['Magic', 'Wind', 'Holy']"
+sabin,Phantom Rush+,6,0,10,"['Magic', 'Wind', 'Holy', 'IgnoreDEF']"
+sabin,Tiger Break,6,1,10,"['Group', 'Magic', 'Wind', 'Holy', 'IgnoreDEF', 'NoFree']"
+sabin,Double Phantom Rush,3,3,250,"['Group', 'Magic', 'Wind', 'Holy', 'IgnoreDEF', 'NoFree']"
+sabin,Enhanced Razor Gale+ (C),2,2,0,"['Group', 'Magic', 'Wind', 'Holy', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"
+sabin,Enhanced Tiger Break (C),3,1,0,"['Group', 'Magic', 'Wind', 'Holy', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"

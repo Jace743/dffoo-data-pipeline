@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+fusoya,BRV Attack+,0,0,0,['Magic']
+fusoya,BRV Attack++,0,0,0,['Magic']
+fusoya,HP Attack+,1,0,0,['Magic']
+fusoya,HP Attack++,1,0,0,['Magic']
+fusoya,Spirit Blast,4,4,20,"['Group', 'Magic']"
+fusoya,Hold,4,1,20,['Magic']
+fusoya,Base Boost Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+fusoya,Twin Meteor,6,6,10,"['Group', 'Magic']"
+fusoya,Lunar Quake,4,4,15,"['Group', 'Magic', 'NoFree']"
+fusoya,Omniblast,3,3,250,"['Group', 'Magic', 'NoFree']"
+fusoya,Enhanced Spirit Blast (C),4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+fusoya,Enhanced Lunar Quake (C),4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

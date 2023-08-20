@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+amarant,BRV Attack++,0,0,0,['Ranged']
+amarant,HP Attack++,1,1,0,"['Group', 'Ranged']"
+amarant,HP Attack+,1,1,0,"['Group', 'Ranged']"
+amarant,No Mercy,6,6,20,"['Group', 'Ranged']"
+amarant,Throw,2,2,20,"['Group', 'Ranged', 'FollowUp']"
+amarant,Chakra,0,0,0,"['Heals', 'Instant']"
+amarant,Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+amarant,Demi Shock,9,9,10,"['Group', 'Ranged']"
+amarant,Countdown,8,8,10,"['Group', 'Ranged', 'NoFree']"
+amarant,Power Throw,2,2,400,"['Group', 'Ranged']"
+amarant,Throw+,5,5,0,"['Group', 'Ranged', 'FollowUp']"
+amarant,Counter Attack Throw+,5,5,0,"['Group', 'Ranged', 'Counters']"
+amarant,Maverick,4,4,510,"['Group', 'Ranged', 'NoFree']"
+amarant,Enhanced No Mercy (C),6,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"
+amarant,Enhanced Touch of Death (C),8,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

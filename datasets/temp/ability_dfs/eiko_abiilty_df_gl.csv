@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+eiko,BRV Attack+,0,0,0,"['Magic', 'Holy']"
+eiko,HP Attack+,1,0,0,"['Magic', 'Heals']"
+eiko,HP Attack++,1,0,0,"['Magic', 'Holy', 'Heals']"
+eiko,Double Holy,2,1,10,"['Magic', 'Holy']"
+eiko,Double Holy Follow Up,2,1,0,"['Magic', 'Holy', 'FollowUp']"
+eiko,HP Regen,0,0,20,[]
+eiko,HP Regen Follow Up,1,0,20,"['Magic', 'Heals', 'FollowUp']"
+eiko,Smite,2,1,20,"['Magic', 'Holy']"
+eiko,Ability Recovery Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+eiko,Terra Homing,4,4,10,"['Group', 'Magic', 'Holy', 'Heals']"
+eiko,Rebirth Flame,3,3,15,"['Group', 'Magic', 'Heals', 'NoFree']"
+eiko,Rebirth Flame (Triggered),3,3,15,"['Group', 'Magic', 'Heals', 'Instant', 'Counters']"
+eiko,Enhanced HP Regen (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+eiko,Enhanced HP Regen (C) Follow Up,1,0,0,"['Magic', 'Heals', 'Instant', 'FollowUp']"
+eiko,Enhanced Rebirth Flame (C),3,3,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"

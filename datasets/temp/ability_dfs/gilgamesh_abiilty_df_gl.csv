@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+gilgamesh,Kotetsu,0,0,0,['Melee']
+gilgamesh,Genji Blade,1,0,0,['Melee']
+gilgamesh,Royal Sword？(III),3,1,10,"['Melee', 'Instant']"
+gilgamesh,Mythgraven Blade？(IV),3,1,10,"['Melee', 'Heals', 'Instant']"
+gilgamesh,Apocalypse？(VII),3,1,10,"['Melee', 'Instant']"
+gilgamesh,Icebrand？(T),3,1,10,"['Melee', 'Instant', 'KnockBack']"
+gilgamesh,Death Claw,4,0,20,['Melee']
+gilgamesh,Mad Dance,4,0,20,['Melee']
+gilgamesh,Wild Dance,4,1,20,['Melee']
+gilgamesh,Advance Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+gilgamesh,Hurricane,5,1,10,"['Group', 'Melee']"
+gilgamesh,I suppose I misjudged!,4,4,15,"['Group', 'Melee', 'NoFree']"
+gilgamesh,Ultimate Illusion,5,5,500,"['Group', 'Melee']"
+gilgamesh,Enhanced Wild Dance (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+gilgamesh,Enhanced I suppose I misjudged! (C),4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

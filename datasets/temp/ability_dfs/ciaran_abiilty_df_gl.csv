@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+ciaran,BRV Attack+,0,0,0,['Melee']
+ciaran,BRV Attack++,0,0,0,['Melee']
+ciaran,HP Attack+,1,0,0,['Melee']
+ciaran,HP Attack++,1,0,0,['Melee']
+ciaran,Soulshot,1,1,0,['Melee']
+ciaran,Soulshot+,1,1,0,['Melee']
+ciaran,Soulshot++,2,1,0,['Melee']
+ciaran,Bash,5,0,20,['Melee']
+ciaran,Holystrike,2,2,20,"['Melee', 'Holy']"
+ciaran,Holyrastrike,4,4,20,"['Melee', 'Holy']"
+ciaran,Set Drop of Myrrh,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+ciaran,Caravan Memories,4,4,10,"['Group', 'Melee']"
+ciaran,Shadowblade,4,4,15,"['Group', 'Melee', 'NoFree']"
+ciaran,Power of Memories,2,2,400,"['Group', 'Melee']"
+ciaran,Enhanced Holyrastrike (C),1,1,0,"['Melee', 'Holy', 'Instant', 'NoEX', 'NoFree']"
+ciaran,Enhanced Shadowblade (C),2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+minwu,BRV Attack+,0,0,0,['Magic']
+minwu,BRV Attack++,0,0,0,['Magic']
+minwu,HP Attack+,1,0,0,['Magic']
+minwu,HP Attack++,1,1,0,['Magic']
+minwu,Teleport XVI,3,0,20,"['Group', 'Magic']"
+minwu,Teleport XVI+,3,1,20,"['Group', 'Magic']"
+minwu,Holy XVI,3,3,20,"['Group', 'Magic', 'Holy', 'Heals']"
+minwu,Trap: Holy XVI,1,1,20,"['Group', 'Magic', 'Holy', 'Heals', 'Instant', 'Traps']"
+minwu,HP Heal Attack All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+minwu,Soul Convergence,4,4,10,"['Group', 'Magic']"
+minwu,Soul of Rebirth,5,5,15,"['Group', 'Magic', 'NoFree']"
+minwu,Additional attack from Sublime Soul,3,3,10,"['Group', 'Magic', 'FollowUp']"
+minwu,Mightiest of Spells,2,2,400,"['Group', 'Magic']"
+minwu,Life Connect,0,0,0,"['Heals', 'Instant', 'NoFree']"
+minwu,Enhanced Teleport XVI (C),3,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+minwu,Enhanced Soul of Rebirth (C),5,5,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

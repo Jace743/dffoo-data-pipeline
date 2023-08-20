@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+thancred,BRV Attack+ (Ninki),0,0,0,['Melee']
+thancred,BRV Attack++,0,0,0,['Melee']
+thancred,BRV Attack++ (Ninki),1,0,0,"['Melee', 'Instant']"
+thancred,Trick Attack,3,1,10,"['Melee', 'Instant']"
+thancred,HP Attack+,1,1,0,"['Group', 'Melee']"
+thancred,HP Attack++,1,0,0,['Melee']
+thancred,Jugulating Wasp,4,0,20,['Melee']
+thancred,Shadow Fang,3,1,20,['Melee']
+thancred,Slash Set Poison All,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+thancred,Bhavacakra,3,3,10,['Magic']
+thancred,Bhavacakra+,4,4,10,['Magic']
+thancred,Dream Within a Dream & Assassinate,6,0,15,"['Melee', 'NoFree']"
+thancred,Enhanced Shadow Fang (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+thancred,Enhanced Dream Within a Dream & Assassinate (C),6,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"

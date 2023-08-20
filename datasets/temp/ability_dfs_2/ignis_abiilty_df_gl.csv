@@ -1,0 +1,20 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ignis,BRV Attack+ (Pastry),6487,0,0,0,[],GL
+ignis,BRV Attack+ (P&B Bowl),6493,0,0,0,['Melee'],GL
+ignis,BRV Attack++ (Pastry),15770,0,0,0,[],GL
+ignis,BRV Attack++ (P&B Bowl),15772,0,0,0,['Melee'],GL
+ignis,Dishes (Memory Lane Pastry),6485,0,0,0,['Instant'],GL
+ignis,HP Attack+ (Pastry),6488,1,0,0,['Melee'],GL
+ignis,HP Attack+ (P&B Bowl),6494,1,0,0,['Melee'],GL
+ignis,HP Attack++ (Pastry),15771,1,0,10,['Melee'],GL
+ignis,HP Attack++ (P&B Bowl),15773,3,1,10,['Melee'],GL
+ignis,Dishes (Papa Bird & Baby Bowl),6491,0,0,0,['Instant'],GL
+ignis,Regroup,5932,0,0,0,"['Heals', 'Instant']",GL
+ignis,Quick Recipeh,5925,0,0,0,['Instant'],GL
+ignis,Boost All,15774,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+ignis,Overwhelm,15766,0,0,10,[],GL
+ignis,Overwhelm Party Move,6545,0,0,10,"['Instant', 'FollowUp']",GL
+ignis,Overwhelm Follow Up,15769,3,0,10,"['Melee', 'FollowUp']",GL
+ignis,Sagefire,12283,1,1,15,"['Group', 'Melee', 'Fire', 'NoFree']",GL
+ignis,Enhanced Regroup (C),12285,0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']",GL
+ignis,Enhanced Sagefire (C),12287,1,1,0,"['Group', 'Melee', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL

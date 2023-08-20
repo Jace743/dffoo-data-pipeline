@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+garland,BRV Attack+,0,0,0,['Melee']
+garland,BRV Attack++,0,0,0,['Melee']
+garland,HP Attack+,1,0,0,['Melee']
+garland,HP Attack++,1,0,0,['Melee']
+garland,Round Edge,1,1,20,"['Group', 'Melee']"
+garland,Round Edge+,2,2,20,"['Group', 'Melee']"
+garland,Soul of Chaos,2,0,20,['Melee']
+garland,Soul of Chaos+,3,0,20,['Melee']
+garland,Set Soul of Conflict BRV Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+garland,Disaster of Chaos,4,4,10,"['Group', 'Melee']"
+garland,Bind of Chaos,4,4,15,"['Group', 'Melee']"
+garland,Bind of Chaos+,4,4,15,"['Group', 'Melee']"
+garland,Additional attack from Chains of Time,2,0,65,"['Melee', 'FollowUp', 'NoFree']"
+garland,Ultimate Conflict,2,2,400,"['Group', 'Melee']"
+garland,Enhanced Soul of Chaos (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+garland,Enhanced Bind of Chaos (C),2,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

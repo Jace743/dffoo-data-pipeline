@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+cinque,BRV Attack+,0,0,0,['Melee']
+cinque,BRV Attack++,0,0,0,"['Group', 'Melee']"
+cinque,HP Attack+,1,0,0,['Melee']
+cinque,HP Attack++,1,0,0,['Melee']
+cinque,Earthquake,2,2,20,"['Group', 'Melee']"
+cinque,Earthquake+,3,3,20,"['Group', 'Melee']"
+cinque,Homerun Swing,2,0,20,['Melee']
+cinque,Homerun Swing+,3,0,20,['Melee']
+cinque,Set Stun BRV Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+cinque,Whirling Mace,5,5,10,"['Group', 'Melee', 'KnockBack']"
+cinque,Gaia Pulse,6,6,7,"['Group', 'Melee', 'NoFree']"
+cinque,Additional attack from Braid Girl,3,0,0,"['Melee', 'FollowUp']"
+cinque,Enhanced Homerun Swing+ (C),3,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+cinque,Enhanced Gaia Pulse (C),6,6,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

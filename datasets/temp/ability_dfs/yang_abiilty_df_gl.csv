@@ -1,0 +1,16 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+yang,Kick Attacks,0,0,0,"['Group', 'Melee']"
+yang,Kick Attacks+,0,0,0,"['Group', 'Melee']"
+yang,HP Attack+,1,1,0,['Melee']
+yang,HP Attack++,1,1,0,['Melee']
+yang,Kick,3,1,20,['Melee']
+yang,Kick+,3,1,20,['Melee']
+yang,Counter,1,1,0,"['Group', 'Melee', 'Counters']"
+yang,Focus,0,0,20,[]
+yang,Focus Follow Up,3,3,20,"['Group', 'Melee', 'FollowUp']"
+yang,Kick Recovery,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+yang,Twin Wing Frenzy,5,0,10,['Melee']
+yang,Oboro Strike,4,4,15,"['Group', 'Melee', 'NoFree']"
+yang,Additional attack from Monastic Secrets,2,2,10,"['Group', 'Melee', 'Counters', 'FollowUp']"
+yang,Enhanced Kick (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+yang,Enhanced Oboro Strike (C),2,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

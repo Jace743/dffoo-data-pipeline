@@ -1,0 +1,21 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+ace,BRV Attack+,0,0,0,['Magic']
+ace,BRV Attack++,0,0,0,['Magic']
+ace,HP Attack+,1,0,0,"['Group', 'Magic']"
+ace,HP Attack++,1,0,0,"['Group', 'Magic']"
+ace,HP Attack+ (Blind Stud Turn),1,1,0,"['Group', 'Magic', 'Instant', 'NoFree']"
+ace,Burst,2,0,20,['Magic']
+ace,Mega Burst,2,0,20,['Magic']
+ace,Mega Burst+,8,1,20,['Magic']
+ace,Spiral Combo,2,1,20,"['Group', 'Magic']"
+ace,Great Spiral Combo,2,1,20,"['Group', 'Magic']"
+ace,Great Spiral Combo+,5,5,20,"['Group', 'Magic']"
+ace,Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+ace,Jackpot Shot,6,6,10,['Magic']
+ace,Jackpot Triad,5,5,15,"['Group', 'Magic', 'NoFree']"
+ace,Blind Stud,1,1,25,"['Magic', 'FollowUp', 'NoFree']"
+ace,VB Type 100,2,2,400,"['Group', 'Magic']"
+ace,We Are Right Here,10,10,0,"['Group', 'Magic', 'Traps']"
+ace,Feather Brigade,4,4,260,"['Group', 'Magic', 'NoFree']"
+ace,Enhanced Spiral Combo (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+ace,Enhanced Jackpot Triad (C),3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

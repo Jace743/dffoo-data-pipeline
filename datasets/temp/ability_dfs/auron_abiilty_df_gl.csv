@@ -1,0 +1,12 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+auron,BRV Attack+,0,0,0,['Melee']
+auron,BRV Attack++,0,0,0,['Melee']
+auron,HP Attack+,1,1,0,"['Group', 'Melee']"
+auron,Banishing Blade,3,1,20,['Melee']
+auron,Purgatory,2,2,20,"['Group', 'Melee']"
+auron,Weak Damage Up Crush,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
+auron,Dragon Fang,4,4,10,"['Group', 'Melee']"
+auron,Tornado,4,4,15,"['Group', 'Melee', 'IgnoreDEF', 'NoFree']"
+auron,Counter,3,3,10,"['Group', 'Melee', 'Heals', 'IgnoreDEF', 'Counters']"
+auron,Enhanced Purgatory (C),1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+auron,Enhanced Tornado (C),2,2,0,"['Group', 'Melee', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"

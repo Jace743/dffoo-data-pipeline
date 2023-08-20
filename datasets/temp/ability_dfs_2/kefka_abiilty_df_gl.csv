@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+kefka,Meteor,1740,0,0,0,['Magic'],GL
+kefka,Meteor+,18524,6,0,10,"['Magic', 'Instant']",GL
+kefka,Meteor+ Follow Up,18525,1,1,0,"['Magic', 'Instant', 'FollowUp']",GL
+kefka,HP Attack+,8437,1,0,0,['Magic'],GL
+kefka,Trine,15624,1,1,20,"['Group', 'Magic']",GL
+kefka,Trine+,18410,3,3,20,"['Group', 'Magic']",GL
+kefka,Light of Judgment,15628,1,1,20,"['Group', 'Magic']",GL
+kefka,Light of Judgment+,18412,4,4,20,"['Group', 'Magic']",GL
+kefka,Multi-Debuff Damage Up,15633,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+kefka,Havoc Wing,18413,5,1,10,"['Group', 'Magic']",GL
+kefka,Hyperdrive,18414,5,5,15,"['Group', 'Magic', 'NoFree']",GL
+kefka,Forsaken,15632,2,2,350,"['Group', 'Magic']",GL
+kefka,Enhanced Light of Judgment (C),13397,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL
+kefka,Enhanced Hyperdrive (C),13399,2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

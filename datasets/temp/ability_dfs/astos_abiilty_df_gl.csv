@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+astos,BRV Attack++,0,0,0,['Magic']
+astos,BRV Attack+,0,0,0,['Magic']
+astos,HP Attack++,1,0,0,['Magic']
+astos,Cremation,1,1,10,"['Group', 'Magic', 'Instant']"
+astos,HP Attack+,1,0,0,['Magic']
+astos,Dark Thrust,10,0,20,['Magic']
+astos,Dark Slash,5,5,20,"['Group', 'Magic']"
+astos,Boost Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+astos,Dark Warhammer,9,1,10,['Magic']
+astos,Dark Glory,7,7,15,"['Group', 'Magic', 'NoFree']"
+astos,Flare Star,2,2,350,"['Group', 'Magic']"
+astos,Conflict Ultima,4,4,260,"['Group', 'Magic', 'NoFree']"
+astos,Enhanced Dark Slash (C),5,5,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+astos,Enhanced Dark Glory (C),7,7,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

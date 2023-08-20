@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+bartz,BRV Attack+,3485,0,0,0,['Melee'],GL
+bartz,BRV Attack++,12615,1,0,0,"['Melee', 'Wind']",GL
+bartz,HP Attack+,6175,1,0,0,['Melee'],GL
+bartz,HP Attack++,12616,1,0,0,"['Melee', 'Wind']",GL
+bartz,Doublehand,20077,6,2,20,['Melee'],GL
+bartz,Doublehand+,20078,6,2,20,['Melee'],GL
+bartz,Missile,20081,6,1,20,['Melee'],GL
+bartz,Missile+,20082,6,1,20,['Melee'],GL
+bartz,Boost All,18013,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+bartz,Iainuki,20083,5,5,10,['Melee'],GL
+bartz,Elemental Attack,20312,5,5,15,"['Group', 'Melee', 'Wind', 'NoFree']",GL
+bartz,Quick Spellblade Dual-Wield Rapid Fire,20085,2,2,400,"['Group', 'Melee', 'Wind', 'NoFree']",GL
+bartz,Travels & Courage & Partners,20090,4,4,250,"['Group', 'Melee', 'NoFree']",GL
+bartz,Enhanced Missile (C),12572,2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+bartz,Enhanced Elemental Attack (C),12574,2,2,0,"['Group', 'Melee', 'Wind', 'Instant', 'NoEX', 'NoFree']",GL

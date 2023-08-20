@@ -1,0 +1,12 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+guy,BRV Attack+,11001,0,0,0,"['Melee', 'Earth']",GL
+guy,BRV Attack++,11003,0,0,0,"['Melee', 'Earth', 'Heals']",GL
+guy,HP Attack+,11002,1,0,0,"['Melee', 'Earth']",GL
+guy,HP Attack++,11004,1,0,0,"['Melee', 'Earth', 'Heals']",GL
+guy,Earth Smash,18647,4,1,20,"['Group', 'Melee', 'Earth', 'Heals']",GL
+guy,War Cry,18649,3,3,20,"['Group', 'Melee', 'Earth', 'Heals']",GL
+guy,Weak Damage Up All,15649,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+guy,Gaia Rumble,18650,5,5,10,"['Group', 'Melee', 'Earth']",GL
+guy,Gaia Swing,18651,5,5,15,"['Group', 'Melee', 'Earth']",GL
+guy,Enhanced Earth Smash (C),10436,1,0,0,"['Group', 'Melee', 'Earth', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+guy,Enhanced Gaia Swing (C),11006,3,3,0,"['Group', 'Melee', 'Earth', 'Instant', 'NoEX', 'NoFree']",GL

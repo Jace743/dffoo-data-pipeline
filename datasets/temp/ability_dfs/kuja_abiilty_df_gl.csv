@@ -1,0 +1,19 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+kuja,BRV Attack+,0,0,0,['Magic']
+kuja,BRV Attack++,0,0,0,['Magic']
+kuja,BRV Attack+++,0,0,0,"['Magic', 'Holy']"
+kuja,HP Attack+,1,0,0,['Magic']
+kuja,HP Attack++,1,0,0,['Magic']
+kuja,HP Attack+++,1,0,0,"['Magic', 'Holy']"
+kuja,Ring Holy+,3,3,20,"['Magic', 'Holy']"
+kuja,Ring Holy,3,3,20,"['Magic', 'Holy']"
+kuja,Ultima (IX)+,2,2,10,"['Group', 'Magic']"
+kuja,Ultima (IX),2,2,10,"['Group', 'Magic']"
+kuja,Ultima (IX)+ Follow Up,2,2,10,"['Group', 'Magic', 'FollowUp']"
+kuja,Ability Recovery Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+kuja,Symphonic Force,4,4,10,"['Group', 'Magic']"
+kuja,Seraphic Star,7,7,10,"['Group', 'Magic', 'Holy', 'NoFree']"
+kuja,Flare Star,2,2,0,"['Group', 'Magic', 'Holy']"
+kuja,Starlight Soiree,3,3,250,"['Group', 'Magic', 'Holy', 'NoFree']"
+kuja,Enhanced Ring Holy (C),1,1,0,"['Magic', 'Holy', 'Instant', 'NoEX', 'NoFree']"
+kuja,Enhanced Seraphic Star (C),7,7,0,"['Group', 'Magic', 'Holy', 'Instant', 'NoEX', 'NoFree']"

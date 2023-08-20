@@ -1,0 +1,17 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+cissnei,BRV Attack+,0,0,0,['Ranged']
+cissnei,BRV Attack++,0,0,0,['Ranged']
+cissnei,HP Attack+,1,0,0,['Ranged']
+cissnei,HP Attack++,1,0,0,['Ranged']
+cissnei,Bladeglint,8,0,20,['Ranged']
+cissnei,Threatening Ember,6,1,20,['Ranged']
+cissnei,Set Wild Rekka Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+cissnei,Fortune Star,7,7,10,"['Group', 'Ranged']"
+cissnei,Shooting Star,6,6,15,"['Group', 'Ranged', 'NoFree']"
+cissnei,Besiege,1,1,10,"['Group', 'Ranged', 'FollowUp']"
+cissnei,Besiege+,2,2,10,"['Group', 'Ranged', 'FollowUp']"
+cissnei,Besiege++,3,3,10,"['Group', 'Ranged', 'FollowUp']"
+cissnei,Cloud-Steam Dragon,2,2,350,"['Group', 'Ranged']"
+cissnei,Serial Crosses,4,4,260,"['Group', 'Ranged', 'NoFree']"
+cissnei,Enhanced Bladeglint (C),2,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"
+cissnei,Enhanced Shooting Star (C),3,3,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"

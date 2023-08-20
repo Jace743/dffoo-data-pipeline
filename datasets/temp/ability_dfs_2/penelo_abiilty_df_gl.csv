@@ -1,0 +1,19 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+penelo,BRV Attack+ (Rhumba),17139,0,0,0,['Melee'],GL
+penelo,BRV Attack+ (Waltz),17147,0,0,0,['Melee'],GL
+penelo,BRV Attack++ (Rhumba),17140,0,0,0,['Melee'],GL
+penelo,BRV Attack++ (Waltz),17148,0,0,0,['Melee'],GL
+penelo,Fatal Dance,19874,7,7,0,"['Melee', 'Heals']",GL
+penelo,HP Attack+ (Rhumba),17141,2,1,0,['Melee'],GL
+penelo,HP Attack+ (Waltz),17149,2,0,0,['Melee'],GL
+penelo,HP Attack++ (Rhumba),19899,5,2,0,['Melee'],GL
+penelo,HP Attack++ (Waltz),19900,5,2,0,"['Group', 'Melee']",GL
+penelo,Haste Rhumba,6923,0,0,0,['Instant'],GL
+penelo,Regen Waltz,17146,0,0,0,[],GL
+penelo,Ability Recovery Boost All,17074,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+penelo,Intercession,19903,5,5,10,"['Melee', 'Heals', 'Instant']",GL
+penelo,Evanescence,19904,5,5,15,"['Group', 'Magic', 'NoFree']",GL
+penelo,Resplendence,19872,5,5,100,"['Group', 'Melee']",GL
+penelo,Liberty's Minnesang,19878,0,0,0,"['Heals', 'Instant', 'NoFree']",GL
+penelo,Enhanced Regen Waltz (C),10127,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+penelo,Enhanced Evanescence (C),11037,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

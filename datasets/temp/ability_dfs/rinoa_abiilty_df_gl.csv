@@ -1,0 +1,19 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+rinoa,BRV Attack+ (Angel Wing),1,0,0,['Magic']
+rinoa,BRV Attack+ (Angelo),0,0,0,['Magic']
+rinoa,BRV Attack++ (Angel Wing),5,0,10,['Magic']
+rinoa,HP Attack+ (Angel Wing),1,1,0,['Magic']
+rinoa,HP Attack+ (Angelo),1,0,0,['Magic']
+rinoa,HP Attack++ (Angel Wing),4,4,10,['Magic']
+rinoa,Ultima,7,7,0,"['Group', 'Magic']"
+rinoa,Ultima (Angel Wing),9,9,0,"['Group', 'Magic']"
+rinoa,Angelo Cannon,4,0,20,"['Magic', 'Heals']"
+rinoa,Angel Wing,0,0,0,['Instant']
+rinoa,Base Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+rinoa,Angel Wing Meteor,6,6,10,"['Group', 'Magic']"
+rinoa,Angel Wing Meteor (Angelo),6,6,10,"['Group', 'Magic']"
+rinoa,Wishing Star,6,6,15,"['Group', 'Magic', 'NoFree']"
+rinoa,Wings of the Heart,2,2,350,"['Group', 'Magic']"
+rinoa,Double Holy,4,4,250,"['Group', 'Magic', 'NoFree']"
+rinoa,Enhanced Angelo Cannon (C),1,0,0,"['Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+rinoa,Enhanced Wishing Star (C),2,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

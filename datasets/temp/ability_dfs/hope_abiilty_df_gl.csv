@@ -1,0 +1,13 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+hope,BRV Attack+,0,0,0,['Magic']
+hope,Brutal Sanction,2,2,10,"['Group', 'Magic', 'Heals']"
+hope,HP Attack+,1,0,0,['Magic']
+hope,Retributive Blast,3,1,10,['Magic']
+hope,Shell,0,0,0,[]
+hope,Protect,0,0,0,[]
+hope,Protect All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+hope,Last Resort,5,5,10,"['Group', 'Magic', 'Heals']"
+hope,Purification,5,5,15,"['Group', 'Magic', 'Heals', 'NoEX', 'NoFree']"
+hope,Sacred Vessel,3,3,250,"['Group', 'Magic', 'Instant', 'NoFree']"
+hope,Enhanced Shell (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+hope,Enhanced Purification (C),2,2,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"

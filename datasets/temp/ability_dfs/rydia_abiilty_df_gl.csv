@@ -1,0 +1,12 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+rydia,BRV Attack+,0,0,0,['Magic']
+rydia,BRV Attack++,0,0,0,"['Magic', 'Water']"
+rydia,HP Attack++,1,0,0,"['Magic', 'Water']"
+rydia,Flare (IV),4,1,20,['Magic']
+rydia,Summon Leviathan,4,4,20,"['Group', 'Magic', 'Water']"
+rydia,Weak Damage Up All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+rydia,Summon Dragon,5,5,10,"['Group', 'Magic', 'IgnoreDEF']"
+rydia,Radiant Breath,4,4,15,"['Group', 'Magic', 'Water', 'IgnoreDEF', 'NoFree']"
+rydia,Contrast Burst,3,3,250,"['Group', 'Magic', 'NoFree']"
+rydia,Enhanced Summon Leviathan (C),1,1,0,"['Group', 'Magic', 'Water', 'Instant', 'NoEX', 'NoFree']"
+rydia,Enhanced Radiant Breath (C),4,4,0,"['Group', 'Magic', 'Water', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"

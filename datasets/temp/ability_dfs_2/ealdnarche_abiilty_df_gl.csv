@@ -1,0 +1,19 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ealdnarche,BRV Attack+,8669,0,0,0,['Ranged'],GL
+ealdnarche,BRV Attack++,8575,0,0,0,['Ranged'],GL
+ealdnarche,HP Attack+,8670,1,0,0,['Ranged'],GL
+ealdnarche,HP Attack++,8576,1,0,0,['Ranged'],GL
+ealdnarche,Phase Shift,17895,3,3,20,"['Group', 'Ranged', 'Heals', 'Instant', 'Free']",GL
+ealdnarche,Stellar Burst,17881,3,3,20,"['Group', 'Ranged']",GL
+ealdnarche,Cancel Exoplates,8610,0,0,0,"['Heals', 'Instant', 'Counters']",GL
+ealdnarche,Uranos Cascade,17883,3,3,20,['Ranged'],GL
+ealdnarche,Omega Javelin,17885,3,3,20,['Ranged'],GL
+ealdnarche,Debuff Act Longer Throw,17896,1,1,0,"['Group', 'Ranged', 'Instant', 'NoSummon', 'NoEX']",GL
+ealdnarche,Vortex,17886,4,4,10,"['Group', 'Ranged']",GL
+ealdnarche,Vortex+,17887,4,4,10,"['Group', 'Ranged']",GL
+ealdnarche,Exceed Lance+,17889,5,5,15,"['Group', 'Ranged', 'NoFree']",GL
+ealdnarche,Exceed Lance,17888,4,4,15,"['Group', 'Ranged', 'NoFree']",GL
+ealdnarche,Divine Might,17898,2,2,400,"['Group', 'Ranged']",GL
+ealdnarche,Enhanced Omega Javelin (C),10020,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+ealdnarche,Enhanced Omega Javelin (C) Follow Up,11653,1,1,0,"['Ranged', 'Instant', 'FollowUp', 'NoEX', 'NoFree']",GL
+ealdnarche,Enhanced Exceed Lance+ (C),11623,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL

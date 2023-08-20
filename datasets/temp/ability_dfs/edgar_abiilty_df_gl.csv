@@ -1,0 +1,21 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+edgar,BRV Attack+,0,0,0,['Melee']
+edgar,BRV Attack++,0,0,0,['Melee']
+edgar,HP Attack+,1,0,0,['Melee']
+edgar,HP Attack++,1,0,0,['Melee']
+edgar,Bioblaster+,5,5,10,"['Group', 'Magic', 'IgnoreDEF']"
+edgar,Bioblaster,2,2,10,"['Group', 'Magic']"
+edgar,Auto Crossbow,2,2,20,"['Group', 'Ranged']"
+edgar,Auto Crossbow+,5,5,20,"['Group', 'Ranged', 'IgnoreDEF']"
+edgar,Drill,2,1,20,['Melee']
+edgar,Drill+,6,1,20,"['Melee', 'IgnoreDEF']"
+edgar,Debuff Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+edgar,Chainsaw,4,1,10,['Melee']
+edgar,Chainsaw+,7,1,10,"['Melee', 'IgnoreDEF']"
+edgar,Royal Shock,4,4,15,"['Group', 'Magic', 'Instant', 'NoFree']"
+edgar,Royal Shock+,5,5,15,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'NoFree']"
+edgar,Air Anchor,2,2,400,"['Group', 'Ranged', 'IgnoreDEF']"
+edgar,Additional attack from Air Anchor,6,0,200,"['Ranged', 'IgnoreDEF', 'Traps']"
+edgar,Chance Maker,3,3,410,"['Group', 'Melee', 'Ranged', 'Magic', 'IgnoreDEF', 'NoFree']"
+edgar,Enhanced Drill (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+edgar,Enhanced Royal Shock+ (C),5,5,0,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']"
