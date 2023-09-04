@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-caitsith,BRV Attack+,0,0,0,['Melee']
-caitsith,BRV Attack++,1,0,0,['Melee']
-caitsith,HP Attack+,1,0,0,['Melee']
-caitsith,Toy Soldier,0,0,20,['Melee']
-caitsith,Toy Soldier+,2,2,20,"['Group', 'Melee']"
-caitsith,Toy Soldier++,3,3,20,"['Group', 'Melee']"
-caitsith,Mog Dance,0,0,0,['Heals']
-caitsith,Mog Dance+,0,0,0,"['Heals', 'Instant']"
-caitsith,Mog Dance++,0,0,0,"['Heals', 'Instant']"
-caitsith,BRV Heal Advance All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-caitsith,Dice,4,4,10,"['Group', 'Melee']"
-caitsith,Lucky Girl,4,4,15,"['Group', 'Melee', 'NoFree']"
-caitsith,Enhanced Toy Soldier (C),0,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-caitsith,Enhanced Lucky Girl (C),2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+caitsith,BRV Attack+,5709,0,0,0,['Melee'],GL
+caitsith,BRV Attack++,14218,1,0,0,['Melee'],GL
+caitsith,HP Attack+,5711,1,0,0,['Melee'],GL
+caitsith,Toy Soldier,14219,0,0,20,['Melee'],GL
+caitsith,Toy Soldier+,16947,2,2,20,"['Group', 'Melee']",GL
+caitsith,Toy Soldier++,16948,3,3,20,"['Group', 'Melee']",GL
+caitsith,Mog Dance,14224,0,0,0,['Heals'],GL
+caitsith,Mog Dance+,14227,0,0,0,"['Heals', 'Instant']",GL
+caitsith,Mog Dance++,14228,0,0,0,"['Heals', 'Instant']",GL
+caitsith,BRV Heal Advance All,16951,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+caitsith,Dice,16949,4,4,10,"['Group', 'Melee']",GL
+caitsith,Lucky Girl,16950,4,4,15,"['Group', 'Melee', 'NoFree']",GL
+caitsith,Enhanced Toy Soldier (C),12821,0,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+caitsith,Enhanced Lucky Girl (C),14230,2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

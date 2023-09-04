@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-krile,BRV Attack+,0,0,0,"['Magic', 'Thunder']"
-krile,BRV Attack++,0,0,0,"['Magic', 'Thunder']"
-krile,HP Attack+,1,0,0,"['Magic', 'Thunder']"
-krile,HP Attack++,1,0,0,"['Magic', 'Thunder']"
-krile,Ray of Hope+,0,0,0,[]
-krile,Ray of Hope,0,0,0,[]
-krile,Thunder (V),3,1,20,"['Magic', 'Thunder']"
-krile,Thunder (V)+,3,1,20,"['Magic', 'Thunder']"
-krile,Advance All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-krile,Quick Dualcast,5,5,10,"['Group', 'Magic', 'Thunder']"
-krile,Cleansing,4,4,15,"['Group', 'Magic', 'Thunder', 'NoFree']"
-krile,Judgment,4,0,10,"['Magic', 'Thunder', 'Traps']"
-krile,Retribution on Three,3,3,250,"['Group', 'Magic', 'Thunder', 'NoFree']"
-krile,Enhanced Ray of Hope (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-krile,Enhanced Cleansing (C),3,3,0,"['Group', 'Magic', 'Thunder', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+krile,BRV Attack+,11101,0,0,0,"['Magic', 'Thunder']",GL
+krile,BRV Attack++,11102,0,0,0,"['Magic', 'Thunder']",GL
+krile,HP Attack+,11325,1,0,0,"['Magic', 'Thunder']",GL
+krile,HP Attack++,11326,1,0,0,"['Magic', 'Thunder']",GL
+krile,Ray of Hope+,11096,0,0,0,[],GL
+krile,Ray of Hope,11323,0,0,0,[],GL
+krile,Thunder (V),17185,3,1,20,"['Magic', 'Thunder']",GL
+krile,Thunder (V)+,17186,3,1,20,"['Magic', 'Thunder']",GL
+krile,Advance All,17190,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+krile,Quick Dualcast,17187,5,5,10,"['Group', 'Magic', 'Thunder']",GL
+krile,Cleansing,17188,4,4,15,"['Group', 'Magic', 'Thunder', 'NoFree']",GL
+krile,Judgment,17189,4,0,10,"['Magic', 'Thunder', 'Traps']",GL
+krile,Retribution on Three,17231,3,3,250,"['Group', 'Magic', 'Thunder', 'NoFree']",GL
+krile,Enhanced Ray of Hope (C),11104,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+krile,Enhanced Cleansing (C),11110,3,3,0,"['Group', 'Magic', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL

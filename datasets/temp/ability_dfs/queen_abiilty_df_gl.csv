@@ -1,15 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-queen,BRV Attack+,0,0,0,['Melee']
-queen,BRV Attack++,0,0,0,['Melee']
-queen,Balestra Lunge,1,0,10,"['Melee', 'Instant']"
-queen,HP Attack+,1,0,0,['Melee']
-queen,HP Attack++,1,0,0,['Melee']
-queen,Devastate,4,1,10,['Melee']
-queen,Speedrush Thrust,1,0,20,['Melee']
-queen,Mana Sphere,1,1,20,"['Group', 'Melee']"
-queen,HP Heal Boost All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
-queen,Rasetsu Arousal,4,0,10,"['Group', 'Melee']"
-queen,Rasetsu Arousal Release HP Heal,0,0,0,"['Heals', 'Instant', 'FollowUp']"
-queen,Divine Judgment,2,2,15,"['Group', 'Melee', 'Heals', 'NoFree']"
-queen,Enhanced Mana Sphere (C),1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
-queen,Enhanced Divine Judgment (C),1,1,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+queen,BRV Attack+,13124,0,0,0,['Melee'],GL
+queen,BRV Attack++,13138,0,0,0,['Melee'],GL
+queen,Balestra Lunge,20395,5,0,10,"['Melee', 'Instant']",GL
+queen,HP Attack+,13125,1,0,0,['Melee'],GL
+queen,HP Attack++,13139,1,0,0,['Melee'],GL
+queen,Devastate,20396,8,8,10,['Melee'],GL
+queen,Speedrush Thrust,20391,8,0,20,['Melee'],GL
+queen,Mana Sphere,20393,5,5,20,"['Group', 'Melee']",GL
+queen,HP Heal Boost All,14831,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",GL
+queen,Rasetsu Arousal,20394,9,1,10,"['Group', 'Melee']",GL
+queen,Rasetsu Arousal Release HP Heal,13321,0,0,0,"['Heals', 'Instant', 'FollowUp']",GL
+queen,Divine Judgment,20397,6,6,15,"['Group', 'Melee', 'Heals', 'NoFree']",GL
+queen,Infringement,20400,2,2,400,"['Group', 'Melee']",GL
+queen,Put in Order,20405,4,4,250,"['Group', 'Melee', 'NoFree']",GL
+queen,Enhanced Mana Sphere (C),13145,1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL
+queen,Enhanced Divine Judgment (C),13147,1,1,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL

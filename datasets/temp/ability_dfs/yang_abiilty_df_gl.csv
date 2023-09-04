@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-yang,Kick Attacks,0,0,0,"['Group', 'Melee']"
-yang,Kick Attacks+,0,0,0,"['Group', 'Melee']"
-yang,HP Attack+,1,1,0,['Melee']
-yang,HP Attack++,1,1,0,['Melee']
-yang,Kick,3,1,20,['Melee']
-yang,Kick+,3,1,20,['Melee']
-yang,Counter,1,1,0,"['Group', 'Melee', 'Counters']"
-yang,Focus,0,0,20,[]
-yang,Focus Follow Up,3,3,20,"['Group', 'Melee', 'FollowUp']"
-yang,Kick Recovery,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-yang,Twin Wing Frenzy,5,0,10,['Melee']
-yang,Oboro Strike,4,4,15,"['Group', 'Melee', 'NoFree']"
-yang,Additional attack from Monastic Secrets,2,2,10,"['Group', 'Melee', 'Counters', 'FollowUp']"
-yang,Enhanced Kick (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-yang,Enhanced Oboro Strike (C),2,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+yang,Kick Attacks,2048,0,0,0,"['Group', 'Melee']",GL
+yang,Kick Attacks+,7690,0,0,0,"['Group', 'Melee']",GL
+yang,HP Attack+,7683,1,1,0,['Melee'],GL
+yang,HP Attack++,7689,1,1,0,['Melee'],GL
+yang,Kick,17675,3,1,20,['Melee'],GL
+yang,Kick+,17676,3,1,20,['Melee'],GL
+yang,Counter,12219,1,1,0,"['Group', 'Melee', 'Counters']",GL
+yang,Focus,17679,0,0,20,[],GL
+yang,Focus Follow Up,17680,3,3,20,"['Group', 'Melee', 'FollowUp']",GL
+yang,Kick Recovery,17684,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+yang,Twin Wing Frenzy,17681,4,1,10,['Melee'],GL
+yang,Oboro Strike,17682,4,4,15,"['Group', 'Melee', 'NoFree']",GL
+yang,Additional attack from Monastic Secrets,17683,2,2,10,"['Group', 'Melee', 'Counters', 'FollowUp']",GL
+yang,Enhanced Kick (C),12221,1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+yang,Enhanced Oboro Strike (C),12223,2,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

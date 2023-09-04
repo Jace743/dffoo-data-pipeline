@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-faris,BRV Attack++,0,0,0,"['Group', 'Melee']"
-faris,BRV Attack+,0,0,0,['Melee']
-faris,HP Attack+,1,0,0,['Melee']
-faris,HP Attack++,1,0,0,['Melee']
-faris,Waterwhirl,3,1,20,"['Melee', 'Water']"
-faris,Waterwhirl+,3,1,20,"['Melee', 'Water']"
-faris,Open Fire,3,3,20,"['Group', 'Ranged', 'Water']"
-faris,Open Fire+,3,3,20,"['Group', 'Ranged', 'Water']"
-faris,Debuff Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-faris,Thunderstorm,5,5,10,"['Group', 'Ranged', 'Thunder', 'Water', 'Wind']"
-faris,Whirlpool,3,1,10,"['Ranged', 'Water', 'Instant', 'Traps']"
-faris,Spellblade Sword Dance,4,4,15,"['Melee', 'Thunder', 'Water', 'Wind', 'NoFree']"
-faris,Whirlpool Shot,3,3,250,"['Group', 'Ranged', 'Water', 'NoFree']"
-faris,Enhanced Open Fire (C),1,1,0,"['Group', 'Ranged', 'Water', 'Instant', 'NoEX', 'NoFree']"
-faris,Enhanced Spellblade Sword Dance (C),3,1,0,"['Melee', 'Thunder', 'Water', 'Wind', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+faris,BRV Attack++,12576,0,0,0,"['Group', 'Melee']",GL
+faris,BRV Attack+,5443,0,0,0,['Melee'],GL
+faris,HP Attack+,5237,1,0,0,['Melee'],GL
+faris,HP Attack++,5242,1,0,0,['Melee'],GL
+faris,Waterwhirl,18089,3,1,20,"['Melee', 'Water']",GL
+faris,Waterwhirl+,18090,3,1,20,"['Melee', 'Water']",GL
+faris,Open Fire,18093,3,3,20,"['Group', 'Ranged', 'Water']",GL
+faris,Open Fire+,18094,3,3,20,"['Group', 'Ranged', 'Water']",GL
+faris,Debuff Attack Up,18102,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+faris,Thunderstorm,18095,5,5,10,"['Group', 'Ranged', 'Thunder', 'Water', 'Wind']",GL
+faris,Whirlpool,18096,3,1,10,"['Ranged', 'Water', 'Instant', 'Traps']",GL
+faris,Spellblade Sword Dance,18097,4,4,15,"['Melee', 'Thunder', 'Water', 'Wind', 'NoFree']",GL
+faris,Whirlpool Shot,18101,3,3,250,"['Group', 'Ranged', 'Water', 'NoFree']",GL
+faris,Enhanced Open Fire (C),12311,1,1,0,"['Group', 'Ranged', 'Water', 'Instant', 'NoEX', 'NoFree']",GL
+faris,Enhanced Spellblade Sword Dance (C),12313,3,1,0,"['Melee', 'Thunder', 'Water', 'Wind', 'Instant', 'NoEX', 'NoFree']",GL

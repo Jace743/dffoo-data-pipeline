@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-fujin,BRV Attack++,0,0,0,"['Group', 'Ranged', 'Wind']"
-fujin,BRV Attack+,0,0,0,"['Group', 'Ranged', 'Wind']"
-fujin,HP Attack+,1,0,0,"['Ranged', 'Wind']"
-fujin,Metsu,3,3,20,"['Group', 'Ranged']"
-fujin,Metsu+,3,3,20,"['Group', 'Ranged', 'Wind', 'KnockBack']"
-fujin,Sai,3,1,20,"['Melee', 'Wind']"
-fujin,Sai+,3,1,20,"['Melee', 'Wind', 'KnockBack']"
-fujin,Delay Attack All Throw,1,0,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoSummon', 'NoEX']"
-fujin,Tai,4,4,10,"['Group', 'Ranged', 'Wind', 'KnockBack']"
-fujin,Wind Slash,3,0,10,"['Ranged', 'Wind', 'KnockBack', 'Traps']"
-fujin,Satsu,5,5,15,"['Group', 'Ranged', 'Wind', 'NoFree']"
-fujin,Hyō,3,3,250,"['Group', 'Ranged', 'Wind', 'KnockBack', 'NoFree']"
-fujin,Enhanced Metsu (C),1,1,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']"
-fujin,Enhanced Satsu (C),2,2,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+fujin,BRV Attack++,12622,0,0,0,"['Group', 'Ranged', 'Wind']",GL
+fujin,BRV Attack+,8200,0,0,0,"['Group', 'Ranged', 'Wind']",GL
+fujin,HP Attack+,8201,1,0,0,"['Ranged', 'Wind']",GL
+fujin,Metsu,17407,3,3,20,"['Group', 'Ranged']",GL
+fujin,Metsu+,17408,3,3,20,"['Group', 'Ranged', 'Wind', 'KnockBack']",GL
+fujin,Sai,17411,3,1,20,"['Melee', 'Wind']",GL
+fujin,Sai+,17412,3,1,20,"['Melee', 'Wind', 'KnockBack']",GL
+fujin,Delay Attack All Throw,17416,1,0,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoSummon', 'NoEX']",GL
+fujin,Tai,17413,4,4,10,"['Group', 'Ranged', 'Wind', 'KnockBack']",GL
+fujin,Wind Slash,17414,3,0,10,"['Ranged', 'Wind', 'KnockBack', 'Traps']",GL
+fujin,Satsu,17415,5,5,15,"['Group', 'Ranged', 'Wind', 'NoFree']",GL
+fujin,Hyō,17420,3,3,250,"['Group', 'Ranged', 'Wind', 'KnockBack', 'NoFree']",GL
+fujin,Enhanced Metsu (C),12561,1,1,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']",GL
+fujin,Enhanced Satsu (C),12563,2,2,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']",GL

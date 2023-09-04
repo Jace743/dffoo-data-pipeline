@@ -1,20 +1,20 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-strago,BRV Attack+,0,0,0,['Magic']
-strago,BRV Attack++,0,0,0,['Magic']
-strago,HP Attack+,1,0,0,['Magic']
-strago,HP Attack++,1,0,0,['Magic']
-strago,Dualcast,1,0,10,['Magic']
-strago,Dualcast Follow Up,1,0,0,"['Magic', 'FollowUp']"
-strago,Quasar,3,3,20,"['Group', 'Magic', 'IgnoreDEF']"
-strago,Quasar Follow Up,3,3,20,"['Group', 'Magic', 'IgnoreDEF', 'FollowUp']"
-strago,BRV 2 Death,3,3,20,"['Group', 'Magic']"
-strago,BRV 2 Death Follow Up,3,3,20,"['Group', 'Magic', 'FollowUp']"
-strago,Set Soul of Thamasa Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-strago,Sabre Soul,4,4,10,"['Group', 'Magic']"
-strago,Sabre Soul Follow Up,4,4,10,"['Group', 'Magic', 'FollowUp']"
-strago,Grand Delta,4,4,15,"['Group', 'Magic', 'NoFree']"
-strago,Grand Delta Follow Up,4,4,15,"['Group', 'Magic', 'FollowUp']"
-strago,Mastery of Blue Magic,2,2,350,"['Group', 'Magic']"
-strago,"Burning 1,000 Needles",4,4,260,"['Group', 'Magic', 'NoFree']"
-strago,Enhanced BRV 2 Death (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
-strago,Enhanced Grand Delta (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+strago,BRV Attack+,6393,0,0,0,['Magic'],JP
+strago,BRV Attack++,9855,0,0,0,['Magic'],JP
+strago,HP Attack+,6394,1,0,0,['Magic'],JP
+strago,HP Attack++,9856,1,0,0,['Magic'],JP
+strago,Dualcast,15646,1,0,10,['Magic'],JP
+strago,Dualcast Follow Up,15647,1,0,0,"['Magic', 'FollowUp']",JP
+strago,Quasar,20715,3,3,20,"['Group', 'Magic', 'IgnoreDEF']",JP
+strago,Quasar Follow Up,20717,3,3,20,"['Group', 'Magic', 'IgnoreDEF', 'FollowUp']",JP
+strago,BRV 2 Death,20719,3,3,20,"['Group', 'Magic']",JP
+strago,BRV 2 Death Follow Up,20721,3,3,20,"['Group', 'Magic', 'FollowUp']",JP
+strago,Set Soul of Thamasa Attack Up,15512,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+strago,Sabre Soul,15510,4,4,10,"['Group', 'Magic']",JP
+strago,Sabre Soul Follow Up,15511,4,4,10,"['Group', 'Magic', 'FollowUp']",JP
+strago,Grand Delta,20722,4,4,15,"['Group', 'Magic', 'NoFree']",JP
+strago,Grand Delta Follow Up,20723,4,4,15,"['Group', 'Magic', 'FollowUp']",JP
+strago,Pinnacle of Blue Magic,20726,2,2,350,"['Group', 'Magic']",JP
+strago,"Burning 1,000 Needles",20727,4,4,250,"['Group', 'Magic', 'NoFree']",JP
+strago,Enhanced BRV 2 Death (C),12808,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",JP
+strago,Enhanced Grand Delta (C),12810,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",JP

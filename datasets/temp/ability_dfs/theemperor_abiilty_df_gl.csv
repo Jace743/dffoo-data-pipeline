@@ -1,19 +1,19 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-theemperor,BRV Attack+,0,0,0,['Magic']
-theemperor,BRV Attack++,0,0,0,['Magic']
-theemperor,BRV Attack+++,0,0,0,['Magic']
-theemperor,HP Attack+,1,0,0,['Magic']
-theemperor,HP Attack++,1,0,0,['Magic']
-theemperor,HP Attack+++,1,0,0,['Magic']
-theemperor,Beckoning Blast & Flare Combo,3,0,20,['Magic']
-theemperor,Trap: Beckoning Blast,2,0,0,"['Magic', 'Instant', 'Traps']"
-theemperor,Thunder Crest & Stygian Swell,2,2,20,"['Group', 'Magic']"
-theemperor,Trap: Thunder Crest,2,1,0,"['Group', 'Magic', 'Instant', 'Traps']"
-theemperor,Debuff Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-theemperor,Dreary Cell & Starfall,3,3,10,"['Group', 'Magic', 'Instant']"
-theemperor,Trap: Dreary Cell,2,2,0,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'Traps']"
-theemperor,Hellish Gale,4,1,15,"['Group', 'Magic', 'NoFree']"
-theemperor,Absolute Dominion,2,2,350,"['Group', 'Magic']"
-theemperor,Thorns of Repentance,4,4,0,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'Traps']"
-theemperor,Enhanced Beckoning Blast & Flare Combo (C),1,0,0,"['Magic', 'Instant', 'NoEX', 'NoFree']"
-theemperor,Enhanced Hellish Gale (C),2,1,0,"['Group', 'Magic', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+theemperor,BRV Attack+,6030,0,0,0,['Magic'],GL
+theemperor,BRV Attack++,6286,0,0,0,['Magic'],GL
+theemperor,BRV Attack+++,9788,0,0,0,['Magic'],GL
+theemperor,HP Attack+,6031,1,0,0,['Magic'],GL
+theemperor,HP Attack++,6287,1,0,0,['Magic'],GL
+theemperor,HP Attack+++,9789,1,0,0,['Magic'],GL
+theemperor,Beckoning Blast & Flare Combo,11641,3,0,20,['Magic'],GL
+theemperor,Trap: Beckoning Blast,6029,2,0,0,"['Magic', 'Instant', 'Traps']",GL
+theemperor,Thunder Crest & Stygian Swell,11647,2,2,20,"['Group', 'Magic']",GL
+theemperor,Trap: Thunder Crest,6043,2,1,0,"['Group', 'Magic', 'Instant', 'Traps']",GL
+theemperor,Debuff Attack Up,16608,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+theemperor,Dreary Cell & Starfall,16605,3,3,10,"['Group', 'Magic', 'Instant']",GL
+theemperor,Trap: Dreary Cell,16607,2,2,0,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'Traps']",GL
+theemperor,Hellish Gale,11591,4,1,15,"['Group', 'Magic', 'NoFree']",GL
+theemperor,Absolute Dominion,16610,2,2,350,"['Group', 'Magic']",GL
+theemperor,Thorns of Repentance,16611,4,4,0,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'Traps']",GL
+theemperor,Enhanced Beckoning Blast & Flare Combo (C),11593,1,0,0,"['Magic', 'Instant', 'NoEX', 'NoFree']",GL
+theemperor,Enhanced Hellish Gale (C),11844,2,1,0,"['Group', 'Magic', 'NoEX', 'NoFree']",GL

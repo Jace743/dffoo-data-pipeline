@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-yda,BRV Attack+,0,0,0,['Melee']
-yda,BRV Attack++,0,0,0,['Melee']
-yda,HP Attack+,1,0,0,['Melee']
-yda,HP Attack++,1,0,0,['Melee']
-yda,HP Attack+++,1,1,0,['Melee']
-yda,Snap Punch,4,0,20,['Melee']
-yda,Snap Punch+,6,0,20,['Melee']
-yda,Touch of Death,3,1,20,['Melee']
-yda,Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-yda,Tornado Kick,4,4,10,"['Group', 'Melee']"
-yda,Tornado Kick+,5,5,10,"['Group', 'Melee']"
-yda,Six-Sided Star,6,6,10,"['Group', 'Melee', 'NoFree']"
-yda,Enhanced Snap Punch (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-yda,Enhanced Six-Sided Star (C),6,6,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+yda,BRV Attack+,4628,0,0,0,['Melee'],GL
+yda,BRV Attack++,8269,0,0,0,['Melee'],GL
+yda,HP Attack+,4630,1,0,0,['Melee'],GL
+yda,HP Attack++,8270,1,0,0,['Melee'],GL
+yda,HP Attack+++,14723,1,1,0,['Melee'],GL
+yda,Snap Punch,17512,4,0,20,['Melee'],GL
+yda,Snap Punch+,17517,6,0,20,['Melee'],GL
+yda,Touch of Death,17515,3,1,20,['Melee'],GL
+yda,Attack Up,17522,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+yda,Tornado Kick,17518,4,4,10,"['Group', 'Melee']",GL
+yda,Tornado Kick+,17519,5,5,10,"['Group', 'Melee']",GL
+yda,Six-Sided Star,17569,6,6,10,"['Group', 'Melee', 'NoFree']",GL
+yda,Enhanced Snap Punch (C),11010,1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+yda,Enhanced Six-Sided Star (C),14725,6,6,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

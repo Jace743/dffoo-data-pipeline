@@ -1,18 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-jackgarland,BRV Attack+,0,0,0,['Melee']
-jackgarland,BRV Attack++,0,0,0,['Melee']
-jackgarland,HP Attack+,1,0,0,['Melee']
-jackgarland,HP Attack++,1,0,0,['Melee']
-jackgarland,Spinning Slash,4,4,20,"['Group', 'Melee']"
-jackgarland,Soul Burst (Uncapped HP Attack),1,0,900,"['Melee', 'FollowUp']"
-jackgarland,Soul Burst,1,0,0,"['Melee', 'FollowUp']"
-jackgarland,Highbringer,8,1,20,['Melee']
-jackgarland,Attack Boost Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-jackgarland,Lightbringer,6,6,10,"['Group', 'Melee']"
-jackgarland,Zantetsuken,6,6,15,"['Group', 'Melee', 'NoFree']"
-jackgarland,Soul Burst+ (Uncapped HP Attack),2,0,900,"['Melee', 'FollowUp']"
-jackgarland,Soul Burst+,2,0,0,"['Melee', 'FollowUp']"
-jackgarland,Soul of Chaos,2,2,400,"['Group', 'Melee']"
-jackgarland,Thirst for Chaos,4,4,260,"['Group', 'Melee', 'NoFree']"
-jackgarland,Enhanced Highbringer (C),3,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-jackgarland,Enhanced Zantetsuken (C),3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+jackgarland,BRV Attack+,18740,0,0,0,['Melee'],JP
+jackgarland,BRV Attack++,18747,0,0,0,['Melee'],JP
+jackgarland,HP Attack+,18741,1,0,0,['Melee'],JP
+jackgarland,HP Attack++,18748,1,0,0,['Melee'],JP
+jackgarland,Spinning Slash,21261,4,4,20,"['Group', 'Melee']",JP
+jackgarland,Soul Burst,18752,2,0,0,"['Melee', 'FollowUp']",JP
+jackgarland,Highbringer,21263,8,1,20,['Melee'],JP
+jackgarland,Attack Boost Up,18765,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+jackgarland,Lightbringer,21264,6,6,10,"['Group', 'Melee']",JP
+jackgarland,Zantetsuken,21265,6,6,15,"['Group', 'Melee', 'NoFree']",JP
+jackgarland,Soul Burst+,21266,4,0,0,"['Melee', 'FollowUp']",JP
+jackgarland,Soul of Chaos,18756,2,2,400,"['Group', 'Melee']",JP
+jackgarland,Thirst for Chaos,19051,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+jackgarland,Enhanced Highbringer (C),18767,3,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",JP
+jackgarland,Enhanced Zantetsuken (C),18769,3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",JP

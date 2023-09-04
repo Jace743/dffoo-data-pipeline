@@ -1,11 +1,11 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-cidhighwind,Boost Jump,1,0,0,"['Group', 'Ranged', 'Wind']"
-cidhighwind,Dragon,1,1,0,"['Ranged', 'Wind', 'Heals']"
-cidhighwind,Hyper Jump,1,1,20,"['Group', 'Ranged', 'Wind']"
-cidhighwind,Dragon Dive,2,1,20,"['Ranged', 'Wind']"
-cidhighwind,Aero Enchant Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-cidhighwind,Big Brawl,13,13,2,"['Group', 'Ranged']"
-cidhighwind,Highwind,9,9,5,"['Group', 'Ranged', 'Wind', 'NoFree']"
-cidhighwind,Bombs Away,6,6,5,"['Group', 'Ranged', 'Wind', 'FollowUp']"
-cidhighwind,Enhanced Dragon Dive (C),1,1,0,"['Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']"
-cidhighwind,Enhanced Highwind (C),9,9,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+cidhighwind,Boost Jump,9140,1,0,0,"['Group', 'Ranged', 'Wind']",GL
+cidhighwind,Dragon,9144,1,1,0,"['Ranged', 'Wind', 'Heals']",GL
+cidhighwind,Hyper Jump,15275,1,1,20,"['Group', 'Ranged', 'Wind']",GL
+cidhighwind,Dragon Dive,15277,2,1,20,"['Ranged', 'Wind']",GL
+cidhighwind,Aero Enchant Attack Up,15324,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+cidhighwind,Big Brawl,15278,13,13,2,"['Group', 'Ranged']",GL
+cidhighwind,Highwind,15281,9,9,5,"['Group', 'Ranged', 'Wind', 'NoFree']",GL
+cidhighwind,Bombs Away,15282,6,6,5,"['Group', 'Ranged', 'Wind', 'FollowUp']",GL
+cidhighwind,Enhanced Dragon Dive (C),12819,1,1,0,"['Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']",GL
+cidhighwind,Enhanced Highwind (C),15284,9,9,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']",GL

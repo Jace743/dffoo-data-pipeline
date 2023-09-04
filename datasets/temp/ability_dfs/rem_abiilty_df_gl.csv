@@ -1,14 +1,14 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-rem,BRV Attack,0,0,0,"['Magic', 'Ice']"
-rem,HP Attack+,1,0,0,['Ranged']
-rem,HP Attack++,4,0,0,['Magic']
-rem,Cure,0,0,0,['Heals']
-rem,Swap Turns,0,0,0,[]
-rem,Swap BRV All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-rem,Siphon Delta,4,4,10,"['Group', 'Magic', 'Heals']"
-rem,Point-Blank Siphon Sphere,4,4,15,"['Group', 'Magic', 'NoFree']"
-rem,Siphon Sphere,4,4,10,"['Group', 'Magic', 'FollowUp']"
-rem,Will Carried on Twin Blades,2,2,350,"['Group', 'Magic']"
-rem,Resonance Holy,4,4,260,"['Group', 'Magic', 'NoFree']"
-rem,Enhanced Cure (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
-rem,Enhanced Point-Blank Siphon Sphere (C),4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+rem,BRV Attack,753,0,0,0,"['Magic', 'Ice']",GL
+rem,HP Attack+,16029,1,0,0,['Ranged'],GL
+rem,HP Attack++,19799,4,0,0,['Magic'],GL
+rem,Cure,15888,0,0,0,['Heals'],GL
+rem,Swap Turns,15891,0,0,0,[],GL
+rem,Swap BRV All,15899,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+rem,Siphon Delta,19796,4,4,10,"['Group', 'Magic', 'Heals']",GL
+rem,Point-Blank Siphon Sphere,19797,4,4,15,"['Group', 'Magic', 'NoFree']",GL
+rem,Siphon Sphere,19798,4,4,10,"['Group', 'Magic', 'FollowUp']",GL
+rem,Will Carried on Twin Blades,19802,2,2,350,"['Group', 'Magic']",GL
+rem,Resonance Holy,19807,4,4,250,"['Group', 'Magic', 'NoFree']",GL
+rem,Enhanced Cure (C),10485,0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']",GL
+rem,Enhanced Point-Blank Siphon Sphere (C),15898,4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

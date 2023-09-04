@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-cloud,BRV Attack+,0,0,0,['Melee']
-cloud,BRV Attack++,0,0,0,['Melee']
-cloud,HP Attack+,1,0,0,['Melee']
-cloud,HP Attack++,1,0,0,['Melee']
-cloud,Cross-Slash,5,0,20,['Melee']
-cloud,Cross-Slash+,5,5,20,['Melee']
-cloud,Finishing Touch,9,1,20,"['Ranged', 'KnockBack']"
-cloud,Critical Crush,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
-cloud,Meteorain,8,8,10,"['Group', 'Ranged']"
-cloud,Blade Beam,6,3,15,"['Group', 'Ranged', 'Instant', 'NoFree']"
-cloud,Omnislash Version 5,12,1,400,['Ranged']
-cloud,Saintly Fervor,4,4,260,"['Group', 'Ranged', 'KnockBack', 'NoFree']"
-cloud,Enhanced Finishing Touch (C),5,1,0,"['Ranged', 'Instant', 'KnockBack', 'NoEX', 'NoFree']"
-cloud,Enhanced Blade Beam (C),2,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+cloud,BRV Attack+,3591,0,0,0,['Melee'],GL
+cloud,BRV Attack++,10552,0,0,0,['Melee'],GL
+cloud,HP Attack+,3592,1,0,0,['Melee'],GL
+cloud,HP Attack++,10551,1,0,0,['Melee'],GL
+cloud,Cross-Slash,19114,5,0,20,['Melee'],GL
+cloud,Cross-Slash+,20213,5,5,20,['Melee'],GL
+cloud,Finishing Touch,20215,9,1,20,"['Ranged', 'KnockBack']",GL
+cloud,Critical Crush,15858,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+cloud,Meteorain,20216,8,8,10,"['Group', 'Ranged']",GL
+cloud,Blade Beam,20217,6,3,15,"['Group', 'Ranged', 'Instant', 'NoFree']",GL
+cloud,Omnislash Version 5,15861,12,1,400,['Ranged'],GL
+cloud,Saintly Fervor,20222,4,4,250,"['Group', 'Ranged', 'KnockBack', 'NoFree']",GL
+cloud,Enhanced Finishing Touch (C),10447,5,1,0,"['Ranged', 'Instant', 'KnockBack', 'NoEX', 'NoFree']",GL
+cloud,Enhanced Blade Beam (C),11528,2,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

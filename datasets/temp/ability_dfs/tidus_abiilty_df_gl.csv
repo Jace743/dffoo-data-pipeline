@@ -1,17 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-tidus,BRV Attack+,0,0,0,['Melee']
-tidus,HP Attack+,1,0,0,['Melee']
-tidus,HP Attack++,1,0,0,['Melee']
-tidus,Quick Hit,2,0,20,['Melee']
-tidus,Quick Hit+,2,0,20,"['Melee', 'Instant']"
-tidus,Slash Combo,2,1,20,['Melee']
-tidus,Slash Combo+,2,1,20,['Melee']
-tidus,Buff Longer Slash,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
-tidus,Energy Rain,3,3,10,"['Group', 'Ranged']"
-tidus,Slice & Dice,4,4,15,"['Group', 'Melee', 'Instant', 'NoFree']"
-tidus,Shot,2,0,0,"['Ranged', 'Instant', 'FollowUp']"
-tidus,Jecht Shot,3,1,0,"['Group', 'Ranged', 'Instant', 'FollowUp']"
-tidus,Blitz Ace,12,1,400,['Melee']
-tidus,Saintly Shot,4,0,200,"['Ranged', 'Instant', 'NoFree']"
-tidus,Enhanced Slash Combo (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-tidus,Enhanced Slice & Dice (C),2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+tidus,BRV Attack+,4618,0,0,0,['Melee'],GL
+tidus,HP Attack+,2939,1,0,0,['Melee'],GL
+tidus,HP Attack++,5131,1,0,0,['Melee'],GL
+tidus,Quick Hit,17312,2,0,20,['Melee'],GL
+tidus,Quick Hit+,17313,2,0,20,"['Melee', 'Instant']",GL
+tidus,Slash Combo,17316,2,1,20,['Melee'],GL
+tidus,Slash Combo+,17317,2,1,20,['Melee'],GL
+tidus,Buff Longer Slash,15763,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+tidus,Energy Rain,17318,3,3,10,"['Group', 'Ranged']",GL
+tidus,Slice & Dice,17319,4,4,15,"['Group', 'Melee', 'Instant', 'NoFree']",GL
+tidus,Shot,17320,2,0,0,"['Ranged', 'Instant', 'FollowUp']",GL
+tidus,Jecht Shot,17321,3,1,0,"['Group', 'Ranged', 'Instant', 'FollowUp']",GL
+tidus,Blitz Ace,15762,12,1,400,['Melee'],GL
+tidus,Saintly Shot,17301,4,0,200,"['Ranged', 'Instant', 'NoFree']",GL
+tidus,Enhanced Slash Combo (C),13201,1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+tidus,Enhanced Slice & Dice (C),13203,2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

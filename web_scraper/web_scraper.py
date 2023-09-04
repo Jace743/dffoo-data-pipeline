@@ -355,10 +355,15 @@ class CompendiumScraper:
                 return_output=False
             )
 
-            if not JP:
-                ability_dictionary = self.ability_dict_omnibus_gl[char_name]
-            elif JP:
-                ability_dictionary = self.ability_dict_omnibus_jp[char_name]
+            try:
+                if not JP:
+                    ability_dictionary = self.ability_dict_omnibus_gl[char_name]
+                elif JP:
+                    ability_dictionary = self.ability_dict_omnibus_jp[char_name]
+            except Exception:
+                version = 'GL' if not JP else 'JP'
+                self.logger.info("Couldn't retrieve ability dict. Character must not be in %s yet.", version)
+                return
 
         df_row_list = []
 
@@ -714,7 +719,8 @@ class CompendiumScraper:
             buffunit_list = buff_holder_element.find_elements(By.CLASS_NAME, "buffunit")
 
             for buffunit_div in buffunit_list:
-                if re.search(r"\(B\)", buffunit_div.text):
+                # Deuce's BT is labeled 'Wonderful Finale (F)' instead of 'Wonderful Finale (B)', which breaks the scraper.
+                if re.search(r"\(B\)", buffunit_div.text) or re.search(r"Wonderful Finale", buffunit_div.text):
                     bt_buff_description_div = buffunit_div
                     break
 

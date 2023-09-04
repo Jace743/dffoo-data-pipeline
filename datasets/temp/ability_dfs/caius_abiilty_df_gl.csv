@@ -1,17 +1,18 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-caius,BRV Attack+,0,0,0,['Melee']
-caius,BRV Attack++,0,0,0,['Melee']
-caius,HP Attack+,1,0,0,['Melee']
-caius,HP Attack++,1,0,0,['Melee']
-caius,Pulsar Burst+,3,1,20,['Melee']
-caius,Pulsar Burst,3,0,20,['Melee']
-caius,HP Recovery from Heart of Chaos,0,0,0,"['Heals', 'Instant', 'Counters']"
-caius,Eye of Bahamut+,2,2,20,['Melee']
-caius,Eye of Bahamut,2,2,20,['Melee']
-caius,Set Doom Crush,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
-caius,Inferno,5,5,10,"['Group', 'Melee', 'KnockBack']"
-caius,Inferno+,5,5,10,"['Group', 'Melee', 'KnockBack']"
-caius,Giga-Graviton,7,7,7,"['Group', 'Melee', 'NoFree']"
-caius,Incarnate Summoning,2,2,350,"['Group', 'Melee']"
-caius,Enhanced Eye of Bahamut (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-caius,Enhanced Giga-Graviton (C),3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+caius,BRV Attack+,10956,0,0,0,['Melee'],GL
+caius,BRV Attack++,10958,0,0,0,['Melee'],GL
+caius,HP Attack+,10957,1,0,0,['Melee'],GL
+caius,HP Attack++,10959,1,0,0,['Melee'],GL
+caius,Pulsar Burst+,17467,3,1,20,['Melee'],GL
+caius,Pulsar Burst,17462,3,0,20,['Melee'],GL
+caius,HP Recovery from Heart of Chaos,10932,0,0,0,"['Heals', 'Instant', 'Counters']",GL
+caius,Eye of Bahamut+,17486,2,2,20,['Melee'],GL
+caius,Eye of Bahamut,17484,2,2,20,['Melee'],GL
+caius,Set Doom Crush,14972,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+caius,Set Doom Crush,17493,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+caius,Inferno,17488,5,5,10,"['Group', 'Melee', 'KnockBack']",GL
+caius,Inferno+,17489,5,5,10,"['Group', 'Melee', 'KnockBack']",GL
+caius,Giga-Graviton,17491,7,7,7,"['Group', 'Melee', 'NoFree']",GL
+caius,Incarnate Summoning,14604,2,2,350,"['Group', 'Melee']",GL
+caius,Enhanced Eye of Bahamut (C),10934,1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+caius,Enhanced Giga-Graviton (C),11131,3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

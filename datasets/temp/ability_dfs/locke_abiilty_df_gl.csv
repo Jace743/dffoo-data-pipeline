@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-locke,Mug,0,0,0,['Melee']
-locke,Mug (Thief's Bracer),0,0,0,"['Melee', 'Instant']"
-locke,HP Attack+ (Genji Glove),1,0,0,['Melee']
-locke,HP Attack+ (Master's Scroll),2,0,0,['Melee']
-locke,HP Attack+ (Miracle Shoes),3,0,0,"['Melee', 'Instant']"
-locke,Genji Glove × Master's Scroll,8,0,10,"['Melee', 'Instant']"
-locke,Sneak Slash,4,0,20,['Melee']
-locke,Sneak Slash+,4,0,20,['Melee']
-locke,Phoenix Ray,3,3,20,"['Group', 'Ranged', 'Heals']"
-locke,Steal Item,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-locke,Mirage Dive,6,1,10,['Melee']
-locke,Dagger Dance,6,6,15,"['Group', 'Melee', 'NoFree']"
-locke,Forever-Shining Magicite,2,2,350,"['Group', 'Melee', 'IgnoreDEF']"
-locke,Enhanced Sneak Slash (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-locke,Enhanced Dagger Dance (C),4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+locke,Mug,4710,0,0,0,['Melee'],GL
+locke,Mug (Thief's Bracer),15386,0,0,0,"['Melee', 'Instant']",GL
+locke,HP Attack+ (Genji Glove),15378,1,0,0,['Melee'],GL
+locke,HP Attack+ (Master's Scroll),15424,2,0,0,['Melee'],GL
+locke,HP Attack+ (Miracle Shoes),18455,3,0,0,"['Melee', 'Instant']",GL
+locke,Genji Glove × Master's Scroll,18454,8,0,10,"['Melee', 'Instant']",GL
+locke,Sneak Slash,18366,4,0,20,['Melee'],GL
+locke,Sneak Slash+,18367,4,0,20,['Melee'],GL
+locke,Phoenix Ray,18369,3,3,20,"['Group', 'Ranged', 'Heals']",GL
+locke,Steal Item,15388,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+locke,Mirage Dive,18370,6,1,10,['Melee'],GL
+locke,Dagger Dance,18371,6,6,15,"['Group', 'Melee', 'NoFree']",GL
+locke,Forever-Shining Magicite,15391,2,2,350,"['Group', 'Melee', 'IgnoreDEF']",GL
+locke,Enhanced Sneak Slash (C),13442,1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+locke,Enhanced Dagger Dance (C),15393,4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

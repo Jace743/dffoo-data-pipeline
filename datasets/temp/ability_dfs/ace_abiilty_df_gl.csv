@@ -1,21 +1,22 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-ace,BRV Attack+,0,0,0,['Magic']
-ace,BRV Attack++,0,0,0,['Magic']
-ace,HP Attack+,1,0,0,"['Group', 'Magic']"
-ace,HP Attack++,1,0,0,"['Group', 'Magic']"
-ace,HP Attack+ (Blind Stud Turn),1,1,0,"['Group', 'Magic', 'Instant', 'NoFree']"
-ace,Burst,2,0,20,['Magic']
-ace,Mega Burst,2,0,20,['Magic']
-ace,Mega Burst+,8,1,20,['Magic']
-ace,Spiral Combo,2,1,20,"['Group', 'Magic']"
-ace,Great Spiral Combo,2,1,20,"['Group', 'Magic']"
-ace,Great Spiral Combo+,5,5,20,"['Group', 'Magic']"
-ace,Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-ace,Jackpot Shot,6,6,10,['Magic']
-ace,Jackpot Triad,5,5,15,"['Group', 'Magic', 'NoFree']"
-ace,Blind Stud,1,1,25,"['Magic', 'FollowUp', 'NoFree']"
-ace,VB Type 100,2,2,400,"['Group', 'Magic']"
-ace,We Are Right Here,10,10,0,"['Group', 'Magic', 'Traps']"
-ace,Feather Brigade,4,4,260,"['Group', 'Magic', 'NoFree']"
-ace,Enhanced Spiral Combo (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
-ace,Enhanced Jackpot Triad (C),3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ace,BRV Attack+,4725,0,0,0,['Magic'],GL
+ace,BRV Attack++,4894,0,0,0,['Magic'],GL
+ace,HP Attack+,4732,1,0,0,"['Group', 'Magic']",GL
+ace,HP Attack++,4895,1,0,0,"['Group', 'Magic']",GL
+ace,HP Attack+ (Blind Stud Turn),13991,1,1,0,"['Group', 'Magic', 'Instant', 'NoFree']",GL
+ace,Burst,17718,2,0,20,['Magic'],GL
+ace,Mega Burst,17719,2,0,20,['Magic'],GL
+ace,Mega Burst+,20029,8,1,20,['Magic'],GL
+ace,Spiral Combo,17724,2,1,20,"['Group', 'Magic']",GL
+ace,Great Spiral Combo,17725,2,1,20,"['Group', 'Magic']",GL
+ace,Great Spiral Combo+,20031,5,5,20,"['Group', 'Magic']",GL
+ace,Attack Up,17730,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+ace,Jackpot Shot,20032,6,6,10,['Magic'],GL
+ace,Jackpot Triad,17728,5,5,15,"['Group', 'Magic', 'NoFree']",GL
+ace,Blind Stud,17729,1,1,0,"['Magic', 'Traps', 'NoFree']",GL
+ace,Blind Stud,17759,1,1,15,"['Magic', 'FollowUp', 'NoFree']",GL
+ace,VB Type 100,13995,2,2,400,"['Group', 'Magic']",GL
+ace,We Are Right Here,20033,10,10,0,"['Group', 'Magic', 'Traps']",GL
+ace,Feather Brigade,20038,4,4,250,"['Group', 'Magic', 'NoFree']",GL
+ace,Enhanced Spiral Combo (C),13997,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL
+ace,Enhanced Jackpot Triad (C),13999,3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

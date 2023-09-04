@@ -1,15 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-seven,BRV Attack+,0,0,0,"['Melee', 'Fire', 'Ice', 'Thunder']"
-seven,HP Attack+,1,0,0,['Melee']
-seven,HP Attack++,1,0,0,['Melee']
-seven,HP Attack (Bondage Whip),3,1,0,['Melee']
-seven,"BRV, HP damage from Bondage Whip",1,1,0,['FollowUp']
-seven,Snakebite & Lash,4,1,20,['Melee']
-seven,Elementalash,4,0,10,"['Melee', 'Fire', 'Ice', 'Thunder', 'FollowUp']"
-seven,Debuff Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-seven,Sadistic Spikes,5,5,10,['Melee']
-seven,Diving Strike,7,1,7,"['Melee', 'Instant', 'NoFree']"
-seven,Exploit Weakness,4,0,660,"['Melee', 'NoFree']"
-seven,Enhanced Elementalash (C),1,0,0,"['Melee', 'Fire', 'Ice', 'Thunder', 'Instant', 'NoEX', 'NoFree']"
-seven,Enhanced Additional attack from Snakebite (C),1,0,0,"['Melee', 'Fire', 'Ice', 'Thunder', 'NoEX']"
-seven,Enhanced Diving Strike (C),2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+seven,BRV Attack+,6224,0,0,0,"['Melee', 'Fire', 'Ice', 'Thunder']",GL
+seven,HP Attack+,5934,1,0,0,['Melee'],GL
+seven,HP Attack++,6229,1,0,0,['Melee'],GL
+seven,HP Attack (Bondage Whip),19378,3,1,0,['Melee'],GL
+seven,"BRV, HP damage from Bondage Whip",19380,1,1,0,['FollowUp'],GL
+seven,Snakebite & Lash,19251,4,1,20,['Melee'],GL
+seven,Elementalash,19253,4,0,10,"['Melee', 'Fire', 'Ice', 'Thunder']",GL
+seven,Elementalash,19254,4,0,10,"['Melee', 'Fire', 'Ice', 'Thunder', 'FollowUp']",GL
+seven,Debuff Attack Up,17758,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+seven,Sadistic Spikes,19255,5,5,10,['Melee'],GL
+seven,Diving Strike,19256,7,1,7,"['Melee', 'Instant', 'NoFree']",GL
+seven,Exploit Weakness,19261,4,0,650,"['Melee', 'NoFree']",GL
+seven,Enhanced Elementalash (C),12161,1,0,0,"['Melee', 'Fire', 'Ice', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL
+seven,Enhanced Additional attack from Snakebite (C),12501,1,0,0,"['Melee', 'Fire', 'Ice', 'Thunder', 'NoEX']",GL
+seven,Enhanced Diving Strike (C),12163,2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL

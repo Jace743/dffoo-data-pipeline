@@ -1,20 +1,20 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-prompto,BRV Attack++,0,0,0,['Ranged']
-prompto,BRV Attack+,0,0,0,['Ranged']
-prompto,Overkill,0,0,0,['Ranged']
-prompto,Overkill+,0,0,0,['Ranged']
-prompto,Overkill++,2,0,0,['Ranged']
-prompto,HP Attack++,1,0,0,['Ranged']
-prompto,HP Attack+,1,0,0,['Ranged']
-prompto,Crackshot,1,1,0,"['Ranged', 'IgnoreDEF']"
-prompto,Crackshot+,1,1,0,"['Ranged', 'IgnoreDEF']"
-prompto,Crackshot++,2,1,0,"['Ranged', 'IgnoreDEF']"
-prompto,Starshell,0,0,20,[]
-prompto,Starshell Follow Up,1,0,20,"['Ranged', 'FollowUp']"
-prompto,Piercer,1,1,20,['Ranged']
-prompto,Attack Speed Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-prompto,Trigger-Happy,10,10,5,"['Group', 'Ranged']"
-prompto,Reversible Shot,3,3,15,"['Group', 'Ranged', 'NoFree']"
-prompto,Link Attack,2,1,10,"['Ranged', 'FollowUp']"
-prompto,Enhanced Starshell (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-prompto,Enhanced Starshell (C) Follow Up,1,0,0,"['Ranged', 'Instant', 'FollowUp']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+prompto,BRV Attack++,8384,0,0,0,['Ranged'],GL
+prompto,BRV Attack+,7992,0,0,0,['Ranged'],GL
+prompto,Overkill,7994,0,0,0,['Ranged'],GL
+prompto,Overkill+,8317,0,0,0,['Ranged'],GL
+prompto,Overkill++,15420,2,0,0,['Ranged'],GL
+prompto,HP Attack++,8386,1,0,0,['Ranged'],GL
+prompto,HP Attack+,4170,1,0,0,['Ranged'],GL
+prompto,Crackshot,7996,1,1,0,"['Ranged', 'IgnoreDEF']",GL
+prompto,Crackshot+,8320,1,1,0,"['Ranged', 'IgnoreDEF']",GL
+prompto,Crackshot++,15421,2,1,0,"['Ranged', 'IgnoreDEF']",GL
+prompto,Starshell,7986,0,0,20,[],GL
+prompto,Starshell Follow Up,7988,1,0,20,"['Ranged', 'FollowUp']",GL
+prompto,Piercer,7990,1,1,20,['Ranged'],GL
+prompto,Attack Speed Up,15422,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+prompto,Trigger-Happy,15419,10,10,5,"['Group', 'Ranged']",GL
+prompto,Reversible Shot,14004,3,3,15,"['Group', 'Ranged', 'NoFree']",GL
+prompto,Link Attack,14006,2,1,10,"['Ranged', 'FollowUp']",GL
+prompto,Enhanced Starshell (C),14008,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+prompto,Enhanced Starshell (C) Follow Up,14162,1,0,0,"['Ranged', 'Instant', 'FollowUp']",GL

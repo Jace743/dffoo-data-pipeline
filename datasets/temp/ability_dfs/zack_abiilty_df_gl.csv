@@ -1,14 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-zack,BRV Attack+,0,0,0,['Melee']
-zack,BRV Attack++,0,0,0,['Melee']
-zack,HP Attack+,1,0,0,['Melee']
-zack,HP Attack++,1,0,0,['Melee']
-zack,Chain Slash,3,1,20,"['Melee', 'FollowUp']"
-zack,Rush Assault,6,0,20,"['Melee', 'IgnoreDEF']"
-zack,Base Up Advance,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-zack,Apocalypse,5,5,10,"['Group', 'Magic', 'Heals']"
-zack,Meteor Shots,5,5,15,"['Group', 'Magic', 'Heals', 'NoFree']"
-zack,The Price of Freedom,12,1,400,['Melee']
-zack,Scorcher Blaze,5,5,260,"['Group', 'Melee', 'NoFree']"
-zack,Enhanced Chain Slash (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-zack,Enhanced Meteor Shots (C),2,2,0,"['Group', 'Magic', 'Heals', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+zack,BRV Attack+,3938,0,0,0,['Melee'],GL
+zack,BRV Attack++,6481,0,0,0,['Melee'],GL
+zack,HP Attack+,3939,1,0,0,['Melee'],GL
+zack,HP Attack++,6482,1,0,0,['Melee'],GL
+zack,Chain Slash,19595,3,1,20,['Melee'],GL
+zack,Chain Slash,19597,3,1,20,"['Melee', 'FollowUp']",GL
+zack,Rush Assault,19600,6,0,20,"['Melee', 'IgnoreDEF']",GL
+zack,Chain Slash,19661,3,1,20,"['Melee', 'FollowUp']",GL
+zack,Base Up Advance,16027,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+zack,Apocalypse,19601,5,5,10,"['Group', 'Magic', 'Heals']",GL
+zack,Meteor Shots,19602,5,5,15,"['Group', 'Magic', 'Heals', 'NoFree']",GL
+zack,The Price of Freedom,16026,12,1,400,['Melee'],GL
+zack,Scorcher Blaze,19607,5,5,250,"['Group', 'Melee', 'NoFree']",GL
+zack,Enhanced Chain Slash (C),10121,1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+zack,Enhanced Meteor Shots (C),14017,2,2,0,"['Group', 'Magic', 'Heals', 'NoEX', 'NoFree']",GL

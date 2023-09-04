@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-fran,BRV Attack+,0,0,0,['Ranged']
-fran,BRV Attack++,0,0,0,"['Group', 'Ranged']"
-fran,HP Attack+,1,0,0,"['Group', 'Ranged']"
-fran,HP Attack++,1,0,0,"['Group', 'Ranged']"
-fran,Feral Strike,2,1,20,['Ranged']
-fran,Feral Strike+,4,1,20,['Ranged']
-fran,Whip Kick,2,2,20,"['Group', 'Ranged']"
-fran,Whip Kick+,4,4,20,"['Group', 'Ranged']"
-fran,Whip Kick Recovery,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-fran,Shatterheart,2,2,10,"['Group', 'Ranged']"
-fran,Shatterheart+,4,4,10,"['Group', 'Ranged']"
-fran,Celestial Raid,4,4,15,"['Group', 'Ranged', 'NoFree']"
-fran,Enhanced Whip Kick (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
-fran,Enhanced Celestial Raid (C),3,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+fran,BRV Attack+,4049,0,0,0,['Ranged'],GL
+fran,BRV Attack++,14946,0,0,0,"['Group', 'Ranged']",GL
+fran,HP Attack+,4056,1,0,0,"['Group', 'Ranged']",GL
+fran,HP Attack++,7378,1,0,0,"['Group', 'Ranged']",GL
+fran,Feral Strike,16827,2,1,20,['Ranged'],GL
+fran,Feral Strike+,16828,4,1,20,['Ranged'],GL
+fran,Whip Kick,16831,2,2,20,"['Group', 'Ranged']",GL
+fran,Whip Kick+,16832,4,4,20,"['Group', 'Ranged']",GL
+fran,Whip Kick Recovery,16836,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+fran,Shatterheart,16833,2,2,10,"['Group', 'Ranged']",GL
+fran,Shatterheart+,16834,4,4,10,"['Group', 'Ranged']",GL
+fran,Celestial Raid,16835,4,4,15,"['Group', 'Ranged', 'NoFree']",GL
+fran,Enhanced Whip Kick (C),14339,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+fran,Enhanced Celestial Raid (C),14948,3,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

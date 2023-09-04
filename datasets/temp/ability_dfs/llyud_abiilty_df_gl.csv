@@ -1,13 +1,13 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-llyud,BRV Attack+,0,0,0,['Ranged']
-llyud,BRV Attack++,0,0,0,['Ranged']
-llyud,HP Attack+,1,0,0,['Ranged']
-llyud,HP Attack++,1,0,0,['Ranged']
-llyud,Aura Spear,3,1,20,['Ranged']
-llyud,Crimson Wings,3,3,20,"['Group', 'Ranged', 'Heals']"
-llyud,HP Heal Attack All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
-llyud,Fanfare,4,4,10,"['Group', 'Ranged', 'Heals']"
-llyud,Enfuse Spirit,4,4,15,"['Group', 'Ranged', 'Heals', 'NoFree']"
-llyud,Technical Spear,3,3,250,"['Group', 'Ranged', 'Heals', 'NoFree']"
-llyud,Enhanced Crimson Wings (C),1,1,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']"
-llyud,Enhanced Enfuse Spirit (C),4,4,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+llyud,BRV Attack+,15295,0,0,0,['Ranged'],GL
+llyud,BRV Attack++,15302,0,0,0,['Ranged'],GL
+llyud,HP Attack+,15296,1,0,0,['Ranged'],GL
+llyud,HP Attack++,15303,1,0,0,['Ranged'],GL
+llyud,Aura Spear,18053,3,1,20,['Ranged'],GL
+llyud,Crimson Wings,18055,3,3,20,"['Group', 'Ranged', 'Heals']",GL
+llyud,HP Heal Attack All,15315,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",GL
+llyud,Fanfare,18056,4,4,10,"['Group', 'Ranged', 'Heals']",GL
+llyud,Enfuse Spirit,18057,4,4,15,"['Group', 'Ranged', 'Heals', 'NoFree']",GL
+llyud,Technical Spear,18061,3,3,250,"['Group', 'Ranged', 'Heals', 'NoFree']",GL
+llyud,Enhanced Crimson Wings (C),15308,1,1,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+llyud,Enhanced Enfuse Spirit (C),15310,4,4,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL

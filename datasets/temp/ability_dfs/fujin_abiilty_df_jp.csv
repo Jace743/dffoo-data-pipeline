@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-fujin,BRV Attack++,0,0,0,"['Group', 'Ranged', 'Wind']"
-fujin,BRV Attack+,0,0,0,"['Group', 'Ranged', 'Wind']"
-fujin,HP Attack+,1,0,0,"['Ranged', 'Wind']"
-fujin,Metsu,3,3,20,"['Group', 'Ranged']"
-fujin,Metsu+,5,5,20,"['Group', 'Ranged', 'Wind', 'KnockBack']"
-fujin,Sai,3,1,20,"['Melee', 'Wind']"
-fujin,Sai+,8,1,20,"['Melee', 'Wind', 'KnockBack']"
-fujin,Delay Attack All Throw,1,0,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoSummon', 'NoEX']"
-fujin,Tai,7,7,10,"['Group', 'Ranged', 'Wind', 'KnockBack']"
-fujin,Wind Slash,3,0,10,"['Ranged', 'Wind', 'KnockBack', 'Traps']"
-fujin,Satsu,7,7,15,"['Group', 'Ranged', 'Wind', 'KnockBack', 'NoFree']"
-fujin,Nagi,2,2,350,"['Group', 'Ranged']"
-fujin,Hyō,4,4,260,"['Group', 'Ranged', 'Wind', 'KnockBack', 'NoFree']"
-fujin,Enhanced Metsu (C),1,1,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']"
-fujin,Enhanced Satsu (C),2,2,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+fujin,BRV Attack++,12622,0,0,0,"['Group', 'Ranged', 'Wind']",JP
+fujin,BRV Attack+,8200,0,0,0,"['Group', 'Ranged', 'Wind']",JP
+fujin,HP Attack+,8201,1,0,0,"['Ranged', 'Wind']",JP
+fujin,Metsu,17407,3,3,20,"['Group', 'Ranged']",JP
+fujin,Metsu+,20818,5,5,20,"['Group', 'Ranged', 'Wind', 'KnockBack']",JP
+fujin,Sai,17411,3,1,20,"['Melee', 'Wind']",JP
+fujin,Sai+,20820,8,1,20,"['Melee', 'Wind', 'KnockBack']",JP
+fujin,Delay Attack All Throw,17416,1,0,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoSummon', 'NoEX']",JP
+fujin,Tai,20821,7,7,10,"['Group', 'Ranged', 'Wind', 'KnockBack']",JP
+fujin,Wind Slash,17414,3,0,10,"['Ranged', 'Wind', 'KnockBack', 'Traps']",JP
+fujin,Satsu,20822,7,7,15,"['Group', 'Ranged', 'Wind', 'KnockBack', 'NoFree']",JP
+fujin,Nagi,20826,2,2,350,"['Group', 'Ranged']",JP
+fujin,Hyō,20823,4,4,250,"['Group', 'Ranged', 'Wind', 'KnockBack', 'NoFree']",JP
+fujin,Enhanced Metsu (C),12561,1,1,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']",JP
+fujin,Enhanced Satsu (C),12563,2,2,0,"['Group', 'Ranged', 'Wind', 'Instant', 'NoEX', 'NoFree']",JP

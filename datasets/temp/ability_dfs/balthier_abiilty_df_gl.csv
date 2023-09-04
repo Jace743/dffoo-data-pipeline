@@ -1,18 +1,19 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-balthier,BRV Attack+,0,0,0,['Ranged']
-balthier,BRV Attack++,0,0,0,['Ranged']
-balthier,HP Attack+,1,0,0,['Ranged']
-balthier,HP Attack++,1,0,0,['Ranged']
-balthier,Snatch Shot,2,2,20,"['Group', 'Ranged']"
-balthier,Snatch Shot+,4,4,20,"['Group', 'Ranged']"
-balthier,Great Aim,3,1,20,['Ranged']
-balthier,Great Aim+,4,1,20,['Ranged']
-balthier,Great Aim+ (Follow Up),4,1,20,"['Ranged', 'FollowUp']"
-balthier,Steal BRV Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-balthier,Fires of War,5,5,10,"['Group', 'Ranged']"
-balthier,Tides of Fate,6,6,15,"['Group', 'Ranged', 'NoFree']"
-balthier,Element of Treachery,2,0,600,['Ranged']
-balthier,Gorgon Shot,4,4,0,"['Group', 'Ranged', 'FollowUp']"
-balthier,Wake Damage,5,5,260,"['Group', 'Ranged', 'Instant', 'NoFree']"
-balthier,Enhanced Great Aim+ (C),1,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"
-balthier,Enhanced Tides of Fate (C),2,2,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+balthier,BRV Attack+,4096,0,0,0,['Ranged'],GL
+balthier,BRV Attack++,13319,0,0,0,['Ranged'],GL
+balthier,HP Attack+,3465,1,0,0,['Ranged'],GL
+balthier,HP Attack++,13320,1,0,0,['Ranged'],GL
+balthier,Snatch Shot,18232,2,2,20,"['Group', 'Ranged']",GL
+balthier,Snatch Shot+,19610,4,4,20,"['Group', 'Ranged']",GL
+balthier,Great Aim,18236,3,1,20,['Ranged'],GL
+balthier,Great Aim+,19613,4,1,20,['Ranged'],GL
+balthier,Great Aim+ Follow Up,19614,4,1,20,"['Ranged', 'FollowUp']",GL
+balthier,Steal BRV Attack Up,16613,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+balthier,Fires of War,19615,5,5,10,"['Group', 'Ranged']",GL
+balthier,Tides of Fate,16614,3,3,15,"['Group', 'Ranged', 'NoFree']",GL
+balthier,Tides of Fate,18239,6,6,15,"['Group', 'Ranged', 'NoFree']",GL
+balthier,Element of Treachery,19620,2,0,600,['Ranged'],GL
+balthier,Gorgon Shot,19618,4,4,0,"['Group', 'Ranged', 'FollowUp']",GL
+balthier,Wake Damage,19616,5,5,250,"['Group', 'Ranged', 'Instant', 'NoFree']",GL
+balthier,Enhanced Great Aim+ (C),13287,1,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+balthier,Enhanced Tides of Fate (C),14783,2,2,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

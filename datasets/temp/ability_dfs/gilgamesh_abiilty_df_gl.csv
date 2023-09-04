@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-gilgamesh,Kotetsu,0,0,0,['Melee']
-gilgamesh,Genji Blade,1,0,0,['Melee']
-gilgamesh,Royal Sword？(III),3,1,10,"['Melee', 'Instant']"
-gilgamesh,Mythgraven Blade？(IV),3,1,10,"['Melee', 'Heals', 'Instant']"
-gilgamesh,Apocalypse？(VII),3,1,10,"['Melee', 'Instant']"
-gilgamesh,Icebrand？(T),3,1,10,"['Melee', 'Instant', 'KnockBack']"
-gilgamesh,Death Claw,4,0,20,['Melee']
-gilgamesh,Mad Dance,4,0,20,['Melee']
-gilgamesh,Wild Dance,4,1,20,['Melee']
-gilgamesh,Advance Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-gilgamesh,Hurricane,5,1,10,"['Group', 'Melee']"
-gilgamesh,I suppose I misjudged!,4,4,15,"['Group', 'Melee', 'NoFree']"
-gilgamesh,Ultimate Illusion,5,5,500,"['Group', 'Melee']"
-gilgamesh,Enhanced Wild Dance (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-gilgamesh,Enhanced I suppose I misjudged! (C),4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+gilgamesh,Kotetsu,4522,0,0,0,['Melee'],GL
+gilgamesh,Genji Blade,4524,1,0,0,['Melee'],GL
+gilgamesh,Royal Sword？(III),18838,3,1,10,"['Melee', 'Instant']",GL
+gilgamesh,Mythgraven Blade？(IV),18839,3,1,10,"['Melee', 'Heals', 'Instant']",GL
+gilgamesh,Apocalypse？(VII),18840,3,1,10,"['Melee', 'Instant']",GL
+gilgamesh,Icebrand？(T),18841,3,1,10,"['Melee', 'Instant', 'KnockBack']",GL
+gilgamesh,Death Claw,18832,4,0,20,['Melee'],GL
+gilgamesh,Mad Dance,18834,4,0,20,['Melee'],GL
+gilgamesh,Wild Dance,18835,4,1,20,['Melee'],GL
+gilgamesh,Advance Up,15558,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+gilgamesh,Hurricane,18836,5,1,10,"['Group', 'Melee']",GL
+gilgamesh,I suppose I misjudged!,18837,4,4,15,"['Group', 'Melee', 'NoFree']",GL
+gilgamesh,Ultimate Illusion,15557,5,5,100,"['Group', 'Melee']",GL
+gilgamesh,Enhanced Wild Dance (C),13440,1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+gilgamesh,Enhanced I suppose I misjudged! (C),15560,4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

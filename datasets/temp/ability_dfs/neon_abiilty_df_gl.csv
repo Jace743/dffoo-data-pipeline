@@ -1,14 +1,14 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-neon,BRV Attack+,0,0,0,['Magic']
-neon,BRV Attack++,0,0,0,['Magic']
-neon,HP Attack+,1,0,0,['Magic']
-neon,HP Attack++,1,0,0,['Magic']
-neon,Asura,6,0,20,"['Magic', 'Fire', 'Instant']"
-neon,Inferno,4,4,20,"['Group', 'Magic', 'Fire']"
-neon,Fire Enchant All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-neon,Sword of Fury,5,5,10,"['Group', 'Magic', 'Fire', 'Instant']"
-neon,Fiend of Fire,6,1,15,"['Magic', 'Fire', 'NoFree']"
-neon,Firebringer,2,2,400,"['Group', 'Magic', 'Fire']"
-neon,Double Runic,4,4,260,"['Group', 'Magic', 'Fire', 'NoFree']"
-neon,Enhanced Asura (C),6,0,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']"
-neon,Enhanced Fiend of Fire (C),6,1,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+neon,BRV Attack+,19287,0,0,0,['Magic'],GL
+neon,BRV Attack++,19294,0,0,0,['Magic'],GL
+neon,HP Attack+,19288,1,0,0,['Magic'],GL
+neon,HP Attack++,19295,1,0,0,['Magic'],GL
+neon,Asura,19282,6,0,20,"['Magic', 'Fire', 'Instant']",GL
+neon,Inferno,19286,4,4,20,"['Group', 'Magic', 'Fire']",GL
+neon,Fire Enchant All,19311,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+neon,Sword of Fury,19293,5,5,10,"['Group', 'Magic', 'Fire', 'Instant']",GL
+neon,Fiend of Fire,19298,6,1,15,"['Magic', 'Fire', 'NoFree']",GL
+neon,Firebringer,19306,2,2,400,"['Group', 'Magic', 'Fire']",GL
+neon,Double Runic,19303,4,4,250,"['Group', 'Magic', 'Fire', 'NoFree']",GL
+neon,Enhanced Asura (C),19313,6,0,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL
+neon,Enhanced Fiend of Fire (C),19315,6,1,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL

@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-porom,BRV Attack+,0,0,0,['Magic']
-porom,BRV Attack++,0,0,0,['Magic']
-porom,HP Attack+,1,0,0,['Magic']
-porom,HP Attack++,1,0,0,['Magic']
-porom,Cry,0,0,0,[]
-porom,Cry+,0,0,0,[]
-porom,Mysidian Brilliance,0,0,0,['Heals']
-porom,Mysidian Brilliance+,0,0,0,['Heals']
-porom,HP Heal Attack All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
-porom,White Wave,4,4,10,"['Group', 'Magic', 'Heals']"
-porom,Twincast Double Flare,4,4,15,"['Group', 'Magic', 'Heals', 'NoFree']"
-porom,Additional attack from Twin Conviction,3,3,10,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']"
-porom,Enhanced Cry (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-porom,Enhanced Twincast Double Flare (C),2,2,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+porom,BRV Attack+,4197,0,0,0,['Magic'],GL
+porom,BRV Attack++,17008,0,0,0,['Magic'],GL
+porom,HP Attack+,4205,1,0,0,['Magic'],GL
+porom,HP Attack++,17009,1,0,0,['Magic'],GL
+porom,Cry,4195,0,0,0,[],GL
+porom,Cry+,4196,0,0,0,[],GL
+porom,Mysidian Brilliance,4203,0,0,0,['Heals'],GL
+porom,Mysidian Brilliance+,4204,0,0,0,['Heals'],GL
+porom,HP Heal Attack All,16858,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",GL
+porom,White Wave,16855,4,4,10,"['Group', 'Magic', 'Heals']",GL
+porom,Twincast Double Flare,16856,4,4,15,"['Group', 'Magic', 'Heals', 'NoFree']",GL
+porom,Additional attack from Twin Conviction,16857,3,3,10,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']",GL
+porom,Enhanced Cry (C),12094,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+porom,Enhanced Twincast Double Flare (C),12901,2,2,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL

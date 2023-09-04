@@ -1,25 +1,25 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-kamlanaut,BRV Attack+,0,0,0,"['Melee', 'Ice']"
-kamlanaut,BRV Attack++,0,0,0,"['Melee', 'Ice']"
-kamlanaut,BRV Attack+++,0,0,0,"['Melee', 'Ice']"
-kamlanaut,HP Attack+,1,0,0,"['Melee', 'Ice']"
-kamlanaut,HP Attack++,2,0,0,"['Melee', 'Ice']"
-kamlanaut,Frost Blade,2,1,20,"['Melee', 'Ice']"
-kamlanaut,Glacification,3,1,20,"['Melee', 'Ice']"
-kamlanaut,Glacification+,4,1,20,"['Melee', 'Ice']"
-kamlanaut,Enfeeblement from Esoteric Region,0,0,0,"['Instant', 'Counters']"
-kamlanaut,Enfeeblement from Desire of Provenance,0,0,0,"['Instant', 'Counters']"
-kamlanaut,Esoteric Region,0,0,20,[]
-kamlanaut,Esoteric Region+,0,0,20,[]
-kamlanaut,Esoteric Region Follow Up,3,0,20,"['Melee', 'Ice', 'FollowUp']"
-kamlanaut,Esoteric Region+ Follow Up,4,0,20,"['Melee', 'Ice', 'FollowUp']"
-kamlanaut,Set Desire of Provenance Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-kamlanaut,Great Wheel,3,3,10,"['Group', 'Melee']"
-kamlanaut,Great Wheel+,4,4,10,"['Group', 'Melee']"
-kamlanaut,Light Blade,4,4,15,"['Melee', 'NoFree']"
-kamlanaut,Transcandescent Blade,2,2,400,"['Group', 'Melee']"
-kamlanaut,Extra turn from Bondage from Antiquity,0,0,0,"['Instant', 'FollowUp']"
-kamlanaut,Enfeeblement from Transcandescent Blade,0,0,0,"['Instant', 'FollowUp']"
-kamlanaut,Djinn Blade,3,3,250,"['Group', 'Melee', 'NoFree']"
-kamlanaut,Enhanced Esoteric Region (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-kamlanaut,Enhanced Light Blade (C),2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+kamlanaut,BRV Attack+,6733,0,0,0,"['Melee', 'Ice']",GL
+kamlanaut,BRV Attack++,6734,0,0,0,"['Melee', 'Ice']",GL
+kamlanaut,BRV Attack+++,17347,0,0,0,"['Melee', 'Ice']",GL
+kamlanaut,HP Attack+,10242,1,0,0,"['Melee', 'Ice']",GL
+kamlanaut,HP Attack++,10243,2,0,0,"['Melee', 'Ice']",GL
+kamlanaut,Frost Blade,17194,2,1,20,"['Melee', 'Ice']",GL
+kamlanaut,Glacification,17195,3,1,20,"['Melee', 'Ice']",GL
+kamlanaut,Glacification+,17196,4,1,20,"['Melee', 'Ice']",GL
+kamlanaut,Enfeeblement from Esoteric Region,10305,0,0,0,"['Instant', 'Counters']",GL
+kamlanaut,Enfeeblement from Desire of Provenance,10306,0,0,0,"['Instant', 'Counters']",GL
+kamlanaut,Esoteric Region,17201,0,0,20,[],GL
+kamlanaut,Esoteric Region+,17202,0,0,20,[],GL
+kamlanaut,Esoteric Region Follow Up,17207,3,0,20,"['Melee', 'Ice', 'FollowUp']",GL
+kamlanaut,Esoteric Region+ Follow Up,17208,4,0,20,"['Melee', 'Ice', 'FollowUp']",GL
+kamlanaut,Set Desire of Provenance Attack Up,17212,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+kamlanaut,Great Wheel,17210,3,3,10,"['Group', 'Melee']",GL
+kamlanaut,Great Wheel+,17211,4,4,10,"['Group', 'Melee']",GL
+kamlanaut,Light Blade,17213,4,4,15,"['Melee', 'NoFree']",GL
+kamlanaut,Transcandescent Blade,17217,2,2,400,"['Group', 'Melee']",GL
+kamlanaut,Extra turn from Bondage from Antiquity,17215,0,0,0,"['Instant', 'FollowUp']",GL
+kamlanaut,Enfeeblement from Transcandescent Blade,17241,0,0,0,"['Instant', 'FollowUp']",GL
+kamlanaut,Djinn Blade,17233,3,3,250,"['Group', 'Melee', 'NoFree']",GL
+kamlanaut,Enhanced Esoteric Region (C),10279,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+kamlanaut,Enhanced Light Blade (C),11420,2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL

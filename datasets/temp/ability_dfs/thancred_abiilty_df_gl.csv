@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-thancred,BRV Attack+ (Ninki),0,0,0,['Melee']
-thancred,BRV Attack++,0,0,0,['Melee']
-thancred,BRV Attack++ (Ninki),1,0,0,"['Melee', 'Instant']"
-thancred,Trick Attack,3,1,10,"['Melee', 'Instant']"
-thancred,HP Attack+,1,1,0,"['Group', 'Melee']"
-thancred,HP Attack++,1,0,0,['Melee']
-thancred,Jugulating Wasp,4,0,20,['Melee']
-thancred,Shadow Fang,3,1,20,['Melee']
-thancred,Slash Set Poison All,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
-thancred,Bhavacakra,3,3,10,['Magic']
-thancred,Bhavacakra+,4,4,10,['Magic']
-thancred,Dream Within a Dream & Assassinate,6,0,15,"['Melee', 'NoFree']"
-thancred,Enhanced Shadow Fang (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-thancred,Enhanced Dream Within a Dream & Assassinate (C),6,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+thancred,BRV Attack+ (Ninki),3507,0,0,0,['Melee'],GL
+thancred,BRV Attack++,10007,0,0,0,['Melee'],GL
+thancred,BRV Attack++ (Ninki),18521,2,0,0,"['Melee', 'Instant']",GL
+thancred,Trick Attack,18523,3,1,10,"['Melee', 'Instant']",GL
+thancred,HP Attack+,3503,1,1,0,"['Group', 'Melee']",GL
+thancred,HP Attack++,9881,1,0,0,['Melee'],GL
+thancred,Jugulating Wasp,18516,4,0,20,['Melee'],GL
+thancred,Shadow Fang,18518,3,1,20,['Melee'],GL
+thancred,Slash Set Poison All,16319,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+thancred,Bhavacakra,18519,3,3,10,['Magic'],GL
+thancred,Bhavacakra+,18520,4,4,10,['Magic'],GL
+thancred,Dream Within a Dream & Assassinate,18522,6,0,15,"['Melee', 'NoFree']",GL
+thancred,Enhanced Shadow Fang (C),12293,1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+thancred,Enhanced Dream Within a Dream & Assassinate (C),16334,6,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL

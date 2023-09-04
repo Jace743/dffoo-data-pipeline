@@ -1,13 +1,13 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-barret,BRV Attack+,0,0,0,['Ranged']
-barret,BRV Attack++,0,0,0,['Ranged']
-barret,HP Attack+,1,0,0,['Ranged']
-barret,HP Attack++,1,1,0,['Ranged']
-barret,Big Shot,2,1,20,['Ranged']
-barret,Grenade Bomb,3,3,20,"['Group', 'Ranged']"
-barret,All Physical Attack,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-barret,Satellite Beam,4,4,10,"['Group', 'Ranged']"
-barret,Beam,3,0,65,"['Ranged', 'FollowUp']"
-barret,Maximum Fury,10,0,15,"['Group', 'Ranged', 'NoFree']"
-barret,Enhanced Grenade Bomb (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
-barret,Enhanced Maximum Fury (C),10,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+barret,BRV Attack+,13524,0,0,0,['Ranged'],GL
+barret,BRV Attack++,13529,0,0,0,['Ranged'],GL
+barret,HP Attack+,13525,1,0,0,['Ranged'],GL
+barret,HP Attack++,13530,1,1,0,['Ranged'],GL
+barret,Big Shot,17349,2,1,20,['Ranged'],GL
+barret,Grenade Bomb,17351,3,3,20,"['Group', 'Ranged']",GL
+barret,All Physical Attack,17354,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+barret,Satellite Beam,17352,4,4,10,"['Group', 'Ranged']",GL
+barret,Beam,17353,3,0,10,"['Ranged', 'FollowUp']",GL
+barret,Maximum Fury,13528,10,0,15,"['Group', 'Ranged', 'NoFree']",GL
+barret,Enhanced Grenade Bomb (C),13532,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+barret,Enhanced Maximum Fury (C),13534,10,0,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

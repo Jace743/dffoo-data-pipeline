@@ -1,17 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-lunafreya,BRV Attack+,0,0,0,['Magic']
-lunafreya,BRV Attack++,0,0,0,['Magic']
-lunafreya,Quick Prayer,0,0,0,['Instant']
-lunafreya,HP Attack+,1,0,0,['Magic']
-lunafreya,HP Attack++,1,0,0,['Magic']
-lunafreya,Heavy Prayer,0,0,0,['Instant']
-lunafreya,Energy Heal,0,0,0,"['Heals', 'Instant']"
-lunafreya,Frigid Fubuki,4,1,20,"['Group', 'Magic', 'Ice']"
-lunafreya,Weak Damage Up All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-lunafreya,Diamond Dust,4,4,10,"['Group', 'Magic', 'Ice']"
-lunafreya,Awakening,0,0,15,"['Instant', 'NoFree']"
-lunafreya,Awakening Follow Up,3,3,15,"['Group', 'Magic', 'Instant', 'FollowUp']"
-lunafreya,Coronal Spark of Life,5,5,100,"['Group', 'Magic']"
-lunafreya,Furious Spray,3,3,250,"['Group', 'Magic', 'NoFree']"
-lunafreya,Enhanced Energy Heal (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
-lunafreya,Enhanced Awakening (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+lunafreya,BRV Attack+,17607,0,0,0,['Magic'],GL
+lunafreya,BRV Attack++,17617,0,0,0,['Magic'],GL
+lunafreya,Quick Prayer,17700,0,0,0,['Instant'],GL
+lunafreya,HP Attack+,17608,1,0,0,['Magic'],GL
+lunafreya,HP Attack++,17618,1,0,0,['Magic'],GL
+lunafreya,Heavy Prayer,17701,0,0,0,['Instant'],GL
+lunafreya,Energy Heal,17606,0,0,0,"['Heals', 'Instant']",GL
+lunafreya,Frigid Fubuki,17612,4,1,20,"['Group', 'Magic', 'Ice']",GL
+lunafreya,Weak Damage Up All,17636,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+lunafreya,Diamond Dust,17619,4,4,10,"['Group', 'Magic', 'Ice']",GL
+lunafreya,Awakening,17624,0,0,15,"['Instant', 'NoFree']",GL
+lunafreya,Awakening Follow Up,17827,3,3,15,"['Group', 'Magic', 'Instant', 'FollowUp']",GL
+lunafreya,Coronal Spark of Life,17627,5,5,100,"['Group', 'Magic']",GL
+lunafreya,Furious Spray,17631,3,3,250,"['Group', 'Magic', 'NoFree']",GL
+lunafreya,Enhanced Energy Heal (C),17638,0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']",GL
+lunafreya,Enhanced Awakening (C),17640,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL

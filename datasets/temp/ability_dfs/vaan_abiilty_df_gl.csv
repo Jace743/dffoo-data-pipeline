@@ -1,23 +1,23 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-vaan,BRV Attack+,0,0,0,['Melee']
-vaan,BRV Attack++,0,0,0,['Magic']
-vaan,HP Attack+,1,0,0,['Magic']
-vaan,HP Attack++,1,0,0,['Magic']
-vaan,Red Spiral,3,0,20,['Magic']
-vaan,Red Spiral+,4,0,20,['Magic']
-vaan,Whiteout,3,0,20,"['Magic', 'Ice', 'FollowUp']"
-vaan,Whiteout+,4,0,20,"['Magic', 'Ice', 'FollowUp']"
-vaan,White Whorl,3,0,20,"['Magic', 'Wind']"
-vaan,White Whorl+,3,1,20,"['Magic', 'Wind']"
-vaan,Luminescence,3,1,20,"['Magic', 'Holy', 'FollowUp']"
-vaan,Luminescence+,4,1,20,"['Magic', 'Holy', 'FollowUp']"
-vaan,BRV Up Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-vaan,Pyroclasm,4,1,10,"['Magic', 'Fire']"
-vaan,Pyroclasm+,4,1,10,"['Magic', 'Fire']"
-vaan,Pyroclasm++,4,1,10,"['Magic', 'Fire']"
-vaan,Pyroclasm++ Follow Up,4,1,10,"['Magic', 'Fire', 'FollowUp']"
-vaan,Earthen Eruption,6,6,15,"['Group', 'Magic', 'NoFree']"
-vaan,Calamitous Orb,2,0,600,['Magic']
-vaan,Rapid Chase,5,0,510,"['Magic', 'NoFree']"
-vaan,Enhanced White Whorl (C),1,0,0,"['Magic', 'Wind', 'Instant', 'NoEX', 'NoFree']"
-vaan,Enhanced Luminescence (C),1,0,0,"['Magic', 'Holy', 'Instant', 'FollowUp', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+vaan,BRV Attack+,4986,0,0,0,['Melee'],GL
+vaan,BRV Attack++,4987,0,0,0,['Magic'],GL
+vaan,HP Attack+,5679,1,0,0,['Magic'],GL
+vaan,HP Attack++,5832,1,0,0,['Magic'],GL
+vaan,Red Spiral,18392,3,0,20,['Magic'],GL
+vaan,Red Spiral+,18393,4,0,20,['Magic'],GL
+vaan,Whiteout,18394,3,0,20,"['Magic', 'Ice', 'FollowUp']",GL
+vaan,Whiteout+,18395,4,0,20,"['Magic', 'Ice', 'FollowUp']",GL
+vaan,White Whorl,18400,3,0,20,"['Magic', 'Wind']",GL
+vaan,White Whorl+,18402,3,1,20,"['Magic', 'Wind']",GL
+vaan,Luminescence,18401,3,1,20,"['Magic', 'Holy', 'FollowUp']",GL
+vaan,Luminescence+,18403,4,1,20,"['Magic', 'Holy', 'FollowUp']",GL
+vaan,BRV Up Attack Up,16446,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+vaan,Pyroclasm,18456,4,1,10,"['Magic', 'Fire']",GL
+vaan,Pyroclasm+,18457,4,1,10,"['Magic', 'Fire']",GL
+vaan,Pyroclasm++,18458,4,1,10,"['Magic', 'Fire']",GL
+vaan,Pyroclasm++ Follow Up,18459,4,1,10,"['Magic', 'Fire', 'FollowUp']",GL
+vaan,Earthen Eruption,18404,6,6,15,"['Group', 'Magic', 'NoFree']",GL
+vaan,Calamitous Orb,16449,2,0,600,['Magic'],GL
+vaan,Rapid Chase,19808,5,0,500,"['Magic', 'NoFree']",GL
+vaan,Enhanced White Whorl (C),13421,1,0,0,"['Magic', 'Wind', 'Instant', 'NoEX', 'NoFree']",GL
+vaan,Enhanced Luminescence (C),13422,1,0,0,"['Magic', 'Holy', 'Instant', 'FollowUp', 'NoEX', 'NoFree']",GL

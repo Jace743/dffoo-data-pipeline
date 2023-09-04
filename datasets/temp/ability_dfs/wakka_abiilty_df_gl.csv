@@ -1,12 +1,12 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-wakka,BRV Attack+,0,0,0,['Ranged']
-wakka,HP Attack+,1,0,0,['Ranged']
-wakka,Dark Attack,3,1,20,['Ranged']
-wakka,Brave Reels,0,0,20,[]
-wakka,Brave Reels Follow Up,3,0,20,"['Ranged', 'FollowUp']"
-wakka,Counter,0,0,0,"['Ranged', 'Counters']"
-wakka,Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-wakka,Attack Reels,4,4,10,"['Group', 'Ranged']"
-wakka,Status Reels,4,4,15,"['Group', 'Ranged', 'NoFree']"
-wakka,Enhanced Brave Reels (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-wakka,Enhanced Status Reels (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+wakka,BRV Attack+,7766,0,0,0,['Ranged'],GL
+wakka,HP Attack+,7767,1,0,0,['Ranged'],GL
+wakka,Dark Attack,16551,3,1,20,['Ranged'],GL
+wakka,Brave Reels,16553,0,0,20,[],GL
+wakka,Brave Reels Follow Up,16555,3,0,20,"['Ranged', 'FollowUp']",GL
+wakka,Counter,473,0,0,0,"['Ranged', 'Counters']",GL
+wakka,Attack All,16558,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+wakka,Attack Reels,16556,4,4,10,"['Group', 'Ranged']",GL
+wakka,Status Reels,16557,4,4,15,"['Group', 'Ranged', 'NoFree']",GL
+wakka,Enhanced Brave Reels (C),10378,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+wakka,Enhanced Status Reels (C),11951,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

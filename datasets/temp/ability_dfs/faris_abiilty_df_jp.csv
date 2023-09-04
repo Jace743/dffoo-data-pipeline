@@ -1,0 +1,18 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+faris,BRV Attack++,12576,0,0,0,"['Group', 'Melee']",JP
+faris,BRV Attack+,5443,0,0,0,['Melee'],JP
+faris,HP Attack+,5237,1,0,0,['Melee'],JP
+faris,HP Attack++,5242,1,0,0,['Melee'],JP
+faris,Waterwhirl,21283,9,1,20,"['Melee', 'Water']",JP
+faris,Waterwhirl+,21284,9,1,20,"['Melee', 'Water']",JP
+faris,Open Fire,21287,6,6,20,"['Group', 'Ranged', 'Water']",JP
+faris,Open Fire+,21288,6,6,20,"['Group', 'Ranged', 'Water']",JP
+faris,Debuff Attack Up,18102,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+faris,Thunderstorm,21289,8,8,10,"['Group', 'Ranged', 'Thunder', 'Water', 'Wind']",JP
+faris,Whirlpool,21413,6,1,10,"['Ranged', 'Water', 'Instant', 'Traps']",JP
+faris,Spellblade Sword Dance,21290,8,8,15,"['Melee', 'Thunder', 'Water', 'Wind', 'NoFree']",JP
+faris,Dragon Walking Sisters,21294,2,2,400,"['Group', 'Ranged']",JP
+faris,Whirlpool+,21295,12,3,0,"['Ranged', 'Water', 'Traps']",JP
+faris,Whirlpool Shot,21291,4,4,250,"['Group', 'Ranged', 'Water', 'NoFree']",JP
+faris,Enhanced Open Fire (C),12311,1,1,0,"['Group', 'Ranged', 'Water', 'Instant', 'NoEX', 'NoFree']",JP
+faris,Enhanced Spellblade Sword Dance (C),12313,3,1,0,"['Melee', 'Thunder', 'Water', 'Wind', 'Instant', 'NoEX', 'NoFree']",JP

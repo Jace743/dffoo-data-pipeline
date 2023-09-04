@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-leo,BRV Attack+,0,0,0,['Melee']
-leo,BRV Attack++,0,0,0,['Melee']
-leo,HP Attack+,1,0,0,['Melee']
-leo,HP Attack++,1,0,0,['Melee']
-leo,Call for Precision Strike,6,0,20,['Melee']
-leo,Master Blade,8,1,20,['Melee']
-leo,Set Precision Strike Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-leo,Shock,6,6,10,"['Group', 'Melee']"
-leo,Shock+,6,6,10,"['Group', 'Melee']"
-leo,Call for Ferocity,7,0,10,"['Melee', 'NoFree']"
-leo,Final Shock,2,0,600,['Melee']
-leo,Additional attack from Final Shock,4,0,0,"['Melee', 'FollowUp']"
-leo,Prominence Shock,5,0,510,"['Melee', 'NoFree']"
-leo,Enhanced Call for Precision Strike (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-leo,Enhanced Call for Ferocity (C),6,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+leo,BRV Attack+,7522,0,0,0,['Melee'],GL
+leo,BRV Attack++,7673,0,0,0,['Melee'],GL
+leo,HP Attack+,7523,1,0,0,['Melee'],GL
+leo,HP Attack++,7674,1,0,0,['Melee'],GL
+leo,Call for Precision Strike,19810,6,0,20,['Melee'],GL
+leo,Master Blade,19814,8,1,20,['Melee'],GL
+leo,Set Precision Strike Boost All,16262,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+leo,Shock,16260,6,6,10,"['Group', 'Melee']",GL
+leo,Shock+,16261,6,6,10,"['Group', 'Melee']",GL
+leo,Call for Ferocity,19815,7,0,10,"['Melee', 'NoFree']",GL
+leo,Final Shock,19824,2,0,600,['Melee'],GL
+leo,Additional attack from Final Shock,19822,4,0,0,"['Melee', 'FollowUp']",GL
+leo,Prominence Shock,19820,5,0,500,"['Melee', 'NoFree']",GL
+leo,Enhanced Call for Precision Strike (C),15071,1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+leo,Enhanced Call for Ferocity (C),16267,6,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL

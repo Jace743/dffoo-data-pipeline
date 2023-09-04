@@ -1,21 +1,21 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-cater,BRV Attack+,0,0,0,['Ranged']
-cater,Charged Shot,1,0,0,['Ranged']
-cater,Charged Shot (Charge LV 1),2,0,10,"['Ranged', 'Ice']"
-cater,Charged Shot (Max Charge),9,0,10,"['Ranged', 'Ice']"
-cater,HP Attack+,1,0,0,['Ranged']
-cater,Wide Shot,1,1,0,"['Group', 'Ranged']"
-cater,Wide Shot (Charge LV 1),1,1,10,"['Group', 'Ranged']"
-cater,Wide Shot (Max Charge),5,5,10,"['Group', 'Ranged']"
-cater,Blizzard ROK,1,0,20,"['Group', 'Magic', 'Ice']"
-cater,Blizzara ROK,6,1,20,"['Group', 'Magic', 'Ice']"
-cater,Counter,3,0,0,"['Magic', 'Ice', 'Instant', 'Counters']"
-cater,Triple Slip,0,0,0,['Instant']
-cater,Blizzard Shot,1,0,0,"['Magic', 'Ice', 'Instant', 'NoSummon', 'NoEX']"
-cater,Consecutive Rounds,5,5,10,"['Group', 'Magic']"
-cater,Land Mine,4,0,10,"['Magic', 'Ice', 'Instant', 'Traps']"
-cater,Frost Stilling Shot,5,5,15,"['Group', 'Magic', 'Ice', 'NoFree']"
-cater,MAX Freezing Explosive Shot,2,2,400,"['Group', 'Magic']"
-cater,Cheerful Yell,4,4,260,"['Group', 'Magic', 'Ice', 'NoFree']"
-cater,Enhanced Triple Slip (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-cater,Enhanced Frost Stilling Shot (C),4,4,0,"['Group', 'Magic', 'Ice', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+cater,BRV Attack+,8625,0,0,0,['Ranged'],JP
+cater,Charged Shot,8626,1,0,0,['Ranged'],JP
+cater,Charged Shot (Charge LV 1),15248,2,0,10,"['Ranged', 'Ice']",JP
+cater,Charged Shot (Max Charge),20570,9,0,10,"['Ranged', 'Ice']",JP
+cater,HP Attack+,8627,1,0,0,['Ranged'],JP
+cater,Wide Shot,8628,1,1,0,"['Group', 'Ranged']",JP
+cater,Wide Shot (Charge LV 1),15251,1,1,10,"['Group', 'Ranged']",JP
+cater,Wide Shot (Max Charge),20571,5,5,10,"['Group', 'Ranged']",JP
+cater,Blizzard ROK,8621,1,0,20,"['Group', 'Magic', 'Ice']",JP
+cater,Blizzara ROK,20565,6,1,20,"['Group', 'Magic', 'Ice']",JP
+cater,Counter,20566,3,0,0,"['Magic', 'Ice', 'Instant', 'Counters']",JP
+cater,Triple Slip,8624,0,0,0,['Instant'],JP
+cater,Blizzard Shot,15152,1,0,0,"['Magic', 'Ice', 'Instant', 'NoSummon', 'NoEX']",JP
+cater,Consecutive Rounds,20567,5,5,10,"['Group', 'Magic']",JP
+cater,Land Mine,20568,3,1,10,"['Magic', 'Ice', 'Instant', 'Traps']",JP
+cater,Frost Stilling Shot,20569,5,5,15,"['Group', 'Magic', 'Ice', 'NoFree']",JP
+cater,MAX Freezing Explosive Shot,20579,2,2,400,"['Group', 'Magic']",JP
+cater,Cheerful Yell,20576,4,4,250,"['Group', 'Magic', 'Ice', 'NoFree']",JP
+cater,Enhanced Triple Slip (C),11262,0,0,0,"['Instant', 'NoEX', 'NoFree']",JP
+cater,Enhanced Frost Stilling Shot (C),15286,4,4,0,"['Group', 'Magic', 'Ice', 'Instant', 'NoEX', 'NoFree']",JP

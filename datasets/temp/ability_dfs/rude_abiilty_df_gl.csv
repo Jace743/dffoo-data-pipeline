@@ -1,12 +1,12 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-rude,BRV Attack++,0,0,0,['Melee']
-rude,BRV Attack+,0,0,0,['Melee']
-rude,HP Attack++,1,0,0,['Melee']
-rude,HP Attack+,1,0,0,['Melee']
-rude,Crush Hammer,3,3,20,"['Group', 'Melee', 'Heals']"
-rude,Materia Tactics,4,0,20,"['Melee', 'Heals']"
-rude,Resist Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-rude,Grand Spark,5,1,10,"['Group', 'Melee', 'Heals']"
-rude,Combination Arts,4,4,15,"['Group', 'Melee', 'Heals', 'NoFree']"
-rude,Enhanced Crush Hammer (C),1,1,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']"
-rude,Enhanced Combination Arts (C),1,1,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+rude,BRV Attack++,10476,0,0,0,['Melee'],GL
+rude,BRV Attack+,10474,0,0,0,['Melee'],GL
+rude,HP Attack++,10477,1,0,0,['Melee'],GL
+rude,HP Attack+,10475,1,0,0,['Melee'],GL
+rude,Crush Hammer,17388,3,3,20,"['Group', 'Melee', 'Heals']",GL
+rude,Materia Tactics,17390,4,0,20,"['Melee', 'Heals']",GL
+rude,Resist Boost All,17393,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+rude,Grand Spark,17391,5,1,10,"['Group', 'Melee', 'Heals']",GL
+rude,Combination Arts,17392,4,4,15,"['Group', 'Melee', 'Heals', 'NoFree']",GL
+rude,Enhanced Crush Hammer (C),10479,1,1,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+rude,Enhanced Combination Arts (C),13471,1,1,0,"['Group', 'Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL

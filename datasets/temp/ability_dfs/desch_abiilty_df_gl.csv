@@ -1,14 +1,14 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-desch,BRV Attack+,0,0,0,"['Melee', 'Thunder']"
-desch,BRV Attack++,0,0,0,"['Melee', 'Thunder']"
-desch,HP Attack+,1,0,0,"['Melee', 'Thunder']"
-desch,HP Attack++,1,0,0,"['Melee', 'Thunder']"
-desch,Blitz Shear,3,3,20,"['Group', 'Magic', 'Thunder', 'Heals']"
-desch,Plasma Stroke,3,1,20,"['Group', 'Melee', 'Thunder', 'Heals']"
-desch,HP Heal Advance All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
-desch,Ancient Thunderclap,4,4,10,"['Group', 'Melee', 'Thunder']"
-desch,Electric Floor,5,5,15,"['Group', 'Melee', 'Thunder', 'NoFree']"
-desch,Debuff from Electric Area,0,0,0,['Traps']
-desch,Electric Order,3,1,200,"['Group', 'Melee', 'Thunder', 'NoFree']"
-desch,Enhanced Blitz Shear (C),1,1,0,"['Group', 'Magic', 'Thunder', 'Heals', 'Instant', 'NoEX', 'NoFree']"
-desch,Enhanced Electric Floor (C),2,0,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+desch,BRV Attack+,8508,0,0,0,"['Melee', 'Thunder']",GL
+desch,BRV Attack++,9004,0,0,0,"['Melee', 'Thunder']",GL
+desch,HP Attack+,8509,1,0,0,"['Melee', 'Thunder']",GL
+desch,HP Attack++,9005,1,0,0,"['Melee', 'Thunder']",GL
+desch,Blitz Shear,17323,3,3,20,"['Group', 'Magic', 'Thunder', 'Heals']",GL
+desch,Plasma Stroke,17325,3,1,20,"['Group', 'Melee', 'Thunder', 'Heals']",GL
+desch,HP Heal Advance All,17306,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",GL
+desch,Ancient Thunderclap,17326,4,4,10,"['Group', 'Melee', 'Thunder']",GL
+desch,Electric Floor,17327,5,5,15,"['Group', 'Melee', 'Thunder', 'NoFree']",GL
+desch,Debuff from Electric Area,17358,0,0,0,['Traps'],GL
+desch,Electric Order,17305,3,1,200,"['Group', 'Melee', 'Thunder', 'NoFree']",GL
+desch,Enhanced Blitz Shear (C),12212,1,1,0,"['Group', 'Magic', 'Thunder', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+desch,Enhanced Electric Floor (C),12214,2,0,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL

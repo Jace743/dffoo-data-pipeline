@@ -1,17 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-zidane,BRV Attack+,0,0,0,['Melee']
-zidane,BRV Attack++,0,0,0,['Melee']
-zidane,Mug,1,0,0,"['Melee', 'Instant']"
-zidane,HP Attack++,1,0,0,['Melee']
-zidane,HP Attack+ (Solution 9),1,0,0,['Melee']
-zidane,Stellar Circle 5,3,0,20,"['Group', 'Melee']"
-zidane,Stellar Circle 5+,4,0,20,"['Group', 'Melee']"
-zidane,Free Energy,3,0,20,['Melee']
-zidane,Free Energy+,3,1,20,['Melee']
-zidane,BRV Up Advance,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-zidane,Booster 8,4,0,10,"['Melee', 'KnockBack']"
-zidane,Booster 8+,6,2,10,"['Melee', 'KnockBack']"
-zidane,Solution 9,4,4,15,"['Group', 'Melee', 'NoFree']"
-zidane,Grand Lethal,6,6,400,"['Group', 'Melee']"
-zidane,Enhanced Free Energy (C),1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-zidane,Enhanced Solution 9 (C),3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+zidane,BRV Attack+,8335,0,0,0,['Melee'],GL
+zidane,BRV Attack++,8477,0,0,0,['Melee'],GL
+zidane,Mug,16580,1,0,0,"['Melee', 'Instant']",GL
+zidane,HP Attack++,8341,1,0,0,['Melee'],GL
+zidane,HP Attack+ (Solution 9),13951,1,0,0,['Melee'],GL
+zidane,Stellar Circle 5,18462,3,0,20,"['Group', 'Melee']",GL
+zidane,Stellar Circle 5+,18463,4,0,20,"['Group', 'Melee']",GL
+zidane,Free Energy,18466,3,0,20,['Melee'],GL
+zidane,Free Energy+,18467,3,1,20,['Melee'],GL
+zidane,BRV Up Advance,16582,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+zidane,Booster 8,16578,4,0,10,"['Melee', 'KnockBack']",GL
+zidane,Booster 8+,18468,6,2,10,"['Melee', 'KnockBack']",GL
+zidane,Solution 9,18469,4,4,15,"['Group', 'Melee', 'NoFree']",GL
+zidane,Grand Lethal,13735,6,6,400,"['Group', 'Melee']",GL
+zidane,Enhanced Free Energy (C),13738,1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+zidane,Enhanced Solution 9 (C),13740,3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-ultimecia,Maelstrom,0,0,0,"['Group', 'Magic']"
-ultimecia,HP Attack++,1,0,0,"['Group', 'Magic']"
-ultimecia,HP Attack+,1,0,0,"['Group', 'Magic']"
-ultimecia,Protean Swords,8,0,20,['Magic']
-ultimecia,Protean Swords+,8,1,20,['Magic']
-ultimecia,Hell's Judgment,6,0,20,['Magic']
-ultimecia,Hell's Judgment+,6,6,20,"['Group', 'Magic']"
-ultimecia,Set BRV Regen,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-ultimecia,Apocalypse,8,8,10,"['Group', 'Magic', 'Instant']"
-ultimecia,Shockwave Pulsar,7,7,15,"['Group', 'Magic', 'NoFree']"
-ultimecia,Sorceress Heart,2,2,350,"['Group', 'Magic']"
-ultimecia,Lustrous Chaos,4,4,260,"['Group', 'Magic', 'NoFree']"
-ultimecia,Enhanced Hell's Judgment (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
-ultimecia,Enhanced Shockwave Pulsar (C),2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ultimecia,Maelstrom,5420,0,0,0,"['Group', 'Magic']",JP
+ultimecia,HP Attack++,5326,1,0,0,"['Group', 'Magic']",JP
+ultimecia,HP Attack+,4851,1,0,0,"['Group', 'Magic']",JP
+ultimecia,Protean Swords,21246,8,0,20,['Magic'],JP
+ultimecia,Protean Swords+,21247,8,1,20,['Magic'],JP
+ultimecia,Hell's Judgment,21250,6,0,20,['Magic'],JP
+ultimecia,Hell's Judgment+,21251,6,6,20,"['Group', 'Magic']",JP
+ultimecia,Set BRV Regen,17711,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+ultimecia,Apocalypse,21252,8,8,10,"['Group', 'Magic', 'Instant']",JP
+ultimecia,Shockwave Pulsar,21253,7,7,15,"['Group', 'Magic', 'NoFree']",JP
+ultimecia,Sorceress Heart,21254,2,2,350,"['Group', 'Magic']",JP
+ultimecia,Lustrous Chaos,21259,4,4,250,"['Group', 'Magic', 'NoFree']",JP
+ultimecia,Enhanced Hell's Judgment (C),11039,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",JP
+ultimecia,Enhanced Shockwave Pulsar (C),11061,2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",JP

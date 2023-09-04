@@ -1,22 +1,22 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-alphinaud,Sic,0,0,0,['Magic']
-alphinaud,Sic (Obsidian),1,1,0,"['Group', 'Magic']"
-alphinaud,Sic (Obsidian)++,2,2,0,"['Group', 'Magic']"
-alphinaud,Sic (Obsidian)+,1,1,0,"['Group', 'Magic']"
-alphinaud,Shining Moonstone,1,0,0,['Magic']
-alphinaud,Shining Obsidian,1,1,0,['Magic']
-alphinaud,Shining Obsidian++,2,1,0,['Magic']
-alphinaud,Shining Obsidian+,1,1,0,['Magic']
-alphinaud,Summon Moonstone,0,0,0,"['Heals', 'Instant']"
-alphinaud,BRV granted from Moonstone,0,0,0,"['Instant', 'FollowUp']"
-alphinaud,HP recovery from Moonstone,0,0,0,"['Heals', 'Instant', 'FollowUp']"
-alphinaud,Party BRV granted from Moonstone,0,0,0,"['Instant', 'FollowUp']"
-alphinaud,Buff granted from Moonstone,0,0,0,"['Instant', 'FollowUp']"
-alphinaud,Energy Drain,3,1,20,"['Magic', 'Heals']"
-alphinaud,BRV Regen All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-alphinaud,Obsidian Combination,4,4,10,"['Group', 'Magic', 'Instant']"
-alphinaud,BRV granted from Obsidian,0,0,0,"['Instant', 'FollowUp']"
-alphinaud,Buff granted from Obsidian,0,0,0,"['Instant', 'FollowUp']"
-alphinaud,Terminal Disaster,4,4,15,"['Group', 'Magic', 'NoFree']"
-alphinaud,Enhanced Energy Drain (C),1,0,0,"['Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"
-alphinaud,Enhanced Terminal Disaster (C),4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+alphinaud,Sic,4646,0,0,0,['Magic'],GL
+alphinaud,Sic (Obsidian),8274,1,1,0,"['Group', 'Magic']",GL
+alphinaud,Sic (Obsidian)++,16341,2,2,0,"['Group', 'Magic']",GL
+alphinaud,Sic (Obsidian)+,8279,1,1,0,"['Group', 'Magic']",GL
+alphinaud,Shining Moonstone,4650,1,0,0,['Magic'],GL
+alphinaud,Shining Obsidian,8275,1,1,0,['Magic'],GL
+alphinaud,Shining Obsidian++,16342,2,1,0,['Magic'],GL
+alphinaud,Shining Obsidian+,8280,1,1,0,['Magic'],GL
+alphinaud,Summon Moonstone,16337,0,0,0,"['Heals', 'Instant']",GL
+alphinaud,BRV granted from Moonstone,4218,0,0,0,"['Instant', 'FollowUp']",GL
+alphinaud,HP recovery from Moonstone,4220,0,0,0,"['Heals', 'Instant', 'FollowUp']",GL
+alphinaud,Party BRV granted from Moonstone,4912,0,0,0,"['Instant', 'FollowUp']",GL
+alphinaud,Buff granted from Moonstone,16335,0,0,0,"['Instant', 'FollowUp']",GL
+alphinaud,Energy Drain,16339,3,1,20,"['Magic', 'Heals']",GL
+alphinaud,BRV Regen All,16346,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+alphinaud,Obsidian Combination,16398,4,4,10,"['Group', 'Magic', 'Instant']",GL
+alphinaud,BRV granted from Obsidian,8277,0,0,0,"['Instant', 'FollowUp']",GL
+alphinaud,Buff granted from Obsidian,8278,0,0,0,"['Instant', 'FollowUp']",GL
+alphinaud,Terminal Disaster,16345,4,4,15,"['Group', 'Magic', 'NoFree']",GL
+alphinaud,Enhanced Energy Drain (C),10612,1,0,0,"['Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+alphinaud,Enhanced Terminal Disaster (C),16348,4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

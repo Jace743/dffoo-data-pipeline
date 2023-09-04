@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-sherlotta,Tranquil Light,0,0,0,[]
-sherlotta,Hurl Staff,1,0,0,['Magic']
-sherlotta,Hurl Staff+,1,1,0,['Magic']
-sherlotta,Chuck Staff (Uncapped HP Attack),1,1,900,"['FollowUp', 'Magic']"
-sherlotta,Chuck Staff,3,1,0,['Magic']
-sherlotta,Light of the Crystal,0,0,0,['Instant']
-sherlotta,Crystal Generation,5,5,20,"['Group', 'Magic']"
-sherlotta,BRV Heal All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-sherlotta,Crystal Core Wave,0,0,0,['Instant']
-sherlotta,Crystal Ray (Uncapped HP Attack),1,1,900,"['FollowUp', 'Group', 'Magic', 'NoFree']"
-sherlotta,Crystal Ray,3,1,15,"['Group', 'Magic', 'NoFree']"
-sherlotta,Final Crystal Core,2,2,400,"['Group', 'Magic']"
-sherlotta,Crystal Dice,4,4,260,"['Group', 'Magic', 'NoFree']"
-sherlotta,Enhanced Crystal Generation (C),2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
-sherlotta,Enhanced Crystal Ray (C),2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+sherlotta,Tranquil Light,5023,0,0,0,[],GL
+sherlotta,Hurl Staff,5024,1,0,0,['Magic'],GL
+sherlotta,Hurl Staff+,16268,1,1,0,['Magic'],GL
+sherlotta,Chuck Staff (Uncapped HP Attack),,1,1,900,"['FollowUp', 'Magic']",GL
+sherlotta,Chuck Staff,19417,3,3,0,['Magic'],GL
+sherlotta,Light of the Crystal,16121,0,0,0,['Instant'],GL
+sherlotta,Crystal Generation,19414,5,5,20,"['Group', 'Magic']",GL
+sherlotta,BRV Heal All,16127,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+sherlotta,Crystal Core Wave,16126,0,0,0,['Instant'],GL
+sherlotta,Crystal Ray (Uncapped HP Attack),,1,1,900,"['FollowUp', 'Group', 'Magic', 'NoFree']",GL
+sherlotta,Crystal Ray,19468,3,3,15,"['Group', 'Magic', 'NoFree']",GL
+sherlotta,Final Crystal Core,17458,2,2,400,"['Group', 'Magic']",GL
+sherlotta,Crystal Dice,19418,4,4,250,"['Group', 'Magic', 'NoFree']",GL
+sherlotta,Enhanced Crystal Generation (C),13283,3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL
+sherlotta,Enhanced Crystal Ray (C),16133,2,2,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

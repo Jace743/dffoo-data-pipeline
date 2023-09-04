@@ -1,15 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-seymour,BRV Attack+,0,0,0,['Magic']
-seymour,HP Attack+,1,0,0,['Magic']
-seymour,Chainspell,4,0,55,['Magic']
-seymour,Lance of Atrophy,2,2,20,['Magic']
-seymour,Set Sap Burst,1,0,0,"['Magic', 'Instant', 'NoSummon', 'NoEX']"
-seymour,Requiem,3,3,10,"['Group', 'Magic']"
-seymour,Requiem Follow Up (Chainspell),3,1,10,"['Magic', 'FollowUp']"
-seymour,Requiem Follow Up (Lance of Atrophy),3,0,10,"['Magic', 'FollowUp']"
-seymour,Cross Cleave,4,4,15,"['Group', 'Magic', 'NoFree']"
-seymour,Total Annihilation,3,3,0,"['Group', 'Magic', 'Instant']"
-seymour,Oblivion,2,0,800,['Magic']
-seymour,Dark Obsessions,3,3,250,"['Group', 'Magic', 'NoFree']"
-seymour,Enhanced Lance of Atrophy (C),1,1,0,"['Magic', 'Instant', 'NoEX', 'NoFree']"
-seymour,Enhanced Cross Cleave (C),4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+seymour,BRV Attack+,7067,0,0,0,['Magic'],GL
+seymour,HP Attack+,7074,1,0,0,['Magic'],GL
+seymour,Chainspell,18693,4,0,20,['Magic'],GL
+seymour,Lance of Atrophy,16369,2,2,20,['Magic'],GL
+seymour,Set Sap Burst,16377,1,0,0,"['Magic', 'Instant', 'NoSummon', 'NoEX']",GL
+seymour,Requiem,16382,3,3,10,"['Group', 'Magic']",GL
+seymour,Requiem Follow Up (Chainspell),18770,3,1,10,"['Magic', 'FollowUp']",GL
+seymour,Requiem Follow Up (Lance of Atrophy),18771,3,0,10,"['Magic', 'FollowUp']",GL
+seymour,Cross Cleave,16375,4,4,15,"['Group', 'Magic', 'NoFree']",GL
+seymour,Total Annihilation,18694,3,3,0,"['Group', 'Magic', 'Instant']",GL
+seymour,Oblivion,18697,2,0,800,['Magic'],GL
+seymour,Dark Obsessions,18701,3,3,250,"['Group', 'Magic', 'NoFree']",GL
+seymour,Enhanced Lance of Atrophy (C),14540,1,1,0,"['Magic', 'Instant', 'NoEX', 'NoFree']",GL
+seymour,Enhanced Cross Cleave (C),16379,4,4,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL
+seymour,Chainspell - Follow Up,,4,0,20,"['Magic', 'FollowUp']",GL

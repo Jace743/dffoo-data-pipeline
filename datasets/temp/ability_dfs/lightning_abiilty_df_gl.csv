@@ -1,19 +1,19 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-lightning,BRV Attack+ (Ravager),0,0,0,['Melee']
-lightning,BRV Attack+ (Commando),0,0,0,['Melee']
-lightning,HP Attack+ (Ravager),1,0,0,['Melee']
-lightning,HP Attack+ (Commando),1,0,0,['Melee']
-lightning,HP Attack++ (Ravager),1,0,0,['Melee']
-lightning,HP Attack++ (Commando),1,0,0,['Melee']
-lightning,Sparkstrike,3,1,20,"['Melee', 'Thunder']"
-lightning,Sparkstrike+,3,1,20,"['Melee', 'Thunder', 'Free']"
-lightning,Flourish of Steel,3,1,20,"['Melee', 'IgnoreDEF']"
-lightning,Flourish of Steel+,3,1,20,"['Melee', 'IgnoreDEF', 'Free']"
-lightning,Break Reset Slash,0,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
-lightning,Army of One,12,1,10,"['Melee', 'Heals']"
-lightning,Army of One+,12,1,10,"['Melee', 'Heals']"
-lightning,Crushing Blow,5,5,15,"['Group', 'Melee', 'Thunder', 'NoFree']"
-lightning,Gestalt Drive,2,0,600,"['Melee', 'Thunder']"
-lightning,Memorie Della Rosa,4,4,260,"['Group', 'Melee', 'Thunder', 'NoFree']"
-lightning,Enhanced Sparkstrike (C),1,0,0,"['Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']"
-lightning,Enhanced Crushing Blow (C),2,0,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+lightning,BRV Attack+ (Ravager),4541,0,0,0,['Melee'],GL
+lightning,BRV Attack+ (Commando),4542,0,0,0,['Melee'],GL
+lightning,HP Attack+ (Ravager),4543,1,0,0,['Melee'],GL
+lightning,HP Attack+ (Commando),4544,1,0,0,['Melee'],GL
+lightning,HP Attack++ (Ravager),7877,1,0,0,['Melee'],GL
+lightning,HP Attack++ (Commando),7878,1,0,0,['Melee'],GL
+lightning,Sparkstrike,18854,3,1,20,"['Melee', 'Thunder']",GL
+lightning,Sparkstrike+,18855,3,1,20,"['Melee', 'Thunder', 'Free']",GL
+lightning,Flourish of Steel,18860,3,1,20,"['Melee', 'IgnoreDEF']",GL
+lightning,Flourish of Steel+,18861,3,1,20,"['Melee', 'IgnoreDEF', 'Free']",GL
+lightning,Break Reset Slash,15879,0,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+lightning,Army of One,20317,12,1,10,"['Melee', 'Heals']",GL
+lightning,Army of One+,20318,12,1,10,"['Melee', 'Heals']",GL
+lightning,Crushing Blow,20319,5,5,15,"['Group', 'Melee', 'Thunder', 'NoFree']",GL
+lightning,Gestalt Drive,14740,2,0,600,"['Melee', 'Thunder']",GL
+lightning,Memorie Della Rosa,20324,4,4,250,"['Group', 'Melee', 'Thunder', 'NoFree']",GL
+lightning,Enhanced Sparkstrike (C),10125,1,0,0,"['Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL
+lightning,Enhanced Crushing Blow (C),10041,2,0,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL

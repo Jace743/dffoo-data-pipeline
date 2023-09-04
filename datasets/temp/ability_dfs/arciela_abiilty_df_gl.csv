@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-arciela,BRV Attack+ (Ascension),0,0,0,['Magic']
-arciela,BRV Attack+ (Descension),0,0,0,"['Group', 'Magic']"
-arciela,Harmonic Displacement,3,0,0,['Magic']
-arciela,Darkest Hour,3,1,0,['Magic']
-arciela,Ascension & Expunge Magic,0,0,20,[]
-arciela,Expunge Magic,2,2,20,"['Group', 'Magic', 'Heals', 'FollowUp']"
-arciela,Descension & Sight Unseen,0,0,20,[]
-arciela,Sight Unseen,2,1,20,"['Group', 'Magic', 'FollowUp']"
-arciela,Ability Recovery Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-arciela,Naakual's Vengeance,4,4,10,"['Group', 'Magic', 'Heals']"
-arciela,Unceasing Dread,4,4,15,"['Group', 'Magic', 'NoFree']"
-arciela,Enhanced Descension & Sight Unseen (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-arciela,Enhanced Sight Unseen (C),1,1,0,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoEX', 'NoFree']"
-arciela,Enhanced Unceasing Dread (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+arciela,BRV Attack+ (Ascension),8085,0,0,0,['Magic'],GL
+arciela,BRV Attack+ (Descension),8091,0,0,0,"['Group', 'Magic']",GL
+arciela,Harmonic Displacement,16453,3,0,0,['Magic'],GL
+arciela,Darkest Hour,16457,3,1,0,['Magic'],GL
+arciela,Ascension & Expunge Magic,16496,0,0,20,[],GL
+arciela,Expunge Magic,16451,2,2,20,"['Group', 'Magic', 'Heals', 'FollowUp']",GL
+arciela,Descension & Sight Unseen,16498,0,0,20,[],GL
+arciela,Sight Unseen,16455,2,1,20,"['Group', 'Magic', 'FollowUp']",GL
+arciela,Ability Recovery Attack All,16460,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+arciela,Naakual's Vengeance,16459,4,4,10,"['Group', 'Magic', 'Heals']",GL
+arciela,Unceasing Dread,16458,4,4,15,"['Group', 'Magic', 'NoFree']",GL
+arciela,Enhanced Descension & Sight Unseen (C),11369,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+arciela,Enhanced Sight Unseen (C),11127,1,1,0,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoEX', 'NoFree']",GL
+arciela,Enhanced Unceasing Dread (C),11129,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

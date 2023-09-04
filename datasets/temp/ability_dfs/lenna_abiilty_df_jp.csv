@@ -1,16 +1,16 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-lenna,BRV Attack+,0,0,0,['Ranged']
-lenna,HP Attack+,1,0,0,['Ranged']
-lenna,Dragon Breath,6,6,10,"['Group', 'Ranged']"
-lenna,Rapid Fire,3,3,20,"['Group', 'Ranged']"
-lenna,Rapid Fire+,5,5,20,"['Group', 'Ranged']"
-lenna,Wind Drake Arrow,6,1,20,"['Ranged', 'Heals']"
-lenna,Wind Drake Arrow+,6,1,20,"['Ranged', 'Heals']"
-lenna,BRV Heal Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-lenna,Brave Phoenix,6,6,10,"['Group', 'Ranged', 'Heals']"
-lenna,Goliath Tonic & Dragon Breath,6,6,15,"['Group', 'Ranged', 'Heals', 'NoFree']"
-lenna,Megaflare Shot,2,2,350,"['Group', 'Ranged', 'Heals']"
-lenna,Additional attack from Megaflare Shot,1,0,0,"['Group', 'Ranged', 'Heals', 'Instant', 'FollowUp']"
-lenna,Blaze of Mercy,4,4,260,"['Group', 'Ranged', 'Heals', 'NoFree']"
-lenna,Enhanced Wind Drake Arrow (C),1,1,0,"['Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']"
-lenna,Enhanced Goliath Tonic & Dragon Breath (C),3,3,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+lenna,BRV Attack+,8202,0,0,0,['Ranged'],JP
+lenna,HP Attack+,7900,1,0,0,['Ranged'],JP
+lenna,Dragon Breath,20360,6,6,10,"['Group', 'Ranged']",JP
+lenna,Rapid Fire,14502,3,3,20,"['Group', 'Ranged']",JP
+lenna,Rapid Fire+,20353,5,5,20,"['Group', 'Ranged']",JP
+lenna,Wind Drake Arrow,20356,6,1,20,"['Ranged', 'Heals']",JP
+lenna,Wind Drake Arrow+,20357,6,1,20,"['Ranged', 'Heals']",JP
+lenna,BRV Heal Boost All,16212,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+lenna,Brave Phoenix,20358,6,6,10,"['Group', 'Ranged', 'Heals']",JP
+lenna,Goliath Tonic & Dragon Breath,20359,6,6,15,"['Group', 'Ranged', 'Heals', 'NoFree']",JP
+lenna,Mega Flare Shot,20368,2,2,350,"['Group', 'Ranged', 'Heals']",JP
+lenna,Additional attack from Mega Flare Shot,20369,4,4,0,"['Group', 'Ranged', 'Heals', 'Instant', 'FollowUp']",JP
+lenna,Blaze of Mercy,20365,4,4,250,"['Group', 'Ranged', 'Heals', 'NoFree']",JP
+lenna,Enhanced Wind Drake Arrow (C),14529,1,1,0,"['Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']",JP
+lenna,Enhanced Goliath Tonic & Dragon Breath (C),14509,3,3,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']",JP

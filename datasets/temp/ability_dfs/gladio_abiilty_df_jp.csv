@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+gladio,BRV Attack+,10114,0,0,0,['Melee'],JP
+gladio,BRV Attack++,10116,0,0,0,['Melee'],JP
+gladio,HP Attack+,10115,1,0,0,['Melee'],JP
+gladio,HP Attack++,10117,1,0,0,['Melee'],JP
+gladio,Tempest,21311,6,6,20,"['Group', 'Melee']",JP
+gladio,Dawnhammer,21313,10,0,20,"['Group', 'Melee']",JP
+gladio,HP Heal & Boost All,17854,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",JP
+gladio,Maelstrom,21314,8,8,10,['Melee'],JP
+gladio,Impulse,21315,7,7,15,"['Group', 'Melee', 'NoFree']",JP
+gladio,Counter,21316,4,4,10,"['Melee', 'Counters']",JP
+gladio,This is the King's Shield,21319,2,2,400,"['Group', 'Melee']",JP
+gladio,Cracksmash,21324,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+gladio,Enhanced Tempest (C),13053,1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",JP
+gladio,Enhanced Impulse (C),13055,2,2,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",JP

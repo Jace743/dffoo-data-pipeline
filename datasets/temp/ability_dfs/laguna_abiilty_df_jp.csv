@@ -1,17 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-laguna,BRV Attack+,0,0,0,['Ranged']
-laguna,BRV Attack++,0,0,0,['Ranged']
-laguna,HP Attack+,1,0,0,['Ranged']
-laguna,HP Attack++,1,0,0,"['Group', 'Ranged']"
-laguna,Grenade,3,3,20,"['Group', 'Ranged']"
-laguna,Shotgun,2,1,20,"['Group', 'Ranged']"
-laguna,Shotgun+,3,1,20,"['Group', 'Ranged']"
-laguna,Debuff Damage Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-laguna,Ragnarok Buster,6,1,10,"['Group', 'Ranged']"
-laguna,Ragnarok Blade,6,6,15,"['Group', 'Ranged', 'NoFree']"
-laguna,"Additional attack from Look, the faeries are here!",4,4,15,"['Group', 'Ranged', 'FollowUp']"
-laguna,Desperado,2,2,400,"['Group', 'Ranged']"
-laguna,HP damage from Desperado debuff,2,2,0,"['Group', 'Ranged', 'Traps']"
-laguna,Gunner Beat,4,4,260,"['Group', 'Ranged', 'NoFree']"
-laguna,Enhanced Grenade (C),1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
-laguna,Enhanced Ragnarok Blade (C),4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+laguna,BRV Attack+,4118,0,0,0,['Ranged'],JP
+laguna,BRV Attack++,9804,0,0,0,['Ranged'],JP
+laguna,HP Attack+,4268,1,0,0,['Ranged'],JP
+laguna,HP Attack++,9805,1,0,0,"['Group', 'Ranged']",JP
+laguna,Grenade,18961,3,3,20,"['Group', 'Ranged']",JP
+laguna,Shotgun,18962,2,1,20,"['Group', 'Ranged']",JP
+laguna,Shotgun+,18963,3,1,20,"['Group', 'Ranged']",JP
+laguna,Debuff Damage Up,16119,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+laguna,Ragnarok Buster,20875,6,1,10,"['Group', 'Ranged']",JP
+laguna,Ragnarok Blade,20876,6,6,15,"['Group', 'Ranged', 'NoFree']",JP
+laguna,"Additional attack from Look, the faeries are here!",20877,4,4,15,"['Group', 'Ranged', 'FollowUp']",JP
+laguna,Desperado,16101,2,2,400,"['Group', 'Ranged']",JP
+laguna,HP damage from Desperado debuff,20895,2,2,0,"['Group', 'Ranged', 'Traps']",JP
+laguna,Gunner Beat,20882,4,4,250,"['Group', 'Ranged', 'NoFree']",JP
+laguna,Enhanced Grenade (C),12292,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",JP
+laguna,Enhanced Ragnarok Blade (C),16103,4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",JP

@@ -1,20 +1,20 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-cecil,BRV Attack+,0,0,0,['Melee']
-cecil,BRV Attack++,0,0,0,"['Melee', 'Heals']"
-cecil,BRV Attack++ (Heal),0,0,0,"['Melee', 'Dark', 'Heals']"
-cecil,BRV Attack++ (Power),0,0,0,"['Melee', 'Dark']"
-cecil,HP Attack+,1,0,0,['Melee']
-cecil,HP Attack++,1,0,0,"['Melee', 'Heals']"
-cecil,HP Attack++ (Heal),1,0,0,"['Melee', 'Dark', 'Heals']"
-cecil,HP Attack++ (Power),1,1,0,"['Melee', 'Dark']"
-cecil,Darkness,2,0,20,"['Group', 'Ranged', 'Dark']"
-cecil,Darkness+,6,0,20,"['Group', 'Ranged', 'Dark']"
-cecil,Valiant Blow,1,0,20,"['Melee', 'Dark', 'KnockBack']"
-cecil,Valiant Blow+,4,1,20,"['Melee', 'Dark', 'KnockBack']"
-cecil,Danger Crush,1,0,0,"['Melee', 'Dark', 'Instant', 'NoSummon', 'NoEX']"
-cecil,Dark Cannon,5,5,10,"['Ranged', 'Dark']"
-cecil,Soul Eater,6,1,15,"['Ranged', 'Dark', 'Instant', 'NoFree']"
-cecil,Start of a Distant Journey,2,2,350,"['Group', 'Melee', 'Dark']"
-cecil,Dark Blast,4,4,250,"['Group', 'Melee', 'Dark', 'NoFree']"
-cecil,Enhanced Valiant Blow (C),1,0,0,"['Melee', 'Dark', 'Instant', 'KnockBack', 'NoEX', 'NoFree']"
-cecil,Enhanced Soul Eater (C),4,1,0,"['Ranged', 'Dark', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+cecil,BRV Attack+,5058,0,0,0,['Melee'],GL
+cecil,BRV Attack++,5079,0,0,0,"['Melee', 'Heals']",GL
+cecil,BRV Attack++ (Heal),8722,0,0,0,"['Melee', 'Dark', 'Heals']",GL
+cecil,BRV Attack++ (Power),8742,0,0,0,"['Melee', 'Dark']",GL
+cecil,HP Attack+,5059,1,0,0,['Melee'],GL
+cecil,HP Attack++,5080,1,0,0,"['Melee', 'Heals']",GL
+cecil,HP Attack++ (Heal),8723,1,0,0,"['Melee', 'Dark', 'Heals']",GL
+cecil,HP Attack++ (Power),8743,1,1,0,"['Melee', 'Dark']",GL
+cecil,Darkness,15515,2,0,20,"['Group', 'Ranged', 'Dark']",GL
+cecil,Darkness+,19119,6,0,20,"['Group', 'Ranged', 'Dark']",GL
+cecil,Valiant Blow,15519,1,0,20,"['Melee', 'Dark', 'KnockBack']",GL
+cecil,Valiant Blow+,19121,4,1,20,"['Melee', 'Dark', 'KnockBack']",GL
+cecil,Danger Crush,15202,1,0,0,"['Melee', 'Dark', 'Instant', 'NoSummon', 'NoEX']",GL
+cecil,Dark Cannon,19122,5,5,10,"['Ranged', 'Dark']",GL
+cecil,Soul Eater,19123,6,1,15,"['Ranged', 'Dark', 'Instant', 'NoFree']",GL
+cecil,Start of a Distant Journey,19126,2,2,350,"['Group', 'Melee', 'Dark']",GL
+cecil,Dark Blast,19130,4,4,250,"['Group', 'Melee', 'Dark', 'NoFree']",GL
+cecil,Enhanced Valiant Blow (C),10372,1,0,0,"['Melee', 'Dark', 'Instant', 'KnockBack', 'NoEX', 'NoFree']",GL
+cecil,Enhanced Soul Eater (C),15523,4,1,0,"['Ranged', 'Dark', 'Instant', 'NoEX', 'NoFree']",GL

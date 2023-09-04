@@ -1,17 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-braska,BRV Attack+,0,0,0,['Magic']
-braska,BRV Attack++,0,0,0,['Magic']
-braska,HP Attack+,1,0,0,['Magic']
-braska,HP Attack++,1,0,0,['Magic']
-braska,Curaga,0,0,0,"['Heals', 'Instant']"
-braska,Ultima,4,4,20,"['Group', 'Magic']"
-braska,Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-braska,Ultimate Jecht Shot,5,5,5,"['Group', 'Magic', 'Fire']"
-braska,Ultimate Jecht Shot+,8,8,5,"['Group', 'Magic', 'Fire']"
-braska,Jecht Bomber,4,4,10,"['Magic', 'Fire', 'NoFree']"
-braska,Jecht Bomber+,6,6,10,"['Magic', 'Fire', 'NoFree']"
-braska,Final Jecht Shot,2,2,350,"['Group', 'Magic']"
-braska,Jecht Beam,3,3,0,"['Group', 'Magic', 'Fire', 'FollowUp']"
-braska,Mixture Power,4,4,260,"['Group', 'Magic', 'Fire', 'Heals', 'NoFree']"
-braska,Enhanced Curaga (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
-braska,Enhanced Jecht Bomber (C),4,4,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+braska,BRV Attack+,17033,0,0,0,['Magic'],GL
+braska,BRV Attack++,17049,0,0,0,['Magic'],GL
+braska,HP Attack+,17034,1,0,0,['Magic'],GL
+braska,HP Attack++,17050,1,0,0,['Magic'],GL
+braska,Curaga,17032,0,0,0,"['Heals', 'Instant']",GL
+braska,Ultima,20040,4,4,20,"['Group', 'Magic']",GL
+braska,Attack All,17061,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+braska,Ultimate Jecht Shot,20041,5,5,5,"['Group', 'Magic', 'Fire']",GL
+braska,Ultimate Jecht Shot+,20042,8,8,5,"['Group', 'Magic', 'Fire']",GL
+braska,Jecht Bomber,17055,4,4,10,"['Magic', 'Fire', 'NoFree']",GL
+braska,Jecht Bomber+,20043,6,6,10,"['Magic', 'Fire', 'NoFree']",GL
+braska,Final Jecht Shot,20048,2,2,350,"['Group', 'Magic']",GL
+braska,Jecht Beam,20046,3,3,0,"['Group', 'Magic', 'Fire', 'FollowUp']",GL
+braska,Mixture Power,20044,4,4,250,"['Group', 'Magic', 'Fire', 'Heals', 'NoFree']",GL
+braska,Enhanced Curaga (C),17063,0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']",GL
+braska,Enhanced Jecht Bomber (C),17065,4,4,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL

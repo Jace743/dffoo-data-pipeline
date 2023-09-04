@@ -1,15 +1,15 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-cloudofdarkness,Toying Appendages,0,0,0,['Magic']
-cloudofdarkness,Uncanny Beam,2,1,0,['Magic']
-cloudofdarkness,Insulating Appendages,4,0,20,"['Group', 'Magic']"
-cloudofdarkness,Counter,1,0,0,"['Magic', 'Instant', 'Counters']"
-cloudofdarkness,Wide-Angle Particle Beam,2,2,20,"['Group', 'Magic']"
-cloudofdarkness,Zero-Form Particle Beam,6,1,20,"['Magic', 'Free']"
-cloudofdarkness,Break Reset Burst,1,0,0,"['Magic', 'Instant', 'NoSummon', 'NoEX']"
-cloudofdarkness,Anti-Air Particle Beam,7,0,10,['Magic']
-cloudofdarkness,High-Speed Particle Beam,5,5,15,"['Group', 'Magic', 'NoFree']"
-cloudofdarkness,Ultra Particle Beam,2,2,400,"['Group', 'Magic']"
-cloudofdarkness,Additional attack from Ultra Particle Beam,1,1,0,"['Group', 'Magic', 'FollowUp']"
-cloudofdarkness,Void-Form Particle Beam,4,4,260,"['Group', 'Magic', 'NoFree']"
-cloudofdarkness,Enhanced Wide Angle Particle Beam (C),1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
-cloudofdarkness,Enhanced High-Speed Particle Beam (C),3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+cloudofdarkness,Toying Appendages,17732,0,0,0,['Magic'],GL
+cloudofdarkness,Uncanny Beam,17734,2,1,0,['Magic'],GL
+cloudofdarkness,Insulating Appendages,17584,4,0,20,"['Group', 'Magic']",GL
+cloudofdarkness,Counter,13254,1,0,0,"['Magic', 'Instant', 'Counters']",GL
+cloudofdarkness,Wide-Angle Particle Beam,17587,2,2,20,"['Group', 'Magic']",GL
+cloudofdarkness,Zero-Form Particle Beam,17588,6,1,20,"['Magic', 'Free']",GL
+cloudofdarkness,Break Reset Burst,17590,1,0,0,"['Magic', 'Instant', 'NoSummon', 'NoEX']",GL
+cloudofdarkness,Anti-Air Particle Beam,17589,7,0,10,['Magic'],GL
+cloudofdarkness,High-Speed Particle Beam,17591,5,5,15,"['Group', 'Magic', 'NoFree']",GL
+cloudofdarkness,Ultra Particle Beam,14187,2,2,400,"['Group', 'Magic']",GL
+cloudofdarkness,Additional attack from Ultra Particle Beam,13025,1,1,0,"['Group', 'Magic', 'FollowUp']",GL
+cloudofdarkness,Void-Form Particle Beam,19346,4,4,250,"['Group', 'Magic', 'NoFree']",GL
+cloudofdarkness,Enhanced Wide Angle Particle Beam (C),13027,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL
+cloudofdarkness,Enhanced High-Speed Particle Beam (C),13029,3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

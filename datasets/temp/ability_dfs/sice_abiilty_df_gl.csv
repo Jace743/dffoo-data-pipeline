@@ -1,20 +1,20 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-sice,BRV Attack+,0,0,0,['Melee']
-sice,BRV Attack++,0,0,0,['Melee']
-sice,HP Attack+,1,0,0,['Melee']
-sice,HP Attack++,1,0,0,['Melee']
-sice,Phantom Scythe,3,3,20,"['Group', 'Melee', 'Dark']"
-sice,Dark Nebula,2,0,20,"['Melee', 'Dark']"
-sice,Dark Nebula+,3,0,20,"['Melee', 'Dark']"
-sice,Dark Nebula++,4,0,20,"['Melee', 'Dark']"
-sice,Set Malice Slash,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']"
-sice,Negative Aura,3,3,10,"['Group', 'Melee', 'Dark', 'Heals']"
-sice,Negative Aura+,4,4,10,"['Group', 'Melee', 'Dark', 'Heals']"
-sice,Negative Aura++,5,5,10,"['Group', 'Melee', 'Dark', 'Heals']"
-sice,Death Maelstrom,2,2,15,"['Group', 'Melee', 'Dark', 'NoFree']"
-sice,Death Maelstrom+,3,3,15,"['Group', 'Melee', 'Dark', 'NoFree']"
-sice,Death Maelstrom++,4,4,15,"['Group', 'Melee', 'Dark', 'NoFree']"
-sice,Additional attack from Tenacious Vortex,1,1,10,"['Melee', 'Dark', 'Instant', 'Traps']"
-sice,Dual Darkness Aura,3,3,250,"['Group', 'Melee', 'Dark', 'NoFree']"
-sice,Enhanced Dark Nebula (C),2,0,0,"['Melee', 'Dark', 'Instant', 'NoEX', 'NoFree']"
-sice,Enhanced Death Maelstrom (C),2,2,0,"['Group', 'Melee', 'Dark', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+sice,BRV Attack+,16727,0,0,0,['Melee'],GL
+sice,BRV Attack++,16756,0,0,0,['Melee'],GL
+sice,HP Attack+,16728,1,0,0,['Melee'],GL
+sice,HP Attack++,16757,1,0,0,['Melee'],GL
+sice,Phantom Scythe,16726,3,3,20,"['Group', 'Melee', 'Dark']",GL
+sice,Dark Nebula,16738,2,0,20,"['Melee', 'Dark']",GL
+sice,Dark Nebula+,16739,3,0,20,"['Melee', 'Dark']",GL
+sice,Dark Nebula++,16740,4,0,20,"['Melee', 'Dark']",GL
+sice,Set Malice Slash,16772,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+sice,Negative Aura,16753,3,3,10,"['Group', 'Melee', 'Dark', 'Heals']",GL
+sice,Negative Aura+,16754,4,4,10,"['Group', 'Melee', 'Dark', 'Heals']",GL
+sice,Negative Aura++,16755,5,5,10,"['Group', 'Melee', 'Dark', 'Heals']",GL
+sice,Death Maelstrom,19044,2,2,15,"['Group', 'Melee', 'Dark', 'NoFree']",GL
+sice,Death Maelstrom+,19045,3,3,15,"['Group', 'Melee', 'Dark', 'NoFree']",GL
+sice,Death Maelstrom++,19046,4,4,15,"['Group', 'Melee', 'Dark', 'NoFree']",GL
+sice,Additional attack from Tenacious Vortex,16767,1,1,10,"['Melee', 'Dark', 'Instant', 'Traps']",GL
+sice,Dual Darkness Aura,19050,3,3,250,"['Group', 'Melee', 'Dark', 'NoFree']",GL
+sice,Enhanced Dark Nebula (C),16774,2,0,0,"['Melee', 'Dark', 'Instant', 'NoEX', 'NoFree']",GL
+sice,Enhanced Death Maelstrom (C),16776,2,2,0,"['Group', 'Melee', 'Dark', 'Instant', 'NoEX', 'NoFree']",GL

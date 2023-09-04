@@ -1,17 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-yda,BRV Attack+,0,0,0,['Melee']
-yda,BRV Attack++,0,0,0,['Melee']
-yda,HP Attack+,1,0,0,['Melee']
-yda,HP Attack++,1,0,0,['Melee']
-yda,HP Attack+++,1,1,0,['Melee']
-yda,Snap Punch,8,0,20,['Melee']
-yda,Snap Punch+,12,0,20,['Melee']
-yda,Touch of Death,9,1,20,['Melee']
-yda,Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-yda,Tornado Kick,7,7,10,"['Group', 'Melee']"
-yda,Tornado Kick+,8,8,10,"['Group', 'Melee']"
-yda,Six-Sided Star,12,12,10,"['Group', 'Melee', 'NoFree']"
-yda,Our Final Heaven,2,2,400,"['Group', 'Melee']"
-yda,Arrival of the Phoenix,5,5,260,"['Group', 'Melee', 'NoFree']"
-yda,Enhanced Snap Punch (C),1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']"
-yda,Enhanced Six-Sided Star (C),6,6,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+yda,BRV Attack+,4628,0,0,0,['Melee'],JP
+yda,BRV Attack++,8269,0,0,0,['Melee'],JP
+yda,HP Attack+,4630,1,0,0,['Melee'],JP
+yda,HP Attack++,8270,1,0,0,['Melee'],JP
+yda,HP Attack+++,14723,1,1,0,['Melee'],JP
+yda,Snap Punch,21062,8,0,20,['Melee'],JP
+yda,Snap Punch+,21067,12,0,20,['Melee'],JP
+yda,Touch of Death,21065,9,1,20,['Melee'],JP
+yda,Attack Up,17522,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+yda,Tornado Kick,21068,7,7,10,"['Group', 'Melee']",JP
+yda,Tornado Kick+,21069,8,8,10,"['Group', 'Melee']",JP
+yda,Six-Sided Star,21072,12,12,10,"['Group', 'Melee', 'NoFree']",JP
+yda,Our Final Heaven,21076,2,2,400,"['Group', 'Melee']",JP
+yda,Arrival of the Phoenix,21081,5,5,250,"['Group', 'Melee', 'NoFree']",JP
+yda,Enhanced Snap Punch (C),11010,1,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",JP
+yda,Enhanced Six-Sided Star (C),14725,6,6,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",JP

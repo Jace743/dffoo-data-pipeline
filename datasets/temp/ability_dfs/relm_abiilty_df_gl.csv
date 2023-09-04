@@ -1,28 +1,28 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-relm,BRV Attack+,0,0,0,['Magic']
-relm,BRV Attack++,0,0,0,['Magic']
-relm,HP Attack+,1,0,0,['Magic']
-relm,HP Attack++,1,0,0,['Magic']
-relm,Tentacle,3,3,10,"['Group', 'Magic']"
-relm,Sketch Summon,0,0,20,[]
-relm,Hellfire (Sketch Summon),0,0,0,"['Group', 'Magic', 'Fire', 'FollowUp']"
-relm,Diamond Dust (Sketch Summon),0,0,0,"['Group', 'Magic', 'Ice', 'FollowUp']"
-relm,Judgment Bolt (Sketch Summon),0,0,0,"['Group', 'Magic', 'Thunder', 'FollowUp']"
-relm,Chocobo Kick (Sketch Summon),0,0,0,"['Group', 'Melee', 'FollowUp']"
-relm,Whispering Wind (Sketch Summon),0,0,0,"['Heals', 'FollowUp']"
-relm,Zantetsuken (Sketch Summon),0,0,0,"['Group', 'Magic', 'FollowUp']"
-relm,Tsunami (Sketch Summon),0,0,0,"['Group', 'Magic', 'Water', 'FollowUp']"
-relm,Divine Judgment (Sketch Summon),0,0,0,"['Group', 'Magic', 'Holy', 'FollowUp']"
-relm,Megaflare (Sketch Summon),0,0,0,"['Group', 'Magic', 'FollowUp']"
-relm,Brotherly Love (Sketch Summon),0,0,0,"['Group', 'Melee', 'Earth', 'FollowUp']"
-relm,Tornado Zone (Sketch Summon),0,0,0,"['Group', 'Magic', 'Wind', 'FollowUp']"
-relm,Dark Messenger (Sketch Summon),0,0,0,"['Group', 'Magic', 'Dark', 'FollowUp']"
-relm,"Watch the fluff, kupo～ (Sketch Summon)",0,0,0,['FollowUp']
-relm,Sketch Summon Follow Up,3,3,20,"['Group', 'Magic', 'FollowUp']"
-relm,Sketch,3,1,20,['Magic']
-relm,Sketch+,3,1,20,['Magic']
-relm,Sketch Longer,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-relm,Star Prism,4,4,10,"['Group', 'Magic']"
-relm,Ulty Sketch,4,4,15,"['Group', 'Magic', 'NoFree']"
-relm,Enhanced Sketch Summon (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-relm,Enhanced Sketch Summon (C) Follow Up,1,1,0,"['Group', 'Magic', 'Instant', 'FollowUp']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+relm,BRV Attack+,4782,0,0,0,['Magic'],GL
+relm,BRV Attack++,9886,0,0,0,['Magic'],GL
+relm,HP Attack+,4787,1,0,0,['Magic'],GL
+relm,HP Attack++,8829,1,0,0,['Magic'],GL
+relm,Tentacle,16559,3,3,10,"['Group', 'Magic']",GL
+relm,Sketch Summon,16932,0,0,20,[],GL
+relm,Hellfire (Sketch Summon),2387,0,0,0,"['Group', 'Magic', 'Fire', 'FollowUp']",GL
+relm,Diamond Dust (Sketch Summon),2388,0,0,0,"['Group', 'Magic', 'Ice', 'FollowUp']",GL
+relm,Judgment Bolt (Sketch Summon),2389,0,0,0,"['Group', 'Magic', 'Thunder', 'FollowUp']",GL
+relm,Chocobo Kick (Sketch Summon),2390,0,0,0,"['Group', 'Melee', 'FollowUp']",GL
+relm,Whispering Wind (Sketch Summon),2391,0,0,0,"['Heals', 'FollowUp']",GL
+relm,Zantetsuken (Sketch Summon),2392,0,0,0,"['Group', 'Magic', 'FollowUp']",GL
+relm,Tsunami (Sketch Summon),2393,0,0,0,"['Group', 'Magic', 'Water', 'FollowUp']",GL
+relm,Divine Judgment (Sketch Summon),2394,0,0,0,"['Group', 'Magic', 'Holy', 'FollowUp']",GL
+relm,Megaflare (Sketch Summon),2395,0,0,0,"['Group', 'Magic', 'FollowUp']",GL
+relm,Brotherly Love (Sketch Summon),2396,0,0,0,"['Group', 'Melee', 'Earth', 'FollowUp']",GL
+relm,Tornado Zone (Sketch Summon),2397,0,0,0,"['Group', 'Magic', 'Wind', 'FollowUp']",GL
+relm,Dark Messenger (Sketch Summon),2398,0,0,0,"['Group', 'Magic', 'Dark', 'FollowUp']",GL
+relm,"Watch the fluff, kupo～ (Sketch Summon)",5456,0,0,0,['FollowUp'],GL
+relm,Sketch Summon Follow Up,16933,3,3,20,"['Group', 'Magic', 'FollowUp']",GL
+relm,Sketch,16936,3,1,20,['Magic'],GL
+relm,Sketch+,16937,3,1,20,['Magic'],GL
+relm,Sketch Longer,16942,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+relm,Star Prism,16938,4,4,10,"['Group', 'Magic']",GL
+relm,Ulty Sketch,16941,4,4,15,"['Group', 'Magic', 'NoFree']",GL
+relm,Enhanced Sketch Summon (C),13759,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+relm,Enhanced Sketch Summon (C) Follow Up,13761,1,1,0,"['Group', 'Magic', 'Instant', 'FollowUp']",GL
