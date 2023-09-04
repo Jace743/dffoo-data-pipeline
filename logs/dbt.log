@@ -1,0 +1,30 @@
+[0m11:29:03.701243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9E0474B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9E4240310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9E42BBB20>]}
+
+
+============================== 11:29:03.716830 | 31e9e952-c47b-4031-8487-30e0d6f2a258 ==============================
+[0m11:29:03.716830 [info ] [MainThread]: Running with dbt=1.6.1
+[0m11:29:03.716830 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\jasre\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init dffoo_analyzer', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:29:03.732488 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/jasre/.dbt')}
+[0m11:29:03.732488 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:29:03.732488 [debug] [MainThread]: Starter project path: C:\Users\jasre\Code\dbt-env\lib\site-packages\dbt\include\starter_project
+[0m11:29:03.790838 [info ] [MainThread]: 
+Your new dbt project "dffoo_analyzer" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:29:03.791705 [info ] [MainThread]: Setting up your profile.
+[0m11:29:29.926694 [info ] [MainThread]: Profile dffoo_analyzer written to C:\Users\jasre\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:29:29.927706 [debug] [MainThread]: Command `dbt init` succeeded at 11:29:29.927706 after 26.30 seconds
+[0m11:29:29.927706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9E0474B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9E23B0E20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B9E42CA0D0>]}
+[0m11:29:29.928705 [debug] [MainThread]: Flushing usage events

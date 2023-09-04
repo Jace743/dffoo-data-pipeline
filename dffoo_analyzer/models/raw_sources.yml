@@ -1,0 +1,95 @@
+version: 2
+
+sources:
+  - name: web_scraper
+    database: dffoo_data
+    schema: public
+    tables:
+      - name: raw_abilities
+        description: >
+          Data for every character ability in the game in both game versions, including each ability's HP cap, HP attack count, and attributes.
+        columns:
+          - name: char_name
+            description: Character's name, as scraped from the website.
+
+          - name: ability_name
+            description: Ability name, as scraped from the website.
+
+          - name: ability_id
+            description: >
+              Ability ID, associated with the ability name on the website.
+
+          - name: main_target_hp_attacks
+            description: >
+              Number of HP attacks that the ability will deal to the main target.
+
+          - name: non_target_hp_attacks
+            description: >
+              Number of HP attacks that the ability will deal to non-targets.
+
+          - name: hp_dmg_cap_up_perc
+            description: >
+              The amount of HP damage cap up that is included in passives for the ability.
+
+          - name: attribute_list
+            description: >
+              The list of attributes that the ability has.
+
+          - name: game_version
+            description: >
+              Indicates whether the data for the row comes from the global (GL) or Japanese (JP) version of the game.
+
+          - name: scrape_started_at_utc
+            description: The timestamp in UTC at which the web scraper instance that generated this row started running.
+
+          - name: scrape_ended_at_utc
+            description: The timestamp in UTC at which the webs craper instance that generated this row finished running.
+
+      - name: raw_bt_effects
+        description: >
+          Data on each character's BT effect. Includes BT effects from both game versions.
+        columns:
+          - name: char_name
+            description: Character's name, as scraped from the website.
+
+          - name: bt_personal_hp_dmg_cap_up
+            description: The amount of HP dmg cap up that the BT effect provides solely to the character who activated it.
+
+          - name: bt_party_hp_dmg_cap_up
+            description: The amount of HP dmg cap up that the BT effect provides to the entire party.
+
+          - name: game_version
+            description: Indicates whether the data for the row comes from the global (GL) or Japanese (JP) version of the game.
+
+          - name: scrape_started_at_utc
+            description: The timestamp in UTC at which the web scraper instance that generated this row started running.
+
+          - name: scrape_ended_at_utc
+            description: The timestamp in UTC at which the webs craper instance that generated this row finished running.
+
+          - name: enemy_count_apply_list
+            description: >
+              A list of enemy number counts to which the data in the current row applies. Most characters will have a [1, 2, 3] value,
+              meaning that the BT effect isn't affected by the number of enemites. This column is basically for Lann & Reynn.
+
+      - name: raw_high_armor_caps
+        description: >
+          Data on each character's HP dmg cap changes from their high armor.
+        columns:
+          - name: char_name
+            description: Character's name, as scraped from the website.
+
+          - name: personal_hp_dmg_cap_up
+            description: The amount of HP dmg cap up that the high armor provides solely to the character.
+
+          - name: party_ha_hp_dmg_cap_up
+            description: The amount of HP dmg cap up that the high armor provides for the whole party.
+
+          - name: game_version
+            description: Indicates whether the data for the row comes from the global (GL) or Japanese (JP) version of the game.
+
+          - name: scrape_started_at_utc
+            description: The timestamp in UTC at which the web scraper instance that generated this row started running.
+
+          - name: scrape_ended_at_utc
+            description: The timestamp in UTC at which the webs craper instance that generated this row finished running.

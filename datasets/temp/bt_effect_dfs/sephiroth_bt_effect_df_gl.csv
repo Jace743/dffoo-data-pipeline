@@ -1,2 +1,2 @@
-char_name,bt_personal_hp_dmg_cap_up,bt_party_hp_dmg_cap_up,game_version
-sephiroth,70,30,GL
+char_name,bt_personal_hp_dmg_cap_up,bt_party_hp_dmg_cap_up,enemy_count_apply_list,game_version
+sephiroth,70,30,"[1, 2, 3]",GL
