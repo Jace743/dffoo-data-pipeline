@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+rydia,BRV Attack+,4022,0,0,0,['Magic'],JP
+rydia,BRV Attack++,8754,0,0,0,"['Magic', 'Water']",JP
+rydia,HP Attack++,8755,1,0,0,"['Magic', 'Water']",JP
+rydia,Flare (IV),21403,10,1,20,['Magic'],JP
+rydia,Summon Leviathan,21405,6,6,20,"['Group', 'Magic', 'Water']",JP
+rydia,Weak Damage Up All,16019,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+rydia,Summon Dragon,21406,7,7,10,"['Group', 'Magic', 'IgnoreDEF']",JP
+rydia,Radiant Breath,21407,8,8,15,"['Group', 'Magic', 'Water', 'IgnoreDEF', 'NoFree']",JP
+rydia,Flare Tornado,21411,2,2,350,"['Group', 'Magic']",JP
+rydia,Tsunami,21412,6,6,0,"['Group', 'Magic', 'Water', 'Instant', 'Traps']",JP
+rydia,Contrast Burst,21408,4,4,250,"['Group', 'Magic', 'NoFree']",JP
+rydia,Enhanced Summon Leviathan (C),12090,1,1,0,"['Group', 'Magic', 'Water', 'Instant', 'NoEX', 'NoFree']",JP
+rydia,Enhanced Radiant Breath (C),16021,4,4,0,"['Group', 'Magic', 'Water', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']",JP

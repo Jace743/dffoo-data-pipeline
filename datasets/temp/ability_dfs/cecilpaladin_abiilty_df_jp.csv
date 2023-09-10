@@ -1,0 +1,12 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+cecilpaladin,Light Slash,17119,1,0,20,"['Melee', 'Holy']",JP
+cecilpaladin,Luminous Blast,17121,2,1,20,"['Ranged', 'Holy']",JP
+cecilpaladin,Saint's Fall,21415,10,1,20,"['Melee', 'Holy']",JP
+cecilpaladin,Holy Flame,21417,6,6,20,"['Group', 'Ranged', 'Holy', 'Heals']",JP
+cecilpaladin,Light Enchant All,17071,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+cecilpaladin,Paladin Force,21418,8,8,10,"['Melee', 'Holy']",JP
+cecilpaladin,Luminous Shard,21419,8,8,15,"['Group', 'Ranged', 'Holy', 'Heals', 'NoFree']",JP
+cecilpaladin,Soul Shift,21421,2,2,350,"['Group', 'Ranged', 'Holy']",JP
+cecilpaladin,Spark of Saint,21426,4,4,250,"['Group', 'Ranged', 'Heals', 'NoFree']",JP
+cecilpaladin,Enhanced Holy Flame (C),11254,1,1,0,"['Group', 'Ranged', 'Holy', 'Heals', 'Instant', 'NoEX', 'NoFree']",JP
+cecilpaladin,Enhanced Luminous Shard (C),11256,2,2,0,"['Group', 'Ranged', 'Holy', 'Heals', 'Instant', 'NoEX', 'NoFree']",JP

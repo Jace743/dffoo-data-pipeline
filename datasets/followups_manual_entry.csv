@@ -1,0 +1,207 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version,scrape_started_at_utc,scrape_ended_at_utc,timing,triggers,default,during_bt,double_during_bt
+ace,Blind Stud,17729,1,1,0,"['Magic', 'Traps', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"Jackpot Triad, Feather Brigade, HP Attack+ (Blind Stud Turn)",T,T,F
+ace,Blind Stud,17759,1,1,15,"['Magic', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"Jackpot Triad, Feather Brigade, HP Attack+ (Blind Stud Turn)",T,T,F
+aerith,Fury Brand Follow Up,18253,7,0,10,"['Magic', 'Heals', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Fury Brand,T,T,F
+aerith,Additional attack from White Materia's Brilliance,19530,1,1,900,"['Uncapped', 'Group', 'Magic', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,field_action,T,T,F
+aerith,Additional attack from Seal Evil,19524,2,2,15,"['Group', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+agrias,Knight's Pride Follow Up,13376,2,0,20,"['Melee', 'Heals', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Knight's Pride,T,T,F
+agrias,Knight's Pride Follow Up,18078,4,1,20,"['Melee', 'Heals', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Knight's Pride,T,T,F
+alisaie,Fleche & Contre Sixte Follow Up,16304,3,3,10,"['Group', 'Ranged', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Fleche & Contre Sixte,T,T,F
+alphinaud,Party BRV granted from Moonstone,4912,0,0,0,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+alphinaud,HP recovery from Moonstone,4220,0,0,0,"['Heals', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+alphinaud,Buff granted from Obsidian,8278,0,0,0,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+alphinaud,Buff granted from Moonstone,16335,0,0,0,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+alphinaud,BRV granted from Obsidian,8277,0,0,0,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+alphinaud,BRV granted from Moonstone,4218,0,0,0,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+amarant,Throw,21171,2,2,20,"['Group', 'Ranged', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,all,T,F,F
+amarant,Throw+,21204,5,5,0,"['Group', 'Ranged', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,all,F,T,F
+aphmau,Victory Smite Follow Up,17547,5,5,15,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Victory Smite,T,T,F
+aphmau,Tactical Switch Cast,17545,0,0,15,['FollowUp'],GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+aranea,Air Drive,20432,7,0,0,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+arciela,Sight Unseen,16455,2,1,20,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Descension & Sight Unseen,T,T,F
+arciela,Sight Unseen,20907,6,6,20,"['Group', 'Magic', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Descension & Sight Unseen,T,T,F
+arciela,Expunge Magic,16451,2,2,20,"['Group', 'Magic', 'Heals', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Ascension & Expunge Magic,T,T,F
+arciela,Expunge Magic,20903,6,6,20,"['Group', 'Magic', 'Heals', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Ascension & Expunge Magic,T,T,F
+ardyn,Additional attack from Spectral Charge,18116,2,0,20,"['Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"HP Attack, HP Attack+, HP Attack++, S1, S2, EX, LD",T,T,F
+ashe,Ark Blast,18948,4,1,10,"['Magic', 'Thunder', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Maelstrom's Bolt,T,T,F
+ashe,Additional attack from Empyrean's Edict,18955,3,3,0,"['Group', 'Magic', 'Heals', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+balthier,Gorgon Shot,19618,4,4,0,"['Group', 'Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+balthier,Great Aim+ Follow Up,19614,4,1,20,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Great Aim+,T,T,F
+barret,Beam,17353,3,0,10,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+beatrix,Saint Cloth Follow Up,20326,6,0,20,"['Magic', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Saint Cloth,T,T,F
+braska,Jecht Beam,20046,3,3,0,"['Group', 'Magic', 'Fire', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,all,F,T,F
+celes,Runic Follow Up,18417,4,0,20,"['Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Runic,T,T,F
+ceodore,Ceodore Awaken Release Self-harm,10708,1,0,0,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,effect,T,T,F
+cidhighwind,Bombs Away,15282,6,6,5,"['Group', 'Ranged', 'Wind', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,ally_attack,T,T,F
+cidraines,Seraphic Charge,18595,7,0,0,"['Magic', 'IgnoreDEF', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+cidraines,Impact Strike+,18582,3,0,0,"['Magic', 'IgnoreDEF', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,F,F
+cidraines,Impact Strike,13913,2,0,0,"['Magic', 'IgnoreDEF', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,F,F
+cinque,Additional attack from Braid Girl,17523,3,0,0,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+cissnei,Besiege++,16540,3,3,10,"['Group', 'Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",T,T,F
+cissnei,Besiege++,16540,3,3,10,"['Group', 'Ranged', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",T,T,F
+cissnei,Besiege+,16539,2,2,10,"['Group', 'Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",F,T,F
+cissnei,Besiege+,16539,2,2,10,"['Group', 'Ranged', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",F,T,F
+cissnei,Besiege,16538,1,1,10,"['Group', 'Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",F,T,F
+cissnei,Besiege,16538,1,1,10,"['Group', 'Ranged', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",F,T,F
+cloudofdarkness,Additional attack from Ultra Particle Beam,13025,1,1,0,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,all,F,T,F
+cor,Snowbreak Follow Up,17910,2,2,20,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Snowbreak,T,T,F
+cor,Moonlit Dawn Follow Up,17908,2,1,20,"['Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Moonlit Dawn,T,T,F
+cor,Additional attack from buff,17913,2,2,0,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"damaging, ally_attack",T,T,F
+deuce,Attacker,20611,3,3,0,"['Group', 'Magic', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,all,F,T,F
+dorgann,Image Slash+,18491,3,3,10,"['Group', 'Melee', 'Wind', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",T,T,F
+dorgann,Image Slash,18478,1,1,0,"['Group', 'Melee', 'Wind', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",F,T,F
+edge,Smoke Follow Up,16922,3,0,20,"['Magic', 'Thunder', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Smoke,T,T,F
+edward,Woke from sleep.,9717,0,0,0,['FollowUp'],GL,9/9/2023 11:56,9/9/2023 14:05,after,effect,T,T,F
+eiko,HP Regen Follow Up,15509,1,0,20,"['Magic', 'Heals', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,HP Regen,T,T,F
+eiko,Double Holy Follow Up,15459,2,1,0,"['Magic', 'Holy', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Double Holy,T,T,F
+freya,Reis's Wind Follow Up,16430,3,0,20,"['Ranged', 'Heals', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Reis's Wind,T,T,F
+freya,Descending Dragon (Return Attack),16678,3,3,10,"['Group', 'Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+galuf,Shirahadori Follow Up,16893,3,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Shirahadori,T,T,F
+garland,Additional attack from Chains of Time,18073,2,0,15,"['Melee', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+garnet,Eidolon Eternal Darkness,16958,3,3,10,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,before,field_action,T,T,F
+ignis,Overwhelm Party Move,6545,0,0,10,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+ignis,Overwhelm Follow Up,15769,3,0,10,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Overwhelm,T,T,F
+ignis,Total Clarity,20954,6,6,0,"['Group', 'Melee', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,all,F,T,F
+jack,Deliverance,18041,2,1,0,"['Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+jackgarland,Soul Burst+ (Uncapped HP Attack),,1,0,900,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+jackgarland,Soul Burst+,18753,2,0,0,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+jackgarland,Soul Burst+,21266,4,0,0,"['Melee', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+jackgarland,Soul Burst,18752,1,0,0,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+jackgarland,Soul Burst,18752,2,0,0,"['Melee', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+jackgarland,Soul Burst (Uncapped HP Attack),,1,0,900,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+jecht,Jecht Slash+ Follow Up,14459,2,1,20,"['Melee', 'Fire', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Jecht Slash+,T,T,F
+jecht,Beast Rush+ Follow Up,1876,1,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Beast Rush+,T,T,F
+jegran,Crystal Fist,16988,3,3,0,"['Group', 'Melee', 'Instant', 'Traps']",GL,9/9/2023 11:56,9/9/2023 14:05,before,all,T,T,F
+jihlnabaat,Additional attack from special effect Azure Behemoth,20252,3,3,10,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,all,T,T,T
+kadaj,Geophagy,16576,2,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+kadaj,Geophagy (Link),,6,0,20,"['Melee', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,ally_attack,F,T,F
+kadaj,Geophagy,20864,6,0,20,"['Melee', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+kain,Lancet,16982,2,2,10,"['Group', 'Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,airborne,T,T,F
+kain,Lancet,16982,2,2,10,"['Group', 'Ranged', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,before,airborne,T,T,F
+kain,Double Jump (Return),17024,4,4,10,"['Group', 'Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+kain,Double Jump (Return),20926,7,7,10,"['Group', 'Ranged', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+kamlanaut,Extra turn from Bondage from Antiquity,17215,0,0,0,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,effect,T,T,F
+kamlanaut,Esoteric Region+ Follow Up,17208,4,0,20,"['Melee', 'Ice', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Esoteric Region+,T,T,F
+kamlanaut,Esoteric Region Follow Up,17207,3,0,20,"['Melee', 'Ice', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Esoteric Region,F,T,F
+kamlanaut,Enfeeblement from Transcandescent Blade,17241,0,0,0,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,effect,T,T,F
+kefka,Meteor+ Follow Up,18525,1,1,0,"['Magic', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Meteor+,T,T,F
+keiss,Hero Support Cast,15969,0,0,20,"['Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,effect,T,T,F
+keiss,Hero Support Cast,15969,0,0,20,"['Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,effect,T,T,F
+keiss,Reserved Secret Plan,21124,4,0,0,"['Ranged', 'Instant', 'KnockBack', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,ally_attack,F,T,F
+kimahri,White Wind Follow Up,17284,3,3,10,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,White Wind,T,T,F
+king,Reload Follow Up,16866,3,1,20,"['Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Reload,T,T,F
+king,Endless Waltz Follow Up,16975,3,1,10,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Endless Waltz,T,T,F
+king,Double Bullet Follow Up,17159,3,1,10,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Double Bullet,T,T,F
+kuja,Ultima (IX)+ Follow Up,17829,2,2,10,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Ultima (IX)+,T,T,F
+kurasame,Ice Pillar,19445,4,0,10,"['Melee', 'Ice', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+laguna,"Additional attack from Look, the faeries are here!",18966,2,2,15,"['Group', 'Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+laguna,"Additional attack from Look, the faeries are here!",20877,4,4,15,"['Group', 'Ranged', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+laguna,HP damage from Desperado debuff,16105,1,1,0,"['Group', 'Ranged', 'Traps']",GL,9/9/2023 11:56,9/9/2023 14:05,after,ally_attack,F,T,F
+laguna,HP damage from Desperado debuff,20895,2,2,0,"['Group', 'Ranged', 'Traps']",JP,9/9/2023 11:56,9/9/2023 14:05,after,ally_attack,F,T,F
+lannreynn,Megaflare Follow Up,19640,4,4,15,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Megaflare,T,T,F
+layle,Geo Impact Follow Up,17383,4,4,15,"['Group', 'Magic', 'KnockBack', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Geo Impact,T,T,F
+lenna,Additional attack from Mega Flare Shot,20369,4,4,0,"['Group', 'Ranged', 'Heals', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+leo,Additional attack from Final Shock,19822,4,0,0,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",T,T,F
+leonora,Flare,21026,1,1,900,"['Uncapped', 'Group', 'Magic', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,after,all,T,T,F
+lilisette,Dancer's Fury,18613,7,0,10,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Dancer's Fury,T,T,F
+lion,Walk the Plank: Light Follow Up,17695,2,0,10,"['Magic', 'Holy', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Walk the Plank: Light,T,T,F
+lion,Additional attack from Bully,17697,2,1,0,"['Melee', 'Instant', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+lunafreya,Awakening Follow Up,17827,3,3,15,"['Group', 'Magic', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Awakening,T,T,F
+lunafreya,Awakening Follow Up,21121,7,7,15,"['Group', 'Magic', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Awakening,T,T,F
+lyse,Triple Threat,18514,5,5,15,"['Group', 'Melee', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Way of the Will & Triple Threat,T,T,F
+lyse,The Forbidden Chakra+,18512,7,7,10,"['Group', 'Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Brotherhood & The Forbidden Chakra+,T,T,F
+lyse,The Forbidden Chakra,18510,6,6,10,"['Group', 'Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Brotherhood & The Forbidden Chakra,F,T,F
+machina,Additional attack from Spiral's Lynchpin,17328,2,2,25,"['Group', 'Melee', 'Instant', 'Traps', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+minwu,Additional attack from Sublime Soul,18319,3,3,10,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,effect,T,T,F
+minwu,Trap: Holy XVI,18309,1,1,20,"['Group', 'Magic', 'Holy', 'Heals', 'Instant', 'Traps']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"HP Attack++, Teleport XVI, Teleport XVI+, Soul Convergence",T,T,T
+mog,Plasma+,19431,2,2,10,"['Group', 'Ranged', 'Thunder', 'Water', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,T
+mog,Plasma,12086,1,1,0,"['Group', 'Ranged', 'Thunder', 'Water', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,T
+mog,El Niño+,19430,2,2,10,"['Group', 'Ranged', 'Water', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,T
+mog,El Niño,12085,1,1,0,"['Group', 'Ranged', 'Thunder', 'Water', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,T
+noctis,Additional attack from Point-Blank Warp,19697,4,0,0,"['Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"Shooting Star+, Warp-Strike+, Conjure Armiger+, Steel Pirouette",T,T,F
+noctis,Additional attack from Legacy of the Lucii,19705,4,0,0,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",F,T,F
+noel,Additional attack from Hunter of Light,12911,1,0,15,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+noel,Additional attack from Hunter of Light,20537,4,0,15,"['Melee', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+onionknight,Blade Torrent Follow Up,18822,4,0,0,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Blade Torrent,T,T,F
+palom,Bluff/+/++ Follow Up,17287,4,0,20,"['Magic', 'Ice', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"Bluff, Bluff+, Bluff++",T,T,F
+porom,Additional attack from Twin Conviction,16857,3,3,10,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,after,all,T,T,F
+prompto,Starshell Follow Up,7988,1,0,20,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Starshell,T,T,F
+prompto,Link Attack,14006,2,1,10,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,ally_attack,T,T,F
+queen,Rasetsu Arousal Release HP Heal,13321,0,0,0,"['Heals', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,effect,T,T,F
+ramza,Shout Follow Up,16155,3,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Shout,T,T,F
+reks,Remove Obstacle+,19766,4,4,10,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,all,T,T,T
+reks,Remove Obstacle,19765,2,2,10,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,all,F,T,T
+relm,Sketch Summon Follow Up,16933,3,3,20,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Sketch Summon,T,T,F
+relm,Sketch Summon Follow Up,21095,6,6,20,"['Group', 'Magic', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Sketch Summon,T,T,F
+rem,Siphon Sphere,19798,4,4,10,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,all,T,T,F
+rosa,Holy Blade,20141,3,3,0,"['Group', 'Magic', 'Heals', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,all,F,T,F
+rufus,Corkscrew,21379,4,1,0,"['Ranged', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+sazh,Attack Boost Follow Up,14993,1,0,20,"['Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Attack Boost,T,T,F
+serah,Additional attack from Feral Link Reunion,19394,3,3,0,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+seven,Elementalash,19254,4,0,10,"['Melee', 'Fire', 'Ice', 'Thunder', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Elementalash,T,T,F
+seven,"BRV, HP damage from Bondage Whip",19380,1,1,0,['FollowUp'],GL,9/9/2023 11:56,9/9/2023 14:05,before,field_action,T,T,F
+seymour,Requiem Follow Up (Lance of Atrophy),18771,3,0,10,"['Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Requiem,T,T,F
+seymour,Requiem Follow Up (Chainspell),18770,3,1,10,"['Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Requiem,T,T,F
+seymour,Chainspell - Follow Up,,4,0,20,"['Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"Chainspell, Lance of Atrophy, Cross Cleave",T,T,F
+shadow,Wild Fang+,14491,2,0,15,"['Ranged', 'IgnoreDEF', 'Instant', 'Counters', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+shadow,Wild Fang,7551,1,0,10,"['Ranged', 'IgnoreDEF', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+shantotto,Rage Divine Malison Follow Up,19963,3,2,10,"['Group', 'Magic', 'Holy', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Rage Divine Malison,T,T,F
+shantotto,Rage Bio Follow Up,19960,3,1,20,"['Magic', 'Dark', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Rage Bio,T,T,F
+shantotto,Rage Aero Follow Up,19956,5,0,20,"['Magic', 'Wind', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Rage Aero,T,T,F
+sherlotta,Crystal Ray (Uncapped HP Attack),,1,1,900,"['FollowUp', 'Group', 'Magic', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Crystal Ray,T,T,F
+sherlotta,Chuck Staff (Uncapped HP Attack),,1,1,900,"['FollowUp', 'Magic']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Chuck Staff,T,T,F
+snow,Steelguard Follow Up,14812,1,0,20,"['Melee', 'Ice', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Steelguard,T,T,F
+snow,Steelguard Follow Up,20980,6,0,20,"['Melee', 'Ice', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Steelguard,T,T,F
+snow,Retribution+,16474,4,4,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,all,T,T,F
+snow,Retribution+,20986,9,9,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,before,all,T,T,F
+snow,Retribution,16473,2,2,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,before,all,F,T,F
+snow,Retribution,20985,2,2,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,before,all,F,T,F
+squall,Solid Barrel Follow Up,15866,1,1,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Solid Barrel,T,T,F
+squall,Additional attack from Roaring Hammer,19461,3,1,0,"['Group', 'Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+strago,Sabre Soul Follow Up,15511,4,4,10,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Sabre Soul,T,T,T
+strago,Sabre Soul Follow Up,15511,4,4,10,"['Group', 'Magic', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Sabre Soul,T,T,T
+strago,Quasar Follow Up,19072,2,2,20,"['Group', 'Magic', 'IgnoreDEF', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Quasar,T,T,T
+strago,Quasar Follow Up,20717,3,3,20,"['Group', 'Magic', 'IgnoreDEF', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Quasar,T,T,T
+strago,Grand Delta Follow Up,19078,2,2,15,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Grand Delta,T,T,T
+strago,Grand Delta Follow Up,20723,4,4,15,"['Group', 'Magic', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Grand Delta,T,T,T
+strago,Dualcast Follow Up,15647,1,0,0,"['Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Dualcast,T,T,T
+strago,Dualcast Follow Up,15647,1,0,0,"['Magic', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,Dualcast,T,T,T
+strago,BRV 2 Death Follow Up,19076,2,2,20,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,BRV 2 Death,T,T,T
+strago,BRV 2 Death Follow Up,20721,3,3,20,"['Group', 'Magic', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,BRV 2 Death,T,T,T
+terra,Meteor+,12192,1,0,20,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Meteor (Chant),T,T,F
+terra,Meltdown+,12188,1,0,20,"['Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Meltdown (Chant),T,T,F
+terra,Magic Meteor+,19348,4,1,20,"['Group', 'Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Magic Meteor (Chant),T,T,F
+terra,Magic Meltdown+,19221,3,3,20,"['Magic', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Magic Meltdown (Chant),T,T,F
+tidus,Shot,17320,2,0,0,"['Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,T
+tidus,Jecht Shot,17321,3,1,0,"['Group', 'Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+tifa,Waterkick,17951,3,0,0,"['Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+tifa,Somersault,17952,3,0,0,"['Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
+tifa,Dolphin Blow Combo Follow Up,18044,3,0,10,"['Melee', 'KnockBack', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Dolphin Blow Combo,T,T,F
+tifa,Battle Cry Follow Up,17997,4,0,20,"['Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Battle Cry,T,T,F
+trey,Arrow Shower,16111,1,1,20,"['Group', 'Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,field_action,T,T,F
+vaan,Whiteout+,18395,4,0,20,"['Magic', 'Ice', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Red Spiral+,T,T,F
+vaan,Whiteout,18394,3,0,20,"['Magic', 'Ice', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Red Spiral,T,T,F
+vaan,Pyroclasm++ Follow Up,18459,4,1,10,"['Magic', 'Fire', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Pyroclasm++,T,T,F
+vaan,Luminescence+,18403,4,1,20,"['Magic', 'Holy', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,White Whorl+,T,T,F
+vaan,Luminescence,18401,3,1,20,"['Magic', 'Holy', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,White Whorl,T,T,F
+vayne,Additional attack from Gigaflare Sword,14181,2,0,0,"['Group', 'Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",F,T,F
+vincent,Chaos Saber Shot,20509,4,0,10,"['Ranged', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
+vivi,Focus Follow Up,19331,3,1,20,"['Magic', 'Fire', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Focus,T,T,F
+vivi,Embers of Darkness,19336,3,3,0,"['Group', 'Magic', 'Fire', 'Dark', 'IgnoreDEF', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,all,T,T,F
+vivi,Double Fire+ Follow Up,19334,4,1,10,"['Group', 'Magic', 'Fire', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Double Fire+,T,T,F
+vivi,Double Fire Follow Up,3932,1,1,0,"['Magic', 'Fire', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Double Fire,T,T,F
+wakka,Brave Reels Follow Up,16555,3,0,20,"['Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Brave Reels,T,T,F
+warrioroflight,Shining Shield Follow Up,17156,4,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Shining Shield,T,T,F
+warrioroflight,Shining Shield Follow Up,19241,6,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Shining Shield,T,T,F
+weiss,Additional attack from Bullets of Ruin - Follow Up,,3,1,0,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,damaging,T,T,F
+weiss,Additional attack from Bullets of Ruin,20472,3,1,0,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,ally_attack,T,T,F
+yang,Focus Follow Up,17680,3,3,20,"['Group', 'Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Focus,T,T,F
+yang,Additional attack from Monastic Secrets,17683,2,2,10,"['Group', 'Melee', 'Counters', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",T,T,F
+yuri,Magic Blast – Holyga+ (Triggered),17863,8,8,10,"['Group', 'Magic', 'Holy', 'Instant', 'Traps', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,Magic Blast – Holyga,T,T,F
+yuri,Magic Blast – Holyga (Triggered),15733,3,3,10,"['Group', 'Magic', 'Holy', 'Instant', 'Traps', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,Magic Blast – Holyga,F,T,F
+zack,Chain Slash,19597,3,1,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"Chain Slash, Rush Assault",T,T,F
+zack,Chain Slash,19661,3,1,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"Chain Slash, Rush Assault",T,T,F
+zell,Punch Rush (Triggered),13595,1,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Booya,T,T,F
+zell,Meteor Combo Follow Up,15320,3,0,10,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Meteor Combo,T,T,F
+zell,Burning Combo Follow Up,15318,1,1,10,"['Group', 'Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Burning Combo,T,T,F
+zell,Booya (Triggered),13597,1,0,20,"['Melee', 'Thunder', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Punch Rush,T,T,F

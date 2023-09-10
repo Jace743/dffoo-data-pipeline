@@ -1,17 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-cissnei,BRV Attack+,0,0,0,['Ranged']
-cissnei,BRV Attack++,0,0,0,['Ranged']
-cissnei,HP Attack+,1,0,0,['Ranged']
-cissnei,HP Attack++,1,0,0,['Ranged']
-cissnei,Bladeglint,8,0,20,['Ranged']
-cissnei,Threatening Ember,6,1,20,['Ranged']
-cissnei,Set Wild Rekka Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-cissnei,Fortune Star,7,7,10,"['Group', 'Ranged']"
-cissnei,Shooting Star,6,6,15,"['Group', 'Ranged', 'NoFree']"
-cissnei,Besiege,1,1,10,"['Group', 'Ranged', 'FollowUp']"
-cissnei,Besiege+,2,2,10,"['Group', 'Ranged', 'FollowUp']"
-cissnei,Besiege++,3,3,10,"['Group', 'Ranged', 'FollowUp']"
-cissnei,Cloud-Steam Dragon,2,2,350,"['Group', 'Ranged']"
-cissnei,Serial Crosses,4,4,260,"['Group', 'Ranged', 'NoFree']"
-cissnei,Enhanced Bladeglint (C),2,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']"
-cissnei,Enhanced Shooting Star (C),3,3,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+cissnei,BRV Attack+,16522,0,0,0,['Ranged'],JP
+cissnei,BRV Attack++,16533,0,0,0,['Ranged'],JP
+cissnei,HP Attack+,16527,1,0,0,['Ranged'],JP
+cissnei,HP Attack++,16534,1,0,0,['Ranged'],JP
+cissnei,Bladeglint,20995,8,0,20,['Ranged'],JP
+cissnei,Threatening Ember,20997,6,1,20,['Ranged'],JP
+cissnei,Set Wild Rekka Attack All,16545,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+cissnei,Fortune Star,20998,7,7,10,"['Group', 'Ranged']",JP
+cissnei,Shooting Star,20999,6,6,15,"['Group', 'Ranged', 'NoFree']",JP
+cissnei,Besiege,16538,1,1,10,"['Group', 'Ranged', 'FollowUp']",JP
+cissnei,Besiege+,16539,2,2,10,"['Group', 'Ranged', 'FollowUp']",JP
+cissnei,Besiege++,16540,3,3,10,"['Group', 'Ranged', 'FollowUp']",JP
+cissnei,Cloud-Steam Dragon,21002,2,2,350,"['Group', 'Ranged']",JP
+cissnei,Serial Crosses,21007,4,4,250,"['Group', 'Ranged', 'NoFree']",JP
+cissnei,Enhanced Bladeglint (C),16547,2,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']",JP
+cissnei,Enhanced Shooting Star (C),16549,3,3,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",JP

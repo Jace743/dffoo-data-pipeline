@@ -1,18 +1,17 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-snow,BRV Attack+,0,0,0,['Melee']
-snow,BRV Attack++,0,0,0,['Melee']
-snow,HP Attack+,1,0,0,['Melee']
-snow,HP Attack++,1,0,0,['Melee']
-snow,Steelguard,0,0,20,[]
-snow,Steelguard Follow Up,6,0,20,"['Melee', 'Ice', 'FollowUp']"
-snow,Froststrike,8,0,20,"['Melee', 'Ice', 'Heals']"
-snow,HP Regen Attack All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-snow,Sovereign Fist,9,0,10,"['Group', 'Melee']"
-snow,Ice Ramp,6,6,15,"['Group', 'Melee', 'Ice', 'NoFree']"
-snow,Retribution,2,2,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']"
-snow,Retribution+,9,9,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']"
-snow,We'll never give up!,2,2,350,"['Group', 'Melee', 'Ice']"
-snow,Pyroglacier,4,4,260,"['Group', 'Melee', 'NoFree']"
-snow,Enhanced Steelguard (C),0,0,0,"['Instant', 'NoEX', 'NoFree']"
-snow,Enhanced Steelguard (C) Follow Up,1,0,0,"['Melee', 'FollowUp']"
-snow,Enhanced Ice Ramp (C),2,2,0,"['Group', 'Melee', 'Ice', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+snow,BRV Attack+,7802,0,0,0,['Melee'],JP
+snow,BRV Attack++,7808,0,0,0,['Melee'],JP
+snow,HP Attack+,7801,1,0,0,['Melee'],JP
+snow,HP Attack++,7809,1,0,0,['Melee'],JP
+snow,Steelguard,14810,0,0,20,[],JP
+snow,Steelguard Follow Up,20980,6,0,20,"['Melee', 'Ice', 'FollowUp']",JP
+snow,Froststrike,20982,8,0,20,"['Melee', 'Ice', 'Heals']",JP
+snow,HP Regen Attack All,16471,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+snow,Sovereign Fist,20983,8,1,10,"['Group', 'Melee']",JP
+snow,Ice Ramp,20984,6,6,15,"['Group', 'Melee', 'Ice', 'NoFree']",JP
+snow,Retribution,20985,2,2,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']",JP
+snow,Retribution+,20986,9,9,10,"['Group', 'Melee', 'Ice', 'Instant', 'FollowUp']",JP
+snow,We'll never give up!,20988,2,2,350,"['Group', 'Melee', 'Ice']",JP
+snow,Pyroglacier,20993,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+snow,Enhanced Steelguard (C),11264,0,0,0,"['Instant', 'NoEX', 'NoFree']",JP
+snow,Enhanced Steelguard (C) Follow Up,11399,1,0,0,"['Melee', 'FollowUp']",JP

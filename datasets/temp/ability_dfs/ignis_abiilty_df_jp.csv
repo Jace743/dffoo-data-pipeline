@@ -1,21 +1,22 @@
-char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
-ignis,BRV Attack+ (Pastry),0,0,0,[]
-ignis,BRV Attack+ (P&B Bowl),0,0,0,['Melee']
-ignis,BRV Attack++ (Pastry),0,0,0,[]
-ignis,BRV Attack++ (P&B Bowl),0,0,0,['Melee']
-ignis,Dishes (Memory Lane Pastry),0,0,0,['Instant']
-ignis,HP Attack+ (Pastry),1,0,0,['Melee']
-ignis,HP Attack+ (P&B Bowl),1,0,0,['Melee']
-ignis,HP Attack++ (Pastry),8,0,10,['Melee']
-ignis,HP Attack++ (P&B Bowl),9,1,10,['Melee']
-ignis,Dishes (Papa Bird & Baby Bowl),0,0,0,['Instant']
-ignis,Regroup,0,0,0,"['Heals', 'Instant']"
-ignis,Quick Recipeh,0,0,0,['Instant']
-ignis,Boost All,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
-ignis,Overwhelm,2,0,10,['Melee']
-ignis,Sagefire,7,7,15,"['Group', 'Melee', 'Fire', 'NoFree']"
-ignis,Resolution to Sever Destiny,2,2,400,"['Group', 'Melee']"
-ignis,Total Clarity,6,6,0,"['Group', 'Melee', 'Instant', 'FollowUp']"
-ignis,Pale Fire,4,4,260,"['Group', 'Melee', 'Heals', 'NoFree']"
-ignis,Enhanced Regroup (C),0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']"
-ignis,Enhanced Sagefire (C),1,1,0,"['Group', 'Melee', 'Fire', 'Instant', 'NoEX', 'NoFree']"
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ignis,BRV Attack+ (Pastry),6487,0,0,0,[],JP
+ignis,BRV Attack+ (P&B Bowl),6493,0,0,0,['Melee'],JP
+ignis,BRV Attack++ (Pastry),15770,0,0,0,[],JP
+ignis,BRV Attack++ (P&B Bowl),15772,0,0,0,['Melee'],JP
+ignis,Dishes (Memory Lane Pastry),6485,0,0,0,['Instant'],JP
+ignis,HP Attack+ (Pastry),6488,1,0,0,['Melee'],JP
+ignis,HP Attack+ (P&B Bowl),6494,1,0,0,['Melee'],JP
+ignis,HP Attack++ (Pastry),20948,8,0,10,['Melee'],JP
+ignis,HP Attack++ (P&B Bowl),20949,9,1,10,['Melee'],JP
+ignis,Dishes (Papa Bird & Baby Bowl),6491,0,0,0,['Instant'],JP
+ignis,Regroup,20942,0,0,0,"['Heals', 'Instant']",JP
+ignis,Quick Recipeh,20944,0,0,0,['Instant'],JP
+ignis,Boost All,15774,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+ignis,Overwhelm,15766,0,0,10,[],JP
+ignis,Overwhelm,20947,15,0,10,['Melee'],JP
+ignis,Sagefire,20950,7,7,15,"['Group', 'Melee', 'Fire', 'NoFree']",JP
+ignis,Resolution to Sever Destiny,20953,2,2,400,"['Group', 'Melee']",JP
+ignis,Total Clarity,20954,6,6,0,"['Group', 'Melee', 'Instant', 'FollowUp']",JP
+ignis,Pale Fire,20959,4,4,250,"['Group', 'Melee', 'Heals', 'NoFree']",JP
+ignis,Enhanced Regroup (C),12285,0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']",JP
+ignis,Enhanced Sagefire (C),12287,1,1,0,"['Group', 'Melee', 'Fire', 'Instant', 'NoEX', 'NoFree']",JP
