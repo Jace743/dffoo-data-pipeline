@@ -93,3 +93,78 @@ sources:
 
           - name: scrape_ended_at_utc
             description: The timestamp in UTC at which the webs craper instance that generated this row finished running.
+
+      - name: raw_followups_manual_entry
+        description: >
+          Data for all on-turn follow-up abilities across both game versions. This table contains some information that must be manually entered.
+        columns:
+          - name: char_name
+            description: Character's name, as scraped from the website.
+
+          - name: ability_name
+            description: Ability name, generally as scraped from the website.
+
+          - name: ability_id
+            description: >
+              Ability ID, if the ability has one, as scraped from the website.
+              Some 'abilities' generated after/during scraping will not have IDs (e.g., 'Uncapped' followup attacks).
+
+          - name: main_target_hp_attacks
+            description: >
+              Number of HP attacks that the ability will deal to the main target.
+
+          - name: non_target_hp_attacks
+            description: >
+              Number of HP attacks that the ability will deal to non-targets.
+
+          - name: hp_dmg_cap_up_perc
+            description: >
+              The amount of HP damage cap up that is included in passives for the ability.
+
+          - name: attribute_list
+            description: >
+              The list of attributes that the ability has.
+
+          - name: game_version
+            description: >
+              Indicates whether the data for the row comes from the global (GL) or Japanese (JP) version of the game.
+
+          - name: scrape_started_at_utc
+            description: The timestamp in UTC at which the web scraper instance that generated this row started running.
+
+          - name: scrape_ended_at_utc
+            description: The timestamp in UTC at which the webs craper instance that generated this row finished running.
+
+          - name: timing
+            description: >
+              Indicates when the followup attack occurs -- during the attack (included in launch bonus),
+              before the attack (not included in launch bonus), or after the attack (also not included in launch bonus).
+              Technically, "followup" can be a misnomer, since these abilities can also be preemptives (e.g., Reks' Remove Obstacle).
+
+          - name: triggers
+            description: >
+              Indicates what triggers the followup ability described in this row. Might be a list of abilties,
+              a single ability, or a single string that describes a certain behavior.
+
+              field_action: Occurs based on any field turns passing.
+              damaging: Occurs when the character with the followup uses a damage-dealing ability.
+              effect: Currently a catch-all label for follow-ups that don't do any damage.
+              all: Occurs when the character takes a turn, regardless of whether they deal damage.
+              ally_attack: Occurs when an ally other than the character takes a turn.
+              airborne: Label for dragoon attacks that occur only while they're in the air (Kain and Freya).
+
+          - name: default
+            description: >
+              Indicates whether the follow up occurs without requiring any extra conditions (T) or not (F).
+              For example, if a character only gains the follow up once their BT is active, the value should be F for this column.
+
+          - name: during_bt
+            description: >
+              Indicates whether the follow up occurs while the character's BT effect is active (T). Note that just because the follow up
+              occurs during their BT (T) doesn't mean that it occurs EXCLUSIVELY during their BT. Most characters whose follow ups occur
+              outside of their BT effect will still have a T value for this column. Some characters, however, have follow ups that change
+              when their BT effect is or is not active (Raines, Amarant).
+
+          - name: double_during_bt
+            description: >
+              Indicates whether the character's follow up ability triggers twice during their BT effect instead of once.
