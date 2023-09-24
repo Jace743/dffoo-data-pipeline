@@ -96,8 +96,8 @@ kuja,Ultima (IX)+ Follow Up,17829,2,2,10,"['Group', 'Magic', 'FollowUp']",GL,9/9
 kurasame,Ice Pillar,19445,4,0,10,"['Melee', 'Ice', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
 laguna,"Additional attack from Look, the faeries are here!",18966,2,2,15,"['Group', 'Ranged', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
 laguna,"Additional attack from Look, the faeries are here!",20877,4,4,15,"['Group', 'Ranged', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,T,T,F
-laguna,HP damage from Desperado debuff,16105,1,1,0,"['Group', 'Ranged', 'Traps']",GL,9/9/2023 11:56,9/9/2023 14:05,after,ally_attack,F,T,F
-laguna,HP damage from Desperado debuff,20895,2,2,0,"['Group', 'Ranged', 'Traps']",JP,9/9/2023 11:56,9/9/2023 14:05,after,ally_attack,F,T,F
+laguna,HP damage from Desperado debuff,16105,1,1,0,"['Group', 'Ranged', 'Traps']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"ally_attack, damaging",F,T,F
+laguna,HP damage from Desperado debuff,20895,2,2,0,"['Group', 'Ranged', 'Traps']",JP,9/9/2023 11:56,9/9/2023 14:05,after,"ally_attack, damaging",F,T,F
 lannreynn,Megaflare Follow Up,19640,4,4,15,"['Group', 'Magic', 'Instant', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Megaflare,T,T,F
 layle,Geo Impact Follow Up,17383,4,4,15,"['Group', 'Magic', 'KnockBack', 'FollowUp', 'NoFree']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Geo Impact,T,T,F
 lenna,Additional attack from Mega Flare Shot,20369,4,4,0,"['Group', 'Ranged', 'Heals', 'Instant', 'FollowUp']",JP,9/9/2023 11:56,9/9/2023 14:05,during,damaging,F,T,F
@@ -194,7 +194,7 @@ wakka,Brave Reels Follow Up,16555,3,0,20,"['Ranged', 'FollowUp']",GL,9/9/2023 11
 warrioroflight,Shining Shield Follow Up,17156,4,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Shining Shield,T,T,F
 warrioroflight,Shining Shield Follow Up,19241,6,0,20,"['Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Shining Shield,T,T,F
 weiss,Additional attack from Bullets of Ruin - Follow Up,,3,1,0,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,damaging,T,T,F
-weiss,Additional attack from Bullets of Ruin,20472,3,1,0,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,ally_attack,T,T,F
+weiss,Additional attack from Bullets of Ruin,20472,3,1,0,"['Group', 'Melee', 'Instant', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,"ally_attack, damaging",T,T,F
 yang,Focus Follow Up,17680,3,3,20,"['Group', 'Melee', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,during,Focus,T,T,F
 yang,Additional attack from Monastic Secrets,17683,2,2,10,"['Group', 'Melee', 'Counters', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,"damaging, ally_attack",T,T,F
 yuri,Magic Blast – Holyga+ (Triggered),17863,8,8,10,"['Group', 'Magic', 'Holy', 'Instant', 'Traps', 'FollowUp']",GL,9/9/2023 11:56,9/9/2023 14:05,after,Magic Blast – Holyga,T,T,F
