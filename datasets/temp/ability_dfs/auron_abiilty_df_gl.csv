@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+auron,BRV Attack+,8786,0,0,0,['Melee'],GL
+auron,BRV Attack++,14483,0,0,0,['Melee'],GL
+auron,HP Attack+,8789,1,1,0,"['Group', 'Melee']",GL
+auron,Soar,19990,7,7,0,"['Group', 'Melee']",GL
+auron,Banishing Blade,19982,5,1,20,['Melee'],GL
+auron,Purgatory,19984,3,3,20,"['Group', 'Melee']",GL
+auron,Weak Damage Up Crush,17225,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+auron,Dragon Fang,19985,6,6,10,"['Group', 'Melee']",GL
+auron,Tornado,19986,5,5,15,"['Group', 'Melee', 'IgnoreDEF', 'NoFree']",GL
+auron,Counter,17224,3,3,10,"['Group', 'Melee', 'Heals', 'IgnoreDEF', 'Counters']",GL
+auron,Legendary Journey,19989,2,0,600,['Melee'],GL
+auron,Waves of Treachery,19995,4,4,250,"['Group', 'Melee', 'NoFree']",GL
+auron,Enhanced Purgatory (C),14388,1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL
+auron,Enhanced Tornado (C),14390,2,2,0,"['Group', 'Melee', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']",GL

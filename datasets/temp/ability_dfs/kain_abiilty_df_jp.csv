@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+kain,Jump,9454,0,0,0,"['Group', 'Ranged']",JP
+kain,Double Jump,20925,0,0,10,[],JP
+kain,Double Jump (Return),20926,7,7,10,"['Group', 'Ranged', 'Instant', 'FollowUp']",JP
+kain,HP Attack+,9461,1,0,0,['Ranged'],JP
+kain,Jump III,20920,6,3,20,"['Group', 'Ranged']",JP
+kain,Gungnir,20922,9,0,10,['Ranged'],JP
+kain,BRV Up Thrust,16983,1,0,0,"['Ranged', 'Instant', 'NoSummon', 'NoEX']",JP
+kain,Fang and Claw,20923,7,7,10,"['Ranged', 'KnockBack']",JP
+kain,Rising Drive,20924,9,3,15,"['Ranged', 'Instant', 'NoFree']",JP
+kain,Lancet,16982,2,2,10,"['Group', 'Ranged', 'Instant', 'FollowUp']",JP
+kain,Dragoon's Pride,20927,2,1,400,"['Group', 'Ranged']",JP
+kain,Cross Jump,20928,4,4,250,"['Group', 'Ranged', 'Instant', 'KnockBack', 'NoFree']",JP
+kain,Enhanced Jump III (C),14698,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",JP
+kain,Enhanced Rising Drive (C),14700,4,1,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']",JP

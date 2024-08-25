@@ -1,0 +1,21 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+edgar,BRV Attack+,1198,0,0,0,['Melee'],GL
+edgar,BRV Attack++,7090,0,0,0,['Melee'],GL
+edgar,HP Attack+,6827,1,0,0,['Melee'],GL
+edgar,HP Attack++,7091,1,0,0,['Melee'],GL
+edgar,Bioblaster+,19670,5,5,10,"['Group', 'Magic', 'IgnoreDEF']",GL
+edgar,Bioblaster,19935,2,2,10,"['Group', 'Magic']",GL
+edgar,Auto Crossbow,15576,2,2,20,"['Group', 'Ranged']",GL
+edgar,Auto Crossbow+,19664,5,5,20,"['Group', 'Ranged', 'IgnoreDEF']",GL
+edgar,Drill,15580,2,1,20,['Melee'],GL
+edgar,Drill+,19666,6,1,20,"['Melee', 'IgnoreDEF']",GL
+edgar,Debuff Attack Up,15592,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+edgar,Chainsaw,15582,4,1,10,['Melee'],GL
+edgar,Chainsaw+,19667,7,1,10,"['Melee', 'IgnoreDEF']",GL
+edgar,Royal Shock,19668,4,4,15,"['Group', 'Magic', 'Instant', 'NoFree']",GL
+edgar,Royal Shock+,19669,5,5,15,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'NoFree']",GL
+edgar,Air Anchor,19679,2,2,400,"['Group', 'Ranged', 'IgnoreDEF']",GL
+edgar,Additional attack from Air Anchor,19677,6,0,200,"['Ranged', 'IgnoreDEF', 'Traps']",GL
+edgar,Chance Maker,19675,3,3,400,"['Group', 'Melee', 'Ranged', 'Magic', 'IgnoreDEF', 'NoFree']",GL
+edgar,Enhanced Drill (C),14234,1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL
+edgar,Enhanced Royal Shock+ (C),15621,5,5,0,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']",GL

@@ -1,0 +1,20 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+keiss,BRV Attack+,7643,0,0,0,['Ranged'],GL
+keiss,Selkie Chase (BRV),7645,0,0,0,[],GL
+keiss,BRV Attack++,8345,0,0,0,['Ranged'],GL
+keiss,Selkie Chase+ (BRV),8347,0,0,0,[],GL
+keiss,Selkie Chase++ (BRV),15967,0,0,0,[],GL
+keiss,HP Attack+,7644,1,0,0,['Ranged'],GL
+keiss,Selkie Chase (HP),7646,1,0,0,['Ranged'],GL
+keiss,HP Attack++,8346,1,0,0,['Ranged'],GL
+keiss,Selkie Chase+ (HP),8348,1,0,0,['Ranged'],GL
+keiss,HP Attack+ (Aerial Drive),11659,1,0,0,['Ranged'],GL
+keiss,Selkie Chase++ (HP),15968,1,0,0,['Ranged'],GL
+keiss,Selkie Throw,15907,3,1,20,['Ranged'],GL
+keiss,Hero Support,15909,2,0,20,['Ranged'],GL
+keiss,Hero Support Cast,15969,0,0,20,"['Instant', 'FollowUp']",GL
+keiss,Hero Support Recovery Attack All,15905,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+keiss,Sky High,15904,4,4,10,"['Group', 'Ranged']",GL
+keiss,Aerial Drive,15910,4,1,15,"['Ranged', 'NoFree']",GL
+keiss,Enhanced Hero Support (C),11245,1,0,0,"['Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+keiss,Enhanced Smash Support Cast (C),11452,0,0,0,"['Instant', 'FollowUp', 'NoEX', 'NoFree']",GL

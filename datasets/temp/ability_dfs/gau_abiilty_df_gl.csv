@@ -1,0 +1,19 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+gau,BRV Attack++,6806,0,0,0,"['Magic', 'Earth']",GL
+gau,BRV Attack+ (Lifeshaver),6555,0,0,0,"['Magic', 'Earth']",GL
+gau,BRV Attack+ (Cat Scratch),6559,0,0,0,"['Group', 'Magic', 'Earth']",GL
+gau,BRV Attack+ (Landslide),17980,0,0,0,"['Group', 'Magic', 'Earth']",GL
+gau,HP Attack++,6807,1,0,0,"['Magic', 'Earth']",GL
+gau,HP Attack+ (Lifeshaver),6556,1,0,0,"['Magic', 'Earth']",GL
+gau,HP Attack+ (Cat Scratch),6562,1,1,0,"['Group', 'Magic', 'Earth']",GL
+gau,HP Attack+ (Landslide),17981,2,1,0,"['Group', 'Magic', 'Earth']",GL
+gau,Lifeshaver,17972,3,0,20,"['Magic', 'Earth', 'Heals']",GL
+gau,Counter (Lifeshaver),17982,2,0,20,"['Magic', 'Earth', 'Heals', 'Instant', 'Counters']",GL
+gau,Cat Scratch,17976,3,1,20,"['Group', 'Magic', 'Earth']",GL
+gau,Counter (Cat Scratch),17983,2,1,20,"['Group', 'Magic', 'Earth', 'Instant', 'Counters']",GL
+gau,Stone Enchant,17984,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+gau,Beast Raid,17977,4,4,10,"['Group', 'Magic', 'Earth']",GL
+gau,Landslide,17978,4,4,15,"['Group', 'Magic', 'Earth', 'Instant', 'NoFree']",GL
+gau,Counter (Landslide),17979,2,2,10,"['Group', 'Magic', 'Earth', 'Heals', 'Instant', 'Counters']",GL
+gau,Enhanced Lifeshaver (C),11258,1,0,0,"['Magic', 'Earth', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+gau,Enhanced Landslide (C),11260,1,1,0,"['Group', 'Magic', 'Earth', 'Instant', 'NoEX', 'NoFree']",GL

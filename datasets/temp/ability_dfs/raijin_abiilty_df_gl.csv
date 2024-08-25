@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+raijin,BRV Attack+,1574,0,0,0,"['Melee', 'Thunder']",GL
+raijin,BRV Attack+,8707,0,0,0,"['Melee', 'Thunder']",GL
+raijin,HP Attack+,8711,1,0,0,"['Melee', 'Thunder']",GL
+raijin,Lightning Discharge,6407,1,1,10,"['Group', 'Melee', 'Thunder']",GL
+raijin,Lightning Discharge+,8712,1,1,10,"['Group', 'Melee', 'Thunder']",GL
+raijin,Lightning Discharge++,16424,2,2,10,"['Group', 'Melee', 'Thunder', 'Instant']",GL
+raijin,Fist,16413,3,0,20,['Melee'],GL
+raijin,Fist+,16417,5,0,20,"['Melee', 'Thunder']",GL
+raijin,Raijin Special,16415,2,1,20,"['Melee', 'Thunder']",GL
+raijin,Raijin Special+,16419,3,1,20,"['Group', 'Melee', 'Thunder']",GL
+raijin,Physical Attack All Thunder Crush,16425,1,0,0,"['Melee', 'Thunder', 'Instant', 'NoSummon', 'NoEX']",GL
+raijin,Raijin Pulverizer,16423,4,1,10,"['Melee', 'Thunder']",GL
+raijin,Raijin Prod,16422,4,4,15,"['Group', 'Melee', 'Thunder', 'Heals', 'NoFree']",GL
+raijin,Enhanced Fist (C),10123,1,0,0,"['Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL
+raijin,Enhanced Raijin Prod (C),16427,4,4,0,"['Group', 'Melee', 'Thunder', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL

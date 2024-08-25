@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+gilgamesh,Kotetsu,4522,0,0,0,['Melee'],JP
+gilgamesh,Genji Blade,4524,1,0,0,['Melee'],JP
+gilgamesh,Royal Sword？(III),21301,5,1,10,"['Melee', 'Instant']",JP
+gilgamesh,Mythgraven Blade？(IV),21302,5,1,10,"['Melee', 'Heals', 'Instant']",JP
+gilgamesh,Apocalypse？(VII),21303,5,1,10,"['Melee', 'Instant']",JP
+gilgamesh,Icebrand？(T),21304,5,1,10,"['Melee', 'Instant', 'KnockBack']",JP
+gilgamesh,Death Claw,21297,10,0,20,['Melee'],JP
+gilgamesh,Mad Dance,18834,4,0,20,['Melee'],JP
+gilgamesh,Wild Dance,21298,8,2,20,['Melee'],JP
+gilgamesh,Advance Up,15558,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+gilgamesh,Hurricane,21299,10,1,10,"['Group', 'Melee']",JP
+gilgamesh,I suppose I misjudged!,21300,8,8,15,"['Group', 'Melee', 'NoFree']",JP
+gilgamesh,Ultimate Illusion,15557,5,5,100,"['Group', 'Melee']",JP
+gilgamesh,Heirloom Sword,21309,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+gilgamesh,Enhanced Wild Dance (C),13440,1,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",JP
+gilgamesh,Enhanced I suppose I misjudged! (C),15560,0,0,0,"['Instant', 'NoEX', 'NoFree']",JP

@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+jegran,BRV Attack+,14753,0,0,0,['Melee'],GL
+jegran,BRV Attack++,14759,0,0,0,['Melee'],GL
+jegran,HP Attack+,14754,1,0,0,['Melee'],GL
+jegran,HP Attack++,14760,1,0,0,['Melee'],GL
+jegran,Vacuum Slash,16875,3,0,20,['Melee'],GL
+jegran,Blade Boomerang,16877,2,2,20,"['Group', 'Melee']",GL
+jegran,Set Crystallization Slash,16879,1,0,0,"['Melee', 'Instant', 'NoSummon', 'NoEX']",GL
+jegran,Crystallized End,16878,3,3,10,"['Group', 'Melee']",GL
+jegran,Punish,16880,7,1,7,"['Melee', 'IgnoreDEF', 'NoFree']",GL
+jegran,Crimson Crystal Release,14786,2,2,400,"['Group', 'Melee']",GL
+jegran,Crystal Fist,16988,3,3,0,"['Group', 'Melee', 'Instant', 'Traps']",GL
+jegran,Enhanced Blade Boomerang (C),14766,1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL
+jegran,Enhanced Punish (C),14768,3,1,0,"['Melee', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']",GL

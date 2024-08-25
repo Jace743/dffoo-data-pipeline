@@ -1,0 +1,19 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+cater,BRV Attack+,8625,0,0,0,['Ranged'],GL
+cater,Charged Shot,8626,1,0,0,['Ranged'],GL
+cater,Charged Shot (Charge LV 1),15248,2,0,10,"['Ranged', 'Ice']",GL
+cater,Charged Shot (Max Charge),15249,4,0,10,"['Ranged', 'Ice']",GL
+cater,HP Attack+,8627,1,0,0,['Ranged'],GL
+cater,Wide Shot,8628,1,1,0,"['Group', 'Ranged']",GL
+cater,Wide Shot (Charge LV 1),15251,1,1,10,"['Group', 'Ranged']",GL
+cater,Wide Shot (Max Charge),15252,2,1,10,"['Group', 'Ranged']",GL
+cater,Blizzard ROK,8621,1,0,20,"['Group', 'Magic', 'Ice']",GL
+cater,Blizzara ROK,8622,1,0,20,"['Group', 'Magic', 'Ice']",GL
+cater,Triple Slip,8624,0,0,0,['Instant'],GL
+cater,Counter,8719,1,0,0,"['Magic', 'Ice', 'Instant', 'Counters']",GL
+cater,Blizzard Shot,15152,1,0,0,"['Magic', 'Ice', 'Instant', 'NoSummon', 'NoEX']",GL
+cater,Consecutive Rounds,15245,4,4,10,"['Group', 'Magic']",GL
+cater,Land Mine,8632,1,1,10,"['Magic', 'Ice', 'Instant', 'Traps']",GL
+cater,Frost Stilling Shot,15254,4,4,15,"['Group', 'Magic', 'Ice', 'NoFree']",GL
+cater,Enhanced Triple Slip (C),11262,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+cater,Enhanced Frost Stilling Shot (C),15286,4,4,0,"['Group', 'Magic', 'Ice', 'Instant', 'NoEX', 'NoFree']",GL

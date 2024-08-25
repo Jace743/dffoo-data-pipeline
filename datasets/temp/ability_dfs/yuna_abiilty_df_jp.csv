@@ -1,0 +1,18 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+yuna,BRV Attack,812,0,0,0,"['Magic', 'Thunder']",JP
+yuna,Sonic Wings,4185,1,0,0,['Magic'],JP
+yuna,Sonic Wings+,5872,1,0,0,['Magic'],JP
+yuna,Sonic Wings++,21114,10,0,10,['Magic'],JP
+yuna,Energy Ray,4186,1,1,0,"['Group', 'Magic']",JP
+yuna,Energy Ray+,5873,1,1,0,"['Group', 'Magic']",JP
+yuna,Energy Ray++,21115,6,6,10,"['Group', 'Magic']",JP
+yuna,Esuna,18722,0,0,0,[],JP
+yuna,Cheer,13428,0,0,0,['Heals'],JP
+yuna,Base Attack Up,16815,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+yuna,Grand Summon,21111,9,3,10,"['Group', 'Magic']",JP
+yuna,Energy Blast,21112,9,3,10,"['Group', 'Magic']",JP
+yuna,Energy Nova,21113,7,7,15,"['Group', 'Magic', 'NoFree']",JP
+yuna,The Sending,16814,7,7,400,"['Group', 'Magic']",JP
+yuna,Banishing Stroke,21116,4,4,250,"['Group', 'Magic', 'NoFree']",JP
+yuna,Enhanced Esuna (C),13436,0,0,0,"['Instant', 'NoEX', 'NoFree']",JP
+yuna,Enhanced Energy Nova (C),13438,3,3,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",JP

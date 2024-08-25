@@ -1,0 +1,20 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+leon,BRV Attack+,5013,0,0,0,['Melee'],GL
+leon,BRV Attack++,5014,0,0,0,['Melee'],GL
+leon,BRV Attack+++,13516,0,0,0,['Melee'],GL
+leon,HP Attack+,5015,1,0,0,"['Melee', 'Heals']",GL
+leon,HP Attack++,5016,1,0,0,"['Melee', 'Heals']",GL
+leon,HP Attack+++,13517,1,0,0,"['Melee', 'Heals']",GL
+leon,Dark Slash,17935,2,1,20,"['Melee', 'Dark']",GL
+leon,Dark Slash+,17936,3,1,20,"['Melee', 'Dark']",GL
+leon,Dark Bind,17939,2,2,20,"['Group', 'Magic', 'Dark', 'Heals']",GL
+leon,Dark Bind+,17940,3,3,20,"['Group', 'Magic', 'Dark', 'Heals']",GL
+leon,Dark Enchant,5020,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+leon,Dark Enchant,17945,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+leon,Dark Stream,17941,4,4,10,"['Group', 'Melee', 'Dark']",GL
+leon,Dark Stream+,17942,4,4,10,"['Group', 'Melee', 'Dark']",GL
+leon,Dark Erosion,17943,5,5,15,"['Group', 'Melee', 'Dark', 'Heals', 'NoFree']",GL
+leon,Dark Drain,17944,3,1,10,"['Magic', 'Dark', 'Heals', 'Instant', 'Traps']",GL
+leon,Enhanced Dark Bind (C),13355,1,1,0,"['Group', 'Magic', 'Dark', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+leon,Enhanced Dark Erosion (C),13357,2,2,0,"['Group', 'Melee', 'Dark', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+leon,Dark Drain (C),13568,1,1,0,"['Magic', 'Dark', 'Heals', 'Instant', 'Traps']",GL

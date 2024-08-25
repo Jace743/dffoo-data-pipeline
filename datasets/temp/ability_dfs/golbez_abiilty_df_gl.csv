@@ -1,0 +1,18 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+golbez,BRV Attack+,12426,0,0,0,"['Melee', 'Magic', 'Dark']",GL
+golbez,BRV Attack++,12430,0,0,0,"['Melee', 'Magic', 'Dark']",GL
+golbez,HP Attack+,6234,2,0,0,"['Melee', 'Magic', 'Dark']",GL
+golbez,HP Attack++,12431,2,0,0,"['Melee', 'Magic', 'Dark']",GL
+golbez,Rising Wave,18282,2,1,20,"['Melee', 'Magic', 'Dark']",GL
+golbez,Rising Wave+,18283,3,1,20,"['Melee', 'Magic', 'Dark']",GL
+golbez,Rising Wave++,20435,9,1,20,"['Melee', 'Magic', 'Dark']",GL
+golbez,Glare Hand,18288,2,2,20,"['Group', 'Melee', 'Magic', 'Dark']",GL
+golbez,Glare Hand+,18289,3,3,20,"['Group', 'Melee', 'Magic', 'Dark']",GL
+golbez,Glare Hand++,20437,5,5,20,"['Group', 'Melee', 'Magic', 'Dark']",GL
+golbez,Dark Enchant,18293,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+golbez,Twin Meteor,20438,9,9,10,"['Group', 'Magic', 'Dark']",GL
+golbez,Black Fang,20439,9,9,15,"['Group', 'Magic', 'Dark', 'NoFree']",GL
+golbez,Twin Moon,14743,2,2,350,"['Group', 'Magic', 'Dark', 'NoFree']",GL
+golbez,Dragon Crest's Fiery Glow,20444,5,5,250,"['Group', 'Magic', 'Dark', 'NoFree']",GL
+golbez,Enhanced Glare Hand+ (C),12453,3,3,0,"['Group', 'Melee', 'Magic', 'Dark', 'Instant', 'NoEX', 'NoFree']",GL
+golbez,Enhanced Black Fang (C),12455,4,4,0,"['Group', 'Magic', 'Dark', 'Instant', 'NoEX', 'NoFree']",GL

@@ -1,0 +1,14 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+jihlnabaat,BRV Attack++,0,0,0,['Melee']
+jihlnabaat,HP Attack++,1,0,0,['Melee']
+jihlnabaat,Draining Slash,3,1,20,"['Melee', 'Heals']"
+jihlnabaat,Call Reinforcements,0,0,0,['Instant']
+jihlnabaat,Additional attack from special effect Azure Behemoth,3,3,10,"['Group', 'Melee', 'Instant', 'FollowUp']"
+jihlnabaat,HP Heal Boost All,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']"
+jihlnabaat,Sacrifice Pawn,5,5,10,"['Group', 'Melee']"
+jihlnabaat,Sacrifice Pawn+,7,7,10,"['Group', 'Melee', 'Heals']"
+jihlnabaat,Full-Scale Assault Orders,4,4,15,"['Group', 'Melee', 'Instant', 'NoFree']"
+jihlnabaat,Malicious Surge,2,1,400,['Melee']
+jihlnabaat,Request for Turks Cooperation,4,4,260,"['Group', 'Melee', 'NoFree']"
+jihlnabaat,Enhanced Draining Slash (C),3,1,0,"['Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+jihlnabaat,Enhanced Full-Scale Assault Orders (C),4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']"

@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+jessie,BRV Attack+,19141,0,0,0,['Ranged'],GL
+jessie,BRV Attack++,19157,0,0,0,['Ranged'],GL
+jessie,HP Attack+,19142,1,0,0,['Ranged'],GL
+jessie,HP Attack++,19158,1,0,0,['Ranged'],GL
+jessie,Spinning Back Kick,19140,4,1,20,['Ranged'],GL
+jessie,Uprising,19146,4,4,20,"['Group', 'Ranged']",GL
+jessie,Attack All,19170,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+jessie,The Show Must Go On,19155,5,5,10,"['Group', 'Ranged', 'Instant']",GL
+jessie,The Show Must Go On+,19156,5,5,10,"['Group', 'Ranged', 'Instant']",GL
+jessie,Surefire Drop,19161,4,4,15,"['Group', 'Ranged', 'NoFree']",GL
+jessie,"My Life, My Road",19165,3,3,250,"['Group', 'Ranged', 'NoFree']",GL
+jessie,Enhanced Uprising (C),19172,4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+jessie,Enhanced Surefire Drop (C),19174,4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

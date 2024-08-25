@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ennakros,BRV Attack+,16086,0,0,0,['Magic'],JP
+ennakros,BRV Attack++,16088,0,0,0,['Magic'],JP
+ennakros,HP Attack+,16087,1,0,0,['Magic'],JP
+ennakros,HP Attack++,16089,1,0,0,['Magic'],JP
+ennakros,Kinda Sorta Holy,20544,5,5,20,"['Group', 'Magic', 'Holy']",JP
+ennakros,Bold Maneuver,18622,3,3,10,"['Group', 'Melee']",JP
+ennakros,Base Boost Up,16006,0,0,0,['Instant'],JP
+ennakros,Atomic Impact,18623,4,4,5,"['Group', 'Melee', 'Dark']",JP
+ennakros,Astral Annihilation,18624,8,0,7,"['Melee', 'NoFree']",JP
+ennakros,Creation & Destruction,20547,2,2,400,"['Group', 'Melee']",JP
+ennakros,Pretty-Close Solution,20548,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+ennakros,Enhanced Kinda Sorta Holy (C),16008,3,3,0,"['Group', 'Magic', 'Holy', 'Instant', 'NoEX', 'NoFree']",JP
+ennakros,Enhanced Astral Annihilation (C),16010,6,0,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",JP

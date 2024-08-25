@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+rufus,BRV Attack+,21372,0,0,0,['Ranged'],JP
+rufus,BRV Attack++,21383,0,0,0,['Ranged'],JP
+rufus,HP Attack+,21373,1,0,0,['Ranged'],JP
+rufus,HP Attack++,21384,1,0,0,['Ranged'],JP
+rufus,Recoil Shotgun,21366,5,5,20,"['Group', 'Ranged']",JP
+rufus,Spear Whip,21370,9,0,20,['Ranged'],JP
+rufus,Boost Up,21397,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+rufus,Thunderclap,21378,8,8,10,"['Group', 'Ranged']",JP
+rufus,Corkscrew,21379,4,1,0,"['Ranged', 'Instant', 'FollowUp']",JP
+rufus,Think Fast,21382,8,8,15,"['Group', 'Ranged', 'NoFree']",JP
+rufus,Well maybe three,21387,12,1,400,['Ranged'],JP
+rufus,Accomplice,21392,4,4,250,"['Group', 'Ranged', 'NoFree']",JP
+rufus,Enhanced Recoil Shotgun (C),21399,5,5,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",JP
+rufus,Enhanced Think Fast (C),21401,8,8,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",JP

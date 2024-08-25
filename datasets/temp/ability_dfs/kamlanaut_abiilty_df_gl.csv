@@ -1,0 +1,25 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+kamlanaut,BRV Attack+,6733,0,0,0,"['Melee', 'Ice']",GL
+kamlanaut,BRV Attack++,6734,0,0,0,"['Melee', 'Ice']",GL
+kamlanaut,BRV Attack+++,17347,0,0,0,"['Melee', 'Ice']",GL
+kamlanaut,HP Attack+,10242,1,0,0,"['Melee', 'Ice']",GL
+kamlanaut,HP Attack++,10243,2,0,0,"['Melee', 'Ice']",GL
+kamlanaut,Frost Blade,17194,2,1,20,"['Melee', 'Ice']",GL
+kamlanaut,Glacification,17195,3,1,20,"['Melee', 'Ice']",GL
+kamlanaut,Glacification+,17196,4,1,20,"['Melee', 'Ice']",GL
+kamlanaut,Enfeeblement from Esoteric Region,10305,0,0,0,"['Instant', 'Counters']",GL
+kamlanaut,Enfeeblement from Desire of Provenance,10306,0,0,0,"['Instant', 'Counters']",GL
+kamlanaut,Esoteric Region,17201,0,0,20,[],GL
+kamlanaut,Esoteric Region+,17202,0,0,20,[],GL
+kamlanaut,Esoteric Region Follow Up,17207,3,0,20,"['Melee', 'Ice', 'FollowUp']",GL
+kamlanaut,Esoteric Region+ Follow Up,17208,4,0,20,"['Melee', 'Ice', 'FollowUp']",GL
+kamlanaut,Set Desire of Provenance Attack Up,17212,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+kamlanaut,Great Wheel,17210,3,3,10,"['Group', 'Melee']",GL
+kamlanaut,Great Wheel+,17211,4,4,10,"['Group', 'Melee']",GL
+kamlanaut,Light Blade,17213,4,4,15,"['Melee', 'NoFree']",GL
+kamlanaut,Transcandescent Blade,17217,2,2,400,"['Group', 'Melee']",GL
+kamlanaut,Extra turn from Bondage from Antiquity,17215,0,0,0,"['Instant', 'FollowUp']",GL
+kamlanaut,Enfeeblement from Transcandescent Blade,17241,0,0,0,"['Instant', 'FollowUp']",GL
+kamlanaut,Djinn Blade,17233,3,3,250,"['Group', 'Melee', 'NoFree']",GL
+kamlanaut,Enhanced Esoteric Region (C),10279,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+kamlanaut,Enhanced Light Blade (C),11420,2,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL

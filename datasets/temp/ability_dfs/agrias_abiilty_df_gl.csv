@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+agrias,BRV Attack+,5430,0,0,0,['Melee'],GL
+agrias,BRV Attack (Faded Moly),18085,3,1,10,['Melee'],GL
+agrias,HP Attack+,5425,1,0,0,['Melee'],GL
+agrias,HP Attack++,13375,1,0,0,['Melee'],GL
+agrias,Knight's Pride,18077,0,0,20,[],GL
+agrias,Knight's Pride Follow Up,13376,2,0,20,"['Melee', 'Heals', 'FollowUp']",GL
+agrias,Knight's Pride Follow Up,18078,4,1,20,"['Melee', 'Heals', 'FollowUp']",GL
+agrias,Judgment Blade,18081,0,0,20,"['Group', 'Melee']",GL
+agrias,Judgment Blade+,18082,3,3,20,"['Group', 'Melee']",GL
+agrias,Debuff Success Attack Up,18086,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+agrias,Hallowed Bolt,18083,4,4,10,"['Group', 'Melee']",GL
+agrias,Divine Ruination,18084,5,5,15,"['Group', 'Melee', 'NoFree']",GL
+agrias,Enhanced Knight's Pride (C),13293,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+agrias,Enhanced Knight's Pride (C) Follow Up,13711,1,0,0,"['Melee', 'Heals', 'FollowUp']",GL

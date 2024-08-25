@@ -1,0 +1,10 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc
+astos,HP Attack++,1,0,0
+astos,Cremation,1,1,10
+astos,HP Attack+,1,0,0
+astos,Dark Thrust,10,0,20
+astos,Dark Slash,5,5,20
+astos,Dark Warhammer,9,1,10
+astos,Dark Glory,7,7,15
+astos,Flare Star,2,2,350
+astos,Conflict Ultima,4,4,260

@@ -1,0 +1,10 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc
+paine,HP Attack+,1,0,0
+paine,HP Attack++,1,0,0
+paine,Break Attack,6,2,20
+paine,Black Sky,5,5,20
+paine,Sword Dance,3,3,10
+paine,Sword Dance+,6,6,10
+paine,Wild Throttle,8,2,15
+paine,Gullwing Rush,2,2,400
+paine,Dark Shroud,4,4,260

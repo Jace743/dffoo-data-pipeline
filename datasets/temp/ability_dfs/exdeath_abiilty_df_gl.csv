@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+exdeath,BRV Attack+,7453,0,0,0,['Magic'],GL
+exdeath,BRV Attack++,7460,0,0,0,['Magic'],GL
+exdeath,HP Attack+,7454,1,0,0,['Magic'],GL
+exdeath,HP Attack++,7461,1,0,0,['Magic'],GL
+exdeath,Black Hole,17501,3,1,20,['Magic'],GL
+exdeath,Almagest,17503,3,3,20,"['Group', 'Magic']",GL
+exdeath,Attack Boost Up,17508,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+exdeath,Grand Cross,17504,3,3,10,"['Group', 'Magic']",GL
+exdeath,BRV damage from Power of the Void,7733,0,0,0,"['Instant', 'Traps']",GL
+exdeath,Maelstrom,17505,4,4,15,"['Group', 'Magic', 'NoFree']",GL
+exdeath,Absolute Power of the Void,17507,2,2,400,"['Group', 'Magic']",GL
+exdeath,Enhanced Almagest (C),10368,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL
+exdeath,Enhanced Maelstrom (C),13585,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",GL

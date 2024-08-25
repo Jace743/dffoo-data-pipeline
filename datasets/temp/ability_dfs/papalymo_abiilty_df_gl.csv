@@ -1,0 +1,18 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+papalymo,BRV Attack+ (Fire),7077,0,0,0,"['Magic', 'Fire']",GL
+papalymo,BRV Attack+ (Ice),7082,0,0,0,"['Magic', 'Ice']",GL
+papalymo,BRV Attack++ (Fire),7325,0,0,0,"['Magic', 'Fire']",GL
+papalymo,BRV Attack++ (Ice),7327,0,0,0,"['Magic', 'Ice']",GL
+papalymo,Xenoglossy,15538,4,0,10,"['Magic', 'Instant']",GL
+papalymo,HP Attack++ (Fire),7326,1,0,0,"['Magic', 'Fire']",GL
+papalymo,HP Attack++ (Ice),7328,1,0,0,['Magic'],GL
+papalymo,Foul,15534,1,1,10,"['Group', 'Magic', 'Instant', 'NoSummon', 'NoEX']",GL
+papalymo,Astral Fire,15527,2,1,20,"['Magic', 'Fire']",GL
+papalymo,Umbral Ice,15530,2,0,20,"['Magic', 'Ice']",GL
+papalymo,Umbral Ice+,15531,3,0,20,"['Magic', 'Ice']",GL
+papalymo,Boost Up,15541,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+papalymo,Fire IV,15532,4,4,10,"['Group', 'Magic', 'Fire', 'Instant']",GL
+papalymo,Blizzard IV,15533,4,0,10,"['Magic', 'Ice', 'Instant']",GL
+papalymo,Despair,15537,4,0,15,"['Magic', 'Fire', 'Instant', 'NoFree']",GL
+papalymo,Enhanced Astral Fire (C),14337,1,1,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL
+papalymo,Enhanced Despair (C),15540,4,0,0,"['Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL

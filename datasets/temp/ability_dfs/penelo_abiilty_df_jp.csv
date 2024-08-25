@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+penelo,BRV Attack+ (Rhumba),17139,0,0,0,['Melee'],JP
+penelo,BRV Attack+ (Waltz),17147,0,0,0,['Melee'],JP
+penelo,BRV Attack++ (Rhumba),17140,0,0,0,['Melee'],JP
+penelo,BRV Attack++ (Waltz),17148,0,0,0,['Melee'],JP
+penelo,HP Attack+ (Rhumba),17141,2,1,0,['Melee'],JP
+penelo,HP Attack+ (Waltz),17149,2,0,0,['Melee'],JP
+penelo,HP Attack++ (Rhumba),17142,3,1,0,['Melee'],JP
+penelo,HP Attack++ (Waltz),17150,3,0,0,['Melee'],JP
+penelo,Haste Rhumba,6923,0,0,0,['Instant'],JP
+penelo,Regen Waltz,17146,0,0,0,[],JP
+penelo,Ability Recovery Boost All,17074,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+penelo,Intercession,17154,5,0,10,"['Melee', 'Heals', 'Instant']",JP
+penelo,Evanescence,17151,3,3,15,"['Group', 'Magic', 'NoFree']",JP
+penelo,Enhanced Regen Waltz (C),10127,0,0,0,"['Instant', 'NoEX', 'NoFree']",JP
+penelo,Enhanced Evanescence (C),11037,1,1,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",JP

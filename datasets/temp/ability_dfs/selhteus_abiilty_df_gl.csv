@@ -1,0 +1,15 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list
+selhteus,BRV Attack+,0,0,0,['Magic']
+selhteus,BRV Attack++,0,0,0,['Magic']
+selhteus,HP Attack+,1,0,0,['Magic']
+selhteus,HP Attack++,1,0,0,['Magic']
+selhteus,Crystal Diver,11,11,0,"['Group', 'Magic', 'Heals']"
+selhteus,Blaze Thrust,5,5,20,"['Group', 'Magic', 'Heals']"
+selhteus,Reversal Drive,6,6,20,"['Group', 'Magic']"
+selhteus,Recast Half Attack Up,0,0,0,"['Instant', 'NoSummon', 'NoEX']"
+selhteus,Redemption,0,0,0,"['Heals', 'Instant']"
+selhteus,Revelation,10,10,15,"['Group', 'Magic', 'NoFree']"
+selhteus,Luminous Lance,2,2,400,"['Group', 'Magic']"
+selhteus,Eclipse Lance,4,4,260,"['Group', 'Magic', 'Heals', 'NoFree']"
+selhteus,Enchanced Blaze Thrust (C),5,5,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']"
+selhteus,Enchanced Revelation (C),10,10,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']"

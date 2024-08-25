@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+edge,BRV Attack+,6778,0,0,0,"['Magic', 'Thunder']",GL
+edge,BRV Attack++,6917,0,0,0,"['Magic', 'Thunder']",GL
+edge,HP Attack+,6916,1,0,0,"['Magic', 'Thunder']",GL
+edge,HP Attack++,6918,1,0,0,"['Magic', 'Thunder']",GL
+edge,Shock,16919,3,1,20,"['Magic', 'Thunder']",GL
+edge,Smoke,16921,0,0,20,[],GL
+edge,Smoke Follow Up,16922,3,0,20,"['Magic', 'Thunder', 'FollowUp']",GL
+edge,Thunderburst,16928,1,0,0,"['Magic', 'Thunder', 'Instant', 'NoSummon', 'NoEX']",GL
+edge,Blitz Mirage,16923,4,4,10,"['Group', 'Magic', 'Thunder']",GL
+edge,Inferno,16926,4,4,15,"['Group', 'Magic', 'Fire', 'Thunder', 'NoFree']",GL
+edge,Ultimate Art: Advent of Phoenix,16927,4,4,10,"['Group', 'Magic', 'Fire', 'Thunder', 'Instant', 'Counters']",GL
+edge,Additional attack from Fire Scarf,17073,2,2,10,"['Group', 'Magic', 'Instant', 'Counters']",GL
+edge,Enhanced Smoke (C),10119,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+edge,Enhanced Smoke (C) Follow Up,10163,1,0,0,"['Magic', 'Thunder', 'Instant', 'FollowUp', 'NoEX']",GL

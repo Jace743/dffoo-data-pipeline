@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+jackgarland,BRV Attack+,18740,0,0,0,['Melee'],JP
+jackgarland,BRV Attack++,18747,0,0,0,['Melee'],JP
+jackgarland,HP Attack+,18741,1,0,0,['Melee'],JP
+jackgarland,HP Attack++,18748,1,0,0,['Melee'],JP
+jackgarland,Spinning Slash,21261,4,4,20,"['Group', 'Melee']",JP
+jackgarland,Soul Burst,18752,2,0,0,"['Melee', 'FollowUp']",JP
+jackgarland,Highbringer,21263,8,1,20,['Melee'],JP
+jackgarland,Attack Boost Up,18765,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+jackgarland,Lightbringer,21264,6,6,10,"['Group', 'Melee']",JP
+jackgarland,Zantetsuken,21265,6,6,15,"['Group', 'Melee', 'NoFree']",JP
+jackgarland,Soul Burst+,21266,4,0,0,"['Melee', 'FollowUp']",JP
+jackgarland,Soul of Chaos,18756,2,2,400,"['Group', 'Melee']",JP
+jackgarland,Thirst for Chaos,19051,4,4,250,"['Group', 'Melee', 'NoFree']",JP
+jackgarland,Enhanced Highbringer (C),18767,3,1,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",JP
+jackgarland,Enhanced Zantetsuken (C),18769,3,3,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",JP

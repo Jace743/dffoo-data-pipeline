@@ -1,0 +1,21 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+aranea,BRV Attack+,11983,0,0,0,['Ranged'],GL
+aranea,Boost Lance,8944,0,0,0,['Ranged'],GL
+aranea,Boost Lance+,9288,0,0,0,['Ranged'],GL
+aranea,HP Attack+,11984,1,0,0,['Ranged'],GL
+aranea,High-Boost Lance,8945,1,1,0,"['Group', 'Ranged']",GL
+aranea,High-Boost Lance+,9289,1,1,0,"['Group', 'Ranged']",GL
+aranea,Dragoon Dive,18538,4,0,20,"['Ranged', 'Free']",GL
+aranea,Dragoon Dive+,20422,8,0,20,['Ranged'],GL
+aranea,Highwind,18542,2,1,20,"['Group', 'Ranged', 'Free']",GL
+aranea,Highwind+,20424,6,2,20,"['Group', 'Ranged']",GL
+aranea,Set Overclock,18552,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+aranea,Air Superiority,20425,6,6,10,"['Group', 'Ranged']",GL
+aranea,Air Superiority+,20426,6,6,10,"['Group', 'Ranged']",GL
+aranea,Vermilion Assault,20427,6,6,15,"['Group', 'Ranged', 'NoFree']",GL
+aranea,Vermilion Assault+,20428,6,6,15,"['Group', 'Ranged', 'NoFree']",GL
+aranea,Outstanding,20431,2,2,400,"['Group', 'Ranged']",GL
+aranea,Air Drive,20432,7,0,0,"['Ranged', 'FollowUp']",GL
+aranea,Speerstoßwelle,20433,4,4,250,"['Group', 'Ranged', 'NoFree']",GL
+aranea,Enhanced Highwind (C),11706,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+aranea,Enhanced Vermilion Assault (C),11708,2,2,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

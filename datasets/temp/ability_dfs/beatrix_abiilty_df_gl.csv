@@ -1,0 +1,22 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+beatrix,BRV Attack+,7476,0,0,0,['Magic'],GL
+beatrix,BRV Attack++,7477,0,0,0,['Magic'],GL
+beatrix,BRV Attack+++,7482,0,0,0,['Magic'],GL
+beatrix,HP Attack+,7475,1,0,0,['Magic'],GL
+beatrix,HP Attack+++,7483,1,0,0,['Magic'],GL
+beatrix,Holy Knight's Safeguard,20329,4,0,10,"['Magic', 'Heals', 'Instant']",GL
+beatrix,Saint Cloth,18867,0,0,20,[],GL
+beatrix,Saint Cloth Follow Up,20326,6,0,20,"['Magic', 'Instant', 'FollowUp']",GL
+beatrix,Thunder Slash,18871,2,1,20,"['Group', 'Magic', 'Thunder']",GL
+beatrix,Thunder Slash+,20328,5,1,20,"['Group', 'Magic', 'Thunder']",GL
+beatrix,HP Heal Attack All,15964,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",GL
+beatrix,Climhazzard,18873,3,3,10,"['Group', 'Magic']",GL
+beatrix,Climhazzard+,18874,4,4,10,"['Group', 'Magic']",GL
+beatrix,Climhazzard++,18875,5,5,10,"['Group', 'Magic']",GL
+beatrix,Shock,20330,5,5,15,"['Group', 'Magic', 'IgnoreDEF', 'NoFree']",GL
+beatrix,Rose Petals Counterattack,20563,4,1,0,"['Magic', 'Thunder', 'IgnoreDEF', 'Instant', 'Counters', 'NoFree']",GL
+beatrix,Roses of May,20335,2,2,400,"['Group', 'Magic']",GL
+beatrix,Dedicated Knight's Pride,20332,4,4,250,"['Group', 'Magic', 'Thunder', 'NoFree']",GL
+beatrix,Enhanced Saint Cloth (C),10364,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+beatrix,Enhanced Saint Cloth (C) Follow Up,10753,1,0,0,"['Magic', 'Instant', 'FollowUp', 'NoEX']",GL
+beatrix,Enhanced Shock (C),13820,2,2,0,"['Group', 'Magic', 'IgnoreDEF', 'Instant', 'NoEX', 'NoFree']",GL

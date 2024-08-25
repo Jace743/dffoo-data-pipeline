@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+reks,BRV Attack+,19751,0,0,0,['Melee'],GL
+reks,BRV Attack++,19767,0,0,0,['Melee'],GL
+reks,HP Attack+,19752,1,0,0,['Melee'],GL
+reks,HP Attack++,19768,1,0,0,['Melee'],GL
+reks,Blade Combo,19748,4,4,20,"['Group', 'Melee']",GL
+reks,Shield Rush,19756,4,1,20,['Melee'],GL
+reks,HP Heal Attack All,19781,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",GL
+reks,Yellow Storm,19761,6,1,10,"['Melee', 'Thunder']",GL
+reks,Wide Ruin,19764,4,4,15,"['Group', 'Melee', 'Thunder', 'NoFree']",GL
+reks,Remove Obstacle,19765,2,2,10,"['Group', 'Melee', 'Instant', 'FollowUp']",GL
+reks,Remove Obstacle+,19766,4,4,10,"['Group', 'Melee', 'Instant', 'FollowUp']",GL
+reks,Shining Nova,19771,2,0,600,['Melee'],GL
+reks,Mutual Improvement,19776,4,4,250,"['Group', 'Melee', 'Thunder', 'NoFree']",GL
+reks,Enhanced Blade Combo (C),19783,4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL
+reks,Enhanced Wide Ruin (C),19785,4,4,0,"['Group', 'Melee', 'Thunder', 'Instant', 'NoEX', 'NoFree']",GL

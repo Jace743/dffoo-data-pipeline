@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+celes,BRV Attack+,1299,0,0,0,"['Melee', 'Ice']",GL
+celes,HP Attack+,11831,1,0,0,"['Magic', 'Ice']",GL
+celes,Shine Edge,16817,3,1,20,"['Magic', 'Heals']",GL
+celes,Runic,18416,0,0,20,['Instant'],GL
+celes,Runic Follow Up,18417,4,0,20,"['Magic', 'FollowUp']",GL
+celes,Set Lock All,16824,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+celes,Spinning Edge,18418,7,0,10,['Magic'],GL
+celes,Freeze Dive,18535,4,4,15,"['Group', 'Magic', 'Ice', 'Heals', 'NoFree']",GL
+celes,Magitek Ice Block,18419,3,1,10,"['Magic', 'Ice', 'Heals', 'Instant', 'Traps']",GL
+celes,Searching for Friends,18422,2,2,400,"['Group', 'Magic']",GL
+celes,Change The Air,18426,3,3,250,"['Group', 'Magic', 'NoFree']",GL
+celes,Enhanced Runic (C),10489,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+celes,Enhanced Runic (C) Follow Up,10703,1,0,0,"['Magic', 'FollowUp', 'NoEX']",GL

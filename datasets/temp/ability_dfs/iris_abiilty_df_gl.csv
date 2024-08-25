@@ -1,0 +1,14 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+iris,BRV Attack+,19836,0,0,0,['Melee'],GL
+iris,BRV Attack++,19851,0,0,0,['Melee'],GL
+iris,HP Attack+,19837,1,0,0,['Melee'],GL
+iris,HP Attack++,19852,1,0,0,['Melee'],GL
+iris,Potion Pass,19831,0,0,0,"['Heals', 'Instant']",GL
+iris,Moonbow,19835,6,1,20,['Melee'],GL
+iris,BRV Heal All,19865,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+iris,Moogle Throw,19847,3,3,10,"['Group', 'Melee']",GL
+iris,Revolution,19850,8,2,15,"['Melee', 'NoFree']",GL
+iris,Eclipse,19855,2,2,350,"['Group', 'Melee']",GL
+iris,Slapstick Moogle,19860,4,4,250,"['Group', 'Melee', 'NoFree']",GL
+iris,Enhanced Potion Pass (C),19867,0,0,0,"['Heals', 'Instant', 'NoEX', 'NoFree']",GL
+iris,Enhanced Revolution (C),19869,8,2,0,"['Melee', 'Instant', 'NoEX', 'NoFree']",GL

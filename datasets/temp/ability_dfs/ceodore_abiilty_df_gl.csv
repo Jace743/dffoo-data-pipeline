@@ -1,0 +1,23 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+ceodore,BRV Attack+,10690,0,0,0,"['Group', 'Melee', 'Holy', 'Heals']",GL
+ceodore,BRV Attack++,11586,0,0,0,"['Group', 'Melee', 'Holy', 'Heals']",GL
+ceodore,BRV Attack+ (Awaken),11588,1,0,0,"['Group', 'Melee', 'Holy']",GL
+ceodore,BRV Attack++ (Awaken),11584,1,0,0,"['Group', 'Melee', 'Holy']",GL
+ceodore,BRV Attack+++ (Awaken),18670,5,0,10,"['Group', 'Melee', 'Holy']",GL
+ceodore,HP Attack+,10692,1,0,0,"['Melee', 'Holy']",GL
+ceodore,HP Attack++,11587,1,0,0,"['Melee', 'Holy']",GL
+ceodore,HP Attack+ (Awaken),11589,1,1,0,"['Melee', 'Holy']",GL
+ceodore,HP Attack++ (Awaken),11585,1,1,0,"['Melee', 'Holy']",GL
+ceodore,HP Attack+++ (Awaken),18671,4,4,10,"['Melee', 'Holy']",GL
+ceodore,Saint's Blast,18666,3,1,20,"['Group', 'Ranged', 'Holy']",GL
+ceodore,Saint's Blast (Awaken),18667,4,1,20,"['Group', 'Ranged', 'Holy']",GL
+ceodore,Awaken,18669,0,0,0,"['Heals', 'Instant']",GL
+ceodore,Ceodore Awaken Release Self-harm,10708,1,0,0,"['Instant', 'FollowUp']",GL
+ceodore,HP Heal Advance All,15850,0,0,0,"['Heals', 'Instant', 'NoSummon', 'NoEX']",GL
+ceodore,Vibra Plus,18686,5,5,10,"['Group', 'Melee', 'Holy']",GL
+ceodore,Vibra Plus+,18687,7,7,10,"['Group', 'Melee', 'Holy']",GL
+ceodore,Divine Heal,18672,4,4,15,"['Group', 'Ranged', 'Holy', 'Heals', 'NoFree']",GL
+ceodore,Cerulean Dive,15800,2,2,400,"['Group', 'Ranged', 'Holy']",GL
+ceodore,Enhanced Luminous Blast (C),10687,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+ceodore,Enhanced Saint's Blast (C),11610,1,1,0,"['Ranged', 'Holy', 'NoEX', 'NoFree']",GL
+ceodore,Enhanced Divine Heal (C),11280,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL

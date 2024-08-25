@@ -1,0 +1,19 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+kuja,BRV Attack+,3358,0,0,0,['Magic'],GL
+kuja,BRV Attack++,5503,0,0,0,['Magic'],GL
+kuja,BRV Attack+++,10108,0,0,0,"['Magic', 'Holy']",GL
+kuja,HP Attack+,3363,1,0,0,['Magic'],GL
+kuja,HP Attack++,5400,1,0,0,['Magic'],GL
+kuja,HP Attack+++,9474,1,0,0,"['Magic', 'Holy']",GL
+kuja,Ring Holy+,17815,3,3,20,"['Magic', 'Holy']",GL
+kuja,Ring Holy,17813,3,3,20,"['Magic', 'Holy']",GL
+kuja,Ultima (IX)+,17821,2,2,10,"['Group', 'Magic']",GL
+kuja,Ultima (IX),17819,2,2,10,"['Group', 'Magic']",GL
+kuja,Ultima (IX)+ Follow Up,17829,2,2,10,"['Group', 'Magic', 'FollowUp']",GL
+kuja,Ability Recovery Attack Up,17826,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+kuja,Symphonic Force,17825,4,4,10,"['Group', 'Magic']",GL
+kuja,Seraphic Star,19084,7,7,10,"['Group', 'Magic', 'Holy', 'NoFree']",GL
+kuja,Flare Star,15022,2,2,0,"['Group', 'Magic', 'Holy']",GL
+kuja,Starlight Soiree,19088,3,3,250,"['Group', 'Magic', 'Holy', 'NoFree']",GL
+kuja,Enhanced Ring Holy (C),11838,1,1,0,"['Magic', 'Holy', 'Instant', 'NoEX', 'NoFree']",GL
+kuja,Enhanced Seraphic Star (C),11840,7,7,0,"['Group', 'Magic', 'Holy', 'Instant', 'NoEX', 'NoFree']",GL

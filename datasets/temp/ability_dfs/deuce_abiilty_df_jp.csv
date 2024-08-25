@@ -1,0 +1,15 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+deuce,BRV Attack++,12030,0,0,0,['Magic'],JP
+deuce,BRV Attack+,5226,0,0,0,['Magic'],JP
+deuce,HP Attack++,12034,1,0,0,['Magic'],JP
+deuce,HP Attack+,5214,1,0,0,['Magic'],JP
+deuce,Concerto,20599,0,0,0,"['Heals', 'Instant']",JP
+deuce,Dissonant Sonata,20607,5,5,20,"['Group', 'Magic']",JP
+deuce,All Magic Attack,18212,0,0,0,"['Instant', 'NoSummon', 'NoEX']",JP
+deuce,Requiem of Ruin,20608,7,7,10,"['Group', 'Magic']",JP
+deuce,Hymn of Healing,20609,7,7,15,"['Group', 'Magic', 'Heals', 'NoFree']",JP
+deuce,Wonderful Finale,20613,2,2,350,"['Group', 'Magic']",JP
+deuce,Attacker,20611,3,3,0,"['Group', 'Magic', 'FollowUp']",JP
+deuce,Let's Duet!,20618,4,4,250,"['Group', 'Magic', 'Instant', 'NoFree']",JP
+deuce,Enhanced Dissonant Sonata (C),12036,1,0,0,"['Group', 'Magic', 'Instant', 'NoEX', 'NoFree']",JP
+deuce,Enhanced Hymn of Healing (C),12038,1,1,0,"['Group', 'Magic', 'Heals', 'Instant', 'NoEX', 'NoFree']",JP

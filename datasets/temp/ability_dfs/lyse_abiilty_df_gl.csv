@@ -1,0 +1,17 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+lyse,BRV Attack+,5722,0,0,0,['Melee'],GL
+lyse,Purification,16488,0,0,0,['Instant'],GL
+lyse,HP Attack+,5286,1,1,0,['Melee'],GL
+lyse,Elixir Field,16479,3,3,20,"['Group', 'Melee']",GL
+lyse,Riddle of Fire,16482,0,0,0,"['Instant', 'Free']",GL
+lyse,Fire Tackle,18508,5,1,20,['Melee'],GL
+lyse,Fists of Fire Longer Attack Up,16489,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+lyse,Brotherhood & The Forbidden Chakra,18509,0,0,10,[],GL
+lyse,Brotherhood & The Forbidden Chakra+,18511,0,0,10,[],GL
+lyse,The Forbidden Chakra,18510,6,6,10,"['Group', 'Melee', 'FollowUp']",GL
+lyse,The Forbidden Chakra+,18512,7,7,10,"['Group', 'Melee', 'FollowUp']",GL
+lyse,Way of the Will & Triple Threat,18513,0,0,15,['NoFree'],GL
+lyse,Triple Threat,18514,5,5,15,"['Group', 'Melee', 'FollowUp', 'NoFree']",GL
+lyse,Enhanced Elixir Field (C),12823,1,1,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL
+lyse,Enhanced Way of the Will & Triple Threat (C),16494,0,0,0,"['Instant', 'NoEX', 'NoFree']",GL
+lyse,Enhanced Way of the Will & Triple Threat (C) Follow Up,16681,5,5,0,"['Group', 'Melee', 'Instant', 'FollowUp', 'NoEX', 'NoFree']",GL

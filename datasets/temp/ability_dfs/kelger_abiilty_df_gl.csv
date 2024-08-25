@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+kelger,BRV Attack+,20634,0,0,0,['Melee'],GL
+kelger,BRV Attack++,20647,0,0,0,['Melee'],GL
+kelger,HP Attack+,20635,1,0,0,['Melee'],GL
+kelger,HP Attack++,20648,1,0,0,['Melee'],GL
+kelger,Impact Cut,20628,8,0,20,['Melee'],GL
+kelger,First Strike,20646,4,0,10,"['Melee', 'Instant', 'FollowUp']",GL
+kelger,Tri-Element,20633,4,4,20,"['Group', 'Melee']",GL
+kelger,Protect All,20661,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+kelger,Wolves' Gale,20640,6,6,10,"['Group', 'Melee']",GL
+kelger,Requiem Slash,20643,5,5,15,"['Group', 'Melee', 'NoFree']",GL
+kelger,Shadow Wolf,20645,3,3,10,"['Melee', 'Instant', 'Counters']",GL
+kelger,Lupine Attack,20651,2,2,400,"['Group', 'Melee']",GL
+kelger,Swallow Smash,20656,4,4,250,"['Group', 'Melee', 'NoFree']",GL
+kelger,Enchanced Tri-Element (C),20663,4,4,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL
+kelger,Enchanced Requiem Slash (C),20665,5,5,0,"['Group', 'Melee', 'Instant', 'NoEX', 'NoFree']",GL

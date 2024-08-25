@@ -1,0 +1,9 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc
+warrioroflight,HP Attack+,1,0,0
+warrioroflight,HP Attack++,1,0,0
+warrioroflight,Shining Shield Follow Up,6,0,20
+warrioroflight,Throw Buckler,4,4,20
+warrioroflight,Shining Wave,4,4,10
+warrioroflight,Bitter End,6,1,7
+warrioroflight,Ultimate Shield,2,2,400
+warrioroflight,Soul of Light,4,4,260

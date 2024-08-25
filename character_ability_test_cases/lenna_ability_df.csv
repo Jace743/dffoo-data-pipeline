@@ -1,0 +1,9 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc
+lenna,HP Attack+,1,0,0
+lenna,Dragon Breath,3,3,10
+lenna,Rapid Fire,3,3,20
+lenna,Rapid Fire+,3,3,20
+lenna,Wind Drake Arrow,1,1,20
+lenna,Wind Drake Arrow+,1,1,20
+lenna,Brave Phoenix,4,4,10
+lenna,Goliath Tonic & Dragon Breath,3,3,15

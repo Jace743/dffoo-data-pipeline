@@ -1,0 +1,13 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+irvine,BRV Attack+,6515,0,0,0,['Ranged'],GL
+irvine,Dark Ammo,16206,4,4,10,"['Group', 'Ranged']",GL
+irvine,HP Attack+,6514,1,0,0,['Ranged'],GL
+irvine,HP Attack++,6696,1,0,0,"['Ranged', 'Heals']",GL
+irvine,Pulse Ammo,16207,4,4,10,['Ranged'],GL
+irvine,Canister Shot,16195,3,0,20,['Ranged'],GL
+irvine,Scatter Shot,16197,3,3,20,"['Group', 'Ranged']",GL
+irvine,Debuff Act Longer Shot,16208,1,0,0,"['Ranged', 'Instant', 'NoSummon', 'NoEX']",GL
+irvine,Armor Shot,16198,4,1,10,"['Ranged', 'Heals']",GL
+irvine,Alternative Shot,16205,0,0,0,"['Instant', 'NoFree']",GL
+irvine,Enhanced Scatter Shot (C),12817,1,1,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL
+irvine,Enhanced Dark Ammo (C),16210,4,4,0,"['Group', 'Ranged', 'Instant', 'NoEX', 'NoFree']",GL

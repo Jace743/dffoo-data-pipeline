@@ -1,0 +1,23 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+firion,BRV Attack+,3609,0,0,0,"['Melee', 'Heals']",GL
+firion,BRV Attack++,6254,0,0,0,"['Melee', 'Heals']",GL
+firion,BRV Attack+++,10750,0,0,0,"['Melee', 'Heals']",GL
+firion,HP Attack+,3610,1,0,0,"['Melee', 'Heals']",GL
+firion,HP Attack++,6255,1,0,0,"['Melee', 'Heals']",GL
+firion,HP Attack+++,10751,1,0,0,"['Melee', 'Heals']",GL
+firion,Blood Weapon,18782,2,0,20,"['Melee', 'Heals']",GL
+firion,Blood Weapon+,18784,3,1,20,"['Melee', 'Heals']",GL
+firion,Seize Attack,18789,2,0,20,['Ranged'],GL
+firion,Seize Attack (Blood Weapon),18790,2,0,20,"['Ranged', 'Heals']",GL
+firion,Seize Attack+,18791,3,1,20,['Ranged'],GL
+firion,Seize Attack+ (Blood Weapon),18792,3,1,20,"['Ranged', 'Heals']",GL
+firion,HP Drain Advance Thrust,15446,1,0,0,"['Melee', 'Heals', 'Instant', 'NoSummon', 'NoEX']",GL
+firion,Weaponsmaster,18793,5,5,10,"['Group', 'Ranged', 'Heals']",GL
+firion,Weaponsmaster+,18794,5,5,10,"['Group', 'Ranged', 'Heals']",GL
+firion,Vortex of Arms,18795,5,5,15,"['Group', 'Ranged', 'Heals', 'NoFree']",GL
+firion,Drain Weapon,15645,2,0,0,"['Ranged', 'Heals', 'Instant', 'Traps']",GL
+firion,Drain Weapon,18796,3,0,10,"['Ranged', 'Heals', 'Instant', 'Traps']",GL
+firion,Fervid Blazer,15448,2,0,600,['Ranged'],GL
+firion,Enhanced Blood Weapon+ (C),10357,2,1,0,"['Melee', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+firion,Enhanced Vortex of Arms (C),15450,4,4,0,"['Group', 'Ranged', 'Heals', 'Instant', 'NoEX', 'NoFree']",GL
+firion,Drain Weapon (C),15524,1,0,0,"['Ranged', 'Heals', 'Instant', 'Traps']",GL

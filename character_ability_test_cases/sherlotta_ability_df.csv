@@ -1,0 +1,8 @@
+char_name,ability_name,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc
+sherlotta,Hurl Staff,1,0,0
+sherlotta,Hurl Staff+,1,1,0
+sherlotta,Chuck Staff,4,4,0
+sherlotta,Crystal Generation,5,5,20
+sherlotta,Crystal Ray,4,4,15
+sherlotta,Final Crystal Core,2,2,400
+sherlotta,Crystal Dice,4,4,260

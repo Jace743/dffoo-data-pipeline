@@ -1,0 +1,16 @@
+char_name,ability_name,ability_id,main_target_hp_attacks,non_target_hp_attacks,hp_dmg_cap_up_perc,attribute_list,game_version
+rubicante,BRV Attack+,19489,0,0,0,"['Magic', 'Fire']",GL
+rubicante,BRV Attack++,19500,0,0,0,"['Magic', 'Fire']",GL
+rubicante,HP Attack+,19490,1,0,0,"['Magic', 'Fire']",GL
+rubicante,HP Attack++,19501,1,0,0,"['Magic', 'Fire']",GL
+rubicante,Firaga,19487,4,4,20,"['Group', 'Magic', 'Fire']",GL
+rubicante,Absorb Blizzara,19494,0,0,0,"['Heals', 'Instant']",GL
+rubicante,Protect All,19519,0,0,0,"['Instant', 'NoSummon', 'NoEX']",GL
+rubicante,Inferno,19499,5,5,10,"['Group', 'Magic', 'Fire']",GL
+rubicante,Soulscald,19504,4,4,15,"['Group', 'Magic', 'Fire', 'NoFree']",GL
+rubicante,Counter Fira,19505,2,2,10,"['Group', 'Magic', 'Fire', 'Counters']",GL
+rubicante,Geryon Be Its Name,19508,2,2,400,"['Group', 'Magic', 'Fire']",GL
+rubicante,Counter Firaga,19509,4,4,0,"['Group', 'Magic', 'Fire', 'Counters']",GL
+rubicante,Warrior's Pride,19514,4,4,250,"['Group', 'Magic', 'Fire', 'NoFree']",GL
+rubicante,Enchanced Firaga (C),19521,4,4,0,"['Group', 'Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL
+rubicante,Enchanced Soulscald (C),19523,4,4,0,"['Group', 'Magic', 'Fire', 'Instant', 'NoEX', 'NoFree']",GL
