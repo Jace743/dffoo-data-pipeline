@@ -5,12 +5,12 @@ The purpose of this Web Scraping and ETL project was to help Dissidia Final Fant
 
 *The current project's development has ended, as the game for which it was created is no longer playable.*
 
-Project Tech Stack:
+### Project Tech Stack:
 - Python (web scraping via `selenium` and some preliminary data modeling using `pandas`; Extraction and Transformation)
 - Postgres (for storing the scraped data; Load)
 - Data Build Tool (dbt; for data modeling; more Transformation)
 
-Project goals were: 
+### Project goals were: 
 
 1. Scrape character data from one of the game's fan-made websites ([Dissidia Compendium](https://dissidiacompendium.com/), which contained data extracted from the game itself)
    - All of the code for this goal is in `web_scraper.py` (spoiler alert: all the code being in one file is something I'd *definitely* change)
