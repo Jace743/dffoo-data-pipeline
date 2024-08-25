@@ -1,5 +1,5 @@
 # DFFOO Data Pipeline
-The purpose of this ETL(T) project was to help Dissidia Final Fantasy Opera Omnia (DFFOO) players understand characters' strength and weaknesses and create better teams. In the game itself, information about each character was provided in a format that wasn't very conducive to quickly understanding and comparing characters, so this project was going to solve that issue. 
+The purpose of this Web Scraping and ETL project was to help Dissidia Final Fantasy Opera Omnia (DFFOO) players understand characters' strength and weaknesses and create better teams. In the game itself, information about each character was provided in a format that wasn't very conducive to quickly understanding and comparing characters, so this project was going to solve that issue. 
 
 ***Please Note:** I have made this repo public in order to critique my past code and design, as well as discuss how I would do things differently now that I'm more experienced. While my critique of the code below provides insight into my current skill level, the code itself **does not**. For a more recent example of my Python code and data work, I recommend checking out my [Monte Carlo simulator for Final Fantasy 7 Ever Crisis](https://github.com/Jace743/ever-crisis-gacha-simulator).*
 
