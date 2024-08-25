@@ -1113,45 +1113,6 @@ class CompendiumScraper:
         except Exception:
             return
 
-    def extract_character_main_image(self,
-                                     char_name,
-                                     output_dir = None):
-        """
-
-        Downloads a character's main image from Dissidia Compendium and stores it locally.
-
-        """
-
-        try:
-            if output_dir is None:
-                output_dir = self.config['images_dir']
-        except Exception:
-            ValueError("You need to provide an output_dir or use a config yml")
-            return
-
-        try:
-            self.driver.get(self.character_dict_omnibus[char_name]['profile_url'])
-        except Exception:
-            print(f"Couldn't find profile link for {char_name.title()}.")
-
-        output_file_path = output_dir + f"{char_name}_main_image.jpg"
-
-        time.sleep(5)
-
-        image_element = self.driver.find_element(By.XPATH, "//img[@class='charmanimage']")
-
-        link = image_element.get_attribute('src')
-
-        response = requests.get(link)
-
-        if response.status_code == 200:
-            with open(output_file_path, 'wb') as f:
-                f.write(response.content)
-
-        else:
-            print(f"Accessed profile url, but could not access image url for {char_name.title()}")
-
-
 def main():
     """
 

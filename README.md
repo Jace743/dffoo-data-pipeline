@@ -70,7 +70,11 @@ As for type hints, you can already see in `web_scraper.py` that I was trying to 
 
 I have a pretty good guess as to why I originally chose `if_exists='append'` instead of `if_exists='replace'` when ingesting my data into Postgres (see lines 1,325 through 1,329 of `web_scraper.py`) -- I wanted to keep a record of any changes. However, that could've been solved by using the `Replace` strategy and generating [dbt snapshots](https://docs.getdbt.com/docs/build/snapshots) from the source tables, instead of letting the size of my source tables balloon out of control and having to always filter to the data of the most recent ingest. 
 
-## 6. Other small changes
+## 6. Add Tests!
+
+I thought about doing some testing that involved the scraping of specific characters and making sure their dataframes came out as expected. The nice thing about scraping data for these characters was that, as an experienced player of the game, I knew *exactly* how everything should look, which allowed me to pick a couple of more complex characters (see `character_ability_test_cases`). However, I didn't take advantage any testing frameworks like `pytest` or implement any continuous integration via Github Actions. 
+
+## 7. Other small changes
 
 There are a couple of other small things that I would change throughout my code, since I've become more proficient with Python:
 
